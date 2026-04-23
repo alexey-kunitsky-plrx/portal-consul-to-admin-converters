@@ -1,3 +1,4 @@
+import "dotenv/config";
 import fs from "fs";
 
 // Colors for terminal output
@@ -21,19 +22,15 @@ const log = {
   item: (msg) => console.log(`  ${colors.green}→${colors.reset} ${msg}`),
 };
 
-const localAPI_BASE_URL = "http://localhost:1337/api";
-const stageAPI_BASE_URL =
-  "https://itwa-stage-personal-account-admin.local.playrix.com/api";
+if (!process.env.STRAPI_URL || !process.env.STRAPI_TOKEN) {
+  console.error(
+    "Missing required env vars. Set STRAPI_URL and STRAPI_TOKEN in .env (see .env.example).",
+  );
+  process.exit(1);
+}
 
-const API_BASE_URL = localAPI_BASE_URL;
-
-const stageToken =
-  "c3336c3a937a8da442b39f608fa0bf64da28d137bf7de62e67c55da7ccd8bbbc1171cdb25dcc7df95bffeab1c53319f965dbc6031eddc7a588a303bac1b7f98619ecbf57a4374a7ba31bb74b09abb661cd1b06404be8cd9ccd89ed8ca8d1fdb72a9d2183343cad09f64bcf6050ce20828d6f867cd2a6486763ffda8a085f1290";
-const localToken =
-  "8a448afe339787d38c5032a13cfde25fe7d460e2f4bbfc657f9bb2e0eb45b4ca9298bd0c253cf278a792b1e8912c2eb54ab7648c242fcbcb243d074b885169a026ba0e8025681dbdc688472a1eb6215bfd0cba7f5b156cb67f45bf0f82ea3808291e329005e4ba07d8fec3a58d0df44c72e5597fe7f82c06121b78c7f9722572";
-
-// Authorization token (can be set via environment variable)
-const token = localToken;
+const API_BASE_URL = `${process.env.STRAPI_URL.replace(/\/+$/, "")}/api`;
+const token = process.env.STRAPI_TOKEN;
 
 // Helper function to make API requests
 async function apiRequest(method, url, data = null) {

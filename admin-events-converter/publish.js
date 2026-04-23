@@ -1,3 +1,4 @@
+import "dotenv/config";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -5,14 +6,15 @@ import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const isProd = process.argv.includes("--prod");
+if (!process.env.STRAPI_URL || !process.env.STRAPI_TOKEN) {
+  console.error(
+    "Missing required env vars. Set STRAPI_URL and STRAPI_TOKEN in .env (see .env.example).",
+  );
+  process.exit(1);
+}
 
-const baseUrl = isProd
-  ? "https://itwa-personal-account-admin.local.playrix.com"
-  : "https://itwa-stage-personal-account-admin.local.playrix.com";
-
-const token =
-  "c3336c3a937a8da442b39f608fa0bf64da28d137bf7de62e67c55da7ccd8bbbc1171cdb25dcc7df95bffeab1c53319f965dbc6031eddc7a588a303bac1b7f98619ecbf57a4374a7ba31bb74b09abb661cd1b06404be8cd9ccd89ed8ca8d1fdb72a9d2183343cad09f64bcf6050ce20828d6f867cd2a6486763ffda8a085f1290";
+const baseUrl = process.env.STRAPI_URL.replace(/\/+$/, "");
+const token = process.env.STRAPI_TOKEN;
 
 const convertedCategories = JSON.parse(
   fs.readFileSync(path.join(__dirname, "converted-categories.json"), "utf8"),
