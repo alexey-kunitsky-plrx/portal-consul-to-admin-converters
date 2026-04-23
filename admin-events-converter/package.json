@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "name": "admin-events-converter",
+  "version": "1.0.0",
+  "description": "Convert event entries to Strapi DTO format",
+  "scripts": {
+    "convert": "node convert-events.js",
+    "publish": "node publish.js"
+  }
+}

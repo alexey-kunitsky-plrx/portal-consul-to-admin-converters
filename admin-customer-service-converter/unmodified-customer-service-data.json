@@ -1,0 +1,1823 @@
+{
+  "access_to_services": {
+    "name": {
+      "ru": "Доступ к сервисам, ресурсам и ПО",
+      "en": "Service, resource, or software access"
+    },
+    "description": {
+      "ru": "Получение доступа к внешним и внутренним корпоративным ресурсам и сервисам. Получение и продление лицензий на ПО",
+      "en": "If you need access to an external or internal company resource, service, or a software license"
+    },
+    "items": [
+      {
+        "id": "license_or_access_to_service",
+        "taskId": "access_request",
+        "showFeat": "service__access_request",
+        "name": {
+          "ru": "Получить лицензию на ПО, доступ к сервису или ресурсу",
+          "en": "Software license, access to a service or resource"
+        },
+        "description": {
+          "ru": "Запросить доступ к новому сервису, отдельным проектам, папкам, документам или таблицам, получить или продлить лицензию, настроить права",
+          "en": "If you need access to a new service, specific projects, folders, documents, or spreadsheets, to obtain or renew a license, to set up permissions"
+        },
+        "examples": {
+          "ru": [
+            "Получить лицензию Adobe Photoshop",
+            "Получить права на коммит в репозиторий",
+            "Получить доступ к таблице Google Sheets, папкам на Google Drive, проекту в Asana"
+          ],
+          "en": [
+            "Get an Adobe Photoshop license",
+            "Get commit rights to a repository",
+            "Get access to a Google Sheets spreadsheet, Google Drive folders, or Asana projects"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "license_or_access_to_service"
+        }
+      },
+      {
+        "id": "license_or_access_to_service",
+        "taskId": "access_request",
+        "showFeat": "service__access_request_freshservice",
+        "name": {
+          "ru": "Получить лицензию на ПО или доступ к сервису",
+          "en": "Software license or service access request"
+        },
+        "description": {
+          "ru": "Запросить доступ к новому сервису, получить или продлить лицензию, настроить права.",
+          "en": "If you need access to a new service, a software license, or to get your rights configured"
+        },
+        "examples": {
+          "ru": [
+            "Получить лицензию Adobe Photoshop",
+            "Получить доступ в Miro",
+            "Получить права на коммит в репозиторий"
+          ],
+          "en": [
+            "Get an Adobe Photoshop license",
+            "Get access to a Miro board",
+            "Get the right to commit to a repository"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/217"
+        }
+      },
+      {
+        "id": "access_to_service",
+        "taskId": "access_request",
+        "showFeat": "service__access_request_freshservice",
+        "name": {
+          "ru": "Получить доступ к ресурсу",
+          "en": "Resource access"
+        },
+        "description": {
+          "ru": "Нужно получить доступ к отдельным проектам, папкам, документам или таблицам",
+          "en": "If you need access to specific projects, folders, documents, or spreadsheets"
+        },
+        "examples": {
+          "ru": [
+            "Получить доступ к таблице в Google Sheets",
+            "Получить доступ к проекту в Asana",
+            "Получить доступ к папкам на Google Drive"
+          ],
+          "en": [
+            "Get access to a Google Sheet spreadsheet",
+            "Get access to a project in Asana",
+            "Get access to Google Drive folders"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/218"
+        }
+      },
+      {
+        "id": "change_your_active_directory_password",
+        "taskId": "",
+        "showFeat": "",
+        "name": {
+          "ru": "Сменить пароль Active Directory",
+          "en": "Change your Active Directory password"
+        },
+        "description": {
+          "ru": "В случае если нужно сменить пароль Active Directory (используется для входа в домен, компьютер в офисе, подключения к корпоративной сети через VPN, доступа к некоторым внутренним сервисам)",
+          "en": "If you need to change your Active Directory password (you need it to log on to a domain, an office computer, connect to the corporate network with the VPN, or access certain internal services)"
+        },
+        "examples": {
+          "ru": [
+            "При трудоустройстве",
+            "Если забыл или потерял пароль к Active Directory",
+            "Если пароль мог попасть к третьим лицам"
+          ],
+          "en": [
+            "During the employment process",
+            "If you forgot or lost your Active Directory password",
+            "If your password could be exposed to third parties"
+          ]
+        },
+        "button": {
+          "type": "password"
+        }
+      },
+      {
+        "id": "repository_issue",
+        "taskId": "repository_issue",
+        "showFeat": "service__repository_issue",
+        "name": {
+          "ru": "Решить проблему с git/Python/скриптами в репозитории",
+          "en": "Solve a problem with git/Python/scripts in the repository"
+        },
+        "description": {
+          "ru": "В случае возникновения любых проблем с git/Python/скриптами в репозитории проекта",
+          "en": "In case of any problems with git/Python/scripts in the project repository"
+        },
+        "button": {
+          "type": "service",
+          "param": "repository_issue"
+        }
+      },
+      {
+        "id": "repository_issue",
+        "taskId": "repository_issue",
+        "showFeat": "service__repository_issue_freshservice",
+        "name": {
+          "ru": "Решить проблему с git/Python/скриптами в репозитории",
+          "en": "Solve a problem with git/Python/scripts in the repository"
+        },
+        "description": {
+          "ru": "В случае возникновения любых проблем с git/Python/скриптами в репозитории проекта",
+          "en": "In case of any problems with git/Python/scripts in the project repository"
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/218"
+        }
+      },
+      {
+        "id": "get_help_or_solve_a_problem",
+        "taskId": "incident",
+        "showFeat": "service__incident",
+        "name": {
+          "ru": "Получить консультацию или решить проблему",
+          "en": "Get a consultation or solve a problem"
+        },
+        "description": {
+          "ru": "Проконсультироваться по поводу доступов и лицензий, решить проблему с ПО",
+          "en": "If you need to consult a specialist on service or license access or solve a software problem"
+        },
+        "examples": {
+          "ru": [
+            "Как узнать свой логин/пароль на TeamCity?",
+            "Пропали права на сервис",
+            "Не запускается Autodesk Maya"
+          ],
+          "en": [
+            "How do I learn my TeamCity login/password?",
+            "I don't have the right to use the service anymore",
+            "I can't launch Autodesk Maya"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "get_help_or_solve_a_problem"
+        }
+      },
+      {
+        "id": "get_help_or_solve_a_problem",
+        "taskId": "incident",
+        "showFeat": "service__incident_freshservice",
+        "name": {
+          "ru": "Получить консультацию или решить проблему",
+          "en": "Get a consultation or solve a problem"
+        },
+        "description": {
+          "ru": "Проконсультироваться по поводу доступов и лицензий, решить проблему с ПО",
+          "en": "If you need to consult a specialist on service or license access or solve a software problem"
+        },
+        "examples": {
+          "ru": [
+            "Как узнать свой логин/пароль на TeamCity?",
+            "Пропали права на сервис",
+            "Не запускается Autodesk Maya"
+          ],
+          "en": [
+            "How do I learn my TeamCity login/password?",
+            "I don't have the right to use the service anymore",
+            "I can't launch Autodesk Maya"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/219"
+        }
+      }
+    ]
+  },
+
+  "equipment": {
+    "name": {
+      "ru": "Оборудование",
+      "en": "Equipment"
+    },
+    "description": {
+      "ru": "Получение нового, замена и модернизация существующего оборудования и периферии. Решение любых проблем с оборудованием и его ремонт",
+      "en": "If you need to get new work equipment or replace out-of-date equipment. Also if you have any problems with your equipment or if it needs repair."
+    },
+    "items": [
+      {
+        "id": "get_new_hardware",
+        "taskId": "purchase_request",
+        "showFeat": "service__purchase_request",
+        "name": {
+          "ru": "Получить новое оборудование",
+          "en": "Get new equipment"
+        },
+        "description": {
+          "ru": "Получить новое оборудование и периферию",
+          "en": "Get new equipment and peripherals"
+        },
+        "examples": {
+          "ru": [
+            "Получить ноутбук для перехода на удаленную работу",
+            "Запросить второй монитор",
+            "Нужен переходник c HDMI на USB-C"
+          ],
+          "en": [
+            "Get a laptop to start working remotely",
+            "Request a second monitor",
+            "I need an HDMI to USB-C adapter"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "get_new_hardware"
+        }
+      },
+      {
+        "id": "get_new_hardware",
+        "taskId": "purchase_request",
+        "showFeat": "service__purchase_request_freshservice",
+        "name": {
+          "ru": "Получить новое оборудование",
+          "en": "Get new equipment"
+        },
+        "description": {
+          "ru": "Получить новое оборудование и периферию",
+          "en": "Get new equipment and peripherals"
+        },
+        "examples": {
+          "ru": [
+            "Получить ноутбук для перехода на удаленную работу",
+            "Запросить второй монитор",
+            "Нужен переходник c HDMI на USB-C"
+          ],
+          "en": [
+            "Get a laptop to start working remotely",
+            "Request a second monitor",
+            "I need an HDMI to USB-C adapter"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/220"
+        }
+      },
+      {
+        "id": "replace_or_upgrade_hardware",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request",
+        "name": {
+          "ru": "Заменить или модернизировать текущее оборудование",
+          "en": "Replace or upgrade current equipment"
+        },
+        "description": {
+          "ru": "Заменить полностью или улучшить устаревшее оборудование",
+          "en": "Replace or upgrade out-of-date equipment"
+        },
+        "examples": {
+          "ru": [
+            "Добавить оперативной памяти",
+            "Заменить кабель HDMI",
+            "Заменить аккумулятор ноутбука"
+          ],
+          "en": [
+            "Add more RAM",
+            "Replace an HDMI cable",
+            "Replace a laptop battery"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "replace_or_upgrade_hardware"
+        }
+      },
+      {
+        "id": "replace_or_upgrade_hardware",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request_freshservice",
+        "name": {
+          "ru": "Заменить или модернизировать текущее оборудование",
+          "en": "Replace or upgrade current equipment"
+        },
+        "description": {
+          "ru": "Заменить полностью или улучшить устаревшее оборудование",
+          "en": "Replace or upgrade out-of-date equipment"
+        },
+        "examples": {
+          "ru": [
+            "Добавить оперативной памяти",
+            "Заменить кабель HDMI",
+            "Заменить аккумулятор ноутбука"
+          ],
+          "en": [
+            "Add more RAM",
+            "Replace an HDMI cable",
+            "Replace a laptop battery"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/222"
+        }
+      },
+      {
+        "id": "equipment_repair",
+        "taskId": "repair",
+        "showFeat": "service__repair",
+        "name": {
+          "ru": "Отремонтировать оборудование",
+          "en": "Equipment repairt"
+        },
+        "description": {
+          "ru": "Передать оборудование в ремонт в случае неисправности. Ремонт может быть сделан как силами специалистов компании, так и передан в сервисный центр твоего города",
+          "en": "If you need to repair your equipment. It can be done by company specialists or by your local repair centers."
+        },
+        "examples": {
+          "ru": [
+            "Заменить клавишу ноутбука",
+            "Заменить разбитое стекло смартфона",
+            "Почистить ноутбук"
+          ],
+          "en": [
+            "Replace a laptop key",
+            "Replace a broken screen of a smartphone",
+            "Clean a laptop"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "equipment_repair"
+        }
+      },
+      {
+        "id": "equipment_repair",
+        "taskId": "repair",
+        "showFeat": "service__repair_freshservice",
+        "name": {
+          "ru": "Отремонтировать оборудование",
+          "en": "Equipment repairt"
+        },
+        "description": {
+          "ru": "Передать оборудование в ремонт в случае неисправности. Ремонт может быть сделан как силами специалистов компании, так и передан в сервисный центр твоего города",
+          "en": "If you need to repair your equipment. It can be done by company specialists or by your local repair centers."
+        },
+        "examples": {
+          "ru": [
+            "Заменить клавишу ноутбука",
+            "Заменить разбитое стекло смартфона",
+            "Почистить ноутбук"
+          ],
+          "en": [
+            "Replace a laptop key",
+            "Replace a broken screen of a smartphone",
+            "Clean a laptop"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/223"
+        }
+      },
+      {
+        "id": "solve_hardware_problem",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request",
+        "name": {
+          "ru": "Решить проблему с оборудованием",
+          "en": "Solve a problem with equipment"
+        },
+        "description": {
+          "ru": "Устранить любые проблемы с работой оборудования.",
+          "en": "Solve any problems that affect the work of your equipment."
+        },
+        "examples": {
+          "ru": [
+            "Системный блок шумит",
+            "Монитор перестал работать",
+            "Компьютер показывает синий экран"
+          ],
+          "en": [
+            "My computer is too loud",
+            "My monitor isn't working",
+            "My PC shuts down with a blue screen"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "solve_hardware_problem"
+        }
+      },
+      {
+        "id": "solve_hardware_problem",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request_freshservice",
+        "name": {
+          "ru": "Решить проблему с оборудованием",
+          "en": "Solve a problem with equipment"
+        },
+        "description": {
+          "ru": "Устранить любые проблемы с работой оборудования.",
+          "en": "Solve any problems that affect the work of your equipment."
+        },
+        "examples": {
+          "ru": [
+            "Системный блок шумит",
+            "Монитор перестал работать",
+            "Компьютер показывает синий экран"
+          ],
+          "en": [
+            "My computer is too loud",
+            "My monitor isn't working",
+            "My PC shuts down with a blue screen"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/224"
+        }
+      },
+      {
+        "id": "get_consultation",
+        "taskId": "incident",
+        "showFeat": "service__incident",
+        "name": {
+          "ru": "Получить консультацию",
+          "en": "Consultation"
+        },
+        "description": {
+          "ru": "Проконсультироваться по поводу выдачи и замены оборудования, правил ремонта и модернизации",
+          "en": "If you have a question about getting or replacing the equipment, or the rules for its repair and upgrading"
+        },
+        "examples": {
+          "ru": [
+            "Какое оборудование я могу получить?",
+            "Могу ли я получить второй монитор?",
+            "Могу ли я сам отремонтировать оборудование?"
+          ],
+          "en": [
+            "What equipment can I get?",
+            "Can I get a second monitor?",
+            "Can I repair the equipment myself?"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "get_consultation"
+        }
+      },
+      {
+        "id": "get_consultation",
+        "taskId": "incident",
+        "showFeat": "service__incident_freshservice",
+        "name": {
+          "ru": "Получить консультацию",
+          "en": "Consultation"
+        },
+        "description": {
+          "ru": "Проконсультироваться по поводу выдачи и замены оборудования, правил ремонта и модернизации",
+          "en": "If you have a question about getting or replacing the equipment, or the rules for its repair and upgrading"
+        },
+        "examples": {
+          "ru": [
+            "Какое оборудование я могу получить?",
+            "Могу ли я получить второй монитор?",
+            "Могу ли я сам отремонтировать оборудование?"
+          ],
+          "en": [
+            "What equipment can I get?",
+            "Can I get a second monitor?",
+            "Can I repair the equipment myself?"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/225"
+        }
+      }
+    ]
+  },
+
+  "software_configuration": {
+    "name": {
+      "ru": "Установка и настройка ПО, доступ в интернет",
+      "en": "Software installation and configuration. Internet access"
+    },
+    "description": {
+      "ru": "Установка и настройка программ, настройка и решение проблем с доступом в интернет в офисе и дома",
+      "en": "If you need to install and configure software, access the Internet in the office or at home"
+    },
+    "items": [
+      {
+        "id": "software_installation_and_configuration",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request",
+        "name": {
+          "ru": "Установить и настроить ПО",
+          "en": "Software installation and configuration "
+        },
+        "description": {
+          "ru": "Установить и настроить ПО на рабочем или домашнем компьютере",
+          "en": "If you need to install and configure software on your home or office PC"
+        },
+        "examples": {
+          "ru": [
+            "Установить Tableau Desktop на офисный компьютер",
+            "Установить Adobe Animate",
+            "Настроить Dropbox"
+          ],
+          "en": [
+            "Install Tableau Desktop on my office PC",
+            "Install Adobe Animate",
+            "Configure Dropbox"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "software_installation_and_configuration"
+        }
+      },
+      {
+        "id": "software_installation_and_configuration",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request_freshservice",
+        "name": {
+          "ru": "Установить и настроить ПО",
+          "en": "Software installation and configuration "
+        },
+        "description": {
+          "ru": "Установить и настроить ПО на рабочем или домашнем компьютере",
+          "en": "If you need to install and configure software on your home or office PC"
+        },
+        "examples": {
+          "ru": [
+            "Установить Tableau Desktop на офисный компьютер",
+            "Установить Adobe Animate",
+            "Настроить Dropbox"
+          ],
+          "en": [
+            "Install Tableau Desktop on my office PC",
+            "Install Adobe Animate",
+            "Configure Dropbox"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/219"
+        }
+      },
+      {
+        "id": "internet_access",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request",
+        "name": {
+          "ru": "Решить проблему с доступом в интернет",
+          "en": "Solve a problem with Internet access"
+        },
+        "description": {
+          "ru": "Настроить доступ в сеть через офисный WiFi, настроить VPN, решить проблемы с доступом в интернет",
+          "en": "If you need to configure the network access via the office WiFi, configure VPN access, solve Internet access problems"
+        },
+        "examples": {
+          "ru": [
+            "При включении VPN теряется интернет соединение",
+            "Помочь с настройкой VPN",
+            "Пропадает соединение с WiFi в офисе"
+          ],
+          "en": [
+            "I can't access the Internet when I'm connected to VPN",
+            "I need help configuring VPN",
+            "My office WiFi connection keeps dropping"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "internet_access"
+        }
+      },
+      {
+        "id": "internet_access",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request_freshservice",
+        "name": {
+          "ru": "Решить проблему с доступом в интернет",
+          "en": "Solve a problem with Internet access"
+        },
+        "description": {
+          "ru": "Настроить доступ в сеть через офисный WiFi, настроить VPN, решить проблемы с доступом в интернет",
+          "en": "If you need to configure the network access via the office WiFi, configure VPN access, solve Internet access problems"
+        },
+        "examples": {
+          "ru": [
+            "При включении VPN теряется интернет соединение",
+            "Помочь с настройкой VPN",
+            "Пропадает соединение с WiFi в офисе"
+          ],
+          "en": [
+            "I can't access the Internet when I'm connected to VPN",
+            "I need help configuring VPN",
+            "My office WiFi connection keeps dropping"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/225"
+        }
+      },
+      {
+        "id": "office_wifi_connection",
+        "taskId": null,
+        "name": {
+          "ru": "Подключиться к Wi-Fi в офисе",
+          "en": "Connect to the office WiFi"
+        },
+        "description": {
+          "ru": "Сгенерировать новый или перевыпустить существующий сертификат для подключения к сети WiFi в офисе",
+          "en": "If you need to generate or reissue a certificate to connect to the office WiFi"
+        },
+        "button": {
+          "type": "network-access",
+          "text": {
+            "ru": "Подключиться",
+            "en": "Connect"
+          }
+        }
+      },
+      {
+        "id": "vpn_access",
+        "taskId": null,
+        "name": {
+          "ru": "Получить доступ к VPN",
+          "en": "Get VPN access"
+        },
+        "description": {
+          "ru": "Получить доступ к корпоративному VPN для удаленного доступа к внутренним ресурсам компании через зашифрованное соединение",
+          "en": "If you need to connect to the corporate VPN for remote access to internal company resources through the encrypted connection"
+        },
+        "button": {
+          "type": "network-access"
+        }
+      },
+      {
+        "id": "software_configuration_consultation",
+        "taskId": "incident",
+        "showFeat": "service__incident",
+        "name": {
+          "ru": "Получить консультацию",
+          "en": "Consultation"
+        },
+        "description": {
+          "ru": "Проконсультироваться по поводу установки и наcтройки ПО, доступа в интернет через WiFi и VPN",
+          "en": "If you need help installing and configuring software, accessing the Internet via WiFi and VPN"
+        },
+        "examples": {
+          "ru": [
+            "Как настроить интеграцию GMail и Zoom?",
+            "Какой профиль VPN выбрать?",
+            "Как подключиться к WiFi в офисе?"
+          ],
+          "en": [
+            "How to integrate Zoom with Gmail?",
+            "What VPN profile should I use?",
+            "How do I access WiFi in the office?"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "software_configuration_consultation"
+        }
+      },
+      {
+        "id": "software_configuration_consultation",
+        "taskId": "incident",
+        "showFeat": "service__incident_freshservice",
+        "name": {
+          "ru": "Получить консультацию",
+          "en": "Consultation"
+        },
+        "description": {
+          "ru": "Проконсультироваться по поводу установки и наcтройки ПО, доступа в интернет через WiFi и VPN",
+          "en": "If you need help installing and configuring software, accessing the Internet via WiFi and VPN"
+        },
+        "examples": {
+          "ru": [
+            "Как настроить интеграцию GMail и Zoom?",
+            "Какой профиль VPN выбрать?",
+            "Как подключиться к WiFi в офисе?"
+          ],
+          "en": [
+            "How to integrate Zoom with Gmail?",
+            "What VPN profile should I use?",
+            "How do I access WiFi in the office?"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/219"
+        }
+      }
+    ]
+  },
+
+  "relocation_and_business_trip": {
+    "name": {
+      "ru": "Релокация и командировка",
+      "en": "Relocation and business trips"
+    },
+    "description": {
+      "ru": "Временная или постоянная релокация. Командировка в другую страну или город",
+      "en": "If you're relocating temporarily or permanently or going on a business trip to another city or a country"
+    },
+    "items": [
+      {
+        "id": "relocation_temporary_or_permanent",
+        "taskId": "relocation",
+        "showFeat": "service__relocation",
+        "name": {
+          "ru": "Релокация",
+          "en": "Relocating"
+        },
+        "description_inform_block": "service__relocation__description",
+        "examples": {
+          "ru": [
+            "Запустить постоянную релокацию по работе, согласованную с менеджером"
+          ],
+          "en": [
+            "I want to start permanent relocation for work purposes that was approved by my manager"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "relocation_temporary_or_permanent"
+        }
+      },
+      {
+        "id": "business_trip",
+        "taskId": "business_trip",
+        "showFeat": "service__business_trip",
+        "name": {
+          "ru": "Командировка",
+          "en": "Business trip"
+        },
+        "description": {
+          "ru": "Оформить рабочую командировку в другой город или страну",
+          "en": "If you need to get a business trip to another city or country approved"
+        },
+        "examples": {
+          "ru": [
+            "На конференцию",
+            "На встречу с партнерами",
+            "На митап с коллегами"
+          ],
+          "en": [
+            "I'm going to a conference",
+            "I'm meeting with business partners",
+            "I'm meeting with my colleagues"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "business_trip"
+        }
+      },
+      {
+        "id": "team_business_trip",
+        "taskId": "team_business_trip",
+        "showFeat": "service__team_business_trip",
+        "name": {
+          "ru": "Командировка команды",
+          "en": "Team business trip"
+        },
+        "description": {
+          "ru": "Оформить рабочую командировку команды в другой город или страну",
+          "en": "Arrange a team business trip to another city or country"
+        },
+        "examples": {
+          "ru": [
+            "На стратегическое планирование",
+            "На обсуждение глобальных изменений в процессах/команде",
+            "На встречу с ключевыми поставщиками",
+            "На участие во внешних ивентах (конференциях, деловых встречах с партнерами и т.п.)"
+          ],
+          "en": [
+            "For strategic planning",
+            "For global changes in processes/team",
+            "For meetings with key suppliers",
+            "For participating in external events (conferences, business meetings with partners, etc.)"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "team_business_trip"
+        }
+      },
+      {
+        "id": "visit_rf_rb",
+        "taskId": "visit_rf_rb",
+        "showFeat": "service__visit_rf_rb",
+        "name": {
+          "ru": "Временное посещение РФ/РБ",
+          "en": "Temporary visit to Russia/Belarus"
+        },
+        "description": {
+          "ru": "Запланировать временное посещение и работу в России или Беларуси",
+          "en": "Plan a temporary visit and work in Russia or Belarus"
+        },
+        "examples": {
+          "ru": [
+            "Оформить заявку на временное посещение РФ/РБ, согласованное с менеджером"
+          ],
+          "en": [
+            "Submit a request for a temporary visit to Russia/Belarus approved by your manager"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "visit_rf_rb"
+        }
+      }
+    ]
+  },
+
+  "work_format": {
+    "name": {
+      "ru": "Формат работы",
+      "en": "Work format"
+    },
+    "description": {
+      "ru": "Переход на удаленную работу или на работу из офиса. Смена рабочего места в офисе",
+      "en": "If you want to start working remotely, in an office, or change desks in your office."
+    },
+    "items": [
+      {
+        "id": "to_remote_work",
+        "taskId": "remote_work",
+        "showFeat": "service__remote_work",
+        "name": {
+          "ru": "Перейти на удалённую работу",
+          "en": "Transition to remote work"
+        },
+        "description": {
+          "ru": "Перейти на удаленную работу после работы из офиса.",
+          "en": "If you want to start working remotely after working in an office."
+        },
+        "examples": {
+          "ru": [
+            "Из за эпидемиологической ситуации",
+            "Из-за проблем с транспортом",
+            "Из-за переезда в другой район"
+          ],
+          "en": [
+            "Because of an epidemiological situation",
+            "Because of problems with transport",
+            "Because I'm moving to another area"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "to_remote_work"
+        }
+      },
+      {
+        "id": "to_office_work",
+        "taskId": "workplace_preparing",
+        "showFeat": "service__workplace_preparing",
+        "name": {
+          "ru": "Выйти с удаленной работы в офис",
+          "en": "Transferring a remote employee to the office"
+        },
+        "description": {
+          "ru": "Перейти на работу в офисе на постоянной основе.",
+          "en": "If you want to start working in an office permanently"
+        },
+        "examples": {
+          "ru": [
+            "Из-за ремонта у соседей",
+            "Из-за компенсации питания",
+            "Из-за переезда в другой район"
+          ],
+          "en": [
+            "Because my neighbors are doing repairs",
+            "Because of catering in offices",
+            "Because I'm moving to another area"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "to_office_work"
+        }
+      },
+      {
+        "id": "workplace_change",
+        "taskId": "workplace_change",
+        "showFeat": "service__сhange_of_workplace",
+        "name": {
+          "ru": "Сменить рабочее место в офисе",
+          "en": "Change of workplace in the office"
+        },
+        "description": {
+          "ru": "Сменить расположение текущего рабочего места в офисе по любым причинам.",
+          "en": "If you want to change desks in your office for any reason."
+        },
+        "examples": {
+          "ru": [
+            "Из-за условий освещенности",
+            "Из-за шума из окна",
+            "Из-за близости к кондиционеру"
+          ],
+          "en": [
+            "Because of lighting conditions",
+            "Because of noise from the window",
+            "Because I'm sitting too close to the AC"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "workplace_change"
+        }
+      }
+    ]
+  },
+
+  "financial_matters": {
+    "name": {
+      "ru": "Финансовые вопросы",
+      "en": "Financial matters"
+    },
+    "description": {
+      "ru": "Запрос документов и справок, изменение банковских реквизитов для получения зарплаты, консультация специалистов бухгалтерии, получение займа",
+      "en": "If you need to request documents or certificates, change your bank details, consult an accountant, or get a loan"
+    },
+    "items": [
+      {
+        "id": "loan",
+        "taskId": "loan",
+        "showFeat": "service__loan",
+        "name": {
+          "ru": "Запросить займ",
+          "en": "Apply for a loan"
+        },
+        "description": {
+          "ru": "Оставить заявку на оформления беспроцентного кредита на любые цели",
+          "en": "If you want to apply for an interest-free loan from the company for any purposes"
+        },
+        "examples": {
+          "ru": ["На ремонт квартиры", "На переезд", "На покупку машины"],
+          "en": ["For apartment renovation", "To move", "To buy a car"]
+        },
+        "buttons": [
+          {
+            "type": "service",
+            "param": "loan",
+            "strongFeat": "compensation__zagrava_invert"
+          },
+          {
+            "type": "service",
+            "url": "https://form.asana.com/?k=TVCexRJMmYGHoMpzUVwiSw&d=656176460444",
+            "strongFeat": "compensation__zagrava"
+          }
+        ]
+      },
+      {
+        "id": "change_bank_details",
+        "taskId": "change_bank_details",
+        "showFeat": "service__change_bank_details",
+        "name": {
+          "ru": "Изменить реквизиты для выплаты",
+          "en": "Change bank account details for payments"
+        },
+        "examples": {
+          "ru": [
+            "Если изменился номер счета",
+            "Если изменился адрес бенефициара",
+            "Если изменилось имя бенефициара",
+            "Другие изменения, касающиеся расчётного счёта"
+          ],
+          "en": [
+            "If the account number has changed",
+            "If the beneficiary’s address has changed",
+            "If the beneficiary’s name has changed",
+            "Other changes related to the bank account"
+          ]
+        },
+        "description": {
+          "ru": "Если изменился адрес в банке или хочешь получать зарплату на другой расчётный счёт",
+          "en": "If your bank address has changed or you want to receive your salary in a different bank account"
+        },
+        "button": {
+          "type": "service",
+          "param": "change_bank_details"
+        }
+      },
+      {
+        "id": "financial_aid",
+        "taskId": "financial_aid",
+        "showFeat": "service__financial_aid",
+        "name": {
+          "ru": "Запросить материальную помощь в случае смерти близкого родственника",
+          "en": "Request financial help in case of the death of a close relative"
+        },
+        "description": {
+          "ru": "Оставить заявку на получение единовременной финансовой помощи в случае смерти родителей, детей, супруга/супруги, родных братьев/сестер, усыновителей/усыновленных",
+          "en": "You can request one-time financial assistance in case of a death of parents, children, spouse, siblings, or adoptive parents/adopted children"
+        },
+        "examples": {
+          "ru": null,
+          "en": null
+        },
+        "button": {
+          "type": "service",
+          "param": "financial_aid"
+        }
+      }
+    ]
+  },
+
+  "hr_expert": {
+    "name": {
+      "ru": "HR Эксперт",
+      "en": "HR Expert"
+    },
+    "description": {
+      "ru": "Задать вопросы по договору, внутренним политикам компании или запросить копии документов",
+      "en": "Ask questions about the contract, internal company policies, or request copies of documents"
+    },
+    "items": [
+      {
+        "id": "standard_work_certificate",
+        "taskId": "standard_work_certificate",
+        "showFeat": "service__standard_work_certificate",
+        "name": {
+          "ru": "Заказать стандартную справку с места работы",
+          "en": "Request a standard employment certificate"
+        },
+        "description": {
+          "ru": "Справка содержит ФИО, паспортные данные, должность, дату приёма на работу",
+          "en": "Certificate includes your full name, passport details, job title, and hire date"
+        },
+        "examples": {
+          "ru": [
+            "Для получения визы",
+            "Для предъявления в посольство или другие государственные органы",
+            "Для подтверждения трудоустройства по запросу третьих лиц"
+          ],
+          "en": [
+            "For visa applications",
+            "For submission to embassies or other government authorities",
+            "To confirm employment upon request from third parties"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "standard_work_certificate"
+        }
+      },
+      {
+        "id": "vacation_period_certificate",
+        "taskId": "vacation_period_certificate",
+        "showFeat": "service__vacation_period_certificate",
+        "name": {
+          "ru": "Заказать справку с указанием периода отпуска",
+          "en": "Request a certificate with vacation dates"
+        },
+        "description": {
+          "ru": "Справка содержит ФИО, паспортные данные, должность, дату приёма на работу, даты отпуска",
+          "en": "Certificate includes your full name, passport details, job title, hire date, and vacation period"
+        },
+        "examples": {
+          "ru": [
+            "Для получения визы",
+            "Для подтверждения отпуска для третьих лиц (например, образовательных учреждений, если родитель уезжает с ребёнком)"
+          ],
+          "en": [
+            "For visa applications",
+            "To confirm vacation dates for third parties (e.g. schools, if a parent is traveling with a child)"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "vacation_period_certificate"
+        }
+      },
+      {
+        "id": "business_trip_certificate",
+        "taskId": "business_trip_certificate",
+        "showFeat": "service__business_trip_certificate",
+        "name": {
+          "ru": "Заказать справку с указанием периода командировки",
+          "en": "Request a certificate with business trip dates"
+        },
+        "description": {
+          "ru": "Справка содержит ФИО, паспортные данные, должность, дату приёма на работу, даты командировки",
+          "en": "Certificate includes your full name, passport details, job title, hire date, and business trip period"
+        },
+        "examples": {
+          "ru": [
+            "Для получения визы",
+            "Для отчетности перед третьими лицами",
+            "При оформление страховки на время служебной командировки"
+          ],
+          "en": [
+            "For visa applications",
+            "For reporting to third parties",
+            "For arranging insurance during business trips"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "business_trip_certificate"
+        }
+      },
+      {
+        "id": "non_standard_certificate",
+        "taskId": "non_standard_certificate",
+        "showFeat": "service__non_standard_certificate",
+        "name": {
+          "ru": "Заказать нестандартную справку",
+          "en": "Request a non-standard certificate"
+        },
+        "description": {
+          "ru": "Можно указать дополнительные требования к справке",
+          "en": "You can specify additional requirements for the certificate"
+        },
+        "examples": {
+          "ru": [
+            "Справка для банка с указанием заработной платы",
+            "Справка указанием перечня должностных обязанностей"
+          ],
+          "en": [
+            "Certificate for a bank with salary details",
+            "Certificate listing job responsibilities"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "non_standard_certificate"
+        }
+      },
+      {
+        "id": "hr_request",
+        "taskId": "hr_request",
+        "showFeat": "service__hr_request",
+        "name": {
+          "ru": "Запросить консультацию у HR Эксперта",
+          "en": "Request a consultation from the HR Expert"
+        },
+        "description": {
+          "ru": "Задать вопросы по договору, внутренним политикам компании или запросить копии документов",
+          "en": "Ask questions about the contract, internal company policies, or request copies of documents"
+        },
+        "examples": {
+          "ru": [
+            "Получить копии документов",
+            "Уточнить положения договора",
+            "Разобраться в правилах и политиках компании"
+          ],
+          "en": [
+            "Get copies of documents",
+            "Clarify contract terms",
+            "Extra questions about company rules and policies"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "hr_request"
+        }
+      }
+    ]
+  },
+
+  "events": {
+    "name": {
+      "ru": "Мероприятия",
+      "en": "Events"
+    },
+    "description": {
+      "ru": "Организовать мероприятие для команды проекта/отдела. От маленького вебинара до большой Q&A-сессии",
+      "en": "If you need to organize an event for your project/department, be it a small webinar or a big Q&A session"
+    },
+    "items": [
+      {
+        "id": "webinar_organization",
+        "taskId": "webinar_organization",
+        "showFeat": "service__webinar_organization",
+        "name": {
+          "ru": "Организация вебинара",
+          "en": "Webinar Organization"
+        },
+        "description": {
+          "ru": "Организовать вебинар по любой теме",
+          "en": "If you need to organize a webinar on any topic"
+        },
+        "examples": {
+          "ru": [
+            "Поделиться опытом",
+            "Рассказать о новом инструменте",
+            "Провести обучение"
+          ],
+          "en": [
+            "Share your experience",
+            "Talk about a new work instrument",
+            "Hold a training session"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "webinar_organization"
+        }
+      },
+      {
+        "id": "q_a_organization",
+        "taskId": "q_a_organization",
+        "showFeat": "service__webinar_organization",
+        "name": {
+          "ru": "Организация Q&A-сессии",
+          "en": "Organization of a Q&A session"
+        },
+        "description": {
+          "ru": "Организовать Q&A-сессию для команды проекта/отдела",
+          "en": "If you need to organize a Q&A session for your project/department"
+        },
+        "examples": {
+          "ru": [
+            "Поделиться последними новостями в отделе/проекте",
+            "Рассказать о результатах работы, стратегии",
+            "Ответить на вопросы"
+          ],
+          "en": [
+            "Share the latest news about the department/project",
+            "Talk about work results or strategies",
+            "Answer the questions"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "q_a_organization"
+        }
+      }
+    ]
+  },
+
+  "1C": {
+    "name": {
+      "ru": "1C",
+      "en": "1C"
+    },
+    "description": {
+      "ru": "Решить любые проблемы в процессе работы с 1С, предложить доработоку, получить доступ к базе и получить консультацию",
+      "en": "If you need to resolve any issues that you've encountered while working in 1C, or want to suggest a task for revision, or get access to the base and get an answer to your question"
+    },
+    "items": [
+      {
+        "id": "1C_db_access",
+        "taskId": "one_c_db_access",
+        "showFeat": "service__1C_db_access",
+        "name": {
+          "ru": "1C: Доступ сотрудника к базе (первичный)",
+          "en": "1C: Employee access to base (primary)"
+        },
+        "description": {
+          "ru": "Получить доступ к базе 1С для работы",
+          "en": "If you need access to the 1C database"
+        },
+        "examples": {
+          "ru": [
+            "Нет прав на вход в базу 1С УХ Консолидация, ранее не было",
+            "Изменение прав внутри базы 1С (отчёт, справочник, документ)"
+          ],
+          "en": [
+            "I have no rights to enter Consolidation (never had them)",
+            "I need to change the rights within the 1C base (report, catalog, document)"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "1C_db_access"
+        }
+      },
+      {
+        "id": "1C_incident",
+        "taskId": "one_c_incident",
+        "showFeat": "service__1C_incident",
+        "name": {
+          "ru": "1C: Инцидент",
+          "en": "1C: Incident"
+        },
+        "description": {
+          "ru": "Устранить проблему блокирующую работу с 1С",
+          "en": "If you need to get rid of a blocking task"
+        },
+        "examples": {
+          "ru": [
+            "Не запускается 1С ярлык (ранее работало)",
+            "Не открывается база 1С ЗУП РФ Плейрикс (ранее работало)",
+            "Не создаётся документ Приказ на приём (ошибка)",
+            "Не открывается справочник Физические лица (ошибка)"
+          ],
+          "en": [
+            "I can't launch the 1C shortcut (it used to work before)",
+            "I can't open Russia: HRM (it used to work before)",
+            "I can't create a Hiring order document (there's an error)",
+            "I can't open the Individuals catalog (there's an error)"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "1C_incident"
+        }
+      },
+      {
+        "id": "1C_improvement_task",
+        "taskId": "one_c_improvement_task",
+        "showFeat": "service__1C_improvement_task",
+        "name": {
+          "ru": "1C: Задача на доработку / настройку",
+          "en": "1C: Task for revision / tuning"
+        },
+        "description": {
+          "ru": "Запросить доработку 1С в случае если она желательна, но не блокирует текущую работу",
+          "en": "If you want to request a task for revision, and it's not blocking current work"
+        },
+        "examples": {
+          "ru": [
+            "Сформировать новый отчёт по анализу расходов",
+            "Добавить дополнительные данные в уже готовый отчёт по анализу расходов",
+            "Добавить функцию (доп.расчёт), параметр (галочку) для автоматизации процесса или части процесса работы с 1С"
+          ],
+          "en": [
+            "Form a new Expense analysis report",
+            "Add more data to the Expense analysis report",
+            "Add function (extra payment), parameter (a tick) to automate the process or part of the process of working with 1C"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "1C_improvement_task"
+        }
+      },
+      {
+        "id": "1C_access_external_contractor",
+        "taskId": "one_c_external_user_access",
+        "showFeat": "service__1C_access_external_contractor",
+        "name": {
+          "ru": "1C: Доступ внешнего подрядчика к базе (первичный)",
+          "en": "1C: Access for an external contractor (primary)"
+        },
+        "description": {
+          "ru": "Организовать доступ к 1С для внешнего подрядчика или аудитора",
+          "en": "If access is needed for an external contractor or an auditor"
+        },
+        "examples": {
+          "ru": [
+            "Доступ в базу 1С БП РФ Плейрикс для аудитора",
+            "Доступ в базу 1С УХ Консолидация для подрядчика"
+          ],
+          "en": [
+            "Access to Russia: Local Accounting 1C base for an auditor",
+            "Access to Consolidation for a contractor"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "1C_access_external_contractor"
+        }
+      },
+      {
+        "id": "1C_consultation",
+        "taskId": "one_c_consultation",
+        "showFeat": "service__1C_consultation",
+        "name": {
+          "ru": "1C: Консультация",
+          "en": "1C: Consultation"
+        },
+        "description": {
+          "ru": "Получить консультацию по работе программы 1с (в т.ч. по новому функционалу)",
+          "en": "Get advice on the operation of the 1С program (including new functionality)"
+        },
+        "examples": {
+          "ru": [
+            "Пытаюсь настроить работу рассылки расчётных листков, но есть сомнения, что что-то делаю не так (подсказать, как нужно)",
+            "Нужна консультация по учету уплаты НДФЛ в ЗУП РФ",
+            "Как отразить возврат займа сотрудником в BAS",
+            "Как объединить несколько заявок на оплату в одно платежное поручение"
+          ],
+          "en": [
+            "I'm trying to set up the distribution of pay slips, but there are doubts that I'm doing something wrong (tell me how to do it)",
+            "Need advice on accounting for personal income tax in ЗУП РФ",
+            "How to show the return of a loan by an employee in BAS",
+            "How to combine several payment requests into one payment order"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "1C_consultation"
+        }
+      },
+      {
+        "id": "1C_changing_permission",
+        "taskId": "one_c_database_access_change",
+        "showFeat": "service__1C_changing_permission",
+        "name": {
+          "ru": "1C: Изменение прав в базе",
+          "en": "1C: Changing permissions in the base"
+        },
+        "description": {
+          "ru": "Уже есть доступ в базе, но нужно скорректировать (добавить/удалить)",
+          "en": "Already have access to the database, but need to be adjusted (add/remove)"
+        },
+        "examples": {
+          "ru": [
+            "Выдать доступ к новым отчётам",
+            "Поменять роль в базе с «Инициатора» на «Бухгалтер»",
+            "Добавить доступ к новой организации в той же базе"
+          ],
+          "en": [
+            "Provide access to new reports",
+            "Change the role in the database from «Initiator» to «Accountant»",
+            "Add access to a new organization in the same database"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "1C_changing_permission"
+        }
+      },
+      {
+        "id": "1C_opening_period",
+        "taskId": "one_c_open_period",
+        "showFeat": "service__1C_opening_period",
+        "name": {
+          "ru": "1C: Открытие периода в базе",
+          "en": "1C: Opening period in the base"
+        },
+        "description": {
+          "ru": "Запрос на временное снятие «запрета на изменение данных» в периоде в определённой(указать) базе",
+          "en": "Request for the temporary removal of the «prohibition to change data» in the period in a certain (specify) base"
+        },
+        "examples": {
+          "ru": [
+            "Необходимо внести правки в БУ в Локальной базе в закрытом периоде",
+            "Необходимо перепровести документы в базе УХ Консолидации в закрытом на изменение периоде"
+          ],
+          "en": [
+            "Need to make changes to БУ in the Local database in the closed period",
+            "It is necessary to repost the documents in the УХ Консолидации database in the period closed for changes"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "1C_opening_period"
+        }
+      }
+    ]
+  },
+
+  "bonuses_and_compensations": {
+    "name": {
+      "ru": "Бенефиты и компенсации",
+      "en": "Benefits and reimbursements"
+    },
+    "description": {
+      "ru": "",
+      "en": ""
+    },
+    "items": [
+      {
+        "id": "compensation_sport",
+        "taskId": "compensation_sport",
+        "showFeat": "service__compensation_sport",
+        "name": {
+          "ru": "Спорт и фитнес",
+          "en": "Sports and fitness"
+        },
+        "button": {
+          "type": "service",
+          "param": "compensation_sport"
+        }
+      },
+      {
+        "id": "compensation_course",
+        "taskId": "compensation_course",
+        "showFeat": "service__compensation_course",
+        "name": {
+          "ru": "Софинансирование обучения и участия в конференциях",
+          "en": "Co-financing of training and participation in conferences"
+        },
+        "button": {
+          "type": "service",
+          "param": "compensation_course"
+        }
+      },
+      {
+        "id": "compensation_workplace_expenses",
+        "taskId": "compensation_workplace_expenses",
+        "showFeat": "service__compensation_workplace_expenses",
+        "name": {
+          "ru": "Компенсация расходов на рабочее место для удаленных сотрудников",
+          "en": "Compensation of workplace expenses for remote employees"
+        },
+        "button": {
+          "type": "service",
+          "param": "compensation_workplace_expenses"
+        }
+      },
+      {
+        "id": "bonus_question",
+        "taskId": "bonus_question",
+        "showFeat": "service__compensation_bonus_question",
+        "name": {
+          "ru": "Консультация по бенефитам и компенсациям",
+          "en": "Consultation on benefits and compensations"
+        },
+        "description": {
+          "ru": "Задать вопрос о правилах и сроках начисления компенсаций, уточнить статус моей заявки, сообщить о проблеме",
+          "en": "Ask a question about the rules and timing of compensation accrual, clarify the status of my request, report a problem"
+        },
+        "button": {
+          "type": "service",
+          "param": "bonus_question"
+        }
+      }
+    ]
+  },
+
+  "feedback": {
+    "name": {
+      "ru": "Обратная связь",
+      "en": "Feedback"
+    },
+    "description": {
+      "ru": "Проконсультироваться по другим вопросам, если не нашел подходящей заявки. Предложить идею, оставить заявку на займ, рассказать об ошибке в игре, сообщить о нарушении",
+      "en": "If you have a question that doesn't fall into other categories. You can also suggest an idea, request a loan, report a bug in the game, or report misconduct here"
+    },
+    "items": [
+      {
+        "id": "feedback_portal",
+        "taskId": "feedback_portal",
+        "showFeat": "service__feedback_portal",
+        "name": {
+          "ru": "Обратная связь по порталу сотрудника",
+          "en": "Feedback on Employee Portal"
+        },
+        "description": {
+          "ru": "Сообщить о проблеме в работе портала сотрудника, оставить отзыв или предложить идею по развитию",
+          "en": "Report a problem with the Employee Portal, leave your feedback, or suggest an idea for its improvement"
+        },
+        "examples": {
+          "ru": [
+            "Не создалось заявление на отпуск",
+            "Хочется добавить раздел уведомлений по основным разделам портала",
+            "Похвалить разработчиков портала"
+          ],
+          "en": [
+            "The application for absence was not created",
+            "Please add a notification section to the Portal",
+            "Say thanks to developers"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "feedback_portal"
+        }
+      },
+      {
+        "id": "feedback_office",
+        "taskId": "feedback_office",
+        "showFeat": "service__feedback_office",
+        "name": {
+          "ru": "Обратная связь по качеству работы офисов и сервиса бронирования",
+          "en": "Feedback on the quality of office operations and the booking service"
+        },
+        "description": {
+          "ru": "Консультация по работе офисов, сервису бронирования, оборудованию, питанию и улучшению рабочих условий",
+          "en": "Consultation on office operations, booking service, equipment, catering and improving working conditions"
+        },
+        "examples": {
+          "ru": [
+            "Предложить идею по улучшению работы офисов или сервиса бронирования",
+            "Сообщить о проблеме на рабочем месте",
+            "Сообщить об ошибке в работе сервиса бронирования"
+          ],
+          "en": [
+            "Propose an idea for improving office operations or the booking service",
+            "Report a problem at the workplace",
+            "Report an error with the booking service"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "feedback_office"
+        }
+      },
+      {
+        "id": "idea",
+        "taskId": "idea",
+        "showFeat": "service__idea",
+        "name": {
+          "ru": "Идея Playrix",
+          "en": "Playrix Ideas"
+        },
+        "description": {
+          "ru": "Предложить идею, которая улучшит жизнь сотрудников компании",
+          "en": "If you have an idea that could improve the overall workflow in the company"
+        },
+        "examples": {
+          "ru": [
+            "Обучение команды (новые курсы, совместные ивенты)",
+            "Предложения по социальному пакету",
+            "Предложения по мероприятиям"
+          ],
+          "en": [
+            "Team training (new course, team events)",
+            "Social package proposals",
+            "Suggestions for events"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "idea"
+        }
+      },
+      {
+        "id": "other",
+        "taskId": "other",
+        "showFeat": "service__other",
+        "name": {
+          "ru": "Обратная связь о других сервисах и процессах Playrix",
+          "en": "Feedback on other Playrix services and processes"
+        },
+        "description": {
+          "ru": "Вопросы по другим процессам и сервисам Playrix или в случае, если не найден подходящий тип заявки в других разделах",
+          "en": "If you have questions about other Playrix processes and services or if you can't find a suitable request type in other sections"
+        },
+        "button": {
+          "type": "service",
+          "param": "other"
+        }
+      },
+      {
+        "id": "other",
+        "taskId": "other",
+        "showFeat": "service__other_freshservice",
+        "name": {
+          "ru": "Обратная связь о других сервисах и процессах Playrix",
+          "en": "Feedback on other Playrix services and processes"
+        },
+        "description": {
+          "ru": "Вопросы по другим процессам и сервисам Playrix или в случае, если не найден подходящий тип заявки в других разделах",
+          "en": "If you have questions about other Playrix processes and services or if you can't find a suitable request type in other sections"
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/219"
+        }
+      },
+      {
+        "id": "report_misconduct",
+        "taskId": "",
+        "showFeat": "service__other",
+        "name": {
+          "ru": "Сообщить о нарушении",
+          "en": "Report misconduct"
+        },
+        "description": {
+          "ru": "Анонимно сообщить о случае неэтичного поведения, дискриминации, мошенничества или коррупции",
+          "en": "Here you can anonymously report a case of unethical behavior, discrimination, fraud, or corruption"
+        },
+        "examples": {
+          "ru": [
+            "Нарушение личных границ и любая форма дискриминации",
+            "Другие этические вопросы, которые не удается решить с менеджером",
+            "Мошенничество, нецелевое расходование средств и коррупция в компании"
+          ],
+          "en": [
+            "Violation of personal boundaries or any kind of discrimination",
+            "Other ethical matters that you can't resolve with your manager",
+            "Fraud, misappropriation of funds, and corruption in the company"
+          ]
+        },
+        "button": {
+          "type": "link",
+          "url": "https://form.asana.com/?k=zWOQzSIJul5_SR3Vl6lnIw&d=656176460444",
+          "text": {
+            "ru": "Создать заявку",
+            "en": "Submit an application"
+          }
+        }
+      },
+      {
+        "id": "report_bug_in_the_game",
+        "taskId": "",
+        "showFeat": "service__other",
+        "name": {
+          "ru": "Рассказать об ошибке в игре",
+          "en": "Report a bug in the game"
+        },
+        "description": {
+          "ru": "Сообщить о найденной ошибке в любой из игр компании",
+          "en": "Report a bug in any of the company's games"
+        },
+        "examples": {
+          "ru": [
+            "Отсутствует текст в реплике персонажа",
+            "Артефакты в ивенте Снежная Крепость",
+            "В игре пропали все иконки действий"
+          ],
+          "en": [
+            "The text is missing in one of the character's speech bubbles",
+            "There are artifacts in the Snow Fort event",
+            "There are no action icons in the game"
+          ]
+        },
+        "button": {
+          "type": "link",
+          "url": "https://form.asana.com/?k=kyX8OKBqXEgF79VxtlAghQ&d=656176460444",
+          "text": {
+            "ru": "Создать заявку",
+            "en": "Submit an application"
+          }
+        }
+      }
+    ]
+  },
+
+  "example": {
+    "name": {
+      "ru": "",
+      "en": ""
+    },
+    "description": {
+      "ru": "",
+      "en": ""
+    },
+    "items": [
+      {
+        "id": "текущий id в урле, не указывается если ссылка на другой раздел",
+        "taskId": "предыдущий id заявки (указан в файлах констант описания формы, обычно совпадает с фича-флагом service__{id})",
+        "showFeat": "имя фича-флага",
+        "name": {
+          "ru": "",
+          "en": ""
+        },
+        "description": {
+          "ru": "",
+          "en": ""
+        },
+        "examples": {
+          "ru": ["", "", ""],
+          "en": ""
+        },
+        "button": {
+          "type": "link|password|network-access|compensation|service|absence",
+          "param": "",
+          "url": ""
+        }
+      },
+      {
+        "id": "",
+        "taskId": "",
+        "showFeat": "-",
+        "name": {
+          "ru": "",
+          "en": ""
+        },
+        "description": {
+          "ru": "",
+          "en": ""
+        },
+        "examples": {
+          "ru": ["", "", ""],
+          "en": ""
+        },
+        "button": {
+          "type": "service",
+          "param": ""
+        }
+      }
+    ]
+  }
+}

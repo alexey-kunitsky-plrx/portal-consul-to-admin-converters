@@ -1,0 +1,66 @@
+[
+  {
+    "ru": {
+      "data": {
+        "name": "Развлекательное",
+        "color": "#DB72E4",
+        "locale": "ru"
+      }
+    },
+    "en": {
+      "data": {
+        "name": "Entertaining",
+        "color": "#DB72E4",
+        "locale": "en"
+      }
+    }
+  },
+  {
+    "ru": {
+      "data": {
+        "name": "Благотворительное",
+        "color": "#5172FC",
+        "locale": "ru"
+      }
+    },
+    "en": {
+      "data": {
+        "name": "Charity",
+        "color": "#5172FC",
+        "locale": "en"
+      }
+    }
+  },
+  {
+    "ru": {
+      "data": {
+        "name": "Официальное",
+        "color": "#1E9E1A",
+        "locale": "ru"
+      }
+    },
+    "en": {
+      "data": {
+        "name": "Official",
+        "color": "#1E9E1A",
+        "locale": "en"
+      }
+    }
+  },
+  {
+    "ru": {
+      "data": {
+        "name": "Образовательное",
+        "color": "#F38B01",
+        "locale": "ru"
+      }
+    },
+    "en": {
+      "data": {
+        "name": "Educational",
+        "color": "#F38B01",
+        "locale": "en"
+      }
+    }
+  }
+]

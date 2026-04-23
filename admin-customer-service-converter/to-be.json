@@ -1,0 +1,79 @@
+{
+  "equipment": {
+    "ru": {
+      "name": "Оборудование",
+      "description": "Получение нового, замена и модернизация существующего оборудования и периферии. Решение любых проблем с оборудованием и его ремонт",
+      "items": [
+        {
+          "taskId": "purchase_request",
+          "showFeat": "service__purchase_request",
+          "name": "Получить новое оборудование",
+          "description": "Получить новое оборудование и периферию",
+          "examples": "Получить ноутбук для перехода на удаленную работу,\nЗапросить второй монитор,\nНужен переходник c HDMI на USB-C",
+          "buttons": [
+            {
+              "type": "service",
+              "param": "get_new_hardware"
+            }
+          ]
+        },
+        {
+          "taskId": "purchase_request",
+          "showFeat": "service__purchase_request_freshservice",
+          "name": "Получить новое оборудование",
+          "description": "Получить новое оборудование и периферию",
+          "examples": "Получить ноутбук для перехода на удаленную работу,\nЗапросить второй монитор,\nНужен переходник c HDMI на USB-C",
+          "buttons": [
+            {
+              "type": "service",
+              "url": "https://help.playrix.com/support/catalog/items/220"
+            }
+          ]
+        },
+        {
+          "taskId": "it_support_request",
+          "showFeat": "service__it_support_request",
+          "name": "Заменить или модернизировать текущее оборудование",
+          "description": "Заменить полностью или улучшить устаревшее оборудование",
+          "examples": "Добавить оперативной памяти,\nЗаменить кабель HDMI,\nЗаменить аккумулятор ноутбука",
+          "buttons": [
+            {
+              "type": "service",
+              "param": "replace_or_upgrade_hardware"
+            }
+          ]
+        },
+        {
+          "taskId": "it_support_request",
+          "showFeat": "service__it_support_request_freshservice",
+          "name": "Заменить или модернизировать текущее оборудование",
+          "description": "Заменить полностью или улучшить устаревшее оборудование",
+          "examples": "Добавить оперативной памяти,\nЗаменить кабель HDMI,\nЗаменить аккумулятор ноутбука",
+          "buttons": [
+            {
+              "type": "service",
+              "url": "https://help.playrix.com/support/catalog/items/222"
+            }
+          ]
+        },
+        {
+          "taskId": "repair",
+          "showFeat": "service__repair",
+          "name": "Отремонтировать оборудование",
+          "description": "Передать оборудование в ремонт в случае неисправности. Ремонт может быть сделан как силами специалистов компании, так и передан в сервисный центр твоего города",
+          "examples": "Заменить клавишу ноутбука,\nЗаменить разбитое стекло смартфона,\nПочистить ноутбук",
+          "buttons": [
+            {
+              "type": "service",
+              "param": "equipment_repair"
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "name": "Equipment",
+      "description": "If you need to get new work equipment or replace out-of-date equipment. Also if you have any problems with your equipment or if it needs repair."
+    }
+  }
+}

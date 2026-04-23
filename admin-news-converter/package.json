@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "name": "admin-news-converter",
+  "version": "1.0.0",
+  "description": "Convert news entries to DTO format",
+  "scripts": {
+    "convert-news": "node convert-news.js",
+    "publish": "node publish.js"
+  }
+}

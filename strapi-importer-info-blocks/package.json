@@ -1,0 +1,17 @@
+{
+  "name": "strapi-importer",
+  "version": "1.0.0",
+  "description": "Import JSON blocks to Strapi CMS",
+  "main": "import-to-strapi.js",
+  "scripts": {
+    "start": "node import-to-strapi.js",
+    "import": "node import-to-strapi.js",
+    "delete": "node delete-from-strapi.js"
+  },
+  "keywords": ["strapi", "import", "cms"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

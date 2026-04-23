@@ -1,0 +1,5460 @@
+{
+  "alert": {
+    "absence__vacation_alert": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Please note that your vacation day count will start over once you get employed by a new legal entity. You will receive payment for any accrued unused annual leave in your final salary in the previous legal entity.",
+              "ru": "При переоформлении в новое юрлицо отсчёт дней отпуска начинается заново. Накопленные, но неотгулянные дни отпуска в текущем юрлице будут выплачены тебе в денежном эквиваленте."
+            },
+            "type": "span"
+          }
+        ],
+        "isAlert": true,
+        "typeAlert": "warning",
+        "validator": 1,
+        "withIcon": true
+      }
+    ],
+    "compensations__payout_dates": [
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [443, 434]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): последняя неделя апреля 2025",
+                  "en": "I quarter (January 1 - March 31): last week of April 2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): последняя неделя июля 2025",
+                  "en": "II quarter (April 1 - June 30): last week of July 2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): последняя неделя октября 2025",
+                  "en": "III quarter (July 1 - September 30): last week of October 2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): последняя неделя января 2026",
+                  "en": "IV quarter (October 1 - December 31): last week of January 2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/General-rules-for-the-compensation-process_suK7dPsP",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [437]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 29.04.2025",
+                  "en": "I quarter (January 1 - March 31): 29.04.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 30.07.2025",
+                  "en": "II quarter (April 1 - June 30): 30.07.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 30.10.2025",
+                  "en": "III quarter (July 1 - September 30): 30.10.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 29.01.2026",
+                  "en": "IV quarter (October 1 - December 31): 29.01.2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [425]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): последняя неделя апреля 2025",
+                  "en": "I quarter (January 1 - March 31): last week of April 2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): последняя неделя июля 2025",
+                  "en": "II quarter (April 1 - June 30): last week of July 2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): последняя неделя октября 2025",
+                  "en": "III quarter (July 1 - September 30): last week of October 2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): последняя неделя января 2025",
+                  "en": "IV quarter (October 1 - December 31): last week of January 2025"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [439]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 30.04.2025",
+                  "en": "I quarter (January 1 - March 31): 30.04.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 30.07.2025",
+                  "en": "II quarter (April 1 - June 30): 30.07.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 30.10.2025",
+                  "en": "III quarter (July 1 - September 30): 30.10.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 30.01.2026",
+                  "en": "IV quarter (October 1 - December 31): 30.01.2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [393]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 25.04.2025",
+                  "en": "I quarter (January 1 - March 31): 25.04.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 25.07.2025",
+                  "en": "II quarter (April 1 - June 30): 25.07.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 25.10.2025",
+                  "en": "III quarter (July 1 - September 30): 25.10.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 25.01.2026",
+                  "en": "IV quarter (October 1 - December 31): 25.01.2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [419]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 02.05.2025",
+                  "en": "I quarter (January 1 - March 31): 02.05.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 01.08.2025",
+                  "en": "II quarter (April 1 - June 30): 01.08.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 01.11.2025",
+                  "en": "III quarter (July 1 - September 30): 01.11.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 03.02.2026",
+                  "en": "IV quarter (October 1 - December 31): 03.02.2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [440]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 30.04.2025",
+                  "en": "I quarter (January 1 - March 31): 30.04.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 05.08.2025",
+                  "en": "II quarter (April 1 - June 30): 05.08.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 05.11.2025",
+                  "en": "III quarter (July 1 - September 30): 05.11.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 05.02.2026",
+                  "en": "IV quarter (October 1 - December 31): 05.02.2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [444]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 30.04.2025",
+                  "en": "I quarter (January 1 - March 31): 30.04.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 30.07.2025",
+                  "en": "II quarter (April 1 - June 30): 30.07.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 30.10.2025",
+                  "en": "III quarter (July 1 - September 30): 30.10.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 30.01.2026",
+                  "en": "IV quarter (October 1 - December 31): 30.01.2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [414]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 05.04.2025",
+                  "en": "I quarter (January 1 - March 31): 05.04.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 05.07.2025",
+                  "en": "II quarter (April 1 - June 30): 05.07.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 07.10.2025",
+                  "en": "III quarter (July 1 - September 30): 07.10.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 07.01.2026",
+                  "en": "IV quarter (October 1 - December 31): 07.01.2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [435],
+          "contract_type": ["ГПХ"]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 5-10 апреля 2025",
+                  "en": "I quarter (January 1 - March 31): April 5-10, 2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 5-12 июля 2025",
+                  "en": "II quarter (April 1 - June 30): July 5-12, 2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 6-11 октября 2025",
+                  "en": "III quarter (July 1 - September 30): October 6-11, 2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 27 декабря 2025 - 03 января 2026 ",
+                  "en": "IV quarter (October 1 - December 31): 27 December 2025 - 03 January 2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [435],
+          "contract_type": ["Трудовой договор"]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 05.04.2025",
+                  "en": "I quarter (January 1 - March 31): 05.04.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 05.07.2025",
+                  "en": "II quarter (April 1 - June 30): 05.07.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 03.10.2025",
+                  "en": "III quarter (July 1 - September 30): 03.10.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 28.12.2025",
+                  "en": "IV quarter (October 1 - December 31): 28.12.2025"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [424]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "I квартал (с 1 января по 31 марта): 05.04.2025",
+                  "en": "I quarter (January 1 - March 31): 05.04.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 05.07.2025",
+                  "en": "II quarter (April 1 - June 30): 05.07.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 04.10.2025",
+                  "en": "III quarter (July 1 - September 30): 04.10.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 30.12.2025",
+                  "en": "IV quarter (October 1 - December 31): 30.12.2025"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "withIcon": true,
+        "validator": {
+          "legal_entity.id": [448]
+        },
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Когда я получу компенсацию? — Для заявок, рассчитанных за период:",
+              "en": "When will I receive my compensation? - For applications calculated for period:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "II квартал (с 1 апреля по 30 июня): 31.07.2025",
+                  "en": "II quarter (April 1 - June 30): 31.07.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "III квартал (с 1 июля по 30 сентября): 31.10.2025",
+                  "en": "III quarter (July 1 - September 30): 31.10.2025"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "IV квартал (с 1 октября по 31 декабря): 31.01.2026",
+                  "en": "IV quarter (October 1 - December 31): 31.01.2026"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для более подробной информации смотри статью в",
+              "en": "For more detailed information, see the article in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/FAQ-2025-FAQ-on-the-2025-Benefits-Package_sujs_z4f#_lusuFK1N",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "field": {
+    "absence__message_for_recovery": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "If you get sick, you can take 2 calendar days off to recover without the decrease in your pay, but no more than 3 days per calendar year.",
+              "ru": "Если вы заболели, у вас есть возможность взять до 2 календарных дня без потери ЗП для восстановления здоровья, но не более 3 дней за календарный год"
+            },
+            "type": "span"
+          }
+        ],
+        "validator": {
+          "studio.id": [11]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "If you get sick, you can take 2 calendar days off to recover without the decrease in your pay.",
+              "ru": "Если вы заболели, у вас есть возможность взять 2 календарных дня без потери ЗП для восстановления здоровья"
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "absence__message_for_sick_leave": [
+      {
+        "validator": {
+          "!contract_type": ["ГПХ"]
+        },
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи",
+              "en": "Attach"
+            }
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "подтверждающий документ",
+              "en": "a supporting document"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "– официальный больничный лист, а если его нет, то справку от врача.",
+              "en": "- an official sick leave certificate. If unavailable, a doctor’s note will also be accepted."
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "div",
+            "text": {
+              "ru": "В Украине электронные больничные. Мы получим его автоматически, предоставлять ничего не нужно.",
+              "en": "In Ukraine, sick leave certificates are issued electronically - we’ll receive it automatically, so there’s no need to submit anything."
+            }
+          }
+        ]
+      },
+      {
+        "validator": { "contract_type": ["ГПХ"] },
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи",
+              "en": "Attach"
+            }
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "подтверждающий документ",
+              "en": "a supporting document"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "– официальный больничный лист, а если его нет, то справку от врача.",
+              "en": "- an official sick leave certificate. If unavailable, a doctor’s note will also be accepted."
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "div",
+            "text": {
+              "ru": "В Украине электронные больничные. Мы получим его автоматически, предоставлять ничего не нужно.",
+              "en": "In Ukraine, sick leave certificates are issued electronically - we’ll receive it automatically, so there’s no need to submit anything."
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Подтверждение врача обязательно",
+              "en": "Doctor’s confirmation is required"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "для регистрации больничного в большинстве случаев.",
+              "en": "for sick leave registration in most cases."
+            }
+          }
+        ]
+      }
+    ],
+    "absence__message_for_sick_list": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Due to the current COVID-19 situation, there’s no need to provide a medical certificate till the end of 2023 (you can be absent for more than two days without providing a medical certificate after you run this past your manager).",
+              "ru": "В текущей ситуации, связанной с COVID-19, до конца 2023 г. убрали необходимость в предоставлении больничных листов (вы можете отсутствовать более двух дней без предоставления больничного листа, согласовав это с вашим менеджером)"
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__course_attachment": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Attach the contract and receipt if the training has already been paid. The documents must include the following information:",
+              "ru": "Прикрепи договор и чек, если обучение уже оплачено. Документы должны содержать:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "The name in the documents of the buyer/payee must match the name of the employee requesting co-financing.",
+                  "ru": "В документах ФИО покупателя/плательщика должны соответствовать ФИО сотрудника, запрашивающего софинансирование."
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Course name",
+                  "ru": "Название курса"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Training dates",
+                  "ru": "Даты обучения"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Cost",
+                  "ru": "Стоимость"
+                },
+                "type": "span"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__coworking_attachment": [
+      {
+        "validator": {
+          "legal_entity.id": [437]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Документы. Подробное описание требований смотри",
+              "en": "Documents. For detailed requirements, see"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://docs.google.com/document/d/1Q_CshZezFmOiVSeMA38xIZ4Jz84xN6urx2JXPhqnwYI/edit",
+            "text": {
+              "ru": "в документе",
+              "en": "the document"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Скан кассового чека / инвойса",
+                  "en": "Scan of the cash receipt / invoice"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Документы должны содержать:",
+              "en": "The documents must include the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "ФИО",
+                  "en": "Your full name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дату оплаты",
+                  "en": "Date of payment"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Стоимость",
+                  "en": "Cost"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Срок действия абонемента",
+                  "en": "Validity of the subscription"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Наименование организации",
+                  "en": "Name of organization"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__furniture_attachment": [
+      {
+        "validator": {
+          "legal_entity.id": [437]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Документы. Подробное описание требований смотри",
+              "en": "Documents. For detailed requirements, see"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://docs.google.com/document/d/1XHZHcOOLpqR7jwfPdlAHvrS4T5lGn9SpAh8xPKt3Me4/edit",
+            "text": {
+              "ru": "в документе",
+              "en": "the document"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Скан кассового чека / инвойса",
+                  "en": "Scan of the cash receipt / invoice"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "validator": {
+          "legal_entity.id": [424]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате (банковскую выписку) и/или документ, подтверждающий покупку, в котором указана следующая информация:",
+              "en": "Attach a receipt of payment (bank statement) and/or proof of purchase that shows the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дата покупки",
+                  "en": "Date of purchase"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Стоимость и валюта покупки",
+                  "en": "Cost and currency of purchase"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Наименование товара",
+                  "en": "Name of the product"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате (банковскую выписку) и/или документ, подтверждающий покупку, в котором указана следующая информация:",
+              "en": "Attach a receipt of payment (bank statement) and/or proof of purchase that shows the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дата покупки",
+                  "en": "Date of purchase"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Стоимость и валюта покупки",
+                  "en": "Cost and currency of purchase"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Наименование товара",
+                  "en": "Name of the product"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "ФИО",
+                  "en": "Your full name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дату оплаты",
+                  "en": "Date of payment"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Стоимость",
+                  "en": "Cost"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Срок действия уроков/подписки",
+                  "en": "Validity of the subscription"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Наименование полученных услуг",
+                  "en": "The name of services received"
+                }
+              }
+            ]
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "При занятиях с психологом возможно предоставление следующих документов:",
+              "en": "When working with a psychologist, you may be asked to provide the following documents:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "a",
+                "url": "https://docs.google.com/spreadsheets/d/1Jnr6hJYHEs_W1uqq6F6d3eo2R-FN9Rn_rUexPjGL5gU/edit?gid=886942197#gid=886942197",
+                "text": {
+                  "ru": "Заполненная психологом квитанция",
+                  "en": "A receipt filled out by the psychologist"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Ссылка на профиль психолога или иной документ (сертификат, диплом и т.д.) подтверждающий, что психолог обладает достаточными навыками для проведения сессий",
+                  "en": "A link to the psychologist's profile or another document (certificate, diploma, etc.) confirming that the psychologist has the necessary skills to conduct sessions"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__local_lang_lessons_attachment": [
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате (банковскую выписку) и документ, подтверждающий обучение, в котором указана следующая информация:",
+              "en": "Attach the payment receipt (bank statement) and a document confirming educational qualifications, which includes the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "ФИО",
+                  "en": "Your full name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дата оплаты",
+                  "en": "Date of payment"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Стоимость",
+                  "en": "Cost"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Наименование полученных услуг",
+                  "en": "Course name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Период действия",
+                  "en": "Validity of the subscription"
+                }
+              }
+            ]
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "При занятиях с частным преподавателем возможно предоставление следующих документов:",
+              "en": "When working with a private teacher, you may provide the following documents:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "a",
+                "url": "https://docs.google.com/spreadsheets/d/1Jnr6hJYHEs_W1uqq6F6d3eo2R-FN9Rn_rUexPjGL5gU/edit?gid=0#gid=0",
+                "text": {
+                  "ru": "Заполненная преподавателем квитанция",
+                  "en": "A receipt filled out by the teacher"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Скан сертификата преподавателя, либо ссылка на его профиль",
+                  "en": "A scan of the teacher's certificate or a link to their profile"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__local_lang_lessons_attachment_partner": [
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате (банковскую выписку) и документ, подтверждающий обучение, в котором указана следующая информация:",
+              "en": "Attach the payment receipt (bank statement) and a document confirming educational qualifications, which includes the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "ФИО партнера",
+                  "en": "Partner's full name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дата оплаты",
+                  "en": "Date of payment"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Стоимость",
+                  "en": "Cost"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Наименование полученных услуг",
+                  "en": "Course name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Период действия",
+                  "en": "Validity of the subscription"
+                }
+              }
+            ]
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "При занятиях с частным преподавателем возможно предоставление следующих документов:",
+              "en": "When working with a private teacher, you may provide the following documents:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "a",
+                "url": "https://docs.google.com/spreadsheets/d/1Jnr6hJYHEs_W1uqq6F6d3eo2R-FN9Rn_rUexPjGL5gU/edit?gid=0#gid=0",
+                "text": {
+                  "ru": "Заполненная преподавателем квитанция",
+                  "en": "A receipt filled out by the teacher"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Скан сертификата преподавателя, либо ссылка на его профиль",
+                  "en": "A scan of the teacher's certificate or a link to their profile"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__local_lang_lessons_attachment_family": [
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате (банковскую выписку) и документ, подтверждающий обучение, в котором указана следующая информация:",
+              "en": "Attach the payment receipt (bank statement) and a document confirming educational qualifications, which includes the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "ФИО каждого члена семьи, проходящего обучение",
+                  "en": "Full name of each family member enrolled in the education"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дата оплаты",
+                  "en": "Date of payment"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Стоимость",
+                  "en": "Cost"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Наименование полученных услуг",
+                  "en": "Course name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Период действия",
+                  "en": "Validity of the subscription"
+                }
+              }
+            ]
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "При занятиях с частным преподавателем возможно предоставление следующих документов:",
+              "en": "When working with a private teacher, you may provide the following documents:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "a",
+                "url": "https://docs.google.com/spreadsheets/d/1Jnr6hJYHEs_W1uqq6F6d3eo2R-FN9Rn_rUexPjGL5gU/edit?gid=0#gid=0",
+                "text": {
+                  "ru": "Заполненная преподавателем квитанция",
+                  "en": "A receipt filled out by the teacher"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Скан сертификата преподавателя, либо ссылка на его профиль",
+                  "en": "A scan of the teacher's certificate or a link to their profile"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__learning_platforms_attachment": [
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате (банковскую выписку) и документ, подтверждающий обучение, в котором указана следующая информация:",
+              "en": "Attach the payment receipt (bank statement) and a document confirming educational qualifications, which includes the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "ФИО",
+                  "en": "Your full name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дата покупки подписки",
+                  "en": "Date of payment"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Стоимость",
+                  "en": "Cost"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Срок действия подписки",
+                  "en": "Validity of the subscription"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Наименование электронной библиотеки или обучающей платформы (тема обучения/подписки)",
+                  "en": "Name of the electronic library or educational platform"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__common_relocation_attachment": [
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате / банковскую выписку и подтверждающие документы, в которых указана следующая информация:",
+              "en": "Attach receipt / bank statement and supporting documents that contain the following Information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "ФИО",
+                  "en": "Full name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дата оплаты",
+                  "en": "Payment date"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Сумма",
+                  "en": "Amount"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Тип услуги",
+                  "en": "Type of service"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__transport_attachment": [
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чеки об оплате и билеты, в которых указана следующая информация:",
+              "en": "Attach receipts and tickets that contain the following Information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "ФИО пассажира",
+                  "en": "Passenger's full name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Дата оплаты",
+                  "en": "Payment date"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Сумма",
+                  "en": "Amount"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Тип услуги",
+                  "en": "Type of service"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__med_insurance_attachment": [
+      {
+        "validator": {
+          "legal_entity.id": [437]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Документы. Подробное описание требований смотри",
+              "en": "Documents. For detailed requirements, see"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://docs.google.com/document/d/1Q_CshZezFmOiVSeMA38xIZ4Jz84xN6urx2JXPhqnwYI",
+            "text": {
+              "ru": "в документе",
+              "en": "the document"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Скан полиса медицинского страхования, где указаны ФИО застрахованных, сроки страхования, план оплаты ",
+                  "en": "Scan of your health insurance card, which includes the full names of the insured, insurance terms, and payment plan"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Документы об оплате (договор/чек/медицинский план страхования)",
+                  "en": "Proof of payment (a copy of your contract/receipt/healthcare plan)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Документы:",
+              "en": "Documents:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Скан полиса медицинского страхования",
+                  "en": "Scan of your health insurance card;"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Документы об оплате (договор/чек/медицинский план страхования)",
+                  "en": "Proof of payment (a copy of your contract/receipt/healthcare plan)."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__psychologist_attachment": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Документы должны содержать:",
+              "en": "The documents must include the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Your full name",
+                  "ru": "ФИО"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Date of payment",
+                  "ru": "Дату оплаты"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Cost",
+                  "ru": "Стоимость"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "The name of services received",
+                  "ru": "Наименование полученных услуг"
+                },
+                "type": "span"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__sport_attachment": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате (банковскую выписку) и подтверждающий документ, в котором указана следующая информация:",
+              "en": "The documents must include the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Your full name",
+                  "ru": "ФИО"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Date of payment",
+                  "ru": "Дата оплаты"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Cost",
+                  "ru": "Стоимость"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Validity of the subscription",
+                  "ru": "Срок действия абонемента"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Name of the sports facility and services received",
+                  "ru": "Наименование спортивного учреждения и полученных услуг"
+                },
+                "type": "span"
+              }
+            ],
+            "type": "binding-list"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "При занятиях с тренером возможно предоставление следующих документов:",
+              "en": "When working with a coach, the following documents may be provided:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "a",
+                "url": "https://docs.google.com/spreadsheets/d/1Be08xk0g6td6cuZCDFbQD_Vf2EmvX-Ri/edit",
+                "text": {
+                  "ru": "Заполненная тренером квитанция",
+                  "en": "Completed receipt by the coach"
+                }
+              }
+            ]
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__compensation_course_attachment": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате (банковскую выписку) и документ, подтверждающий обучение, в котором указана следующая информация:",
+              "en": "Attach the payment receipt (bank statement) and a document confirming educational qualifications, which includes the following information: "
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Your full name",
+                  "ru": "ФИО"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Course name",
+                  "ru": "Название курса"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Training dates",
+                  "ru": "Даты обучения"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Cost",
+                  "ru": "Стоимость"
+                },
+                "type": "span"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__compensation_sport_attachment": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Прикрепи чек об оплате (банковскую выписку) и подтверждающий документ, в котором указана следующая информация:",
+              "en": "The documents must include the following information:"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Your full name",
+                  "ru": "ФИО"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Date of payment",
+                  "ru": "Дата оплаты"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Cost",
+                  "ru": "Стоимость"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Validity of the subscription",
+                  "ru": "Срок действия абонемента"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Name of the sports facility and services received",
+                  "ru": "Наименование спортивного учреждения и полученных услуг"
+                },
+                "type": "span"
+              }
+            ],
+            "type": "binding-list"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "При занятиях с тренером возможно предоставление следующих документов:",
+              "en": "During sessions with the coach, it is possible to provide the following documents:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "a",
+                "url": "https://docs.google.com/spreadsheets/d/1Be08xk0g6td6cuZCDFbQD_Vf2EmvX-Ri/edit",
+                "text": {
+                  "ru": "Заполненная тренером квитанция",
+                  "en": "Completed receipt by the coach"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Скан сертификата тренера либо ссылка на профиль тренера",
+                  "en": "Scan of the coach's certificate or link to the coach's profile"
+                }
+              }
+            ]
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__relocation_bonus": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "The relocation package can be used only for one relocation. In the case of second relocation company will help with legalization but all other expenses related to move are to be paid by the employee themselves.",
+              "ru": "Релокационный пакет можно использовать один раз и на одну релокацию. При повторной релокации компания поможет с легализацией, но остальные расходы на переезд оплачиваются сотрудником самостоятельно."
+            },
+            "type": "div"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__relocation_dates": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "You must file your application at least two months before your relocation date if you’re relocating to Montenegro, Cyprus or Portugal.",
+              "ru": "Черногория, Кипр, Португалия - нужно создать заявку минимум за 2 месяца до релокации."
+            },
+            "type": "div"
+          },
+          {
+            "text": {
+              "en": "And at least one month before your relocation date if you’re relocating to Serbia, Armenia, or Kazakhstan.",
+              "ru": "Сербия, Армения, Казахстан - за 1 месяц до релокации."
+            },
+            "type": "div"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__relocation_events_date": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "If you do not know the exact date, then indicate the approximate date",
+              "ru": "Если точная дата неизвестна, то укажи примерную дату"
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__relocation_user_text": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Please specify as much information as possible that describes your situation in the field Additional information, such as:",
+              "ru": "Важно! В разделе Дополнительная информация просим указать:"
+            },
+            "type": "div"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "If you have a passport and its validity period",
+                  "ru": "Есть ли у тебя загран. паспорт и срок его действия"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Approximate relocations dates",
+                  "ru": "Предполагаемые сроки релокации"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Who relocates with you. Please note if you are relocating as a family with another employee of the company and mention their name",
+                  "ru": "С кем релоцируешься. Стоит отдельно отметить, если ты релоцируешься как семья вместе с другим сотрудником компании и указать имя"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Your travel route",
+                  "ru": "Предполагаемый маршрут передвижения"
+                },
+                "type": "span"
+              },
+              {
+                "text": {
+                  "en": "Other details and questions concerning documents",
+                  "ru": "Другие важные детали и вопросы по документам"
+                },
+                "type": "span"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__session_hint": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "An application must be created 2 days before the Q&A session.",
+              "ru": "Заявка подаётся не менее чем за 2 рабочих дня до проведения Q&A-сессии."
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__team_business_trip_hint": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Please, make sure you've read the regulations in the",
+              "ru": "Перед оформлением заявки обязательно ознакомься с регламентом в"
+            },
+            "type": "span"
+          },
+          {
+            "text": {
+              "en": "Knowledge Base",
+              "ru": "Базе знаний"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Team-business-trips-to-hubs_suFSfdAk"
+          },
+          {
+            "text": {
+              "en": "before submitting an application",
+              "ru": ""
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__webinar_hint": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "An application must be created 2 days before the webinar.",
+              "ru": "Заявка подаётся не менее чем за 2 рабочих дня до проведения вебинара."
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__financial_aid_attachment": [
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Размер материальной помощи составляет 1300$.",
+              "en": "The Amount of financial assistance is 1300$."
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "div",
+            "text": {
+              "ru": "Для получения материальной помощи необходимо приложить скан свидетельства о смерти, скан документа, подтверждающего факт родства (свидетельство о рождении / свидетельство о заключении брака) и, если происходила смена фамилии, скан документа, подтверждающего смену фамилии.",
+              "en": "To receive financial assistance, you need to attach a scan of the death certificate, a scan of a document confirming the relationship (birth certificate / marriage certificate), and, if there has been a change of surname, a scan of the document confirming the change of surname."
+            }
+          }
+        ]
+      }
+    ],
+    "service__change_bank_details_attachment": [
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "strong",
+            "text": {
+              "ru": "Приложи справку (выписку) с реквизитами в формате PDF, включающую следующие данные:",
+              "en": "Attach a bank statement (PDF) with the following details:"
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Beneficiary Name",
+                  "en": "Beneficiary Name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "SWIFT",
+                  "en": "SWIFT"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Bank name",
+                  "en": "Bank name"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Beneficiary ’s account",
+                  "en": "Beneficiary ’s account"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Beneficiary address",
+                  "en": "Beneficiary address"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Currency",
+                  "en": "Currency"
+                }
+              }
+            ]
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Примеры реквизитов можно посмотреть в",
+              "en": "Examples of bank details can be found in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Finance_d_666trXrxd/How-to-change-Bank-Details_suYx4ei1",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hint": {
+    "service__loan_process": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Interest-Free-Loan_subHp#_lu_S_"
+          }
+        ],
+        "validator": {
+          "!legal_entity.id": [415]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suIJM#_luwi_"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [415]
+        }
+      }
+    ],
+    "service__remote-work_compensation": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Reimbursement for workplace-related expenses for remote employees",
+              "ru": "Компенсации для удаленных сотрудников"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Remote-Workplace_suV-MObm"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__webinar_process": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Webinar-Planning_sucCpNni"
+          }
+        ],
+        "validator": 1
+      }
+    ]
+  },
+  "info": {
+    "absence__just_absence": [
+      {
+        "validator": {
+          "studio.id": [15]
+        },
+        "blocks": [
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dPElb_WPvk1/_su2zGtAR",
+            "text": {
+              "ru": "Отгул",
+              "en": "Day off"
+            }
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "— это отсутствие в рабочий день с последующей отработкой",
+              "en": "— absence on a working day with compensation by working"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "в выходной или праздничный день согласно твоему официальному производственному календарю. Дата отработки согласуется с менеджером.",
+              "en": "on a weekend or public holiday according to your official production calendar. The date of compensation is agreed upon with the manager."
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Отгул без отработки применяется на:",
+              "en": "A day off without compensation applies to:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/c-Day-off-for-your-Saint-s-day_suKNpnU_?searchClick=880eb3fc-8e8a-45d5-8525-705100bbcd3b_AkoB_RTnXe&search=%D1%81%D0%BB%D0%B0%D0%B2%D0%B0%20%D0%B4%D0%B5%D0%BD%D1%8C&docIds=all#_lu4DKmgW",
+                "text": {
+                  "ru": "Слава - день в Сербии",
+                  "en": "Slava Day in Serbia"
+                }
+              },
+              {
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Other-kinds-of-paid-leave_suYWQjIr?searchClick=880eb3fc-8e8a-45d5-8525-705100bbcd3b_AkoB_RTnXe#_luDGqVTC",
+                "text": {
+                  "ru": "Особые семейные обстоятельства",
+                  "en": "Special family events"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "validator": {
+          "studio.id": [11]
+        },
+        "blocks": [
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_suxSF65E?searchClick=6bc67d84-6b7e-466f-b829-74792086fb03_e-o9aJ91vA#_lujT1QDu",
+            "text": {
+              "ru": "Отгул",
+              "en": "Day off"
+            }
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "— это отсутствие в рабочий день с последующей отработкой",
+              "en": "— absence on a working day with compensation by working"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "в выходной или праздничный день согласно твоему официальному производственному календарю. Дата отработки согласуется с менеджером.",
+              "en": "on a weekend or public holiday according to your official production calendar. The date of compensation is agreed upon with the manager."
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Отгул без отработки применяется на:",
+              "en": "A day off without compensation applies to:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/c-Day-off-for-your-Saint-s-day_suKNpnU_?searchClick=880eb3fc-8e8a-45d5-8525-705100bbcd3b_AkoB_RTnXe&search=%D1%81%D0%BB%D0%B0%D0%B2%D0%B0%20%D0%B4%D0%B5%D0%BD%D1%8C&docIds=all#_lu4DKmgW",
+                "text": {
+                  "ru": "Слава - день в Сербии",
+                  "en": "Slava Day in Serbia"
+                }
+              },
+              {
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Other-kinds-of-paid-leave_suYWQjIr?searchClick=880eb3fc-8e8a-45d5-8525-705100bbcd3b_AkoB_RTnXe#_luDGqVTC",
+                "text": {
+                  "ru": "Особые семейные обстоятельства",
+                  "en": "Special family events"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/ompensatory-Days-Off_suLenrUL?searchClick=880eb3fc-8e8a-45d5-8525-705100bbcd3b_AkoB_RTnXe#_lupxvJG3",
+            "text": {
+              "ru": "Отгул",
+              "en": "Day off"
+            }
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "— это отсутствие в рабочий день с последующей отработкой",
+              "en": "— absence on a working day with compensation by working"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "в выходной или праздничный день согласно твоему официальному производственному календарю. Дата отработки согласуется с менеджером.",
+              "en": "on a weekend or public holiday according to your official production calendar. The date of compensation is agreed upon with the manager."
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Отгул без отработки применяется на:",
+              "en": "A day off without compensation applies to:"
+            }
+          },
+          {
+            "type": "binding-list",
+            "blocks": [
+              {
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/c-Day-off-for-your-Saint-s-day_suKNpnU_?searchClick=880eb3fc-8e8a-45d5-8525-705100bbcd3b_AkoB_RTnXe&search=%D1%81%D0%BB%D0%B0%D0%B2%D0%B0%20%D0%B4%D0%B5%D0%BD%D1%8C&docIds=all#_lu4DKmgW",
+                "text": {
+                  "ru": "Слава - день в Сербии",
+                  "en": "Slava Day in Serbia"
+                }
+              },
+              {
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Other-kinds-of-paid-leave_suYWQjIr?searchClick=880eb3fc-8e8a-45d5-8525-705100bbcd3b_AkoB_RTnXe#_luDGqVTC",
+                "text": {
+                  "ru": "Особые семейные обстоятельства",
+                  "en": "Special family events"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "absence__sick_leave": [
+      {
+        "blocks": [],
+        "validator": {
+          "legal_entity.id": [426, 371],
+          "studio.id": [1, 6, 11, 18, 20]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su7ADAuC?searchClick=6bc67d84-6b7e-466f-b829-74792086fb03_e-o9aJ91vA#_luOdQ9HG"
+              },
+              {
+                "text": {
+                  "en": "Sick pay",
+                  "ru": "Оплата больничного"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su7NS9Hp?searchClick=6bc67d84-6b7e-466f-b829-74792086fb03_e-o9aJ91vA#_luJpk1nl"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "studio.id": [11]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dPElb_WPvk1/Home-Games_suHl4wQ2"
+              },
+              {
+                "text": {
+                  "en": "Sick pay",
+                  "ru": "Оплата больничного"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dPElb_WPvk1/_suFf5Zwc"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "studio.id": [15]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dvhi2lYsLIq/Sick-Day_suAW_#_lu6UL"
+              },
+              {
+                "text": {
+                  "en": "Sick pay",
+                  "ru": "Оплата больничного"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dvhi2lYsLIq/100_suaOB#_lupXX"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [429]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/Boolat-Play-Home_dFrg9k_E9c0/_suyvq#_luTVU"
+              },
+              {
+                "text": {
+                  "en": "Sick pay",
+                  "ru": "Оплата больничного"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/Boolat-Play-Home_dFrg9k_E9c0/100_suqaBHPo#_luZUwTeR"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [411]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Sick-Leave_su6qHp07?searchClick=5ab9784a-f300-4898-9303-e0087b5f7b5f_AkoB_RTnXe#_luaDipvB"
+              },
+              {
+                "text": {
+                  "en": "Sick pay",
+                  "ru": "Оплата больничного"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Sick-Leave_su6qHp07?searchClick=5ab9784a-f300-4898-9303-e0087b5f7b5f_AkoB_RTnXe#_luaDipvB"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "absence__vacation_plan": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su3ua7uS?searchClick=6bc67d84-6b7e-466f-b829-74792086fb03_e-o9aJ91vA#_lu1HUfUt"
+              },
+              {
+                "text": {
+                  "en": "Instructions for using the Calendar",
+                  "ru": "Инструкция по работе с Календарём"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/Admin-HR-Finance_dlBURUHk3WW/FAQ-Planning-calendar_su5Ms8Pi?searchClick=3a297c48-9bd5-453f-8b24-ea7a993d65ca_lBURUHk3WW#_lu8LOJUk"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "studio.id": [11]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/Home-Games-Home-Games_suxA4#_luzXr"
+              },
+              {
+                "text": {
+                  "en": "Instructions for using the Calendar",
+                  "ru": "Инструкция по работе с Календарём"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dPElb_WPvk1/_suZ3fDAz"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "studio.id": [15]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "How to take paid leave?",
+                  "ru": "Как взять оплачиваемый отпуск?"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dvhi2lYsLIq/_su79E#_lukYO"
+              },
+              {
+                "text": {
+                  "en": "How to take unpaid leave?",
+                  "ru": "Как взять отпуск за свой счет?"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dvhi2lYsLIq/_sufOG#_lumto"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [429]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Vacation_suQJZhJZ#_lusANEay"
+              },
+              {
+                "text": {
+                  "en": "Instructions for using the Calendar",
+                  "ru": "Инструкция по работе с Календарём"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/Admin-HR-Finance_dlBURUHk3WW/FAQ-Planning-calendar_su5Ms8Pi?searchClick=3a297c48-9bd5-453f-8b24-ea7a993d65ca_lBURUHk3WW#_lu8LOJUk"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "absence__vacation_take": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Application Forms (CIS based employees)",
+                  "ru": "Бланки заявлений"
+                },
+                "type": "a",
+                "url": "https://drive.google.com/drive/folders/1aCGmddyT34OcC50QyqH2wloXoiI5VL4C?usp=sharing"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371, 426],
+          "studio.id": [1, 6, 11, 18, 20]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su3ua7uS?searchClick=6bc67d84-6b7e-466f-b829-74792086fb03_e-o9aJ91vA#_lu1HUfUt"
+              },
+              {
+                "text": {
+                  "en": "Application Forms (CIS based employees)",
+                  "ru": "Бланки заявлений"
+                },
+                "type": "a",
+                "url": "https://drive.google.com/drive/folders/1HKob11eHlBqa7HeiNMA--6h06FI_wTBE?usp=sharing"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "studio.id": [11]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Vacation_suQJZhJZ#_lusANEay"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [424]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/Boolat-Play-Home_dFrg9k_E9c0/_suzMywT1#_luJ6tFdr"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [411]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "How to take paid leave?",
+                  "ru": "Как взять оплачиваемый отпуск?"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dvhi2lYsLIq/_su79E#_lukYO"
+              },
+              {
+                "text": {
+                  "en": "How to take unpaid leave?",
+                  "ru": "Как взять отпуск за свой счет?"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dvhi2lYsLIq/_sufOG#_lumto"
+              },
+              {
+                "text": {
+                  "en": "Application Forms (CIS based employees)",
+                  "ru": "Бланки заявлений"
+                },
+                "type": "a",
+                "url": "https://drive.google.com/drive/folders/1BJ1_-8MoKqJnikGwNjz6UFecgsFUmfrw"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [429]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/Home-Games-Home-Games_su5l1xA4#_luBsnzXr"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [415]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Detailed articles in the Knowledge Base:",
+              "ru": "Подробные статьи в Базе знаний:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Vacation_suQJZhJZ#_lusANEay"
+              },
+              {
+                "text": {
+                  "en": "Application Forms (CIS based employees)",
+                  "ru": "Бланки заявлений"
+                },
+                "type": "a",
+                "url": "https://drive.google.com/drive/folders/1aCGmddyT34OcC50QyqH2wloXoiI5VL4C?usp=sharing"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "absence__check_documents": [
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "ordered-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Скачай и распечатай документ по ссылке выше, либо напиши аналогичное заявление от руки (в формате А5 или А4, чёрной или синей ручкой)",
+                  "en": "Download and print out the document from the link above or write a similar application by hand (in A5 or A4 format, with blue or black pen)"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Подпиши документ",
+                  "en": "Sign the document"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Загрузи скан/фото подписанного документа",
+                  "en": "Upload a scan/photo of the signed document"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Нажми кнопку Отправить",
+                  "en": "Press the Send button"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Отправь оригинал почтой, курьером или передай через офис-менеджера бухгалтеру твоего юр.лица",
+                  "en": "Send the original document by mail, courier or give it to your office manager so they can pass it on to the accountant of your legal entity"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "absence__check_sign_documents": [
+      {
+        "validator": {
+          "legal_entity.id": [429]
+        },
+        "blocks": [
+          {
+            "type": "a",
+            "url": "https://drive.google.com/drive/folders/1BJ1_-8MoKqJnikGwNjz6UFecgsFUmfrw",
+            "text": {
+              "ru": "Бланки заявлений",
+              "en": "Application forms"
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "ordered-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Напиши заявление на отпуск от руки (в формате А5 или А4, чёрной или синей ручкой)",
+                  "en": "Write a vacation application by hand (in A5 or A4 format, with blue or black pen)"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Подпиши документ",
+                  "en": "Sign the document"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Загрузи скан/фото подписанного документа",
+                  "en": "Upload a scan/photo of the signed document"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Нажми кнопку Отправить",
+                  "en": "Press the Send button"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Отправь оригинал почтой, курьером или передай через офис-менеджера бухгалтеру твоего юр.лица",
+                  "en": "Send the original document by mail, courier or give it to your office manager so they can pass it on to the accountant of your legal entity"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "a",
+            "url": "https://drive.google.com/drive/folders/1aCGmddyT34OcC50QyqH2wloXoiI5VL4C?usp=sharing",
+            "text": {
+              "ru": "Бланки заявлений",
+              "en": "Application forms"
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "ordered-list",
+            "blocks": [
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Напиши заявление на отпуск от руки (в формате А5 или А4, чёрной или синей ручкой)",
+                  "en": "Write a vacation application by hand (in A5 or A4 format, with blue or black pen)"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Подпиши документ",
+                  "en": "Sign the document"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Загрузи скан/фото подписанного документа",
+                  "en": "Upload a scan/photo of the signed document"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Нажми кнопку Отправить",
+                  "en": "Press the Send button"
+                }
+              },
+              {
+                "type": "span",
+                "text": {
+                  "ru": "Отправь оригинал почтой, курьером или передай через офис-менеджера бухгалтеру твоего юр.лица",
+                  "en": "Send the original document by mail, courier or give it to your office manager so they can pass it on to the accountant of your legal entity"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation__med_insurance_child": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_su9vl",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [426],
+          "studio.id": [20]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_su7Ko",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [20]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suJGxSBL",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [1, 11, 18, 6]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/1-1_suneL#_lur0d",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [412]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Health-Insurance-for-Children_su4CuxrG",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__med_insurance_spouse": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/1-1_suneL#_lur0d",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [412]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Health-Insurance-for-partners_subHO_Sy",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__travel_insurance_child": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suR3p#_luTls",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "text": {
+              "en": "Available to children of employees in the temporary country of residence. Limit - $75 for 30 days",
+              "ru": "Доступен для детей сотрудников во временной стране проживания. Лимит - 75$ на 30 дней"
+            },
+            "type": "div"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [426],
+          "studio.id": [20]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suR3p#_luTls",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "text": {
+              "en": "Available to children of employees in the temporary country of residence. Limit - $75 for 30 days",
+              "ru": "Доступен для детей сотрудников во временной стране проживания. Лимит - 75$ на 30 дней"
+            },
+            "type": "div"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [20]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_su2Q0dhV#_luWJqyhV",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "text": {
+              "en": "Available to children of employees in the temporary country of residence. Limit - $75 for 30 days",
+              "ru": "Доступен для детей сотрудников во временной стране проживания. Лимит - 75$ на 30 дней"
+            },
+            "type": "div"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [1, 11, 18, 6]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/_suV-Osua",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "text": {
+              "en": "Available to children of employees in the temporary country of residence. Limit - $75 for 30 days",
+              "ru": "Доступен для детей сотрудников во временной стране проживания. Лимит - 75$ на 30 дней"
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__course": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_su-Bk",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [],
+        "validator": {
+          "legal_entity.id": [426, 371],
+          "studio.id": [20]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suF4II5n",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [1, 11, 18, 6]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suOZ2#_luHYZ",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [415]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su3Lq#_lu0yK",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [412]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Co-Financing-of-Training-and-Participation-in-Conferences_sunN1Ysy",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__coworking": [
+      {
+        "validator": {
+          "!legal_entity.id": [426, 371, 415, 412]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Coworking-compensation_suHAcjUH#_luOPz2JO",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": []
+      },
+      {
+        "validator": {
+          "legal_entity.id": [415]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suNIf#_lu5-z",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": []
+      },
+      {
+        "validator": {
+          "legal_entity.id": [412]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_sukwh#_lu5Ah",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": []
+      }
+    ],
+    "compensation__furniture": [
+      {
+        "validator": {
+          "!legal_entity.id": [371, 426, 415, 412]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Покупка мебели для одной локации оформляется одной заявкой. Повторная заявка возможна спустя 3 года",
+              "en": "Furniture purchases for a single location must be submitted as one request. A repeat request is allowed after 3 years"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Furniture-Compensation_su5unnL-#_luRrvWbs",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      },
+      {
+        "validator": {
+          "legal_entity.id": [412]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_sukwh#_lu5Ah",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Воспользоваться компенсацией можно при первых двух релокациях. После подачи заявки на компенсацию расходов на мебель, заявку на компенсацию коворкинга можно подать только спустя 6 месяцев.",
+              "en": "The compensation can be utilised for the first two relocations. After applying for reimbursement of furniture costs, you can only apply for reimbursement of co-working space after 6 months."
+            }
+          }
+        ]
+      },
+      {
+        "validator": {
+          "legal_entity.id": [415]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_sugao#_luadE",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Воспользоваться компенсацией можно один раз каждые пять лет.",
+              "en": "You can use the compensation once every five years."
+            }
+          },
+          {
+            "type": "div",
+            "text": {
+              "ru": "Компенсация доступна для удаленных сотрудников компании Home Games, не имеющих закрепленного места в офисе, после 1 года работы в компании.",
+              "en": "Compensation is available for Home Games remote employees who do not have an assigned office location after 1 year of work with the company."
+            }
+          },
+          {
+            "type": "div",
+            "text": {
+              "ru": "После подачи заявки на компенсацию расходов на мебель, заявку на компенсацию коворкинга можно подать только спустя 6 месяцев.",
+              "en": "After submitting a workplace furniture compensation request, you can apply for coworking compensation only after 6 months"
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__workplace": [
+      {
+        "validator": 1,
+        "typeAlert": "warning",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "После подачи заявки на компенсацию мебели заявку на компенсацию коворкинга можно подать только спустя 6 месяцев ",
+              "en": "After submitting a workplace furniture compensation request, you can apply for coworking compensation only after 6 months"
+            }
+          }
+        ],
+        "blocks": []
+      }
+    ],
+    "compensation__transport": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Оформить заявку на компенсацию можно только после переезда в страну релокации. Подробное описание процесса в",
+              "en": "You can apply for reimbursement only after moving to the relocation country. Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lusYDFyI",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Бонус доступен сотрудникам, прошедшим испытательный срок.",
+              "en": "The bonus is available to employees who have passed the probation period. For a second relocation, reimbursement is only available when relocating to Serbia."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__baggage": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Оформить заявку на компенсацию можно только после переезда в страну релокации. Подробное описание процесса в",
+              "en": "You can apply for reimbursement only after moving to the relocation country. Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_luUlGCCa",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Бонус доступен сотрудникам, прошедшим испытательный срок.",
+              "en": "The bonus is available to employees who have passed the probation period. For a second relocation, reimbursement is only available when relocating to Serbia."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__pet_transportation": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Оформить заявку на компенсацию можно только после переезда в страну релокации. Подробное описание процесса в",
+              "en": "You can apply for reimbursement only after moving to the relocation country. Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lu02gTeA",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Бонус доступен сотрудникам, прошедшим испытательный срок.",
+              "en": "The bonus is available to employees who have passed the probation period. For a second relocation, reimbursement is only available when relocating to Serbia."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__hotel_transfer": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Оформить заявку на компенсацию можно только после переезда в страну релокации. Подробное описание процесса в",
+              "en": "You can apply for reimbursement only after moving to the relocation country. Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lu6fimvx",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Бонус доступен сотрудникам, прошедшим испытательный срок.",
+              "en": "The bonus is available to employees who have passed the probation period. For a second relocation, reimbursement is only available when relocating to Serbia."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__temporary_accommodation": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Оформить заявку на компенсацию можно только после переезда в страну релокации. Подробное описание процесса в",
+              "en": "You can apply for reimbursement only after moving to the relocation country. Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lu6fimvx",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Бонус доступен сотрудникам, прошедшим испытательный срок.",
+              "en": "The bonus is available to employees who have passed the probation period. For a second relocation, reimbursement is only available when relocating to Serbia."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__visa_expenses": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Оформить заявку на компенсацию можно только после переезда в страну релокации. Подробное описание процесса в",
+              "en": "You can apply for reimbursement only after moving to the relocation country. Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lu0HY2bJ",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Бонус доступен сотрудникам, прошедшим испытательный срок.",
+              "en": "The bonus is available to employees who have passed the probation period. For a second relocation, reimbursement is only available when relocating to Serbia."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__additional_expenses": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Оформить заявку на компенсацию можно только после переезда в страну релокации. Подробное описание процесса в",
+              "en": "You can apply for reimbursement only after moving to the relocation country. Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_luc3H848",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Бонус доступен сотрудникам, прошедшим испытательный срок.",
+              "en": "The bonus is available to employees who have passed the probation period. For a second relocation, reimbursement is only available when relocating to Serbia."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__residence_permit_extension": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/_suDZfP_d#_luVlwyDe",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Компенсацией продления ВНЖ можно воспользоваться неоднократно в течение срока, необходимого для получения ПМЖ или гражданства. Если по завершении этого периода ты решишь не проходить натурализацию, дальнейшее продление нужно будет оформлять самостоятельно.",
+              "en": "The reimbursement for residence permit renewal can be used multiple times during the period required to obtain permanent residence or citizenship. If after this period you decide not to undergo naturalization, further renewals will need to be arranged independently."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__permanent_residence_obtaining": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lumw61i7",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Компенсацией получения ПМЖ можно воспользоваться однократно. Подача и получение ПМЖ должны происходить в период трудоустройства сотрудника в компании.",
+              "en": "The reimbursement for permanent residence obtaining can be used once. The application and obtaining of permanent residence must occur during the employee's employment with the company."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__citizenship_obtaining": [
+      {
+        "validator": 1,
+        "typeAlert": "info",
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lumw61i7",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Компенсацией получения гражданства можно воспользоваться однократно. Подача и получение гражданства должны происходить в период трудоустройства сотрудника в компании.",
+              "en": "The reimbursement for citizenship obtaining can be used once. The application and obtaining of citizenship must occur during the employee's employment with the company."
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__individual_psychologist": [
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Доступна только одна опция на выбор: либо компенсация, либо использование промокода на платформе",
+              "en": "Only one option is available: either reimbursement or using a promo code on the platform"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Более подробно в ",
+              "en": "More details in "
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Reimbursement_suqAUcmD#_luFc5oQk",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      }
+    ],
+    "compensation__local_lang_lessons": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Reimbursement-of-expenses-for-local-language-learning-classes_suj-MgRd",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [],
+        "validator": {
+          "!legal_entity.id": [415, 412]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_summ-#_luNYt",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [],
+        "validator": {
+          "legal_entity.id": [412]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suVWA#_luC0C",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [],
+        "validator": {
+          "legal_entity.id": [415]
+        }
+      }
+    ],
+    "compensation__med_insurance": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suTd-",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [426],
+          "studio.id": [20]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_sulwW#_luIGr",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [20]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_su7Z7LA1",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [1, 11, 18, 6]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/4Friends-4Friends_suKcm#_lulWs",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [412]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Health-Insurance-in-Other-Countries_suAhu3Ui",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__learning_platforms": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Subscriptions-to-learning-platforms-and-electronic-libraries_sud22QYK#_luTi3Aqr",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__psychologist": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Psychological-Consultations_suRwEgIK"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__rus_lessons": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/English-Russian-language-courses_suSyowUX"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "compensation__sport": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_suN1J#_luwbQ",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [],
+        "validator": {
+          "legal_entity.id": [412]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Sports-Fitness_suEcNBgO#_lurvEHdN",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [],
+        "validator": {
+          "!legal_entity.id": [415, 412]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suUpO#_luFHM",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [],
+        "validator": {
+          "legal_entity.id": [415]
+        }
+      }
+    ],
+    "compensation__travel_insurance": [
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRsi#_luLbV",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "text": {
+              "en": "Available to employees in the temporary country of residence. Limit - $75 for 30 days",
+              "ru": "Доступен для сотрудников во временной стране проживания. Лимит - 75$ на 30 дней"
+            },
+            "type": "div"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [426],
+          "studio.id": [20]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRsi#_luLbV",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "text": {
+              "en": "Available to employees in the temporary country of residence. Limit - $75 for 30 days",
+              "ru": "Доступен для сотрудников во временной стране проживания. Лимит - 75$ на 30 дней"
+            },
+            "type": "div"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [20]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suEieHw3#_luDnONkI",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "text": {
+              "en": "Available to employees in the temporary country of residence. Limit - $75 for 30 days",
+              "ru": "Доступен для сотрудников во временной стране проживания. Лимит - 75$ на 30 дней"
+            },
+            "type": "div"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [1, 11, 18, 6]
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/_suV-Osua",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "text": {
+              "en": "Available to employees in the temporary country of residence. Limit - $75 for 30 days",
+              "ru": "Доступен для сотрудников во временной стране проживания. Лимит - 75$ на 30 дней"
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "recommendation__info": [
+      {
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Обрати внимание: рекомендация остается актуальной и закрепляется за рекомендателем на",
+              "en": "Please note: the recommendation remains valid and is assigned to the referrer for"
+            }
+          },
+          {
+            "type": "strong",
+            "text": {
+              "ru": "12 месяцев с момента подачи.",
+              "en": "12 months from the date of submission."
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "text": {
+              "en": "Useful links:",
+              "ru": "Полезные ссылки:"
+            },
+            "type": "span"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Terms of the referral program",
+                  "ru": "Условия рекомендательной программы"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/Referral-Program_ds4LbaBzAbk/Referral-Program_suqMe#_luIK7"
+              },
+              {
+                "text": {
+                  "en": "Open vacancies",
+                  "ru": "Список актуальных вакансий"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dzGtO2RInfV/_suoff#_luLHK"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "recommendation__payout": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Recommendations from employees hired in legal entities Fluyt or Brig are considered external. Payments by external recommendations are made at the discretion of the managing team.",
+              "ru": "Рекомендации от сотрудников юрлиц Флейт или Brig считаются внешними. Выплата по внешним рекомендациям осуществляется на усмотрение управляющей команды."
+            },
+            "type": "span"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371, 420]
+        }
+      }
+    ],
+    "children__data": [
+      {
+        "validator": {
+          "!studio.id": [8, 11, 15, 17]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Если у тебя есть дети младше 18 лет, укажи их в своем профиле",
+              "en": "If you have children under 18, list them in your profile"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Мы заботимся о детях наших сотрудников и также предоставляем им подарки и бонусы от компании.",
+              "en": "We take care of our employees children and also provide them with gifts and bonuses from the company."
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Compensation-for-VHI-for-an-employee-partner-and-children_suAhu3Ui#_luES9VKA",
+            "text": {
+              "ru": "Узнать больше про ДМС для детей сотрудников",
+              "en": "Learn more about VHI for employees children"
+            }
+          }
+        ]
+      },
+      {
+        "validator": {
+          "studio.id": [15]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Если у тебя есть дети младше 18 лет, укажи их в своем профиле",
+              "en": "If you have children under 18, list them in your profile"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Мы заботимся о детях наших сотрудников и также предоставляем им подарки и бонусы от компании.",
+              "en": "We take care of our employees children and also provide them with gifts and bonuses from the company."
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suXA0oZH#_lu5StQi6",
+            "text": {
+              "ru": "Узнать больше про ДМС для детей сотрудников",
+              "en": "Learn more about VHI for employees children"
+            }
+          }
+        ]
+      },
+      {
+        "validator": {
+          "studio.id": [17]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Если у тебя есть дети младше 18 лет, укажи их в своем профиле",
+              "en": "If you have children under 18, list them in your profile"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Мы заботимся о детях наших сотрудников и также предоставляем им подарки и бонусы от компании.",
+              "en": "We take care of our employees children and also provide them with gifts and bonuses from the company."
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/Boolat-Play-Home_dFrg9k_E9c0/_sudrOMfp",
+            "text": {
+              "ru": "Узнать больше про ДМС для детей сотрудников",
+              "en": "Learn more about VHI for employees children"
+            }
+          }
+        ]
+      },
+      {
+        "validator": {
+          "studio.id": [11]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Если у тебя есть дети младше 18 лет, укажи их в своем профиле",
+              "en": "If you have children under 18, list them in your profile"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Мы заботимся о детях наших сотрудников и также предоставляем им подарки и бонусы от компании.",
+              "en": "We take care of our employees children and also provide them with gifts and bonuses from the company."
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/4Friends-4Friends_suihaKcm",
+            "text": {
+              "ru": "Узнать больше про ДМС для детей сотрудников",
+              "en": "Learn more about VHI for employees children"
+            }
+          }
+        ]
+      },
+      {
+        "validator": {
+          "studio.id": [8]
+        },
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Если у тебя есть дети младше 18 лет, укажи их в своем профиле",
+              "en": "If you have children under 18, list them in your profile"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "div",
+            "text": {
+              "ru": "Мы заботимся о детях наших сотрудников и также предоставляем им подарки и бонусы от компании.",
+              "en": "We take care of our employees children and also provide them with gifts and bonuses from the company."
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/ZAGRAVA_dvhi2lYsLIq/_suW1_xpF#_luB-u7K1",
+            "text": {
+              "ru": "Узнать больше про ДМС для детей сотрудников",
+              "en": "Learn more about VHI for employees children"
+            }
+          }
+        ]
+      }
+    ],
+    "service__compensation_course": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su27zXWM?searchClick=de75db96-567c-4e8d-a5fa-6347714085ad_e-o9aJ91vA#_lumLRDnr"
+          }
+        ],
+        "validator": {
+          "studio.id": [11, 1]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/Home-Games-Home-Games_suiNhaCQ#_lu2SZPld"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__compensation_sport": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su27zXWM?searchClick=de75db96-567c-4e8d-a5fa-6347714085ad_e-o9aJ91vA#_lumLRDnr"
+          }
+        ],
+        "validator": {
+          "studio.id": [11, 1]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/Home-Games-Home-Games_suiNhaCQ#_lu2SZPld"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__compensation_workplace_expenses": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su27zXWM?searchClick=de75db96-567c-4e8d-a5fa-6347714085ad_e-o9aJ91vA#_lumLRDnr"
+          }
+        ],
+        "validator": {
+          "studio.id": [11, 1]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/Home-Games-Home-Games_suiNhaCQ#_lu2SZPld"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__incident": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Please describe what does not work and when it started, how often appears. Who affected by this problem.",
+              "ru": "Пожалуйста, опиши, что работает не так, когда это началось, как часто проявляется. На кого влияет данная проблема."
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__idea_process": [
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Подробное описание процесса в ",
+              "en": "Process description in"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Playrix-Playrix-Ideas_sunvJyRN?search=%D0%B8%D0%B4%D0%B5%D1%8F%20playrix#_luEDcXol",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "the Knowledge Base"
+            }
+          }
+        ]
+      }
+    ],
+    "service__purchase-request_process": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suia7UfH#_lu9Hf1-h"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [426, 371],
+          "studio.id": [20]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_sufWMCbq"
+          }
+        ],
+        "validator": {
+          "legal_entity.id": [371],
+          "studio.id": [1, 11, 18, 6]
+        }
+      },
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/IT-Operations_dA796VGvjc8/_suHJSIdS?searchClick=32cdbde7-8bff-4c71-8815-e0f4a91b1032_A796VGvjc8#_luW7jfEC"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__relocation_description": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Pay attention!",
+              "ru": "Внимание!"
+            },
+            "type": "b"
+          },
+          {
+            "text": {
+              "en": "We ask you to create a relocation task if you have already decided which country you will go to.",
+              "ru": "Мы просим создавать задачу по релокации, если ты уже определился, в какую именно страну поедешь."
+            },
+            "type": "span"
+          },
+          {
+            "text": {
+              "en": "If you have general questions about relocation or you need more information, create a separate task in Asana and connect the HR Help bot to it.",
+              "ru": "Если у тебя есть общие вопросы по релокации или тебе нужно больше информации, создай отдельную задачу в Asana и подключи в нее бота HR Help."
+            },
+            "type": "div"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Learn more about Playrix relocation package",
+                  "ru": "Узнать больше про релокационный пакет Playrix"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Relocation-Package_suYM6nbV"
+              },
+              {
+                "text": {
+                  "en": "Relocation Guides by Countries",
+                  "ru": "Ознакомиться с гайдами по релокации"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/C-Relocation-Countries_sukLdFTK"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__relocation_process": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Pay attention!",
+              "ru": "Внимание!"
+            },
+            "type": "b"
+          },
+          {
+            "text": {
+              "en": "We ask you to create a relocation task if you have already decided which country you will go to.",
+              "ru": "Мы просим создавать задачу по релокации, если ты уже определился, в какую именно страну поедешь."
+            },
+            "type": "span"
+          },
+          {
+            "text": {
+              "en": "If you have general questions about relocation or you need more information, create a separate task in Asana and connect the HR Help bot to it.",
+              "ru": "Если у тебя есть общие вопросы по релокации или тебе нужно больше информации, создай отдельную задачу в Asana и подключи в нее бота HR Help."
+            },
+            "type": "div"
+          },
+          {
+            "blocks": [
+              {
+                "text": {
+                  "en": "Process description",
+                  "ru": "Описание процесса"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Relocation-Policy_suoy__zd"
+              },
+              {
+                "text": {
+                  "en": "Learn more about Playrix relocation package",
+                  "ru": "Узнать больше про релокационный пакет Playrix"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/Relocation-Package_suYM6nbV"
+              },
+              {
+                "text": {
+                  "en": "Relocation Guides by Countries",
+                  "ru": "Ознакомиться с гайдами по релокации"
+                },
+                "type": "a",
+                "url": "https://coda.io/d/_dAkoB_RTnXe/C-Relocation-Countries_sukLdFTK"
+              }
+            ],
+            "type": "binding-list"
+          }
+        ],
+        "isAlert": true,
+        "typeAlert": "gradient",
+        "validator": 1
+      }
+    ],
+    "service__repair": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Process description",
+              "ru": "Описание процесса"
+            },
+            "type": "a",
+            "url": "https://coda.io/d/IT-Operations_dA796VGvjc8/_suDk-XEP?searchClick=32cdbde7-8bff-4c71-8815-e0f4a91b1032_A796VGvjc8#_luPhoYPr"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__repository_issue": [
+      {
+        "blocks": [
+          {
+            "text": {
+              "en": "Please describe what does not work and when it started, how often appears. Who affected by this problem.",
+              "ru": "Пожалуйста, опиши, что работает не так, когда это началось, как часто проявляется. На кого влияет данная проблема."
+            },
+            "type": "span"
+          }
+        ],
+        "validator": 1
+      }
+    ],
+    "service__change_bank_details": [
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Без наличия всех перечисленных выше данных в выписке PDF мы не сможем запустить процесс изменения реквизитов",
+              "en": "If any of the above details are missing from the PDF statement, we will not be able to process your request"
+            }
+          }
+        ]
+      }
+    ],
+    "service__working_days": [
+      {
+        "validator": 0,
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "В связи с командной командировкой, скорость обработки заявок командами Global IT может снизиться в период с 3 по 7 ноября. Благодарим вас за понимание.",
+              "en": "Due to a team business trip, the processing speed of requests by the Global IT teams may be slower from November 3 to 7. Thank you for your understanding."
+            }
+          }
+        ]
+      }
+    ],
+    "service__access_request": [
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Перед созданием заявки рекомендуем ознакомиться с ",
+              "en": "Before submitting a request, we recommend reviewing the"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/IT-Operations_dA796VGvjc8/_suy0-Oq5?searchClick=87565b47-1a27-458b-8f16-54e4580de1d3_A796VGvjc8#_luHcRLkL",
+            "text": {
+              "ru": "каталогом сервисов",
+              "en": "service catalog"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "и информацией для запроса доступа в",
+              "en": "and the access request information in the"
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/User-Support_dFxxRowsP-Z/_suGRxE6M?searchClick=6a1e971c-ea09-481c-971e-17c5b2568145_FxxRowsP-Z#_luF4o2Io",
+            "text": {
+              "ru": "Базе знаний",
+              "en": "Knowledge Base"
+            }
+          }
+        ]
+      }
+    ],
+    "service__visit_rf_rb": [
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "b",
+            "text": {
+              "ru": "Внимание!",
+              "en": "Attention!"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Если ты планируешь находиться в отпуске в период пребывания в РФ или РБ, обязательно подай заявку на ",
+              "en": "If you plan to be on vacation during your stay in Russia or Belarus you must submit a "
+            }
+          },
+          {
+            "type": "a",
+            "url": "/absences/my",
+            "text": {
+              "ru": "отсутствие.",
+              "en": "leave request."
+            }
+          },
+          { "type": "br" },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Если у тебя есть вопросы по доступности сервисов или требуется дополнительная информация, обратись в Сервисную службу.",
+              "en": "If you plan to work during this period fill out this request. If you have any questions about service availability or need additional information, please, contact the Service Desk."
+            }
+          },
+          { "type": "br" },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/IT-Operations_dA796VGvjc8/Playrix_supTpP6P?utm_source=slack#_luRUpYnt",
+            "text": {
+              "ru": "Инструкция для работы сотрудников Playrix из РФ/РБ",
+              "en": "Instructions for Playrix employees working from Russia/Belarus"
+            }
+          }
+        ]
+      }
+    ],
+    "service__hr_request": [
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Возможно, на твой вопрос уже есть решение",
+              "en": "There might already be a solution for your request"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Рекомендуем заглянуть в ",
+              "en": "We recommend checking "
+            }
+          },
+          {
+            "type": "a",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/General-knowledge-base_sua9FU0K",
+            "text": {
+              "ru": "Базу знаний",
+              "en": "the Knowledge Base"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": " — там можно найти подробную информацию и инструкции по многим темам",
+              "en": " — it contains detailed information and instructions on many topics"
+            }
+          }
+        ]
+      }
+    ],
+    "service__hr_request_attachment": [
+      {
+        "validator": 1,
+        "title": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Просьба не прикреплять документы к задачам в Asana",
+              "en": "Please do not attach documents to Asana tasks"
+            }
+          }
+        ],
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Для обмена документами мы используем рабочую почту и/или Google Диск",
+              "en": "We use corporate email and/or Google Drive to share documents"
+            }
+          }
+        ]
+      }
+    ],
+    "service__vacation_period_certificate": [
+      {
+        "validator": 1,
+        "blocks": [
+          {
+            "type": "span",
+            "text": {
+              "ru": "Если ты еще не оформил отпуск, то сначала перейди на",
+              "en": "If you haven’t submitted a vacation request yet, please go to"
+            }
+          },
+          {
+            "type": "a",
+            "url": "/absences/my#create",
+            "text": {
+              "ru": "форму подачи заявления",
+              "en": "the vacation request form"
+            }
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "и выбери опцию \"Оформить отпуск\".",
+              "en": "and select the \"Create a vacation request\" option."
+            }
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "br"
+          },
+          {
+            "type": "span",
+            "text": {
+              "ru": "Если тебе нужна справка с нестандартным периодом отпуска, пожалуйста, заполни",
+              "en": "If you need a certificate with a custom vacation period, please fill out"
+            }
+          },
+          {
+            "type": "a",
+            "url": "/customer_service/non_standard_certificate",
+            "text": {
+              "ru": "форму нестандартной справки.",
+              "en": "the non-standard certificate form."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

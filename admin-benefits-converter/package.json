@@ -1,0 +1,15 @@
+{
+  "name": "admin-benefits-converter",
+  "version": "1.0.0",
+  "description": "Conversion and publishing data from json to strapi v5 format via API",
+  "main": "convert.js",
+  "type": "module",
+  "scripts": {
+    "convert": "node convert.js",
+    "publish": "node publish.js",
+    "delete": "node delete.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

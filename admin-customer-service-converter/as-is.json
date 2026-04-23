@@ -1,0 +1,159 @@
+{
+  "equipment": {
+    "name": {
+      "ru": "Оборудование",
+      "en": "Equipment"
+    },
+    "description": {
+      "ru": "Получение нового, замена и модернизация существующего оборудования и периферии. Решение любых проблем с оборудованием и его ремонт",
+      "en": "If you need to get new work equipment or replace out-of-date equipment. Also if you have any problems with your equipment or if it needs repair."
+    },
+    "items": [
+      {
+        "id": "get_new_hardware",
+        "taskId": "purchase_request",
+        "showFeat": "service__purchase_request",
+        "name": {
+          "ru": "Получить новое оборудование",
+          "en": "Get new equipment"
+        },
+        "description": {
+          "ru": "Получить новое оборудование и периферию",
+          "en": "Get new equipment and peripherals"
+        },
+        "examples": {
+          "ru": [
+            "Получить ноутбук для перехода на удаленную работу",
+            "Запросить второй монитор",
+            "Нужен переходник c HDMI на USB-C"
+          ],
+          "en": [
+            "Get a laptop to start working remotely",
+            "Request a second monitor",
+            "I need an HDMI to USB-C adapter"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "get_new_hardware"
+        }
+      },
+      {
+        "id": "get_new_hardware",
+        "taskId": "purchase_request",
+        "showFeat": "service__purchase_request_freshservice",
+        "name": {
+          "ru": "Получить новое оборудование",
+          "en": "Get new equipment"
+        },
+        "description": {
+          "ru": "Получить новое оборудование и периферию",
+          "en": "Get new equipment and peripherals"
+        },
+        "examples": {
+          "ru": [
+            "Получить ноутбук для перехода на удаленную работу",
+            "Запросить второй монитор",
+            "Нужен переходник c HDMI на USB-C"
+          ],
+          "en": [
+            "Get a laptop to start working remotely",
+            "Request a second monitor",
+            "I need an HDMI to USB-C adapter"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/220"
+        }
+      },
+      {
+        "id": "replace_or_upgrade_hardware",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request",
+        "name": {
+          "ru": "Заменить или модернизировать текущее оборудование",
+          "en": "Replace or upgrade current equipment"
+        },
+        "description": {
+          "ru": "Заменить полностью или улучшить устаревшее оборудование",
+          "en": "Replace or upgrade out-of-date equipment"
+        },
+        "examples": {
+          "ru": [
+            "Добавить оперативной памяти",
+            "Заменить кабель HDMI",
+            "Заменить аккумулятор ноутбука"
+          ],
+          "en": [
+            "Add more RAM",
+            "Replace an HDMI cable",
+            "Replace a laptop battery"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "replace_or_upgrade_hardware"
+        }
+      },
+      {
+        "id": "replace_or_upgrade_hardware",
+        "taskId": "it_support_request",
+        "showFeat": "service__it_support_request_freshservice",
+        "name": {
+          "ru": "Заменить или модернизировать текущее оборудование",
+          "en": "Replace or upgrade current equipment"
+        },
+        "description": {
+          "ru": "Заменить полностью или улучшить устаревшее оборудование",
+          "en": "Replace or upgrade out-of-date equipment"
+        },
+        "examples": {
+          "ru": [
+            "Добавить оперативной памяти",
+            "Заменить кабель HDMI",
+            "Заменить аккумулятор ноутбука"
+          ],
+          "en": [
+            "Add more RAM",
+            "Replace an HDMI cable",
+            "Replace a laptop battery"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://help.playrix.com/support/catalog/items/222"
+        }
+      },
+      {
+        "id": "equipment_repair",
+        "taskId": "repair",
+        "showFeat": "service__repair",
+        "name": {
+          "ru": "Отремонтировать оборудование",
+          "en": "Equipment repairt"
+        },
+        "description": {
+          "ru": "Передать оборудование в ремонт в случае неисправности. Ремонт может быть сделан как силами специалистов компании, так и передан в сервисный центр твоего города",
+          "en": "If you need to repair your equipment. It can be done by company specialists or by your local repair centers."
+        },
+        "examples": {
+          "ru": [
+            "Заменить клавишу ноутбука",
+            "Заменить разбитое стекло смартфона",
+            "Почистить ноутбук"
+          ],
+          "en": [
+            "Replace a laptop key",
+            "Replace a broken screen of a smartphone",
+            "Clean a laptop"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "param": "equipment_repair"
+        }
+      }
+    ]
+  }
+}

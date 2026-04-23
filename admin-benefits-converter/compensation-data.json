@@ -1,0 +1,1009 @@
+{
+  "healthcare": {
+    "name": {
+      "ru": "Забота о здоровье",
+      "en": "Healthcare"
+    },
+    "description": {
+      "ru": "Мы ценим наших сотрудников и понимаем, как важно поддерживать физическое и психическое здоровье. Поэтому мы предлагаем расширенное медицинское страхование для взрослых и детей, а также консультации с психологом.",
+      "en": "We value our employees and understand the importance of maintaining physical and mental health. That’s why we offer extended medical insurance for adults and children, as well as consultations with a psychologist."
+    },
+    "items": [
+      {
+        "name": {
+          "ru": "ДМС для сотрудников",
+          "en": "VHI for employees"
+        },
+        "description": {
+          "ru": "Подача заявки возможна для себя, партнера и детей",
+          "en": "Request submission is possible for yourself, a partner, and children"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=99357218"
+          },
+          {
+            "type": "compensation",
+            "param": "med_insurance",
+            "feat": "compensation__med_insurance"
+          }
+        ]
+      },
+      {
+        "feat": "compensation__travel_insurance",
+        "name": {
+          "ru": "Медицинское обслуживание релокантов (полис ВЗР)",
+          "en": "Medical service for relocated employees (travel insurance policy)"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=212539543"
+          },
+          {
+            "type": "compensation",
+            "param": "travel_insurance",
+            "feat": "compensation__travel_insurance"
+          }
+        ]
+      },
+      {
+        "feat": "compensation__travel_insurance_spouse",
+        "name": {
+          "ru": "Медицинское обслуживание супругов / партнеров релокантов (полис ВЗР)",
+          "en": "Medical service for spouses/partners of relocated employees (travel insurance policy)"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=212539543"
+          },
+          {
+            "type": "compensation",
+            "param": "travel_insurance_spouse",
+            "feat": "compensation__travel_insurance_spouse"
+          }
+        ]
+      },
+      {
+        "feat": "compensation__travel_insurance_child",
+        "name": {
+          "ru": "Медицинское обслуживание детей релокантов (полис ВЗР)",
+          "en": "Medical service for children of relocated employees (travel insurance policy)"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=212539543"
+          },
+          {
+            "type": "compensation",
+            "param": "travel_insurance_child",
+            "feat": "compensation__travel_insurance_child"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация сессий индивидуального психолога",
+          "en": "Compensation for individual psychologist sessions"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Psychological-Consultations_suRwEgIK#_luIllT9G"
+          },
+          {
+            "type": "compensation",
+            "param": "individual_psychologist",
+            "strongFeat": "compensation__individual_psychologist"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Консультации психолога",
+          "en": "Psychological consultations"
+        },
+        "extension": {
+          "type": "promoCode",
+          "params": {
+            "items": [
+              {
+                "name": "Ясно",
+                "url": "https://yasno.live/",
+                "value": "CORP-PLRX-UA7HK9B8",
+                "feat": "compensation__psychologist_except_fluyt"
+              },
+              {
+                "name": "Pleso",
+                "url": "https://pleso.me/",
+                "value": "Playrix",
+                "feat": "compensation__psychologist_except_fluyt"
+              },
+              {
+                "name": "Ясно",
+                "url": "https://yasno.live/",
+                "value": "CORP-FLUYT-STUD991",
+                "feat": "compensation__psychologist_fluyt"
+              }
+            ]
+          }
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=149411613",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226335934",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226335941",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339011",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "compensation",
+            "param": "psychologist",
+            "strongFeat": "compensation__psychologist"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=pjiHFl1ZZRvOQQ60Kh7DTQ&d=656176460444",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=pjiHFl1ZZRvOQQ60Kh7DTQ&d=656176460444",
+            "strongFeat": "compensation__fluyt_redbark"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Телемедицина",
+          "en": "Telemedicine"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Telemedicine_suPMJoUR#_luaSWLnw"
+          },
+          {
+            "type": "compensation",
+            "url": "/customer_service/bonus_question?gid=1209215030406595",
+            "strongFeat": "compensation__telemedicine",
+            "name": {
+              "ru": "Подключить",
+              "en": "Enroll"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "concern-for-well-being": {
+    "name": {
+      "ru": "Забота о благополучии",
+      "en": "Concern for well-being"
+    },
+    "description": {
+      "ru": "Мы понимаем, как важно сохранять баланс между работой и личной жизнью, поэтому предлагаем нашим сотрудникам широкий спектр бенефитов, чтобы поддержать их в различных жизненных ситуациях.\n\nВы можете воспользоваться оплачиваемым отпуском или больничным без потерь в зарплате, а для особых случаев у нас предусмотрена материальная поддержка, дополнительные дни отпуска и другие опции. ",
+      "en": "We understand how important it is to maintain a healthy work-life balance, which is why we offer our employees a wide range of benefits to support them in various life situations.\n\nYou can take paid time off or sick leave without any loss of salary, and for special circumstances we provide financial assistance, additional vacation days, and other options."
+    },
+    "items": [
+      {
+        "name": {
+          "ru": "Беспроцентный кредит",
+          "en": "Interest-free loan"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=36473529"
+          },
+          {
+            "type": "service",
+            "param": "loan",
+            "feat": "service__loan"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "100% зарплата во время отпуска",
+          "en": "100% salary during vacation"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=149411606",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336163",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336163",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339025",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "vacation",
+            "param": "vacation",
+            "strongFeat": "absence__hit_games_invert"
+          },
+          {
+            "type": "vacation",
+            "param": "vacation_with_salary_payment_ua",
+            "strongFeat": "absence__hit_games"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "100% зарплата во время больничного",
+          "en": "100% salary during sick leave"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=99357477",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336167",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336167",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339029",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "absence",
+            "param": "sick_leave"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Материальная помощь в случае смерти близкого родственника",
+          "en": "Financial assistance in case of the death of a close relative"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=99357501"
+          },
+          {
+            "type": "service",
+            "param": "financial_aid",
+            "feat": "service__financial_aid"
+          }
+        ]
+      },
+      {
+        "feat": "compensation__extra_vacation_family",
+        "name": {
+          "ru": "Доп. отпуск для семейных целей",
+          "en": "Extra Days-Off for Family Purposes"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=164627129",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336187",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336187",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339033",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "vacation",
+            "param": "vacation",
+            "feat": "absence__vacation"
+          },
+          {
+            "type": "vacation",
+            "param": "vacation_with_salary_payment_ua",
+            "feat": "absence__extra_vacation_with_salary_payment_ua"
+          }
+        ]
+      }
+    ]
+  },
+  "training-and-development": {
+    "name": {
+      "ru": "Обучение и развитие",
+      "en": "Training and development"
+    },
+    "description": {
+      "ru": "Мы поддерживаем стремление наших сотрудников к развитию и предлагаем разнообразные возможности для обучения. Вы можете воспользоваться софинансированием образовательных программ и участия в конференциях, изучением английского и локальных языков, а также ресурсами для всестороннего личного развития.",
+      "en": "We support our employees' desire for growth and offer a variety of learning opportunities. You can take advantage of co-financing for educational programs and conference participation, learning English and local languages as well as resources for comprehensive personal development."
+    },
+    "items": [
+      {
+        "name": {
+          "ru": "Софинансирование обучения и участия в конференциях",
+          "en": "Co-financing of training and participation in conferences"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=149411604"
+          },
+          {
+            "type": "compensation",
+            "param": "course_request",
+            "feat": "compensation__course_request"
+          }
+        ]
+      },
+      {
+        "feat": "compensation__learning_platforms",
+        "name": {
+          "ru": "Личное развитие",
+          "en": "Personal growth"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Subscriptions-to-learning-platforms-and-electronic-libraries_suQYK#_luAqr",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_boolat_bay_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_suPC0#_lugnq",
+            "strongFeat": "compensation__4friends"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suOZ2#_luHYZ",
+            "strongFeat": "compensation__homegames"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_summw#_luFmp",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Boolat-Play-Home_dFrg9k_E9c0/_suypc#_luMga",
+            "strongFeat": "compensation__boolat"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suKgNWij#_lu4YKwcV",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suKgNWij#_lu4YKwcV",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suKgNWij#_lu4YKwcV",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_susu2JoA#_luQ51UDf",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_susu2JoA#_luQ51UDf",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=TFxsKMuBE6_QOUbU27jBcQ&d=656176460444",
+            "strongFeat": "compensation__boolat"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
+            "strongFeat": "compensation__redbark_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
+            "strongFeat": "compensation__redbark_other_non_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
+            "strongFeat": "compensation__fluyt_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
+            "strongFeat": "compensation__fluyt_other_non_gph"
+          },
+          {
+            "type": "compensation",
+            "param": "learning_platforms",
+            "strongFeat": "compensation__zagrava_boolat_fluyt_redbark_invert"
+          },
+          {
+            "type": "compensation",
+            "param": "learning_platforms",
+            "strongFeat": "compensation__redbark_fluyt_redbark"
+          },
+          {
+            "type": "compensation",
+            "param": "learning_platforms",
+            "strongFeat": "compensation__zagrava_boolat_invert"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Изучение локальных языков",
+          "en": "Learning local language"
+        },
+        "description": {
+          "ru": "Подача заявки возможна для себя и релоцировавшихся членов семьи",
+          "en": "The request can be submitted for yourself and relocated family members"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Reimbursement-of-expenses-for-local-language-learning-classes_suj-MgRd#_luhzSZjW"
+          },
+          {
+            "type": "compensation",
+            "param": "local_lang_lessons",
+            "feat": "compensation__local_lang_lessons"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=LhB-rEfQ5tDjDKyG12oKiQ&d=656176460444",
+            "strongFeat": "compensation__playrix_rs",
+            "name": {
+              "ru": "Подключение \nк корпоративному контракту",
+              "en": "Connection \nto a corporate contract"
+            }
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Изучение английского языка",
+          "en": "English study"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=146358023"
+          }
+        ]
+      }
+    ]
+  },
+  "catering-in-offices": {
+    "name": {
+      "ru": "Питание в офисах",
+      "en": "Catering in offices"
+    },
+    "description": {
+      "ru": "В современном стремительном графике очень сложно придерживаться полноценного и здорового питания. Но мы позаботились и об этом: в офисах компании для сотрудников доступно трехразовое питание, а также фрукты, снеки, горячие и холодные напитки.",
+      "en": "In today's fast-paced schedule, it is very difficult to adhere to a healthy nutritious diet. But we took care of this as well: three meals a day are available for employees in the company's offices, as well as fruits, snacks, and hot and cold drinks."
+    },
+    "buttons": [
+      {
+        "type": "link",
+        "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=149412343"
+      }
+    ]
+  },
+  "remote-workplace": {
+    "name": {
+      "ru": "Удаленное рабочее место",
+      "en": "Remote workplace"
+    },
+    "description": {
+      "ru": "Мы стремимся создать комфортные условия труда для всех наших сотрудников, независимо от города их проживания и места работы. Для этого мы компенсируем расходы на коворкинг или покупку мебели для домашнего офиса.",
+      "en": "We strive to create comfortable working conditions for all our employees, regardless of their city of residence or place of work. To support this, we offer reimbursement for coworking expenses or the purchase of home office furniture."
+    },
+    "items": [
+      {
+        "name": {
+          "ru": "Компенсация расходов на коворкинг для удаленных сотрудников",
+          "en": "Compensation of coworking costs for remote employees"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=163846568",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337104",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337104",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339063",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "compensation",
+            "param": "coworking",
+            "feat": "compensation__coworking"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация расходов на рабочее место для удаленных сотрудников",
+          "en": "Compensation of workplace expenses for remote employees"
+        },
+        "description": {
+          "ru": "Компенсацией можно воспользоваться раз в три года, при условии нахождения в одной локации",
+          "en": "The reimbursement can be used once every three years, provided the employee stays in the same location"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=208958846",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337108",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337108",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339066",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "compensation",
+            "param": "furniture",
+            "feat": "compensation__furniture"
+          }
+        ]
+      }
+    ],
+    "info": "info/compensation__workplace"
+  },
+  "equipment-for-work": {
+    "name": {
+      "ru": "Техника для работы",
+      "en": "Equipment for work"
+    },
+    "description": {
+      "ru": "Мы обеспечиваем сотрудников всем необходимым: современной техникой,  периферией и аксессуарами, доступом к сервисам и ПО.",
+      "en": "We provide employees with everything they need: modern equipment, peripherals and accessories, access to services and software."
+    },
+    "items": [
+      {
+        "name": {
+          "ru": "Предоставление техники и ПО",
+          "en": "Equipment and software for work"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=164628097"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация расходов на ИТ оборудование",
+          "en": "Compensation of expenses for IT equipment"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=164628084"
+          }
+        ]
+      }
+    ]
+  },
+  "relocation": {
+    "name": {
+      "ru": "Релокация",
+      "en": "Relocation"
+    },
+    "description": {
+      "ru": "Мы понимаем, что переезд в другой город или страну может быть сложным и затратным процессом. Чтобы поддержать вас на этом этапе, мы предлагаем компенсацию на визовые расходы, транспорт, временное проживание, а также покрываем затраты \u2028на транспортировку вашего багажа и домашних животных. Мы хотим, чтобы вы могли сосредоточиться на новых возможностях, не беспокоясь о логистике и финансах.",
+      "en": "We understand that moving to a new city or country can be a challenging and costly process. To support you during this stage, we offer reimbursement for visa expenses, transportation, temporary accommodation, as well as covering the costs of transporting your luggage and pets. We want you to be able to focus on new opportunities without worrying about logistics and finances."
+    },
+    "items": [
+      {
+        "feat": "compensation__transport",
+        "name": {
+          "ru": "Компенсация транспорта",
+          "en": "Transport reimbursement"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lusYDFyI"
+          },
+          {
+            "type": "compensation",
+            "param": "transport",
+            "feat": "compensation__transport"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация транспортировки багажа",
+          "en": "Transportation of baggage reimbursement"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_luUlGCCa"
+          },
+          {
+            "type": "compensation",
+            "param": "baggage",
+            "feat": "compensation__baggage"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация транспортировки домашних животных",
+          "en": "Transportation of pets reimbursement"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lu02gTeA"
+          },
+          {
+            "type": "compensation",
+            "param": "pet_transportation",
+            "feat": "compensation__pet_transportation"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация отеля при длительной пересадке",
+          "en": "Hotel reimbursement for long layover"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lu6fimvx"
+          },
+          {
+            "type": "compensation",
+            "param": "hotel_transfer",
+            "feat": "compensation__hotel_transfer"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация временного проживания",
+          "en": "Temporary accommodation reimbursement"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lu6fimvx"
+          },
+          {
+            "type": "compensation",
+            "param": "temporary_accommodation",
+            "feat": "compensation__temporary_accommodation"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация визовых расходов",
+          "en": "Visa expenses reimbursement"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lu0HY2bJ"
+          },
+          {
+            "type": "compensation",
+            "param": "visa_expenses",
+            "feat": "compensation__visa_expenses"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация продления ВНЖ",
+          "en": "Residence permit renewal reimbursement"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/_suDZfP_d#_luVlwyDe"
+          },
+          {
+            "type": "compensation",
+            "param": "residence_permit_extension",
+            "feat": "compensation__residence_permit_extension"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация получения ПМЖ",
+          "en": "Permanent residence obtaining reimbursement"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lumw61i7"
+          },
+          {
+            "type": "compensation",
+            "param": "permanent_residence_obtaining",
+            "feat": "compensation__permanent_residence_obtaining"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация получения гражданства",
+          "en": "Citizenship obtaining reimbursement"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lumw61i7"
+          },
+          {
+            "type": "compensation",
+            "param": "citizenship_obtaining",
+            "feat": "compensation__citizenship_obtaining"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Компенсация дополнительных расходов",
+          "en": "Additional expenses reimbursement"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_luc3H848"
+          },
+          {
+            "type": "compensation",
+            "param": "additional_expenses",
+            "feat": "compensation__additional_expenses"
+          }
+        ]
+      }
+    ]
+  },
+  "sports-and-fitness": {
+    "name": {
+      "ru": "Спорт и фитнес",
+      "en": "Sports and fitness"
+    },
+    "description": {
+      "ru": "Мы поддерживаем стремление сотрудников вести здоровый образ жизни и компенсируем покупку любых спортивных абонементов, а также проводим ежегодные спортивные мероприятия.",
+      "en": "We support the desire of employees to lead a healthy lifestyle and compensate for the purchase of any sports memberships, as well as hold annual sports events."
+    },
+    "buttons": [
+      {
+        "type": "link",
+        "url": "https://coda.io/d/_dvhi2lYsLIq/_su2DT#_lu2Js",
+        "strongFeat": "compensation__zagrava"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/Boolat-Play-Home_dFrg9k_E9c0/_suLPS#_luEgd",
+        "strongFeat": "compensation__boolat"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_suN1J#_luwbQ",
+        "strongFeat": "compensation__4friends"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suUpO#_luFHM",
+        "strongFeat": "compensation__homegames"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRsi#_luLbV",
+        "strongFeat": "compensation__redbark_redbark"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRsi#_luLbV",
+        "strongFeat": "compensation__bay_redbark"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suEieHw3#_luDnONkI",
+        "strongFeat": "compensation__redbark_other"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRsi#_luLbV",
+        "strongFeat": "compensation__fluyt_redbark"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suEieHw3#_luDnONkI",
+        "strongFeat": "compensation__fluyt_other"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/_dAkoB_RTnXe/Sports-Fitness_suEcNBgO#_lurvEHdN",
+        "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_boolat_bay_invert"
+      },
+      {
+        "type": "compensation",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdnkOy05IwzAJ4IXpRqD5bvdgJI_h5T-Y51tonWkN6nBmHE_w/viewform",
+        "strongFeat": "compensation__redbark_redbark"
+      },
+      {
+        "type": "compensation",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScoFuGsKVYF7xnMfORitoIQdgBLsdgjzCMAmEnQ94WfUtzx7g/viewform",
+        "strongFeat": "compensation__bay_redbark"
+      },
+      {
+        "type": "compensation",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdnkOy05IwzAJ4IXpRqD5bvdgJI_h5T-Y51tonWkN6nBmHE_w/viewform",
+        "strongFeat": "compensation__redbark_other"
+      },
+      {
+        "type": "compensation",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSd_PiPXI7dBdwjbIRPX76vD4slg1E-7fHI2grVNVjlGu2PATg/viewform",
+        "strongFeat": "compensation__fluyt_redbark"
+      },
+      {
+        "type": "compensation",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScOacf14KNYfQFzZAOGO_2m9cQISTAMNtoRmoWaTpE_-bQ-wQ/viewform?usp=preview",
+        "strongFeat": "compensation__fluyt_other_gph"
+      },
+      {
+        "type": "compensation",
+        "url": "https://form.asana.com/?k=QqqqsxNRJ1XmG3QWv-rwfw&d=656176460444",
+        "strongFeat": "compensation__zagrava"
+      },
+      {
+        "type": "compensation",
+        "url": "https://form.asana.com/?k=UmKGkRvRw3Lnu03qemHrqw&d=656176460444",
+        "strongFeat": "compensation__boolat"
+      },
+      {
+        "type": "compensation",
+        "param": "sport",
+        "strongFeat": "compensation__redbark_fluyt_zagrava_boolat_invert"
+      },
+      {
+        "type": "compensation",
+        "url": "https://form.asana.com/?k=xtmg-31zU8_qJ9GL2vngaQ&d=656176460444",
+        "strongFeat": "compensation__playrix_rs",
+        "name": {
+          "ru": "Подключение к корпоративному контракту",
+          "en": "Connection to a corporate contract"
+        }
+      }
+    ]
+  },
+  "discounts-from-partners": {
+    "name": {
+      "ru": "Скидки от партнеров",
+      "en": "Discounts from partners"
+    },
+    "description": {
+      "ru": "Для сотрудников компании, их родственников и друзей мы подготовили специальные скидки и предложения от наших партнеров. Полный список доступен по ссылке.",
+      "en": "We have prepared special discounts and offers from our partners for the company's employees, their relatives, and friends. The full list is available at the link."
+    },
+    "buttons": [
+      {
+        "type": "link",
+        "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=163846996"
+      }
+    ]
+  },
+  "default": {
+    "name": {
+      "ru": "",
+      "en": ""
+    },
+    "description": {
+      "ru": "",
+      "en": ""
+    },
+    "items": [
+      {
+        "name": {
+          "ru": "",
+          "en": ""
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": ""
+          },
+          {
+            "type": "compensation|service|absence",
+            "param": ""
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "type": "link",
+        "url": ""
+      },
+      {
+        "type": "compensation|service|absence",
+        "param": "",
+        "feat": ""
+      }
+    ]
+  }
+}

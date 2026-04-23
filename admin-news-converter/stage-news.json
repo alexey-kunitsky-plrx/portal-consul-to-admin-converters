@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "channel": {
+      "name": "company-updates",
+      "color": "#DB72E4"
+    },
+    "link": "https://playrix.slack.com/files/T029C19PJ/F044YALD0ET?origin_team=T029C19PJ",
+    "photos": "https://drive.google.com/drive/folders/1xlPxrSZcLisgvTvrX3FXC6DZ-OtGGqoi",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/default-orange.jpg",
+    "date": "2022-10-06T09:19:00.000Z",
+    "announcement": {
+      "ru": "Для сохранения стабильности в оперировании группы Playrix, было решено прекратить всю операционную деятельность в этих странах.",
+      "en": "In order for Playrix to maintain its operations, it’s been decided to shut down all operations in those countries."
+    },
+    "author": {
+      "ru": "Дима Бухман",
+      "en": "Dima Bukhman"
+    },
+    "title": {
+      "ru": "Playrix выходит из России и Беларуси",
+      "en": "Playrix Is Leaving Russia and Belarus"
+    },
+    "text": {
+      "ru": "Текст с переносом строки\n\n и [ссылкой](https://app.asana.com/0/1202853777266737/list). А еще **выделение** **жирным**\n - и\n - маркированный\n - список. \n\nА еще текст после списка",
+      "en": "Since the beginning of the war in Ukraine, the company has undergone many changes. We no longer conduct commercial activities in Russia and Belarus. We also opened offices in other countries and have started relocating employees. Unfortunately, the situation has escalated once again, and in order for Playrix to maintain its operations, we’ve decided to do the following: \n - Close all Playrix offices in Russia and Belarus \n - Shut down the operations of our studios in Russia and Belarus \n - Relocate employees in Russia and Belarus to other countries \n \n \n More information will be provided through the relevant channels today by the heads of our studios. We kindly request that all questions you may have be directed to these channels and not on this post. \n \n We’re entering into a challenging period, but we’re confident that our team will be able to come out on top. And we, on our part, will do everything possible to make that happen. \n \n Stay safe. \n \n Igor and Dmitri"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 2,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1671632834899339",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/default.jpg",
+    "date": "2022-12-21T09:20:00.000Z",
+    "announcement": {
+      "ru": "Всем привет! В следующем году сетка бенефитов Playrix остается практически без изменений. Мы также добавили новый бонус. Подробности в [статье](https://knowledge.playrix.com/pages/viewpage.action?pageId=217465558).",
+      "en": "Hi all! Next year’s Playrix benefit package will remain practically the same. But we have added a new bonus! Details in the in the [article](https://knowledge.playrix.com/pages/viewpage.action?pageId=217465558)."
+    },
+    "author": {
+      "ru": "Ярослава Яровая",
+      "en": "Ярослава Яровая"
+    },
+    "title": {
+      "ru": "Бонусы компании в 2023 году",
+      "en": "Benefits Package 2023"
+    },
+    "text": {
+      "ru": "Всем привет! В следующем году сетка бенефитов Playrix остается практически без изменений. Мы также добавили новый бонус \n \n Что изменилось? \n - Компенсация фитнеса. Мы поднимаем лимиты с 5 000 руб до 70 $/мес для СНГ и с 60 EUR до 90$/мес для остальных стран. \n - Библиотеки. Мы продлеваем сотрудничество с Альпина на весь следующий год. МИФ будет доступен только до 26 марта, после чего отключен. \n - NEW. Мы вводим компенсацию изучения локального языка для сотрудников, проживающих в Сербии, Черногории, Кипре, Ирландии и Португалии. Подробнее о бонусе можно прочитать в [статье](https://knowledge.playrix.com/pages/viewpage.action?pageId=217465558). \n \n Для сотрудников в России и Беларуси все бонусы будут действовать до того момента, пока компания не прекратит свою деятельность в этих странах.",
+      "en": "Hi all! Next year’s Playrix benefit package will remain practically the same. But we have added a new bonus! \n \n What will change? \n - Fitness Reimbursements. We are raising the limits from 5,000 rubles to $70 per month for the CIS and from €60 to $90 per month for other countries. \n - Digital Libraries. We are extending cooperation with Alpina for the whole of next year. MYTH will only be available until March 26, after which it will be disabled. \n - NEW Bonus. We will begin to reimburse local language learning classes for employees residing in Serbia, Montenegro, Cyprus, Ireland, and Portugal. You can read more about the bonus in the [article](https://knowledge.playrix.com/pages/viewpage.action?pageId=217465558) \n \n All bonuses will be available to employees in Russia and Belarus until the company completely ceases operations in these countries."
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1]
+    }
+  },
+  {
+    "id": 3,
+    "channel": {
+      "name": "company-updates",
+      "color": "#DB72E4"
+    },
+    "link": "https://playrix.slack.com/archives/C04764QN2/p1671711045809529",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/rix_charity.png",
+    "date": "2022-12-22T00:00:00.000Z",
+    "announcement": {
+      "ru": "В этом году компания делает пожертвование в UNICEF Ireland на проект Donations Instead of Gifts.",
+      "en": "This year, the company makes a contribution to the project by UNICEF Ireland — Donations Instead of Gifts."
+    },
+    "author": {
+      "ru": "Ксения Шорохова",
+      "en": "Ksenia Shorokhova"
+    },
+    "title": {
+      "ru": "Акция в честь праздников",
+      "en": "Playrix’s Holiday Contribution"
+    },
+    "text": {
+      "ru": "В этом году Playrix не отмечает праздники на уровне компании. Мы планировали порадовать сотрудников новогодними подарками, но из-за сложностей в логистике и массовой релокации организовать это оказалось невозможно. Мы надеемся на ваше понимание и уже думаем, как удивить вас в следующем году. У нас есть интересные идеи, и скоро мы ими поделимся🎁 \n \n Оставлять праздники совсем без внимания показалось неправильным. В этом году многие коллеги и студии включились в благотворительные инициативы, чтобы поддержать тех, кому помощь сейчас нужнее всего. Мы решили сделать то же самое и выбрали проект UNICEF Ireland — Donations Instead of Gifts, цель которого помочь детям в Украине пережить зимние холода. Компания выделила 100 000 EUR, и эти деньги пойдут на закупку оборудования и одежды, которые будут доставлены волонтерами UNICEF в местные школы и больницы. \n \n На этой доброй ноте хотим пожелать вам хороших праздников и поблагодарить за работу и настрой в этот непростой период. Впереди у нас много планов и классных идей. Увидимся в 2023! ✨",
+      "en": "This year Playrix doesn’t celebrate holidays. We were planning gifts for all of our Playrixers, but it became impossible to organize due to difficulties with logistics and mass relocations. We hope for your understanding and are already planning for next year. We have some exciting ideas, which we’ll share with you soon 🎁 \n \n At the same time, it seemed not right to ignore the holidays. This year, many of our colleagues and studios joined forces with different charitable organizations to support those in need. We’ve decided to do the same and make a donation to UNICEF Ireland and their ‘Donations instead of Gifts’ initiative. The project aims to help children in Ukraine survive the winter cold. We’ve donated €100,000 to the cause. This money will be used to purchase equipment and clothing that UNICEF volunteers will deliver to local schools and hospitals. \n \n On that kind note, we’d like to wish you happy holidays and thank you for your work and resilience during the challenging times. We have many plans and great ideas for next year. See you in 2023! ✨"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 5,
+    "channel": {
+      "name": "project_news",
+      "color": "#1E9E1A"
+    },
+    "link": "https://playrix.slack.com/archives/CP0H0K6AF/p1669890285811379",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Google+Play's+Best+of+2022.png",
+    "date": "2022-12-01T00:00:00.000Z",
+    "announcement": {
+      "ru": "Лучшие мобильные игры и приложения в Google Play Store по итогам 2022 года.",
+      "en": "The best mobile games and apps in the Google Play Store in 2022."
+    },
+    "author": {
+      "ru": "Дарья Зеленова",
+      "en": "Daria Zelenova"
+    },
+    "title": {
+      "ru": "Google Play's Best of 2022",
+      "en": "Google Play's Best of 2022"
+    },
+    "text": {
+      "ru": "Вчера Google подвели итоги 2022 года и назвали лучшие мобильные игры и приложения в Google Play Store. \n \n В списке Honorable Mention в отдельных регионах (Европа, Австралия, Северная Африка и Ближний Восток) оказалась и наша игра Homescapes! Для нас большая честь оказаться в хорошей компании других достойных продуктов. Приятно осознавать, что наши усилия были оценены. \n \n Спасибо Google Play за номинацию, а всей нашей большой и дружной команде — море любви и благодарности!",
+      "en": "Yesterday, Google announced the winners of Google Play's Best of 2022, including the best mobile games and apps in the Store. \n \n We're very excited to share great news with you—Homescapes made it to the Honorable Mention list in certain markets (Europe, Australia, North Africa and the Middle East)! It's an honor for us to be in the company of other amazing products. This kind of acknowledgment of our hard work is priceless. \n \n We'd like to thank Google Play for the nomination and express our love and appreciation to our big and friendly team!"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 6,
+    "channel": {
+      "name": "project_news",
+      "color": "#1E9E1A"
+    },
+    "link": "https://playrix.slack.com/archives/CP0H0K6AF/p1668518935659589",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7+Fishdom+Solitaire.png",
+    "date": "2022-11-15T00:00:00.000Z",
+    "announcement": {
+      "ru": "Вчера Fishdom Solitaire увидел свет, и у всеми любимых очаровательных рыбок начались новые приключения.",
+      "en": "Fishdom Solitaire was released to the world yesterday. Everyone's favorite adorable fish are on a new adventure."
+    },
+    "author": {
+      "ru": "Дмитрий Магас",
+      "en": "Dmitry Magas"
+    },
+    "title": {
+      "ru": "Релиз Fishdom Solitaire",
+      "en": "Fishdom Solitaire Is Ready to Play"
+    },
+    "text": {
+      "ru": "Вчера Fishdom Solitaire увидел свет, и у всеми любимых очаровательных рыбок начались новые приключения. В этот раз они приглашают игроков по всему миру окунуться в подводный мир и сыграть в увлекательные уровни пасьянса! \n \n FD Solitaire — это новый проект Playrix, в котором можно встретить знакомую многим мету Fishdom, но вместо уровней match-3 игроков ожидают карточные пасьянсы. Это первая вышедшая в мировой релиз solitaire-игра нашей компании, и мы верим в нее, потому что новая для нас механика успешна в индустрии, а мир Fishdom остается уникальным и очень притягательным для игроков. \n \n Давайте вместе наблюдать за успехами новой звездочки Playrix! Мы желаем проекту успеха, растущей аудитории и покорения игровых ТОПов! \n \n Не отказывайте себе в удовольствии окунуться в мир Fishdom Solitaire вместе с нашими игроками!",
+      "en": "Fishdom Solitaire was released to the world yesterday. Everyone's favorite adorable fish are on a new adventure. This time they're inviting players from around the globe to dive into the underwater world of solitaire! \n \n Fishdom Solitaire is a new project by Playrix. It has the same meta as Fishdom, but instead of match-3 levels, players get to play solitaire. This is our company's first globally released game of this genre. We believe in it because the mechanics have proven to be successful in the industry, and players love the unique world of Fishdom. \n \n Let's watch the rise of Playrix's new star together! We wish the project success, a growing audience, and a place among our other hits. \n \n Dive into the world of Fishdom Solitaire together with our players!"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 7,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/default-green.jpg",
+    "date": "2022-11-21T00:00:00.000Z",
+    "announcement": {
+      "ru": "Компания перестанет использовать российский и белорусский производственные календари с 1 апреля 2023 года.",
+      "en": "The company will stop using the Russian and Belarusian business calendars starting April 1, 2023."
+    },
+    "author": {
+      "ru": "Ксения Шорохова",
+      "en": "Ksenia Shorokhova"
+    },
+    "title": {
+      "ru": "Как изменится рабочий календарь Playrix",
+      "en": "Changes in Playrix Work Calendar"
+    },
+    "text": {
+      "ru": "Компания перестанет использовать российский и белорусский производственные календари с 1 апреля 2023 года. До этого времени сотрудники могут работать по этим календарям, даже если уже релоцировались. \n \n Какой [график](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996). мы будем использовать с апреля 2023: Какой график мы будем использовать с апреля 2023: \n - по умолчанию сотрудники будут работать по производственному календарю страны постоянного проживания. Если человек работает в стране, где нет юрлица Playrix, можно также выбрать календарь Ирландии. \n - по согласованию с менеджером можно работать по календарю, который использует большинство человек в команде. Эта возможность не распространяется на календари РФ и РБ.",
+      "en": "The company will stop using the Russian and Belarusian business calendars starting April 1, 2023. Until then, all employees can work by those calendars, even after relocation. \n \n What will our [schedule](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996) look like starting April 2023? \n - by default employees will work according to business calendars of the country of their permanent residence. If a person works from a country without Playrix presence, they can use the Irish calendar as well. \n - with the manager’s approval it’s possible to choose a calendar which is more used by the team with the exception of Russian and Belarusian calendars."
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1]
+    }
+  },
+  {
+    "id": 8,
+    "channel": {
+      "name": "dm-news",
+      "color": "#1E9E1A"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/default-green.jpg",
+    "date": "2023-07-16T00:00:00.000Z",
+    "announcement": {
+      "ru": "В релизе наше новое событие - Ярмарка Рукоделия!.",
+      "en": "The company will stop using the Russian and Belarusian business calendars starting April 1, 2023."
+    },
+    "author": {
+      "ru": "Протасова Кристина",
+      "en": "Протасова Кристина"
+    },
+    "title": {
+      "ru": "Рукодельный Мерж - хобби-приключение",
+      "en": "Changes in Playrix Work Calendar"
+    },
+    "text": {
+      "ru": "14 июля вышел в мир наш Мерж 'Ярмарка Рукоделия' \n \n В городе началась Ярмарка! Оливия вместе с семьей готовится продемонстрировать свои достижения в новом хенд-мейде. Мы соберем мастерскую, получим первые места во всех хобби и насладимся праздничной атмосферой. Спойлер: Оливию ждет награда и первое место за самую большую вязаную игрушку в истории Ярмарки! \n \n Будем честны: мы выбрали тематику рукоделия, потому что наперстки, клубочки и свечки отлично смотрятся на поле. Но также верим, что событие поможет творческим людям увидеть свои хобби в неожиданном ракурсе. Если этот Мерж вдохновит вас на новые увлечения или даст стимул на развитие мастерства, нам будет приятно. \n \n **Что нового в Ярмарке?** \n \n \n - Новая схема - прямо совсем-совсем! \n - 2 последовательно заряжаемых генератора: в Москву через Колупаевку, предметы из заряжаемых магазинчиков нужны для заряжаемого столика. \n - Емкость события -  23 000, больше всех предыдущих Мержей, при этом мы везде щедро продаем энергию - проверяем, сможем ли мы так вырастить траты энергии. \n - Проверяем то, как игрокам зайдет усложненный мерж, сейчас есть гипотеза, что игроки в Homescapes хардкорнее, чем в Gardenscapes. \n  \n **Что еще крутого?** \n - Теперь мы можем задавать старт появлению баббла. \n - Появились “умные” офферы -  они показывают не случайно, а по условиям. \n - Генераторы фоново регенерируют до момента, пока они не ушли на кулдаун - это помогает предупреждать ситуации, когда у тебя накопилось много энергии, а с прошлого раза в генераторе остался 1 предмет и он сразу ушел спать. \n \n **Раздаем благодарочки.** \n \n- Рита подхватила баланс в его критическом виде и спасла к релизу - thanks a looooot. \n - Спасибо Наташе и Саше за все смыслы, явные и потайные.\n - Огромное мерси арт-команде за уютные фишки - они пережили колоссальную трансформацию, за забавные иллюстрации - в них весь ярмарочный творческий суматошный вайб. \n - UI-команда - ваша нежность, ей наполнено событие от кнопочки до плашечки. \n - Боря - тебе спасибо за то, что смог вырваться в отпуск и отдохнуть! \n - Гоша - затащил в одного всю верстку, переверстку и пере-переверстку. \n - Команда программистов - все криты и баги побеждены, а офферы умнее умных. \n - QA команде признательность за смоуки, регрессы и нервные клеточки, которые мы надеемся сохранять во всех будущих событиях. \n - Марианне и Карине - за кнут и пряник. \n \n Присоединяйтесь к самому творческому событию в этом сезоне!",
+      "en": "The company will stop using the Russian and Belarusian business calendars starting April 1, 2023. Until then, all employees can work by those calendars, even after relocation. \n \n What will our [schedule](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996) look like starting April 2023? \n - by default employees will work according to business calendars of the country of their permanent residence. If a person works from a country without Playrix presence, they can use the Irish calendar as well. \n - with the manager’s approval it’s possible to choose a calendar which is more used by the team with the exception of Russian and Belarusian calendars."
+    },
+    "pinned": false,
+    "photoLink": "https://drive.google.com/drive/folders/1xlPxrSZcLisgvTvrX3FXC6DZ-OtGGqoi",
+    "validator": 1
+  },
+  {
+    "id": 10,
+    "channel": {
+      "name": "new-test-channel",
+      "color": "#1E9E1A"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/default-green.jpg",
+    "date": "2023-07-16T00:00:00.000Z",
+    "announcement": {
+      "ru": "Тест для нового канала",
+      "en": "New channel test"
+    },
+    "author": {
+      "ru": "Эд",
+      "en": "Ed"
+    },
+    "title": {
+      "ru": "Тест для нового канала",
+      "en": "New channel test"
+    },
+    "text": {
+      "ru": "14 июля вышел в мир наш Мерж 'Ярмарка Рукоделия' \n \n В городе началась Ярмарка! Оливия вместе с семьей готовится продемонстрировать свои достижения в новом хенд-мейде. Мы соберем мастерскую, получим первые места во всех хобби и насладимся праздничной атмосферой. Спойлер: Оливию ждет награда и первое место за самую большую вязаную игрушку в истории Ярмарки! \n \n Будем честны: мы выбрали тематику рукоделия, потому что наперстки, клубочки и свечки отлично смотрятся на поле. Но также верим, что событие поможет творческим людям увидеть свои хобби в неожиданном ракурсе. Если этот Мерж вдохновит вас на новые увлечения или даст стимул на развитие мастерства, нам будет приятно. \n \n **Что нового в Ярмарке?** \n \n \n - Новая схема - прямо совсем-совсем! \n - 2 последовательно заряжаемых генератора: в Москву через Колупаевку, предметы из заряжаемых магазинчиков нужны для заряжаемого столика. \n - Емкость события -  23 000, больше всех предыдущих Мержей, при этом мы везде щедро продаем энергию - проверяем, сможем ли мы так вырастить траты энергии. \n - Проверяем то, как игрокам зайдет усложненный мерж, сейчас есть гипотеза, что игроки в Homescapes хардкорнее, чем в Gardenscapes. \n  \n **Что еще крутого?** \n - Теперь мы можем задавать старт появлению баббла. \n - Появились “умные” офферы -  они показывают не случайно, а по условиям. \n - Генераторы фоново регенерируют до момента, пока они не ушли на кулдаун - это помогает предупреждать ситуации, когда у тебя накопилось много энергии, а с прошлого раза в генераторе остался 1 предмет и он сразу ушел спать. \n \n **Раздаем благодарочки.** \n \n- Рита подхватила баланс в его критическом виде и спасла к релизу - thanks a looooot. \n - Спасибо Наташе и Саше за все смыслы, явные и потайные.\n - Огромное мерси арт-команде за уютные фишки - они пережили колоссальную трансформацию, за забавные иллюстрации - в них весь ярмарочный творческий суматошный вайб. \n - UI-команда - ваша нежность, ей наполнено событие от кнопочки до плашечки. \n - Боря - тебе спасибо за то, что смог вырваться в отпуск и отдохнуть! \n - Гоша - затащил в одного всю верстку, переверстку и пере-переверстку. \n - Команда программистов - все криты и баги побеждены, а офферы умнее умных. \n - QA команде признательность за смоуки, регрессы и нервные клеточки, которые мы надеемся сохранять во всех будущих событиях. \n - Марианне и Карине - за кнут и пряник. \n \n Присоединяйтесь к самому творческому событию в этом сезоне!",
+      "en": "The company will stop using the Russian and Belarusian business calendars starting April 1, 2023. Until then, all employees can work by those calendars, even after relocation. \n \n What will our [schedule](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996) look like starting April 2023? \n - by default employees will work according to business calendars of the country of their permanent residence. If a person works from a country without Playrix presence, they can use the Irish calendar as well. \n - with the manager’s approval it’s possible to choose a calendar which is more used by the team with the exception of Russian and Belarusian calendars."
+    },
+    "pinned": true,
+    "photoLink": "https://drive.google.com/drive/folders/1xlPxrSZcLisgvTvrX3FXC6DZ-OtGGqoi",
+    "validator": 1
+  },
+  {
+    "id": 9,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1696580095996999",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/halloween_portal+(1)+(2).jpg",
+    "date": "2023-10-09",
+    "announcement": {
+      "ru": "Хеллоуинский Мерж и Сезон уже в релизе!",
+      "en": "Хеллоуинский Мерж и Сезон уже в релизе!"
+    },
+    "author": {
+      "ru": "Борис Шадловский",
+      "en": "Борис Шадловский"
+    },
+    "title": {
+      "ru": "Страшно волшебный Мерж!",
+      "en": "Страшно волшебный Мерж!"
+    },
+    "text": {
+      "ru": "Magic Team открывает двери загадочной вечеринки - пора наряжаться в вампиров, зомби-принцесс и прочую нечисть. Какие страшные сюрпризы ждут нас в этот раз? \n\n1. Главный хит этого Хэллоуина - долгожданные ВИП-награды! С этого дня наших супер-платящих игроков будет ждать еще больше жутко-шикарного контента. \n 2. Вместо старых фото игроков встретят полноценные комиксы! А это значит - больше экшена, веселья и динамики! More passion, more footwork! \n\n 3. Куча новых анимаций подоспели на вечеринку! Теперь двигаются не только генераторы, но и почти половина фишек на поле. А их визуал покорит всех фанатов Хеллоуина. \n\n 4. А какой цвет поля? Вы видели этот глубокий оттенок Ma-a-a-a-gic? Мы впервые перекрасили поле и добавили атмосферу праздника в UI. \n\n 5. Не забыли и про ребаланс Весеннего Мержа вместе с добавлением емкости к ВИП-наградам. На спиритическом сеансе духи нашептали, что это даст \"so much money энд найс проходимость!\" \n\n 6. И последнее (но не по важности) - обновили интерфейс и наконец перенесли кнопку альбома внутрь Мержа! А для собирателей и коллекционеров на поле появился багаж, в котором скапливаются все полученные и купленные фишки. \n\n А теперь добавим в хэллоуинский пунш побольше благодарностей: \n - Команда геймдизайна и нарратива получает волшебную сову за захватывающий сюжет и логичную логику! \n - Художникам летит большой творческий thanks за волшебные комиксы и иллюстрации. \n - Преклоняемся перед технической командой за безупречное воплощение идей в коде и движке. \n - Каждому, кто просматривал и комментировал билды - мерси за неравнодушие и честный фидбэк. \n - И для самой отважной QA-команды - огромное спасибо за внимательные, кропотливые проверки и околдовывающее качество! \n\n Ждем ваших побед в праздничном событии!",
+      "en": "Magic Team открывает двери загадочной вечеринки - пора наряжаться в вампиров, зомби-принцесс и прочую нечисть. Какие страшные сюрпризы ждут нас в этот раз? \n\n1. Главный хит этого Хэллоуина - долгожданные ВИП-награды! С этого дня наших супер-платящих игроков будет ждать еще больше жутко-шикарного контента. \n\n 2. Вместо старых фото игроков встретят полноценные комиксы! А это значит - больше экшена, веселья и динамики! More passion, more footwork! \n\n 3. Куча новых анимаций подоспели на вечеринку! Теперь двигаются не только генераторы, но и почти половина фишек на поле. А их визуал покорит всех фанатов Хеллоуина. \n\n 4. А какой цвет поля? Вы видели этот глубокий оттенок Ma-a-a-a-gic? Мы впервые перекрасили поле и добавили атмосферу праздника в UI. \n\n 5. Не забыли и про ребаланс Весеннего Мержа вместе с добавлением емкости к ВИП-наградам. На спиритическом сеансе духи нашептали, что это даст \"so much money энд найс проходимость!\" \n\n 6. И последнее (но не по важности) - обновили интерфейс и наконец перенесли кнопку альбома внутрь Мержа! А для собирателей и коллекционеров на поле появился багаж, в котором скапливаются все полученные и купленные фишки. \n\n А теперь добавим в хэллоуинский пунш побольше благодарностей: \n - Команда геймдизайна и нарратива получает волшебную сову за захватывающий сюжет и логичную логику! \n - Художникам летит большой творческий thanks за волшебные комиксы и иллюстрации. \n - Преклоняемся перед технической командой за безупречное воплощение идей в коде и движке. \n - Каждому, кто просматривал и комментировал билды - мерси за неравнодушие и честный фидбэк. \n - И для самой отважной QA-команды - огромное спасибо за внимательные, кропотливые проверки и околдовывающее качество! \n\n Ждем ваших побед в праздничном событии!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  }
+]

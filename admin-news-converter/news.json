@@ -1,0 +1,1409 @@
+[
+  {
+    "id": 1,
+    "channel": {
+      "name": "company-updates",
+      "color": "#DB72E4"
+    },
+    "link": "https://playrix.slack.com/files/T029C19PJ/F044YALD0ET?origin_team=T029C19PJ",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/default-orange.jpg",
+    "date": "2022-10-06",
+    "announcement": {
+      "ru": "Для сохранения стабильности в оперировании группы Playrix, было решено прекратить всю операционную деятельность в этих странах.",
+      "en": "In order for Playrix to maintain its operations, it’s been decided to shut down all operations in those countries."
+    },
+    "author": {
+      "ru": "Дима Бухман",
+      "en": "Dima Bukhman"
+    },
+    "title": {
+      "ru": "Playrix выходит из России и Беларуси",
+      "en": "Playrix Is Leaving Russia and Belarus"
+    },
+    "text": {
+      "ru": "С начала войны в Украине в компании произошло много изменений: мы больше не ведем коммерческой деятельности в России и Беларуси, мы открыли офисы в других странах и начали релокацию сотрудников. Сейчас начался новый виток эскалации. Для сохранения стабильности в оперировании Группы Playrix мы приняли решение: \n - закрыть все офисы Playrix в этих странах; \n - прекратить операционную деятельность наших студий в России и Беларуси; \n - релоцировать сотрудников из России и Беларуси в другие страны. \n \n Более подробную информацию руководители студий опубликуют в своих каналах сегодня. Мы просим задавать вопросы там, а не в комментариях к этому посту. Впереди у нас сложный период, но мы уверены, что наша команда с ним справится. Со своей стороны мы сделаем для этого все возможное. Берегите себя. \n \n Игорь и Дима.",
+      "en": "Since the beginning of the war in Ukraine, the company has undergone many changes. We no longer conduct commercial activities in Russia and Belarus. We also opened offices in other countries and have started relocating employees. Unfortunately, the situation has escalated once again, and in order for Playrix to maintain its operations, we’ve decided to do the following: \n - Close all Playrix offices in Russia and Belarus \n - Shut down the operations of our studios in Russia and Belarus \n - Relocate employees in Russia and Belarus to other countries \n \n \n More information will be provided through the relevant channels today by the heads of our studios. We kindly request that all questions you may have be directed to these channels and not on this post. \n \n We’re entering into a challenging period, but we’re confident that our team will be able to come out on top. And we, on our part, will do everything possible to make that happen. \n \n Stay safe. \n \n Igor and Dmitri"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 2,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1671632834899339",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/default.jpg",
+    "date": "2022-12-21T09:20:00.000Z",
+    "announcement": {
+      "ru": "Всем привет! В следующем году сетка бенефитов Playrix остается практически без изменений. Мы также добавили новый бонус.",
+      "en": "Hi all! Next year’s Playrix benefit package will remain practically the same. But we have added a new bonus!"
+    },
+    "author": {
+      "ru": "Ярослава Яровая",
+      "en": "Ярослава Яровая"
+    },
+    "title": {
+      "ru": "Бонусы компании в 2023 году",
+      "en": "Benefits Package 2023"
+    },
+    "text": {
+      "ru": "Всем привет! В следующем году сетка бенефитов Playrix остается практически без изменений. Мы также добавили новый бонус \n \n Что изменилось? \n - Компенсация фитнеса. Мы поднимаем лимиты с 5 000 руб до 70 $/мес для СНГ и с 60 EUR до 90$/мес для остальных стран. \n - Библиотеки. Мы продлеваем сотрудничество с Альпина на весь следующий год. МИФ будет доступен только до 26 марта, после чего отключен. \n - NEW. Мы вводим компенсацию изучения локального языка для сотрудников, проживающих в Сербии, Черногории, Кипре и Португалии. Подробнее о бонусе можно прочитать в [статье](https://knowledge.playrix.com/pages/viewpage.action?pageId=217465558). \n \n Для сотрудников в России и Беларуси все бонусы будут действовать до того момента, пока компания не прекратит свою деятельность в этих странах.",
+      "en": "Hi all! Next year’s Playrix benefit package will remain practically the same. But we have added a new bonus! \n \n What will change? \n - Fitness Reimbursements. We are raising the limits from 5,000 rubles to $70 per month for the CIS and from €60 to $90 per month for other countries. \n - Digital Libraries. We are extending cooperation with Alpina for the whole of next year. MYTH will only be available until March 26, after which it will be disabled. \n - NEW Bonus. We will begin to reimburse local language learning classes for employees residing in Serbia, Montenegro, Cyprus and Portugal. You can read more about the bonus in the [article](https://knowledge.playrix.com/pages/viewpage.action?pageId=217465558) \n \n All bonuses will be available to employees in Russia and Belarus until the company completely ceases operations in these countries."
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 2, 6]
+    }
+  },
+  {
+    "id": 3,
+    "channel": {
+      "name": "company-updates",
+      "color": "#DB72E4"
+    },
+    "link": "https://playrix.slack.com/files/T029C19PJ/F04H19BNGQY?origin_team=T029C19PJ",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/rix_charity.png",
+    "date": "2022-12-22T00:00:00.000Z",
+    "announcement": {
+      "ru": "В этом году компания делает пожертвование в UNICEF Ireland на проект Donations Instead of Gifts.",
+      "en": "This year, the company makes a contribution to the project by UNICEF Ireland — Donations Instead of Gifts."
+    },
+    "author": {
+      "ru": "Ксения Шорохова",
+      "en": "Ksenia Shorokhova"
+    },
+    "title": {
+      "ru": "Акция в честь праздников",
+      "en": "Playrix’s Holiday Contribution"
+    },
+    "text": {
+      "ru": "В этом году Playrix не отмечает праздники на уровне компании. Мы планировали порадовать сотрудников новогодними подарками, но из-за сложностей в логистике и массовой релокации организовать это оказалось невозможно. Мы надеемся на ваше понимание и уже думаем, как удивить вас в следующем году. У нас есть интересные идеи, и скоро мы ими поделимся🎁 \n \n Оставлять праздники совсем без внимания показалось неправильным. В этом году многие коллеги и студии включились в благотворительные инициативы, чтобы поддержать тех, кому помощь сейчас нужнее всего. Мы решили сделать то же самое и выбрали проект UNICEF Ireland — Donations Instead of Gifts, цель которого помочь детям в Украине пережить зимние холода. Компания выделила 100 000 EUR, и эти деньги пойдут на закупку оборудования и одежды, которые будут доставлены волонтерами UNICEF в местные школы и больницы. \n \n На этой доброй ноте хотим пожелать вам хороших праздников и поблагодарить за работу и настрой в этот непростой период. Впереди у нас много планов и классных идей. Увидимся в 2023! ✨",
+      "en": "This year Playrix doesn’t celebrate holidays. We were planning gifts for all of our Playrixers, but it became impossible to organize due to difficulties with logistics and mass relocations. We hope for your understanding and are already planning for next year. We have some exciting ideas, which we’ll share with you soon 🎁 \n \n At the same time, it seemed not right to ignore the holidays. This year, many of our colleagues and studios joined forces with different charitable organizations to support those in need. We’ve decided to do the same and make a donation to UNICEF Ireland and their ‘Donations instead of Gifts’ initiative. The project aims to help children in Ukraine survive the winter cold. We’ve donated €100,000 to the cause. This money will be used to purchase equipment and clothing that UNICEF volunteers will deliver to local schools and hospitals. \n \n On that kind note, we’d like to wish you happy holidays and thank you for your work and resilience during the challenging times. We have many plans and great ideas for next year. See you in 2023! ✨"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 5,
+    "channel": {
+      "name": "project_news",
+      "color": "#1E9E1A"
+    },
+    "link": "https://playrix.slack.com/files/T029C19PJ/F04CV0FG1SB?origin_team=T029C19PJ",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Google+Play's+Best+of+2022.png",
+    "date": "2022-12-01T00:00:00.000Z",
+    "announcement": {
+      "ru": "По итогам 2022 года Homescapes попал в список лучших игр Google Play Store.",
+      "en": "In 2022, Homescapes made it onto the list of best games on the Google Play Store."
+    },
+    "author": {
+      "ru": "Дарья Зеленова",
+      "en": "Daria Zelenova"
+    },
+    "title": {
+      "ru": "Google Play's Best of 2022",
+      "en": "Google Play's Best of 2022"
+    },
+    "text": {
+      "ru": "Вчера Google подвели итоги 2022 года и назвали лучшие мобильные игры и приложения в Google Play Store. \n \n В списке Honorable Mention в отдельных регионах (Европа, Австралия, Северная Африка и Ближний Восток) оказалась и наша игра Homescapes! Для нас большая честь оказаться в хорошей компании других достойных продуктов. Приятно осознавать, что наши усилия были оценены. \n \n Спасибо Google Play за номинацию, а всей нашей большой и дружной команде — море любви и благодарности!",
+      "en": "Yesterday, Google announced the winners of Google Play's Best of 2022, including the best mobile games and apps in the Store. \n \n We're very excited to share great news with you—Homescapes made it to the Honorable Mention list in certain markets (Europe, Australia, North Africa and the Middle East)! It's an honor for us to be in the company of other amazing products. This kind of acknowledgment of our hard work is priceless. \n \n We'd like to thank Google Play for the nomination and express our love and appreciation to our big and friendly team!"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 6,
+    "channel": {
+      "name": "project_news",
+      "color": "#1E9E1A"
+    },
+    "link": "https://playrix.slack.com/files/T029C19PJ/F04B2EU4L68?origin_team=T029C19PJ",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/%D0%A0%D0%B5%D0%BB%D0%B8%D0%B7+Fishdom+Solitaire.png",
+    "date": "2022-11-15T00:00:00.000Z",
+    "announcement": {
+      "ru": "Вчера Fishdom Solitaire увидел свет, и у всеми любимых очаровательных рыбок начались новые приключения",
+      "en": "Fishdom Solitaire was released to the world yesterday. Everyone's favorite adorable fish are on a new adventure."
+    },
+    "author": {
+      "ru": "Дмитрий Магас",
+      "en": "Dmitry Magas"
+    },
+    "title": {
+      "ru": "Релиз Fishdom Solitaire",
+      "en": "Fishdom Solitaire Is Ready to Play"
+    },
+    "text": {
+      "ru": "Вчера Fishdom Solitaire увидел свет, и у всеми любимых очаровательных рыбок начались новые приключения. В этот раз они приглашают игроков по всему миру окунуться в подводный мир и сыграть в увлекательные уровни пасьянса! \n \n FD Solitaire — это новый проект Playrix, в котором можно встретить знакомую многим мету Fishdom, но вместо уровней match-3 игроков ожидают карточные пасьянсы. Это первая вышедшая в мировой релиз solitaire-игра нашей компании, и мы верим в нее, потому что новая для нас механика успешна в индустрии, а мир Fishdom остается уникальным и очень притягательным для игроков. \n \n Давайте вместе наблюдать за успехами новой звездочки Playrix! Мы желаем проекту успеха, растущей аудитории и покорения игровых ТОПов! \n \n Не отказывайте себе в удовольствии окунуться в мир Fishdom Solitaire вместе с нашими игроками!",
+      "en": "Fishdom Solitaire was released to the world yesterday. Everyone's favorite adorable fish are on a new adventure. This time they're inviting players from around the globe to dive into the underwater world of solitaire! \n \n Fishdom Solitaire is a new project by Playrix. It has the same meta as Fishdom, but instead of match-3 levels, players get to play solitaire. This is our company's first globally released game of this genre. We believe in it because the mechanics have proven to be successful in the industry, and players love the unique world of Fishdom. \n \n Let's watch the rise of Playrix's new star together! We wish the project success, a growing audience, and a place among our other hits. \n \n Dive into the world of Fishdom Solitaire together with our players!"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 7,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/files/T029C19PJ/F04BDQ05N3Z?origin_team=T029C19PJ",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/default-green.jpg",
+    "date": "2022-11-21T00:00:00.000Z",
+    "announcement": {
+      "ru": "Компания перестанет использовать российский и белорусский производственные календари с 1 апреля 2023 года.",
+      "en": "The company will stop using the Russian and Belarusian business calendars starting April 1, 2023"
+    },
+    "author": {
+      "ru": "Ксения Шорохова",
+      "en": "Ksenia Shorokhova"
+    },
+    "title": {
+      "ru": "Как изменится рабочий календарь Playrix",
+      "en": "Changes in Playrix Work Calendar"
+    },
+    "text": {
+      "ru": "Компания перестанет использовать российский и белорусский производственные календари с 1 апреля 2023 года. До этого времени сотрудники могут работать по этим календарям, даже если уже релоцировались. \n \n Какой [график](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996). мы будем использовать с апреля 2023: Какой график мы будем использовать с апреля 2023: \n - по умолчанию сотрудники будут работать по производственному календарю страны постоянного проживания. Если человек работает в стране, где нет юрлица Playrix, можно также выбрать календарь Ирландии. \n - по согласованию с менеджером можно работать по календарю, который использует большинство человек в команде. Эта возможность не распространяется на календари РФ и РБ.",
+      "en": "The company will stop using the Russian and Belarusian business calendars starting April 1, 2023. Until then, all employees can work by those calendars, even after relocation. \n \n What will our [schedule](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996) look like starting April 2023? \n - by default employees will work according to business calendars of the country of their permanent residence. If a person works from a country without Playrix presence, they can use the Irish calendar as well. \n - with the manager’s approval it’s possible to choose a calendar which is more used by the team with the exception of Russian and Belarusian calendars."
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 2, 6]
+    }
+  },
+  {
+    "id": 8,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1676031781017749",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Atlantida.jpg",
+    "date": "2023-02-10T00:00:00.000Z",
+    "author": {
+      "ru": "Костя Мартынов",
+      "en": "Костя Мартынов"
+    },
+    "title": {
+      "ru": "Первая экспедиция Daily Magic уже в релизе! Встречаем - Атлантида!",
+      "en": "Первая экспедиция Daily Magic уже в релизе! Встречаем - Атлантида!"
+    },
+    "text": {
+      "ru": "Игроки по всему миру будут наслаждаться приключениями на затерянном подводном острове.\nЭто первый такой продолжительный и крупный ивент студии в рамках HS!\n\nВ феврале прошлого года на одной из QA-сессий Игорь Бухман сказал, что есть перспективный слой Экспедиций, на который возлагаются большие надежды.\nТак и произошло! Экспедиции показывают крутые результаты и хорошо бустят метрики игры, к тому же дают абсолютно новый игровой опыт, раздвигая рамки привычной меты.\n\nУже в апреле мы начали ресерч по продакшену своей собственной Экспедиции!\nДальше было много совместной усердной работы, проб и ошибок, исправлений и мучительных поисков верной \"формулы\" ивента, а также много технических трудностей.\nНо мы это преодолели и достойно представили миру \"Загадки Атлантиды\"!\n\nОтдельно хочется отметить, что Экспедиции - пожалуй, самое коллективное событие, где очень плотно связано взаимодействие всех отделов - геймдизайнеры и нарративные дизайнеры, арт-команда и аниматоры, и конечно техническая команда.\nИменно благодаря совместным командным усилиям и желанию каждого сделать лучше, мы получили крутую \"Атлантиду\".\n\nПоздравляем команду!",
+      "en": "Игроки по всему миру будут наслаждаться приключениями на затерянном подводном острове.\nЭто первый такой продолжительный и крупный ивент студии в рамках HS!\n\nВ феврале прошлого года на одной из QA-сессий Игорь Бухман сказал, что есть перспективный слой Экспедиций, на который возлагаются большие надежды.\nТак и произошло! Экспедиции показывают крутые результаты и хорошо бустят метрики игры, к тому же дают абсолютно новый игровой опыт, раздвигая рамки привычной меты.\n\nУже в апреле мы начали ресерч по продакшену своей собственной Экспедиции!\nДальше было много совместной усердной работы, проб и ошибок, исправлений и мучительных поисков верной \"формулы\" ивента, а также много технических трудностей.\nНо мы это преодолели и достойно представили миру \"Загадки Атлантиды\"!\n\nОтдельно хочется отметить, что Экспедиции - пожалуй, самое коллективное событие, где очень плотно связано взаимодействие всех отделов - геймдизайнеры и нарративные дизайнеры, арт-команда и аниматоры, и конечно техническая команда.\nИменно благодаря совместным командным усилиям и желанию каждого сделать лучше, мы получили крутую \"Атлантиду\".\n\nПоздравляем команду!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 9,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1678472623911089",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/DM_news_2023-03-10.jpg",
+    "date": "2023-03-10T00:00:00.000Z",
+    "author": {
+      "ru": "Карина Воробьева",
+      "en": "Карина Воробьева"
+    },
+    "title": {
+      "ru": "Весенний и первый Magic-мерж в релизе!",
+      "en": "Весенний и первый Magic-мерж в релизе!"
+    },
+    "text": {
+      "ru": "Поздравляем команду с крутым мерж-запуском - мы проложили дорогу весне, приблизили сезон ягод и зарядили всех птичек на полет!\n\nБлагодарим каждого, кто приложил к \"Весеннему\" мержу руки, голову, глаза и сердце🙂\nЭто было первая фича мержа для команды -  с такой скоростью разработки, особенностями арта, обилием баланса и экономики мы еще не работали, не были знакомы - с каждым днем количество фишек увеличивалось, UI трансформировался, а баланс испытывали на прочность. Как результат - больше 11 итераций цепочек (примерно 300 фишек), 20 балансовых билдов и огромная работа технического отдела! \nЭто был непростой путь, но он показал, что команда способна на все - даже если до ОФБ два дня и все сломалось. \n\nКаждый вложил силы, душу - время, проведенное на звонках, действия, задачи и принятые решения - это был челлендж и вызов, крутой опыт совместной работы и настоящего сотрудничества. \nС нашей командой нет невыполнимых задач, ведь каждый  - Magic.\n\nОбязательно поиграйте в наш мерж и делитесь обратной связью с командой 💜\nОбнимаем!",
+      "en": "Поздравляем команду с крутым мерж-запуском - мы проложили дорогу весне, приблизили сезон ягод и зарядили всех птичек на полет!\n\nБлагодарим каждого, кто приложил к \"Весеннему\" мержу руки, голову, глаза и сердце🙂\nЭто было первая фича мержа для команды -  с такой скоростью разработки, особенностями арта, обилием баланса и экономики мы еще не работали, не были знакомы - с каждым днем количество фишек увеличивалось, UI трансформировался, а баланс испытывали на прочность. Как результат - больше 11 итераций цепочек (примерно 300 фишек), 20 балансовых билдов и огромная работа технического отдела! \nЭто был непростой путь, но он показал, что команда способна на все - даже если до ОФБ два дня и все сломалось. \n\nКаждый вложил силы, душу - время, проведенное на звонках, действия, задачи и принятые решения - это был челлендж и вызов, крутой опыт совместной работы и настоящего сотрудничества. \nС нашей командой нет невыполнимых задач, ведь каждый  - Magic.\n\nОбязательно поиграйте в наш мерж и делитесь обратной связью с командой 💜\nОбнимаем!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 10,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1679577131375539",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/MM+%D0%B0%D0%BD%D0%BE%D0%BD%D1%81+(1).png",
+    "date": "2023-03-23T00:00:00.000Z",
+    "announcement": {
+      "ru": "Playstation будет, RixCoins со старых аккаунтов сохранились.",
+      "en": "Playstation is back, and RixCoins from your old accounts will carry over."
+    },
+    "author": {
+      "ru": "Александра Михальчук",
+      "en": "Alexandra Mikhalchuk"
+    },
+    "title": {
+      "ru": "Playrix Shop 2.0",
+      "en": "Playrix Shop 2.0"
+    },
+    "text": {
+      "ru": "В апреле мы открываем наш магазин мерча — Playrix Shop, версия 2.0 🎉 Все подробности — в канале [Playrix Shop 2.0](https://playrix.slack.com/archives/C04UX2QQCNB).",
+      "en": "In April the Playrix Shop will reopen — version 2.0 🎉 Read all the details in the [Playrix Shop 2.0 channel](https://playrix.slack.com/archives/C04UX2QQCNB)."
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1]
+    }
+  },
+  {
+    "id": 11,
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0+%D0%9A%D1%83%D0%BB%D0%B8%D0%BD%D0%B0%D1%80%D0%BD%D1%8B%D0%B9.jpg",
+    "date": "2023-04-21T00:00:00.000Z",
+    "announcement": {
+      "ru": "Наша команда снова блеснула Мержом - еще и в крутой связке с сезоном!",
+      "en": "Наша команда снова блеснула Мержом - еще и в крутой связке с сезоном!"
+    },
+    "author": {
+      "ru": "Dream Team",
+      "en": "Dream Team"
+    },
+    "title": {
+      "ru": "Кулинарное мерж приключение - ГастроТур в релизе!",
+      "en": "Кулинарное мерж приключение - ГастроТур в релизе!"
+    },
+    "text": {
+      "ru": "Наша команда снова блеснула Мержом - еще и в крутой связке с сезоном! Гурманы и ресторанные критики в восторге - игроки уже потратили больше 17 миллиардов монет. <br><br>Была проделана огромная работа - событие стало стабильнее, арт и анимации выглядят вкусно (ну а как иначе!), а самое главное - получилось создать эффект новизны для игроков и игра затягивает еще больше. Профессионализм и старание команды сделали событие настоящим эталоном высокой Мерж-кухни 🥘<br><br>Ждем ваших кулинарных рекордов, скоро придем с новыми рецептами шедевров! 💜<br>Белиссимо!",
+      "en": "Наша команда снова блеснула Мержом - еще и в крутой связке с сезоном! Гурманы и ресторанные критики в восторге - игроки уже потратили больше 17 миллиардов монет. <br><br>Была проделана огромная работа - событие стало стабильнее, арт и анимации выглядят вкусно (ну а как иначе!), а самое главное - получилось создать эффект новизны для игроков и игра затягивает еще больше. Профессионализм и старание команды сделали событие настоящим эталоном высокой Мерж-кухни 🥘<br><br>Ждем ваших кулинарных рекордов, скоро придем с новыми рецептами шедевров! 💜<br>Белиссимо!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 12,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1683111753680679",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/cover_company_updates_2.jpg",
+    "date": "2023-05-04T00:00:00.000Z",
+    "announcement": {
+      "ru": "Мы обновили подход к рабочим календарям в компании.",
+      "en": "We have updated our approach to calendars and public holidays in the company."
+    },
+    "author": {
+      "ru": "Ксения Шорохова",
+      "en": "Ksenia Shorokhova"
+    },
+    "title": {
+      "ru": "Рабочие календари компании",
+      "en": "Calendars the Company Will Use"
+    },
+    "text": {
+      "ru": "Мы обновили подход к рабочим календарям в компании. Основное изменение: теперь по умолчанию сотрудники будут работать по производственному календарю страны своего юридического лица.<br><br>При этом сотрудник все так же может по согласованию с менеджером работать по календарю другой страны. В этом случае можно выбрать календарь одной из стран с юрлицом, а также Польши или Грузии (так как это очень популярные локации). Важный момент, который стоит учитывать: в случае смены календаря все расчеты бухгалтерии все равно будут производиться по календарю страны оформления.<br><br>В ближайшее время мы перенесем Календарь отсутствий на Портал сотрудника, там будет возможность видеть календари и менять их. Полная информация — в [Базе знаний](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996).",
+      "en": "We have updated our approach to calendars and public holidays in the company. The main change: now, by default, employees will work in accordance with the calendar of the country of their legal entity.<br><br>Employees can still choose a calendar different from their country of employment if agreed with their manager. In this case they can pick countries with official Playrix presence, or popular Poland or Georgia. An important point to consider: if you choose a different calendar, all accounting calculations will still be made according to the official calendar of the country of employment.<br><br>In the near future, we will transfer the Calendar of Absences to the Employee Portal, and you'll be able to see all calendars and change yours. Find full information in the [Knowledge Base](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996)."
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1]
+    }
+  },
+  {
+    "id": 13,
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/news_portal+(1).jpg",
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1684498690155169",
+    "date": "2023-05-19T00:00:00.000Z",
+    "announcement": {
+      "ru": "12 мая игрокам стала доступна таинственная Magic-Экспедиция",
+      "en": "12 мая игрокам стала доступна таинственная Magic-Экспедиция"
+    },
+    "author": {
+      "ru": "Андрей Исаев",
+      "en": "Андрей Исаев"
+    },
+    "title": {
+      "ru": "Экспедиция \"Таинственный фестиваль\"",
+      "en": "Экспедиция \"Таинственный фестиваль\""
+    },
+    "text": {
+      "ru": "12 мая игрокам стала доступна таинственная Magic-Экспедиция. Кто еще незнаком с сюжетом, почувствуйте уровень интриги -  мама Кэтрин похищена прямо на фестивале в городе Туманные Холмы! Теперь Остин и Кэтрин придется искать ее на опустевших улицах... За каждым поворотом прячется ловушка, а следы злодея уходят в болотные топи... Чем же Стефани так разозлила местных? (и правда, чем - такая милая женщина).<br><br>Команда превзошла сама себя -  хочется поблагодарить абсолютно всех! Было задействовано много людей и каждый внес свой вклад. Выпуск Экспедиции дался с очень большим трудом из-за объемных переделок. Благодарность всем, кто подключился к активным исправлениям и без устали, самоотверженно реанимировал ивент.😄<br><br>Отдельное спасибо:\n - Тане Удаловой за наибольшее участие и экспертизу в правках карты;\n - Гоше Воронову и Ване Бондаренко за сборку важной фичи - обновленных сайд-квестов;\n - Жене Кравченко за оперативную сборку сезона - впервые сезон собирается внутри команды;\n - Саше Кофанову за быструю реализацию часто меняющихся сценок;\n - Данилу Мащенко за пристальное и мегаактивное участие в поиске/исправлении багов;\n - Ксюше Шаравиной за оперирование по множеству арт-правок;<br>А также Насте Пасько за подключение в сложный период.<br>И тем, кто стоял у истоков арт-карты и создавал ее концепт, - Настя, Тома, Вадим. Локации получились очень эффектные!<br><br>Чем еще особенна эта Экспедиция?\n - Баланс - он получился хорошим и плавным. Это заметила и команда, и игроки: воронка отвалов по квестам сейчас [самая плавная за последнее время](https://drive.google.com/file/d/12TrBZLLIdQl3D5MXFpLvlDwtjUAo-QtB/view?usp=drivesdk) (данные за 7 дней). Повлияло и то, что добавили поэтапное открытие  сайд-квестов, что позволяет мягче (и нежнее) вовлекать игрока в событие.\n - Навигация и левел-дизайн стали сильнее - игроки заметили меньше непроходимых мест на карте  в сравнении с прошлой Экспедицией, наша команда растет в этом. По впечатлениям игроков сюжет стал сильнее и лучше!<br><br>Встретимся за самыми вкусными пирогами 💜",
+      "en": "12 мая игрокам стала доступна таинственная Magic-Экспедиция. Кто еще незнаком с сюжетом, почувствуйте уровень интриги -  мама Кэтрин похищена прямо на фестивале в городе Туманные Холмы! Теперь Остин и Кэтрин придется искать ее на опустевших улицах... За каждым поворотом прячется ловушка, а следы злодея уходят в болотные топи... Чем же Стефани так разозлила местных? (и правда, чем - такая милая женщина).<br><br>Команда превзошла сама себя -  хочется поблагодарить абсолютно всех! Было задействовано много людей и каждый внес свой вклад. Выпуск Экспедиции дался с очень большим трудом из-за объемных переделок. Благодарность всем, кто подключился к активным исправлениям и без устали, самоотверженно реанимировал ивент.😄<br><br>Отдельное спасибо:\n - Тане Удаловой за наибольшее участие и экспертизу в правках карты;\n - Гоше Воронову и Ване Бондаренко за сборку важной фичи - обновленных сайд-квестов;\n - Жене Кравченко за оперативную сборку сезона - впервые сезон собирается внутри команды;\n - Саше Кофанову за быструю реализацию часто меняющихся сценок;\n - Данилу Мащенко за пристальное и мегаактивное участие в поиске/исправлении багов;\n - Ксюше Шаравиной за оперирование по множеству арт-правок;<br>А также Насте Пасько за подключение в сложный период.<br>И тем, кто стоял у истоков арт-карты и создавал ее концепт, - Настя, Тома, Вадим. Локации получились очень эффектные!<br><br>Чем еще особенна эта Экспедиция?\n - Баланс - он получился хорошим и плавным. Это заметила и команда, и игроки: воронка отвалов по квестам сейчас [самая плавная за последнее время](https://drive.google.com/file/d/12TrBZLLIdQl3D5MXFpLvlDwtjUAo-QtB/view?usp=drivesdk) (данные за 7 дней). Повлияло и то, что добавили поэтапное открытие  сайд-квестов, что позволяет мягче (и нежнее) вовлекать игрока в событие.\n - Навигация и левел-дизайн стали сильнее - игроки заметили меньше непроходимых мест на карте  в сравнении с прошлой Экспедицией, наша команда растет в этом. По впечатлениям игроков сюжет стал сильнее и лучше!<br><br>Встретимся за самыми вкусными пирогами 💜"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 14,
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/%D0%A1%D0%BF%D0%BE%D1%80%D1%82.jpg",
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1685710022221309",
+    "date": "2023-06-02T00:00:00.000Z",
+    "announcement": {
+      "ru": "Выходим на арену фитнес-достижений - спортивный мерж в релизе!",
+      "en": "Выходим на арену фитнес-достижений - спортивный мерж в релизе!"
+    },
+    "author": {
+      "ru": "Маргарита Царик",
+      "en": "Маргарита Царик"
+    },
+    "title": {
+      "ru": "Ставим рекорды в новом мерже!",
+      "en": "Ставим рекорды в новом мерже!"
+    },
+    "text": {
+      "ru": "Выходим на арену фитнес-достижений - спортивный мерж в релизе!<br>Что в этом событии нового и крутого? 💜\n - Это первый опыт для Daily Magic, когда мы брали аналитику с прошлого события и улучшали по ней баланс и офферы. Этот мерж похож на один из предыдущих, но мы значительно улучшили опыт игрока!\n - Фишки рисовали с применением AI, команда сэкономила много часов, но результат по-прежнему на высоте - они получились очень красивые и с приятной материальность. Переработали арт коробок на старте - картинка стала ярче и привлекательнее!\n - Побеждена проблема с генераторами, которая не давала жить в Гастротуре, - стадионы выдаются по справедливости.\n - Добавили новую подсказку для игрока. Если в задании нужно несколько фишек, то на поле они будут подсвечиваться по-разному.<br><br>Хочется сказать спасибо:\n - Насте Пасько и Даше Храмцовой - вы помогли вывести фишки и коробки на совершенно новый уровень красоты!\n - Даше Машковой и Маше Сафроновой за потрясающие иллюстрации и активное участие в мозговых штурмах\n - Диме Белесову за то, что так комплексно и ответственно подходишь к UI, исследуешь, не забываешь даже про самые мелкие кнопочки и детали\n - Марианне и Карине за денные и нощные придумывания логики фишек и передылывание схемы сто раз\n - Боря - сборка, правки, бесконечные патчи и АБ-тесты, ты проделал колоссальную работу\n - Сереже Губко - просто за все АБ-тесты, баги, непонятные проблемы - здорово, что ты есть, с тобой можно решить любые сложности\n - Никите и Кириллу за отважную борьбу с багами, помощь в понимании проблем, приоритетах - благодаря вам мы прорвались через кучу доработок, АБ-тестов, патчей, мы видим, как много вы делаете. Насколько это ценно - не описать словами\n - Всем приглашенным звездам - Вадим, Ира, Ваня, Андрей, - благодарность за помощь!<br><br>И всей замечательной Magic Team - вклад каждого важен, спасибо за работу!<br>Скачивайте Homescapes и занимайтесь правильным спортом 😀",
+      "en": "Выходим на арену фитнес-достижений - спортивный мерж в релизе!<br>Что в этом событии нового и крутого? 💜\n - Это первый опыт для Daily Magic, когда мы брали аналитику с прошлого события и улучшали по ней баланс и офферы. Этот мерж похож на один из предыдущих, но мы значительно улучшили опыт игрока!\n - Фишки рисовали с применением AI, команда сэкономила много часов, но результат по-прежнему на высоте - они получились очень красивые и с приятной материальность. Переработали арт коробок на старте - картинка стала ярче и привлекательнее!\n - Побеждена проблема с генераторами, которая не давала жить в Гастротуре, - стадионы выдаются по справедливости.\n - Добавили новую подсказку для игрока. Если в задании нужно несколько фишек, то на поле они будут подсвечиваться по-разному.<br><br>Хочется сказать спасибо:\n - Насте Пасько и Даше Храмцовой - вы помогли вывести фишки и коробки на совершенно новый уровень красоты!\n - Даше Машковой и Маше Сафроновой за потрясающие иллюстрации и активное участие в мозговых штурмах\n - Диме Белесову за то, что так комплексно и ответственно подходишь к UI, исследуешь, не забываешь даже про самые мелкие кнопочки и детали\n - Марианне и Карине за денные и нощные придумывания логики фишек и передылывание схемы сто раз\n - Боря - сборка, правки, бесконечные патчи и АБ-тесты, ты проделал колоссальную работу\n - Сереже Губко - просто за все АБ-тесты, баги, непонятные проблемы - здорово, что ты есть, с тобой можно решить любые сложности\n - Никите и Кириллу за отважную борьбу с багами, помощь в понимании проблем, приоритетах - благодаря вам мы прорвались через кучу доработок, АБ-тестов, патчей, мы видим, как много вы делаете. Насколько это ценно - не описать словами\n - Всем приглашенным звездам - Вадим, Ира, Ваня, Андрей, - благодарность за помощь!<br><br>И всей замечательной Magic Team - вклад каждого важен, спасибо за работу!<br>Скачивайте Homescapes и занимайтесь правильным спортом 😀"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 15,
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/cover_company_updates_2.jpg",
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1688138200524089",
+    "date": "2023-06-30T00:00:00.000Z",
+    "announcement": {
+      "ru": "Мы перенесли на Портал сотрудника сервис планирования отпусков и добавили возможность указывать рабочие календари.",
+      "en": "We've recently updated the Employee Portal so that you can now add information about your scheduled vacations and public holidays. "
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Рабочие календари на Портале сотрудника",
+      "en": "Vacations and Public Holidays on the Employee Portal"
+    },
+    "text": {
+      "ru": "На Портале сотрудника произошли изменения: мы перенесли туда сервис планирования отпусков и добавили возможность указывать рабочие календари. \n \n Основные изменения:<br> 1. Теперь вы сможете видеть выходные и отпуска коллег, как и свои, сразу в одном календаре в разделе «Отсутствие».<br> 2. Изменить свой рабочий календарь можно в разделе «Редактирование профиля» (будет создана задача для согласования с менеджером; информация будет обновлена после согласования).<br> 3. У менеджеров информация о календарях также появилась в разделе «Мои сотрудники».<br> 4. Для создания задачи на отсутствие любого типа, включая плановый отпуск, теперь надо нажать кнопку «Сообщить об отсутствии» в разделе «Отсутствие». \n \n Подробнее о работе сервиса можно прочитать [в Базе знаний](https://knowledge.playrix.com/pages/viewpage.action?pageId=129302553).",
+      "en": "We've recently updated the Employee Portal so that you can now add information about your scheduled vacations and public holidays.\n \n Main changes:<br> 1. Now you can see your and your colleagues' vacations in one calendar in the Absence section.<br> 2. Go to the Edit Profile section to apply for a calendar change (a manager approval task will be created, and then the information about your public holidays will be updated).<br> 3. Managers can go to the My Employees section to see information about the calendars used by their employees.<br> 4. To create an absence task of any type, including a planned vacation, click the Notify of an Absence button in the Absence section. \n \n Check out the [Knowledge Base](https://knowledge.playrix.com/pages/viewpage.action?pageId=129302553) to learn more."
+    },
+    "pinned": false,
+    "validator": {
+      "!legal_entity.id": [426, 371, 441, 442, 413]
+    }
+  },
+  {
+    "id": 16,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/handmade_3.jpg",
+    "date": "2023-07-17T00:00:00.000Z",
+    "announcement": {
+      "ru": "В релизе наше новое событие - Ярмарка Рукоделия!",
+      "en": "В релизе наше новое событие - Ярмарка Рукоделия!."
+    },
+    "author": {
+      "ru": "Протасова Кристина",
+      "en": "Протасова Кристина"
+    },
+    "title": {
+      "ru": "Рукодельный Мерж - хобби-приключение",
+      "en": "Рукодельный Мерж - хобби-приключение"
+    },
+    "text": {
+      "ru": "14 июля вышел в мир наш Мерж 'Ярмарка Рукоделия' \n \n В городе началась Ярмарка! Оливия вместе с семьей готовится продемонстрировать свои достижения в новом хенд-мейде. Мы соберем мастерскую, получим первые места во всех хобби и насладимся праздничной атмосферой. Спойлер: Оливию ждет награда и первое место за самую большую вязаную игрушку в истории Ярмарки! \n \n Будем честны: мы выбрали тематику рукоделия, потому что наперстки, клубочки и свечки отлично смотрятся на поле. Но также верим, что событие поможет творческим людям увидеть свои хобби в неожиданном ракурсе. Если этот Мерж вдохновит вас на новые увлечения или даст стимул на развитие мастерства, нам будет приятно. \n \n **Что нового в Ярмарке?** \n \n \n - Новая схема - прямо совсем-совсем! \n - 2 последовательно заряжаемых генератора: в Москву через Колупаевку, предметы из заряжаемых магазинчиков нужны для заряжаемого столика. \n - Емкость события -  23 000, больше всех предыдущих Мержей, при этом мы везде щедро продаем энергию - проверяем, сможем ли мы так вырастить траты энергии. \n - Проверяем то, как игрокам зайдет усложненный мерж, сейчас есть гипотеза, что игроки в Homescapes хардкорнее, чем в Gardenscapes. \n  \n **Что еще крутого?** \n - Теперь мы можем задавать старт появлению баббла. \n - Появились “умные” офферы -  они показывают не случайно, а по условиям. \n - Генераторы фоново регенерируют до момента, пока они не ушли на кулдаун - это помогает предупреждать ситуации, когда у тебя накопилось много энергии, а с прошлого раза в генераторе остался 1 предмет и он сразу ушел спать. \n \n **Раздаем благодарочки.** \n \n- Рита подхватила баланс в его критическом виде и спасла к релизу - thanks a looooot. \n - Спасибо Наташе и Саше за все смыслы, явные и потайные.\n - Огромное мерси арт-команде за уютные фишки - они пережили колоссальную трансформацию, за забавные иллюстрации - в них весь ярмарочный творческий суматошный вайб. \n - UI-команда - ваша нежность, ей наполнено событие от кнопочки до плашечки. \n - Боря - тебе спасибо за то, что смог вырваться в отпуск и отдохнуть! \n - Гоша - затащил в одного всю верстку, переверстку и пере-переверстку. \n - Команда программистов - все криты и баги побеждены, а офферы умнее умных. \n - QA команде признательность за смоуки, регрессы и нервные клеточки, которые мы надеемся сохранять во всех будущих событиях. \n - Марианне и Карине - за кнут и пряник. \n \n Присоединяйтесь к самому творческому событию в этом сезоне!",
+      "en": "14 июля вышел в мир наш Мерж 'Ярмарка Рукоделия' \n \n В городе началась Ярмарка! Оливия вместе с семьей готовится продемонстрировать свои достижения в новом хенд-мейде. Мы соберем мастерскую, получим первые места во всех хобби и насладимся праздничной атмосферой. Спойлер: Оливию ждет награда и первое место за самую большую вязаную игрушку в истории Ярмарки! \n \n Будем честны: мы выбрали тематику рукоделия, потому что наперстки, клубочки и свечки отлично смотрятся на поле. Но также верим, что событие поможет творческим людям увидеть свои хобби в неожиданном ракурсе. Если этот Мерж вдохновит вас на новые увлечения или даст стимул на развитие мастерства, нам будет приятно. \n \n **Что нового в Ярмарке?** \n \n \n - Новая схема - прямо совсем-совсем! \n - 2 последовательно заряжаемых генератора: в Москву через Колупаевку, предметы из заряжаемых магазинчиков нужны для заряжаемого столика. \n - Емкость события -  23 000, больше всех предыдущих Мержей, при этом мы везде щедро продаем энергию - проверяем, сможем ли мы так вырастить траты энергии. \n - Проверяем то, как игрокам зайдет усложненный мерж, сейчас есть гипотеза, что игроки в Homescapes хардкорнее, чем в Gardenscapes. \n  \n **Что еще крутого?** \n - Теперь мы можем задавать старт появлению баббла. \n - Появились “умные” офферы -  они показывают не случайно, а по условиям. \n - Генераторы фоново регенерируют до момента, пока они не ушли на кулдаун - это помогает предупреждать ситуации, когда у тебя накопилось много энергии, а с прошлого раза в генераторе остался 1 предмет и он сразу ушел спать. \n \n **Раздаем благодарочки.** \n \n- Рита подхватила баланс в его критическом виде и спасла к релизу - thanks a looooot. \n - Спасибо Наташе и Саше за все смыслы, явные и потайные.\n - Огромное мерси арт-команде за уютные фишки - они пережили колоссальную трансформацию, за забавные иллюстрации - в них весь ярмарочный творческий суматошный вайб. \n - UI-команда - ваша нежность, ей наполнено событие от кнопочки до плашечки. \n - Боря - тебе спасибо за то, что смог вырваться в отпуск и отдохнуть! \n - Гоша - затащил в одного всю верстку, переверстку и пере-переверстку. \n - Команда программистов - все криты и баги побеждены, а офферы умнее умных. \n - QA команде признательность за смоуки, регрессы и нервные клеточки, которые мы надеемся сохранять во всех будущих событиях. \n - Марианне и Карине - за кнут и пряник. \n \n Присоединяйтесь к самому творческому событию в этом сезоне!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 17,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1692275430711789",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/DM+%D0%B2+%D0%93%D0%BE%D1%80%D0%B0%D1%85!.jpg",
+    "date": "2023-08-17T00:00:00.000Z",
+    "announcement": {
+      "ru": "Пик Дворецких - первые итоги в релизе!",
+      "en": "Пик Дворецких - первые итоги в релизе!"
+    },
+    "author": {
+      "ru": "Полина Афанасьева",
+      "en": "Полина Афанасьева"
+    },
+    "title": {
+      "ru": "Высокогорная Экспедиция!",
+      "en": "Высокогорная Экспедиция!"
+    },
+    "text": {
+      "ru": "Новости нашей Экспедиции.<br>Восхождение продолжается - прошла уже половина Пика Дворецких. Мы во многом первые и единственные:\n - Неповторимая \"вертикальная\" Экспедиция, в которой нужно показать подъем вверх, а не просто движение вперед. С этим вызовом команда справилась безупречно - не зря ходили на хайкинг!\n - Разные климатические зоны. Вы думали, это зима? Нет, это вершина и вышка!\n - Единственная Экспедиция без поиска сокровищ или пропавших героев, а с духом соревнования, с достижением мечты и вдохновляющей цели.\n - Самое плотное событие по количеству доработок и улучшений, в том числе и из предыдущих версий!\n - Новый тип премиальных квестов - VIP-SIDE - переходи на нашу сторону.\n - Перезапущены и доработаны Экспедиционные Каскады - стали вкуснее. Сейчас тестируем варианты баланса - они показывают положительные результаты. Ждем появления каскадов в следующих версиях!<br><br>А что по ГД-части и результатам? Тоже взбираемся наверх:\n - Результаты запуска Пика и Тортуги идут на одинаковом уровне, но заработок и продажа золотых билетов на восхождении - выше, пусть и общие показатели по монетизации немного ниже. Ждем, что во второй половине обгоним прошлую Экспедицию!\n - На Пике много активности - игроки стали больше играть в Match-3 и событие, проходят больше квестов!\n - Вип-сайды показали себя хорошо - расход энергии больше, при этом игроки не перестают проходить основной сюжет. В 2 раза больше игроков побывали в наших вип-сайдах, чем в премиум-пещере Тортуги. - Наши динамиты просто бомба - мы отлично их разместили и игроки их используют чаще!<br><br>Большое спасибо всей команде за готовность к экспериментам и вызовам, вы снова преодолели все трудности! Выше гор могут быть только горы и Daily Magic! 💜",
+      "en": "Новости нашей Экспедиции.<br>Восхождение продолжается - прошла уже половина Пика Дворецких. Мы во многом первые и единственные:\n - Неповторимая \"вертикальная\" Экспедиция, в которой нужно показать подъем вверх, а не просто движение вперед. С этим вызовом команда справилась безупречно - не зря ходили на хайкинг!\n - Разные климатические зоны. Вы думали, это зима? Нет, это вершина и вышка!\n - Единственная Экспедиция без поиска сокровищ или пропавших героев, а с духом соревнования, с достижением мечты и вдохновляющей цели.\n - Самое плотное событие по количеству доработок и улучшений, в том числе и из предыдущих версий!\n - Новый тип премиальных квестов - VIP-SIDE - переходи на нашу сторону.\n - Перезапущены и доработаны Экспедиционные Каскады - стали вкуснее. Сейчас тестируем варианты баланса - они показывают положительные результаты. Ждем появления каскадов в следующих версиях!<br><br>А что по ГД-части и результатам? Тоже взбираемся наверх:\n - Результаты запуска Пика и Тортуги идут на одинаковом уровне, но заработок и продажа золотых билетов на восхождении - выше, пусть и общие показатели по монетизации немного ниже. Ждем, что во второй половине обгоним прошлую Экспедицию!\n - На Пике много активности - игроки стали больше играть в Match-3 и событие, проходят больше квестов!\n - Вип-сайды показали себя хорошо - расход энергии больше, при этом игроки не перестают проходить основной сюжет. В 2 раза больше игроков побывали в наших вип-сайдах, чем в премиум-пещере Тортуги. - Наши динамиты просто бомба - мы отлично их разместили и игроки их используют чаще!<br><br>Большое спасибо всей команде за готовность к экспериментам и вызовам, вы снова преодолели все трудности! Выше гор могут быть только горы и Daily Magic! 💜"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 18,
+    "channel": {
+      "name": "playrix_shop_2_0",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04UX2QQCNB/p1691584513754629",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/03A+(1).jpg",
+    "date": "2023-08-28T00:00:00.000Z",
+    "announcement": {
+      "ru": "Нас ждет второе открытие Playrix Shop, посвященное сразу двум праздникам: дню рождения Playrix и Новому году. Заказы этого открытия будут доставлены в декабре.",
+      "en": "Here comes the second Playrix Shop opening dedicated to both Playrix's birthday and New Year. The orders will be delivered in December."
+    },
+    "author": {
+      "ru": "Александра Михальчук",
+      "en": "Alexandra Mikhalchuk"
+    },
+    "title": {
+      "ru": "Playrix Shop откроется 28 августа!",
+      "en": "The Playrix Shop opens on August 28!"
+    },
+    "text": {
+      "ru": "**Вас ждут пять категорий:**\n - **Техника**. Мы немного обновили набор техники, оценив спрос в первом магазине и ваши просьбы: например, убрали из коллекции очиститель воздуха, но добавили наушники.\n - **Одежда**. Абсолютно новая коллекция, которая будет доступна для заказа только в это открытие.\n - **Аксессуары**. Мы ввели постоянную коллекцию аксессуаров и добавили позиции, которые вы давно просили: вернули популярные у плейриксов свечи, добавили чемодан для ручной клади. В этой коллекции всегда будет одинаковый набор товаров, но каждый раз разный дизайн. Первый будет новогодним (не забывайте, что доставка планируется на декабрь!)\n - **Витрина Art Lab**.\n - **Специальная витрина-сюрприз**.<br><br>**Начисление RixCoins**<br>Если вы ждете какое-либо начисление: за выигрыш в конкурсе, день рождения, прохождение испытательного и т. д, то обратите внимание, что RixCoins вам могут быть начислены в 20-х числах августа (за неделю до открытия). Если вы их не получите их к тому моменту, то обратитесь, пожалуйста, в [службу поддержки](https://form.asana.com/?k=axYmDDxlz-iT57B_zL0wZA&d=656176460444) на сайте магазина.",
+      "en": "**Four collections await you**:\n - **Equipment**. We have slightly updated our collection of equipment based on your preferences and requests. For example, we removed the air purifier from the collection and added headphones.\n - **Clothes**. We've come up with a brand new collection of clothes that will only be available during this store opening.\n - **Accessories**. We've introduced a permanent collection of accessories and added some products you've long been asking for, such as a hand luggage suitcase and candles. This will be a permanent collection, though the design of its products will change from one store opening to another. The upcoming collection will be New Year's themed (don't forget that the delivery is scheduled for December!)\n - **Art Lab collection**.\n - **Special surprise collection**. <br><br>**RixCoins Accrual**<br>If you're waiting for RixCoins for a competition, birthday, trial period, etc., please note that they can be awarded in the last third of August (a week before the store opening). If you do not get them by then, please get in touch with our [Support](https://form.asana.com/?k=k1zyP6mIuStp8t9Q-hEfNw&d=656176460444) on the store's website."
+    },
+    "pinned": false,
+    "validator": {
+      "!legal_entity.id": [426, 371]
+    }
+  },
+  {
+    "id": 19,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1692966628349999",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/school_dm.jpg",
+    "date": "2023-08-25T00:15:30.000Z",
+    "announcement": {
+      "ru": "25 августа вышло событие от Daily Magic - вернемся за парту вместе с Остином!",
+      "en": "25 августа вышло событие от Daily Magic - вернемся за парту вместе с Остином!"
+    },
+    "author": {
+      "ru": "Ксюша Шаравина",
+      "en": "Ксюша Шаравина"
+    },
+    "title": {
+      "ru": "Пора в Мерж-школу!",
+      "en": "Пора в Мерж-школу!"
+    },
+    "text": {
+      "ru": "Скоро в школу... Или прямо сейчас - на старт Школьного Мержа! Да, мы взяли все самое лучшее - никаких будильников в семь утра, алгебры и скучных формул. Исследования, приключения с друзьями, самые яркие воспоминания - щемящее чувство ностальгии обеспечено на три недели вперед. В этот раз мы рассказывали про школьные годы Остина и Робби!\n Что по новиночкам и интересным моментам? \n 1. Это наш первый Мерж с симпл-схемой - никаких заряжаемых генераторов, просто мержи! Проверяем гипотезу, как зайдет игрокам. \n 2. Куча розовых фишек - это все коллаб с Барби и I'm just Ken. \n 3. Скоро нас будут показывать на YouTube - позже расскажем, что нас ждет и куда смотреть. \n 4. Вы знали, что Остин - рок-звезда? Нет? Тогда мы идем к вам! \n 5. Только гляньте на эти иллюстрации! Наша черепашка - эталон рендера. Арт-команда блестяще справилась, мы включили новые принципы и видение. \n \n Ну и маленький спойлер на следующий Мерж... Бууу-у-у-удет много крутых обновлений - комиксы, вип-награда и таинственная вечериночная дуэль. \n \n А пока вы не начали мержить и протирать пыль на полке с учебниками, Magic Team принимает благодарности. Каждый выложился в событии на 100 баллов (даже на 110 - ведь все олимпиадники) - экспериментируем и применяем новаторские решения везде. Поздравляем с крутым результатом и релизом нового Magic-события!",
+      "en": "Скоро в школу... Или прямо сейчас - на старт Школьного Мержа! Да, мы взяли все самое лучшее - никаких будильников в семь утра, алгебры и скучных формул. Исследования, приключения с друзьями, самые яркие воспоминания - щемящее чувство ностальгии обеспечено на три недели вперед. В этот раз мы рассказывали про школьные годы Остина и Робби!\n Что по новиночкам и интересным моментам? \n 1. Это наш первый Мерж с симпл-схемой - никаких заряжаемых генераторов, просто мержи! Проверяем гипотезу, как зайдет игрокам. \n 2. Куча розовых фишек - это все коллаб с Барби и I'm just Ken. \n 3. Скоро нас будут показывать на YouTube - позже расскажем, что нас ждет и куда смотреть. \n 4. Вы знали, что Остин - рок-звезда? Нет? Тогда мы идем к вам! \n 5. Только гляньте на эти иллюстрации! Наша черепашка - эталон рендера. Арт-команда блестяще справилась, мы включили новые принципы и видение. \n \n Ну и маленький спойлер на следующий Мерж... Бууу-у-у-удет много крутых обновлений - комиксы, вип-награда и таинственная вечериночная дуэль. \n \n А пока вы не начали мержить и протирать пыль на полке с учебниками, Magic Team принимает благодарности. Каждый выложился в событии на 100 баллов (даже на 110 - ведь все олимпиадники) - экспериментируем и применяем новаторские решения везде. Поздравляем с крутым результатом и релизом нового Magic-события!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 20,
+    "channel": {
+      "name": "company-updates",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/files/T029C19PJ/F05R82RP5KK?origin_team=T029C19PJ",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/cover_results_and_strategy_2023.jpg",
+    "date": "2023-09-05T12:00:00.000Z",
+    "announcement": {
+      "ru": "Игорь Бухман рассказывает о результатах наших игр и дальнейших планах развития.",
+      "en": "Igor Bukhman talks about the results of our games and further development plans."
+    },
+    "author": {
+      "ru": "Игорь Бухман",
+      "en": "Igor Bukhman"
+    },
+    "title": {
+      "ru": "Результаты компании и дальнейшая стратегия",
+      "en": "Company Performance and Future Strategy"
+    },
+    "text": {
+      "ru": "В последнее время мы много обсуждали наш подход к разработке игр и сейчас пришли к пониманию дальнейшей стратегии. Мой пост состоит из двух частей. Первый блок — наши результаты и апдейт по продуктам. Второй — об изменениях в продуктовой стратегии. Я выбрал именно такой порядок, потому что наши результаты во многом объясняют выбранную стратегию. \n \n **Результаты компании за первые полгода 2023**\n \n Начнем с финансовых показателей. Как мы уже рассказывали, первый квартал этого года был очень успешным, близким к рекорду. Второй квартал оказался рекордным за все время существования компании — выручка составила 768 миллионов долларов. По его итогу оборот компании за первые полгода увеличился на 30% по сравнению с аналогичным периодом прошлого года. Мы сумели вернуться к показателям бизнеса, которые были в пик ковида в 2021 году. Этот результат превзошел наши ожидания. \n \n Если говорить в разрезе продуктов, то по-прежнему львиную долю нашего оборота составляют четыре игры: Township, Fishdom, Gardenscapes и Homescapes. В последнее время мы также запустили на софт-лонч несколько новых игр, но, к сожалению, ни одна из них не смогла показать метрики, которые могли бы сравниться с уже запущенными хитами: \n - [Family Hero](https://playrix.slack.com/archives/CP0H0K6AF/p1683210488140859)  и  [Wildscapes](https://playrix.slack.com/archives/CP0H0K6AF/p1692717205409679)  — как мы уже рассказывали, мы протестировали и остановили разработку этих игр. \n -  Familyscapes — к сожалению, после двух софт-лончей метрики игры выглядят очень средне. Сейчас мы внесли ряд значимых изменений и готовимся сделать еще один тестовый запуск. \n -  Mystery Matters — софт-лонч этой игры показал лучшие результаты по сравнению с остальными тремя, и через несколько дней игра выходит в релиз. Наш план — запустить продукт и продолжать его дорабатывать. \n \n Несколько слов о текущих результатах Manor Matters и Fishdom Solitaire: \n  - Manor Matters — игра зарабатывает чуть больше четырех миллионов долларов в месяц и является прибыльной. С начала года команда Voki сделала ряд существенных улучшений, но с учетом конкуренции и ситуации на рынке это лишь позволило нам удержаться примерно на тех же цифрах. У команды есть дальнейшие идеи, как улучшать продукт. \n  -  Fishdom Solitaire — сейчас игра зарабатывает также немногим больше четырех миллионов долларов в месяц и является прибыльной. По поводу этого проекта у нас были довольно высокие ожидания, но метрики более поздней игры (late game) оказались ниже, чем мы ожидали. Мы по-прежнему имеем очень хорошее удержание, на уровне наших топовых игр, но монетизация пока заметно уступает. Сейчас мы проводим серию стратегических встреч, где обсуждаем, как это можно исправить. \n \n **Изменения в продуктовой стратегии** \n \n В Playrix мы всегда уделяли большое внимание фокусировке: мы работаем только на рынке мобильных игр, в казуальном секторе, и, более того, большинство наших игр — в жанре матч-3. На это можно смотреть по-разному. Можно сказать, что Playrix — сфокусированная компания, одна из лучших в своем деле. С другой стороны, в этом можно увидеть отсутствие диверсификации или неспособность работать в разных жанрах. \n \n Эти вопросы регулярно встают перед нами, и мы в очередной раз убеждаемся, что фокусировка — это правильный путь. Мы внимательно следим за рынком мобильных игр, и сегодня как никогда очевидно, что имеют значение только хиты. Самые топовые игры зарабатывают в десятки раз больше, чем просто успешные продукты. \n \n У нас четыре таких игры, что само по себе уже уникально. Долгое время у нас также было много продуктов в разработке — мы считали, что это увеличит шансы на создание следующего хита. Но мы недооценили, что каждая топовая игра требует огромного фокуса и высокой концентрации талантливых людей. Если иметь много продуктов, то будут страдать качество решений и результаты. В нашей индустрии нет компаний, которые могли бы на требуемом уровне создавать и развивать большое количество топовых игр одновременно. \n \n В данном контексте мы задаем себе вопрос: является ли Playrix действительно сфокусированной компанией? Совсем недавно у нас было более 10 новых игр в разработке. Но было ли у нас действительно столько хороших идей и столько команд, которые могут сделать топовый продукт? Думаю, сейчас ответ на этот вопрос очевиден. При этом можем ли мы сказать, что в командах наших проектов в оперировании нет проблем и усиление здесь не требуется? Нет, это не так. Напротив, эти продукты могут выиграть, если к ним подключится больше сильных людей на всех уровнях. В развитии наших хитов остается большой потенциал. \n \n Поэтому мы считаем, что нам нужно еще больше сфокусироваться. Если у нас будет меньше продуктов, то это позволит создать более сильные команды, и мы сможем уделять больше внимания каждому из них: как в оперировании, так и новым проектам в разработке. В итоге это положительно скажется на качестве наших игр и увеличит шансы создать новый хит. \n \n Отсюда вытекает важный вопрос о количестве новых продуктов в разработке. Мы считаем правильным сокращать их число. Оно будет уменьшаться и естественным образом, так как часть игр не станет успешной и будет закрыта. Скорее всего, в какой-то момент мы придем к тому, что в разработке останется 2–3 игры. Это было бы оптимальным. До этого времени новых проектов мы запускать не планируем, а все высвобождающиеся ресурсы будут направлены на усиление оставшихся проектов. \n \n В связи с этим мы пересмотрели все текущие игры в разработке и пришли к решению заморозить проект [Cooking](https://playrix.slack.com/archives/CP0H0K6AF/p1673946648177399), о котором рассказывали в январе. Это непростое решение, потому что игра многим нравилась. Однако продукт находился дальше всего от запуска, и по нему все еще было много концептуальных вопросов. Остановка работ над этим проектом — один из шагов к большей фокусировке нашей компании. \n \n Таким образом, у нас в разработке остается шесть проектов.  [Merge Hearts](https://playrix.slack.com/archives/CP0H0K6AF/p1691058681606359)  (бывший FarMerge) от студии Boolat Games совсем недавно вышел на софт-лонч. Разработка  [Aqua Match](https://playrix.slack.com/archives/CP0H0K6AF/p1675847340818019),  [Roomscapes](https://playrix.slack.com/archives/CP0H0K6AF/p1672238769436699),  [Perfect Heroes](https://playrix.slack.com/archives/CP0H0K6AF/p1671633213094189)  и  [Austin’s Odyssey](https://playrix.slack.com/archives/CP0H0K6AF/p1680163203492089)идет хорошими темпами. Про эти пять проектов мы недавно писали в  [#project-news](https://playrix.slack.com/archives/CP0H0K6AF). Мы пока никак не анонсировали только один проект. Давайте оставим это небольшим сюрпризом. Команда студии MariaGlorum расскажет о нем в ближайшие месяцы.",
+      "en": "Over the past few months, we've been discussing our product strategy and have now come to a shared understanding of its future. My post consists of two parts. The first one covers our results and product updates, and the second one discusses changes in our product strategy. I’ve chosen this order because our results largely explain the chosen strategy. \n \n **Company Results in the First Half of 2023** \n \n Let's start with financial metrics. As we already mentioned, the first quarter of this year was very successful, close to a record. The second quarter turned out to be a record-breaking period in the company's history, with the revenue reaching 768 million dollars. In total, the company's turnover for the first half of the year increased by 30% compared to the same period last year. We managed to return to business performance levels that were seen at the peak of COVID in 2021. That has exceeded our expectations. \n \n The products that account for the lion's share of our turnover are still our famous four: Township, Fishdom, Gardenscapes, and Homescapes. Recently, we also soft-launched several new games, but unfortunately, none of them showed results that could compete with the four hits: \n - [Family Hero](https://playrix.slack.com/archives/CP0H0K6AF/p1683210488140859)  and [](https://playrix.slack.com/archives/CP0H0K6AF/p1692717205409679) [Wildscapes](https://playrix.slack.com/archives/CP0H0K6AF/p1692717205409679): As we previously mentioned, we tested these games and decided to shut down their development. \n -  Familyscapes: Unfortunately, after two soft-launches, the game's metrics look mediocre. We have now made a number of significant changes and are preparing for another test launch. \n -  Mystery Matters: The soft-launch of this game showed the best results compared to the other three games, and in a few days it’s being released globally. Our plan is to continue improving the game after its release. \n \n A few words about the current results of Manor Matters and Fishdom Solitaire: \n  - Manor Matters — earns just over four million dollars a month and is profitable. Since the beginning of the year, the Voki team has made a number of significant improvements, but given the competition and the market situation, this has only maintained the game at the same level of earnings. The team has further ideas for improving the product. \n  -  Fishdom Solitaire — also earns slightly more than four million dollars per month and is profitable. We had high expectations for this project, but the metrics for the late game turned out to be lower than we had expected. While the game has excellent retention rates, on par with our top games, monetization significantly lags behind. We're currently conducting a series of strategic meetings on that matter. \n \n **Revision of the Product Strategy** \n \n At Playrix, we have always thought it’s important to be focused when it comes to business: we operate exclusively in the casual sector of the mobile gaming market and most of our games are in the match-3 genre. This can be perceived in different ways. One could say that Playrix is a focused company, one of the best in its business. On the other hand, that can be seen as a lack of diversification or an inability to work in different genres. \n \n This topic regularly becomes the center of our discussions, and once again we're convinced that being focused is the right path. We closely monitor the mobile game market, and today it's more evident than ever that only hit products matter. The top games generate revenues ten times higher than just successful products. \n \n We have four such games, and this is unique. For a long time we also had a lot of projects in development — we believed that would increase our chances of creating the next hit. But we underestimated that every top-tier game requires immense focus and high talent density. The quality of decisions and results suffer when having too many products. In our industry, there are no companies that are able to create and develop a large number of top-grossing products simultaneously at the necessary level. \n \n In this context, we ask ourselves the question: is Playrix really a focused company? Not so long ago, we had more than 10 new games in development. But did we really have so many good ideas and so many teams that could create a top-notch product? I think the answer is obvious now. At the same time, can we say that there are no problems in the teams of our hit products and that they shouldn’t be improved? No, this is not the case. On the contrary, those products can greatly benefit at all levels if more talented people join them, because there's still great potential in developing those games. \n \n Therefore, we believe that we need to focus even more. If we have fewer products, it'll allow us to build stronger teams and pay more attention to each product: both the released games and new ones in development. Ultimately, this will improve the quality of our games and increase the chances of creating a new hit. \n \n This leads to an important question about the number of new products in development. We believe that we need to reduce it. It’ll also decrease organically since some of the games won’t be successful and will be shut down. Most likely, at some point we'll come to the point where we'll have 2–3 games in development. That would be optimal. Until then, we don't plan new projects, and all the freed-up resources will be directed towards strengthening the remaining projects. \n \n In light of this, we've reviewed all the games remaining in development and have decided to freeze the [Cooking](https://playrix.slack.com/archives/CP0H0K6AF/p1673946648177399)  project, which we announced back in January. That was not an easy decision because many people liked the game. However, the project was far from launch, and there were still many principal uncertainties about it. Suspending this project is one of the steps towards being a more focused company. \n \n Now we have six projects in development.[Merge Hearts](https://playrix.slack.com/archives/CP0H0K6AF/p1691058681606359)  (formerly FarMerge) by Boolat Games was recently soft-launched. The development of[Aqua Match](https://playrix.slack.com/archives/CP0H0K6AF/p1675847340818019),[Roomscapes](https://playrix.slack.com/archives/CP0H0K6AF/p1672238769436699),[Perfect Heroes](https://playrix.slack.com/archives/CP0H0K6AF/p1671633213094189), and[Austin's Odyssey](https://playrix.slack.com/archives/CP0H0K6AF/p1680163203492089)  is going well. We recently wrote about those five in  [#project-news](https://playrix.slack.com/archives/CP0H0K6AF). We have not yet announced only one project. Let's keep it as a little surprise. The MariaGlorum team will share news about it in the upcoming months."
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 21,
+    "channel": {
+      "name": "project_news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/CP0H0K6AF/p1694163448280789",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/cover_release.jpg",
+    "date": "2023-09-08T12:00:00.000Z",
+    "announcement": {
+      "ru": "Новая игра студии Voki: детективный триллер, мистика и любовь!",
+      "en": "A new game from the Voki studio: a supernatural romantic thriller!"
+    },
+    "title": {
+      "ru": "Релиз Mystery Matters",
+      "en": "Mystery Matters Release"
+    },
+    "text": {
+      "ru": "Mystery Matters — игра с захватывающим сюжетом о тайнах археологов и преступлениях, которые совершают охотники за этими тайнами. Главная героиня — археолог Элизабет Нэш. Девушка приезжает в маленький городок, получив в наследство поместье, и тут же с головой погружается в водоворот странных событий, которые ей предстоит распутать с помощью игрока.\n \n Игра интересна не только захватывающим сюжетом (кстати, с рейтингом 12+!), но и разнообразием механик: здесь есть и матч-3, и бонусные уровни с hidden object, и мини-игры для поиска улик. \n \n С 7 сентября Mystery Matters доступна во всем мире на iOS и Android. \n \n Поздравляем команду Voki с релизом и желаем новому проекту рекордных доходов и любви игроков!",
+      "en": "Mystery Matters is a game with an exciting story about archaeologists' secrets and the crimes committed by those who would unravel them. The protagonist is archaeologist Elizabeth Nash. The young woman arrives in a small town, having inherited an estate, only to immediately plunge headfirst into a whirlwind of strange events that she must unravel with the player's help. \n \n The game is interesting not only because of its captivating plot (by the way, it's rated 12+), but also due to its variety of mechanics: it includes match-3, bonus levels with hidden objects, and minigames for finding clues. \n \n On September 7, Mystery Matters became available worldwide on iOS and Android. \n \n We congratulate the Voki team on the release and wish the new project record revenues and player love!."
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 22,
+    "channel": {
+      "name": "playrix_shop_2_0",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/files/T029C19PJ/F05RJ2LFL9Y?origin_team=T029C19PJ",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/05A+(1).jpg",
+    "date": "2023-09-08T00:00:00.000Z",
+    "announcement": {
+      "ru": "14 сентября в 23:59 GTM Playrix Shop закроется для заказов. Следующее открытие магазина планируется в декабре.",
+      "en": "On September 14th at 23:59 GTM, we will close the Playrix Shop and send your shopping lists to production. The next shop reopening is planned for December."
+    },
+    "author": {
+      "ru": "Александра Михальчук",
+      "en": "Alexandra Mikhalchuk"
+    },
+    "title": {
+      "ru": "Playrix Shop закроется 14 сентября",
+      "en": "Playrix Shop Closing on September 14th"
+    },
+    "text": {
+      "ru": "14 сентября в 23:59 GTM мы закроем Playrix Shop для заказов (на целый день позже, чем анонсировали!) и передадим ваши списки покупок в производство. Следующее открытие магазина планируется в декабре. Напомним, что в следующий раз ассортимент магазина частично изменится!<br><br>Что доступно для заказа только в это открытие:\n - Специальная витрина с фигурками — Legends of Playrix. В августовском открытии доступны две фигурки: Рикс и собака Гарди из Gardenscapes. \n - Одежда. Маленькая, но теплая коллекция для долгих зимних вечеров будет доступна для заказа только в это открытие. \n - Витрина Art Lab. Работы победителей конкурса художников и дизайнеров, который проходил в рамках конференции Art Lab в 2022 и 2023 годах.<br><br>Пожалуйста, внимательно читайте раздел [«Вопросы и ответы»](https://shop.playrix.com/faq). <br>Переходите [по ссылке](https://shop.playrix.com/) — и приятных покупок!",
+      "en": "On September 14th at 23:59, we will close the Playrix Shop for orders (a whole day later than previously announced!) and send your shopping lists to production. The next shop reopening is planned for December. Please note that the store's assortment will partially change next time!<br><br>Only available for purchase during this reopening:\n - Legends of Playrix collection. In the August reopening, two figurines are available: Rix and Gardy the dog from Gardenscapes.\n - Clothing. A small but warm collection for long winter evenings will be available for order only this time around.\n - Art Lab collection. Explore the creative works of the winners from the 2022 and 2023 Art Lab artist and designer competition.<br><br>Please read the [FAQ](https://shop.playrix.com/faq) section carefully.<br>Follow [this link](https://shop.playrix.com/) and happy shopping!"
+    },
+    "pinned": false,
+    "validator": {
+      "!legal_entity.id": [426, 371]
+    }
+  },
+  {
+    "id": 23,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1696580095996999",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/halloween_portal+(1)+(2).jpg",
+    "date": "2023-10-09",
+    "announcement": {
+      "ru": "Хеллоуинский Мерж и Сезон уже в релизе!",
+      "en": "Хеллоуинский Мерж и Сезон уже в релизе!"
+    },
+    "author": {
+      "ru": "Борис Шадловский",
+      "en": "Борис Шадловский"
+    },
+    "title": {
+      "ru": "Страшно волшебный Мерж!",
+      "en": "Страшно волшебный Мерж!"
+    },
+    "text": {
+      "ru": "Magic Team открывает двери загадочной вечеринки - пора наряжаться в вампиров, зомби-принцесс и прочую нечисть. Какие страшные сюрпризы ждут нас в этот раз? \n\n1. Главный хит этого Хэллоуина - долгожданные ВИП-награды! С этого дня наших супер-платящих игроков будет ждать еще больше жутко-шикарного контента. \n\n 2. Вместо старых фото игроков встретят полноценные комиксы! А это значит - больше экшена, веселья и динамики! More passion, more footwork! \n\n 3. Куча новых анимаций подоспели на вечеринку! Теперь двигаются не только генераторы, но и почти половина фишек на поле. А их визуал покорит всех фанатов Хеллоуина. \n\n 4. А какой цвет поля? Вы видели этот глубокий оттенок Ma-a-a-a-gic? Мы впервые перекрасили поле и добавили атмосферу праздника в UI. \n\n 5. Не забыли и про ребаланс Весеннего Мержа вместе с добавлением емкости к ВИП-наградам. На спиритическом сеансе духи нашептали, что это даст \"so much money энд найс проходимость!\" \n\n 6. И последнее (но не по важности) - обновили интерфейс и наконец перенесли кнопку альбома внутрь Мержа! А для собирателей и коллекционеров на поле появился багаж, в котором скапливаются все полученные и купленные фишки. \n\n А теперь добавим в хэллоуинский пунш побольше благодарностей: \n - Команда геймдизайна и нарратива получает волшебную сову за захватывающий сюжет и логичную логику! \n - Художникам летит большой творческий thanks за волшебные комиксы и иллюстрации. \n - Преклоняемся перед технической командой за безупречное воплощение идей в коде и движке. \n - Каждому, кто просматривал и комментировал билды - мерси за неравнодушие и честный фидбэк. \n - И для самой отважной QA-команды - огромное спасибо за внимательные, кропотливые проверки и околдовывающее качество! \n\n Ждем ваших побед в праздничном событии!",
+      "en": "Magic Team открывает двери загадочной вечеринки - пора наряжаться в вампиров, зомби-принцесс и прочую нечисть. Какие страшные сюрпризы ждут нас в этот раз? \n\n1. Главный хит этого Хэллоуина - долгожданные ВИП-награды! С этого дня наших супер-платящих игроков будет ждать еще больше жутко-шикарного контента. \n\n 2. Вместо старых фото игроков встретят полноценные комиксы! А это значит - больше экшена, веселья и динамики! More passion, more footwork! \n\n 3. Куча новых анимаций подоспели на вечеринку! Теперь двигаются не только генераторы, но и почти половина фишек на поле. А их визуал покорит всех фанатов Хеллоуина. \n\n 4. А какой цвет поля? Вы видели этот глубокий оттенок Ma-a-a-a-gic? Мы впервые перекрасили поле и добавили атмосферу праздника в UI. \n\n 5. Не забыли и про ребаланс Весеннего Мержа вместе с добавлением емкости к ВИП-наградам. На спиритическом сеансе духи нашептали, что это даст \"so much money энд найс проходимость!\" \n\n 6. И последнее (но не по важности) - обновили интерфейс и наконец перенесли кнопку альбома внутрь Мержа! А для собирателей и коллекционеров на поле появился багаж, в котором скапливаются все полученные и купленные фишки. \n\n А теперь добавим в хэллоуинский пунш побольше благодарностей: \n - Команда геймдизайна и нарратива получает волшебную сову за захватывающий сюжет и логичную логику! \n - Художникам летит большой творческий thanks за волшебные комиксы и иллюстрации. \n - Преклоняемся перед технической командой за безупречное воплощение идей в коде и движке. \n - Каждому, кто просматривал и комментировал билды - мерси за неравнодушие и честный фидбэк. \n - И для самой отважной QA-команды - огромное спасибо за внимательные, кропотливые проверки и околдовывающее качество! \n\n Ждем ваших побед в праздничном событии!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 24,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1698135459634059",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Gate-19+(1).jpg",
+    "date": "2023-10-23",
+    "announcement": {
+      "ru": "Компании исполняется 19 лет! Это событие мы отметим серией офлайн-вечеринок **GATE 19 by Playrix**.",
+      "en": "The company is turning 19 years old! We will be celebrating with a series of offline parties called **GATE 19 by Playrix**."
+    },
+    "author": {
+      "ru": "Екатерина Шутикова",
+      "en": "Ekaterina Shutikova"
+    },
+    "title": {
+      "ru": "День рождения Playrix. Место встречи — GATE 19",
+      "en": "Playrix's Birthday. Meeting place: GATE 19"
+    },
+    "text": {
+      "ru": "Рикс готов совершить полет в новый год жизни! В назначенный день мы соберемся в гейте 19, чтобы отметить праздник и вместе отправиться в захватывающее путешествие.<br><br>Встречи начнутся с середины ноября и пройдут в течение месяца в девяти городах. В части локаций пройдут Q&A-сессии с Димой и Игорем Бухманами, а также с другими топ-менеджерами компании — начинайте готовить вопросы! Чуть позже расскажем подробнее, что еще вас ожидает. А пока ловите расписание праздничных рейсов!![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Anons.png)<br><br>Точные даты всех встреч будут опубликованы в разделе [Мероприятия](https://me.playrix.com/newsroom/events) на Портале сотрудника, о старте регистрации сообщим совсем скоро.<br><br>И по традиции немного организационных вопросов:\n - Мероприятия будут только для сотрудников, **без +1 и детей**.\n - Чтобы не пропустить анонс и попасть на ивент, актуализируй данные о своем местонахождении (страна и город) на [Портале сотрудника](https://me.playrix.com/profile-edit) **к 26 октября**.\n - Регистрация  будет происходить через задачи в Asana. После рассылки задач на каждый ивент будет опубликовано напоминание в канале его локации.\n - Если ты живешь в другой локации, но будешь в это время там, где проходит ивент, и хочешь побывать на нем, пожалуйста, сообщи об этом организатору, который будет указан в описании в календаре на Портале сотрудника. Важно: количество мест для гостей из других локаций ограниченно.\n\nFLY HIGH. DREAM BIG!",
+      "en": "Rix is ready to take flight into a new year of life! On the appointed day, we will gather at Gate 19 to celebrate the holiday and embark on an exciting journey together.<br><br>The parties will start in mid-November and will take place over the course of a month in nine cities. Some locations will have Q&A sessions with Dima and Igor Bukhman as well as other top managers of the company, so start preparing your questions! We'll tell you more about what else awaits you closer to the festivities. But for now, check out the flight board for the party schedule!![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Anons.png)<br><br>The exact dates of all the parties will be published in the [Events](https://me.playrix.com/newsroom/events) section on the Employee Portal, and we will announce the start of registration very soon. <br><br>And now for a few organizational matters:\n - The events will be for employees only — **no plus ones or children**.\n - Make sure to update your location information (country and city) on the [Employee Portal](https://me.playrix.com/profile-edit) **by October 26** so you don't miss the announcement and can attend your local event.\n - Registration will take place via tasks in Asana. After distributing tasks for each event, a reminder will be published in its location channel.\n - If you live in a different location but will be in the area where the event is taking place at that time and want to attend, please inform the organizer, who will be indicated in the description in the calendar on the Employee Portal. Please note: The number of spots for guests from other locations is limited.\n\nFLY HIGH. DREAM BIG!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 5, 6, 13, 18]
+    }
+  },
+  {
+    "id": 25,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1698413152316469",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Xfiles_Promo+(1).jpg",
+    "date": "2023-10-27",
+    "announcement": {
+      "ru": "Новая Экспедиция Daily Magic в релизе!",
+      "en": "Новая Экспедиция Daily Magic в релизе!"
+    },
+    "author": {
+      "ru": "Александр Кофанов",
+      "en": "Александр Кофанов"
+    },
+    "title": {
+      "ru": "Самые Секретные Материалы",
+      "en": "Самые Секретные Материалы"
+    },
+    "text": {
+      "ru": "В небе замечен НЛО — команда Экспедиций Daily Magic получила таинственные сигналы... Что ж, Остин и Джейн отправились исследовать — и вот новое событие в релизе.<br>Читайте Секретные Материалы разработки и начинайте играть!\n - В этой Экспедиции мы по-другому составляли карты: заранее создавали черновой баланс и кривую сложности, после — приступали к схеме, зная длину дорожек и количество сайдов. Артово теперь создаются эталоны, а не концепт всей карты — все это помогло уменьшить пересборку на 95 %. Абсолютно новый подход, который поднял качество еще выше.\n - Чем вдохновлялись? Просторы Невады, пришельцы, ретро-футуризм, Педро Паскаль... Чтобы погрузиться в атмосферу — рекомендуем к просмотру Очень Странные Дела, Секретные Материалы и Валли.\n - Это первая экспедиция в HS, где появились бустеры для Match-3 на локациях — соберите их все! А еще на карте спрятан маленький кусочек нашего редизайна \"Ретро-Игры\". И это первое появление Джейн из Gardenscapes.\n - О-о-очень активное использование AI в разработке арта —  от этого визуала кружит голову всем пришельцам.\n - На эту экспедицию мы получили самый лучший фидбэк — настолько она интригует, завораживает и создает удивительные ощущения от прохождения.<br><br>Безграничная, космическая благодарность всей команде — проделана колоссальная работа. Каждый вкладывал в самые секретные и волшебные силы на максимум!",
+      "en": "В небе замечен НЛО — команда Экспедиций Daily Magic получила таинственные сигналы... Что ж, Остин и Джейн отправились исследовать — и вот новое событие в релизе.<br>Читайте Секретные Материалы разработки и начинайте играть!\n - В этой Экспедиции мы по-другому составляли карты: заранее создавали черновой баланс и кривую сложности, после — приступали к схеме, зная длину дорожек и количество сайдов. Артово теперь создаются эталоны, а не концепт всей карты — все это помогло уменьшить пересборку на 95 %. Абсолютно новый подход, который поднял качество еще выше.\n - Чем вдохновлялись? Просторы Невады, пришельцы, ретро-футуризм, Педро Паскаль... Чтобы погрузиться в атмосферу — рекомендуем к просмотру Очень Странные Дела, Секретные Материалы и Валли.\n - Это первая экспедиция в HS, где появились бустеры для Match-3 на локациях — соберите их все! А еще на карте спрятан маленький кусочек нашего редизайна \"Ретро-Игры\". И это первое появление Джейн из Gardenscapes.\n - О-о-очень активное использование AI в разработке арта —  от этого визуала кружит голову всем пришельцам.\n - На эту экспедицию мы получили самый лучший фидбэк — настолько она интригует, завораживает и создает удивительные ощущения от прохождения.<br><br>Безграничная, космическая благодарность всей команде — проделана колоссальная работа. Каждый вкладывал в самые секретные и волшебные силы на максимум!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 26,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1700225645101969",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/День+Благодарения.jpg",
+    "date": "2023-11-17",
+    "announcement": {
+      "ru": "Самый праздничный стол в Homescapes",
+      "en": "Самый праздничный стол в Homescapes"
+    },
+    "author": {
+      "ru": "Ксения Шаравина",
+      "en": "Ксения Шаравина"
+    },
+    "title": {
+      "ru": "Релиз Дня Благодарения",
+      "en": "Релиз Дня Благодарения"
+    },
+    "text": {
+      "ru": "На кухне Magic Team закончились последние приготовления: тыквенный пирог вытащен из духовки,чай с корицей заботливо разлит по кружкам, а огромная индейка торжественно сияет в самом центре стола. Добро пожаловать на релиз Мержа, посвященного Дню Благодарения - последнего Мержа в 2023 году! Что сегодня нас ждет на праздничном столе?\n \n \n 1. Как всегда, мы угощаем игроков новыми комиксами и ВИП-наградой! Организация праздника в последний день - это не только стресс, но и уйма смешных ситуаций. И сегодня в программе: битву за индейку в супермаркете, особенности подготовки праздничного ужина и игры с осенними листьями во дворе! \n 2. В основе праздничного рецепта - баланс от Спортивного Мержа (620 версия), дополированный до самого вкусного состояния! \n 3. Из новинок нашего меню - дорожка для ВИП-наград, на которой появились награды для матч-3. Теперь у наших платящих игроков есть дополнительные приятные бонусы при длительной игре в Мерж!\n 4. И на десерт - улучшенные анимации открытия ВИП-награды! Красоту нужно подавать максимально эффектно, особенно - в праздничный день!\n \n Поздравляем всех причастных с приближающимся Днем Благодарения, но сейчас - посылаем тысячи благодарностей всей команде Magic Team за невероятную работу! Каждый привнес в событие частичку домашнего уюта, без вас оно не было бы таким теплым и ламповым! \n \n До встречи в следующем году!",
+      "en": "На кухне Magic Team закончились последние приготовления: тыквенный пирог вытащен из духовки,чай с корицей заботливо разлит по кружкам, а огромная индейка торжественно сияет в самом центре стола. Добро пожаловать на релиз Мержа, посвященного Дню Благодарения - последнего Мержа в 2023 году! Что сегодня нас ждет на праздничном столе?\n \n \n 1. Как всегда, мы угощаем игроков новыми комиксами и ВИП-наградой! Организация праздника в последний день - это не только стресс, но и уйма смешных ситуаций. И сегодня в программе: битву за индейку в супермаркете, особенности подготовки праздничного ужина и игры с осенними листьями во дворе! \n 2. В основе праздничного рецепта - баланс от Спортивного Мержа (620 версия), дополированный до самого вкусного состояния! \n 3. Из новинок нашего меню - дорожка для ВИП-наград, на которой появились награды для матч-3. Теперь у наших платящих игроков есть дополнительные приятные бонусы при длительной игре в Мерж!\n 4. И на десерт - улучшенные анимации открытия ВИП-награды! Красоту нужно подавать максимально эффектно, особенно - в праздничный день!\n \n Поздравляем всех причастных с приближающимся Днем Благодарения, но сейчас - посылаем тысячи благодарностей всей команде Magic Team за невероятную работу! Каждый привнес в событие частичку домашнего уюта, без вас оно не было бы таким теплым и ламповым! \n \n До встречи в следующем году!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 27,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/docs/T029C19PJ/F06A5PJ16SE",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Anons-Default.jpg",
+    "date": "2023-12-15T14:30:00.000Z",
+    "announcement": {
+      "ru": "Хо-хо-хо! Две недели до Нового года, а праздничного настроения все нет? Самое время это исправить!",
+      "en": "Ho ho ho! Two weeks until New Year's, but still not in the holiday spirit? It's time to fix that!"
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Новый год начинается",
+      "en": "New Year's 2024 Online"
+    },
+    "text": {
+      "ru": "Хо-хо-хо! Две недели до Нового года, а праздничного настроения все нет? Самое время это исправить! Давай вместе создадим незабываемые моменты, наполненные радостью и сюрпризами, а завершим предпраздничную суматоху в пятницу, 22 декабря, новогодним онлайн-стримом, где тебя ждут розыгрыши, конкурсы и, конечно же, RixCoins!<br>**Приглашаем тебя присоединиться к новогодней подготовке в канале #new-year-2024.**<br><br>Начнем прямо сейчас! Пройди [опрос](https://docs.google.com/forms/d/e/1FAIpQLSedF8MNESZb2BpovepnswaFkFSEYQhCGB-vp6HK6uEByxxA-Q/viewform?usp=sf_link) — помоги нам определить идеальный Новый год для плейрикса. Каждый 24-й участник получит 10 RixCoins! Присоединяйся, чтобы вместе создать незабываемый Новый год!<br>**[Добавить праздничный стрим себе в календарь](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NTlzZjRmcjZmbG5pbDA1dmJicW1qMmxvMjMgZWthdGVyaW5hLnNodXRpa292YUBwbGF5cml4LmNvbQ&tmsrc=ekaterina.shutikova%40playrix.com).**",
+      "en": "Ho ho ho! Two weeks until New Year's, but still not in the holiday spirit? It's time to fix that! Let's create some unforgettable moments together, filled with joy and surprises! We're going to cap off the pre-holiday bustle on Friday, December 22, with an online New Year's stream, where you'll find sweepstakes, competitions, and, of course, RixCoins!<br>**We invite you to join the holiday preparations in the #new-year-2024 channel.**<br><br>Let's start right now! Take the [survey](https://docs.google.com/forms/d/e/1FAIpQLSedF8MNESZb2BpovepnswaFkFSEYQhCGB-vp6HK6uEByxxA-Q/viewform?usp=sf_link) and help us determine the perfect New Year for Playrix. Every 24th participant will receive 10 RixCoins! Join us in creating an unforgettable New Year together!<br>[Add the event to your calendar](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NTlzZjRmcjZmbG5pbDA1dmJicW1qMmxvMjMgZWthdGVyaW5hLnNodXRpa292YUBwbGF5cml4LmNvbQ&tmsrc=ekaterina.shutikova%40playrix.com)"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1]
+    }
+  },
+  {
+    "id": 28,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1705319139096589",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/winter_portal.jpg",
+    "date": "2024-01-15T12:45:00.000Z",
+    "announcement": {
+      "ru": "Релиз Merge-2 'Зимние Каникулы'",
+      "en": "Релиз Merge-2 'Зимние Каникулы'"
+    },
+    "author": {
+      "ru": "Эдуард Гончаров",
+      "en": "Эдуард Гончаров"
+    },
+    "title": {
+      "ru": "Кабы не было зимы...",
+      "en": "Кабы не было зимы..."
+    },
+    "text": {
+      "ru": "Зима со снегом для многих - эксклюзив, но в Homescapes для всех готово уютное зимнее шале и веселые каникулы на любой вкус: от катания на коньках до подледной рыбалки! Magic Team показывает красивое - **зимний Merge-2 в релизе с 10 января!**\nЛетят роскошные и бесценные, как ски-пасс в Куршевеле, **благодарности всем и каждому в команде** - от концепта до финальной реализации этому событию присуждается награда 'Снежное великолепие'!\nЧто интересного мы приготовили для игроков?\n1.  В событие влетают **линейные квесты** - когда игрок не может начать квесты следующей группы, пока не завершит все в текущей Cистема позволит нам давать более точные прогнозы на прохождение события, рассчитывать энергоемкость и очень гибко настраивать магазин (представьте, внутри все то, что вам так нужно для счастья - идеальный снеговик, ледяночка и варежки, которые невозможно потерять!)\n2.  Да, **магазин** стал гибче и полезнее для игрока: мы ожидаем прибылей, профита и мани-мани! Наполнение магазина теперь разное для каждой группы квестов. Эту систему попробуем использовать сразу и в 680 версии, мы верим в нее, но все-таки ждем результатов A/B теста\n3.  Сейчас в игре **тестируют пересечение больших событий** - одновременно в Merge-2 шла Ферма (уже закончилась ), а 22 января Зимние Каникулы встретятся с Шоколадной Фабрикой - нашей финальной Экспедицией! Ожидаем, что это поднимет интерес игроков (да, когда за один уровень можно заработать энергии сразу на два события!)\n4.  Ну и сияние снежка, **анимации** заряжаемых генераторов, PURPLE ENEGRY, тепло очага и легкий морозец, охвативший Homescapes... Здесь больше не нужно слов: зима-холода и ваши неодинокие сердца в Merge-2! \n \n До встречи в игре!",
+      "en": "Зима со снегом для многих - эксклюзив, но в Homescapes для всех готово уютное зимнее шале и веселые каникулы на любой вкус: от катания на коньках до подледной рыбалки! Magic Team показывает красивое - **зимний Merge-2 в релизе с 10 января!**\nЛетят роскошные и бесценные, как ски-пасс в Куршевеле, **благодарности всем и каждому в команде** - от концепта до финальной реализации этому событию присуждается награда 'Снежное великолепие'!\nЧто интересного мы приготовили для игроков?\n1.  В событие влетают **линейные квесты** - когда игрок не может начать квесты следующей группы, пока не завершит все в текущей Cистема позволит нам давать более точные прогнозы на прохождение события, рассчитывать энергоемкость и очень гибко настраивать магазин (представьте, внутри все то, что вам так нужно для счастья - идеальный снеговик, ледяночка и варежки, которые невозможно потерять!)\n2.  Да, **магазин** стал гибче и полезнее для игрока: мы ожидаем прибылей, профита и мани-мани! Наполнение магазина теперь разное для каждой группы квестов. Эту систему попробуем использовать сразу и в 680 версии, мы верим в нее, но все-таки ждем результатов A/B теста\n3.  Сейчас в игре **тестируют пересечение больших событий** - одновременно в Merge-2 шла Ферма (уже закончилась ), а 22 января Зимние Каникулы встретятся с Шоколадной Фабрикой - нашей финальной Экспедицией! Ожидаем, что это поднимет интерес игроков (да, когда за один уровень можно заработать энергии сразу на два события!)\n4.  Ну и сияние снежка, **анимации** заряжаемых генераторов, PURPLE ENEGRY, тепло очага и легкий морозец, охвативший Homescapes... Здесь больше не нужно слов: зима-холода и ваши неодинокие сердца в Merge-2! \n \n До встречи в игре!"
+    },
+    "pinned": false,
+    "validator": [
+      {
+        "studio.id": [18]
+      },
+      { "uid": [494] }
+    ]
+  },
+  {
+    "id": 29,
+    "channel": {
+      "name": "company-updates",
+      "color": "#1E9E1A"
+    },
+    "link": "https://playrix.slack.com/docs/T029C19PJ/F06FEEFAHAQ",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/cover_results_and_strategy_2023.jpg",
+    "date": "2024-01-29T00:00:00.000Z",
+    "announcement": {
+      "ru": "Игорь Бухман рассказывает о культуре качества в компании.",
+      "en": "Igor Bukhman talks about the culture of quality at the company."
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Культура качества в Playrix",
+      "en": "Culture of Quality at Playrix"
+    },
+    "text": {
+      "ru": "Для нас с Димой качество всегда было ориентиром в работе, и с самого начала мы строили компанию с такой стратегией. Разработка занимала значительное время, и у нас было не очень много продуктов. При этом у нас получилось сделать несколько топовых казуальных игр для ПК, а компания в какой-то момент стала самым крупным разработчиком на рынке.<br><br>Когда десять лет назад Playrix перешел на рынок мобильных free-to-play игр, мы сохранили акцент на качестве и создали Township, Fishdom, Gardenscapes и Homescapes. Эти четыре игры стали суперхитами и оказали влияние на всю индустрию мобильных игр.<br><br>В течение следующих пяти лет Playrix вырос по обороту более чем в 100 раз. Это очень непростое испытание для любого бизнеса. Мы много что сделали правильно, и в коммерческом плане наша компания — одна из самых успешных на огромном рынке мобильных игр. Однако на этом пути мы потеряли то, что стало залогом нашего успеха: незаметно для нас культура качества стала размываться.<br><br>Все это происходило очень постепенно. Мы по-прежнему говорили про качество, но делали это уже скорее по инерции, как нечто само собой разумеющееся, и не уделяли внимания распространению этой культуры на резко выросшую компанию. Фокус сместился на другие вещи, а это совсем не та культура, которая привела нашу компанию к выдающимся результатам.<br><br>В начале прошлого года мы с Димой осознали, что несмотря на то, что наши игры очень классные, это уже не топовое качество на рынке. Любопытно, что это произошло во время встречи с основателями компании Dream Games, которые создали Royal Match — самую успешную игру в жанре match-3 на сегодняшний день. Для нас это было как удар молотом по голове. Мы вернулись из Турции полные решимости поменять ситуацию.<br><br>За прошедший год мы проделали большую работу и значительно улучшили наши продукты, но это все еще не топовое качество на рынке. Если честно, мы не ожидали, насколько это будет сложной задачей. Оказалось, что недостаточно просто больше об этом говорить и выделить ресурсы на улучшение и полировку продуктов. Нам нужны гиперусилия и лазерный фокус, чтобы догнать конкурентов и снова начать задавать тренды. Изменение культуры для компании нашего размера и адаптация под постоянно растущие требования рынка требуют глобальной трансформации и затрагивают все процессы в компании.<br><br>Ориентир на качество касается каждого из нас, так как все мы делаем свой вклад в финальный результат. Мы хотим работать с людьми, которые поддерживают такую культуру на всех уровнях, для которых качество сделанной работы — не просто требование менеджера, а личный ориентир в принятии решений. Мы с вами должны приложить все усилия, чтобы держать максимальный фокус на качестве видения и реализации, на качестве всей работы, которую мы делаем.<br><br>Со своей стороны мы будем уделять больше внимания развитию людей и выдаче фидбека — мы уже начали пересматривать подходы в people management. Мы плотно займемся улучшением и других процессов, начнем пересобирать культуру нашей компании и вместе с командой коммуникаций работать над распространением этой культуры на всех уровнях.<br><br>Мы хотим делать игры, которыми гордимся и в которые приятно играть самим. И сейчас настал момент, когда мы готовы совершить рывок. Этот год должен стать прорывным для компании. Не в плане наших доходов, а в культуре и качестве наших продуктов. Успех следует за этим.",
+      "en": "For Dmitri and me, quality has always been the guiding principle in our work, and from the very beginning we built the company with this strategy in mind. Initially, the development process took a significant amount of time and we didn't have many products. Even so, we managed to make several super-successful casual games for PC, and at a certain point the company became the largest developer on the market.<br><br>When Playrix moved into the free-to-play mobile games market ten years ago, we maintained our focus on quality and created Township, Fishdom, Gardenscapes, and Homescapes. These four games became superhits and influenced the entire mobile gaming industry.<br><br>Over the next five years, the company's total revenue grew by more than 100 times. This is a very difficult test for any business. We've done a lot of things right, and commercially speaking, our company is one of the most successful in the giant mobile games market. However, along the way, we lost what had become the key to our success: unbeknownst to us, our culture of quality began to erode.<br><br>This happened very gradually. We still talked about quality, but we did so more out of inertia and as a matter of course, and we didn't prioritize spreading a culture of quality  within our sharply growing company. The focus has shifted to other things, and this is not the culture that led our company to outstanding results.<br><br>At the beginning of last year, Dmitri and I realized that despite the fact that our games are very cool, they are no longer top-quality on the market. Interestingly, this happened during a meeting with the founders of Dream Games, who created Royal Match — the most successful match-3 game to date. For us this was like a hammer blow to the head. We returned from Turkey determined to change the situation.<br><br>Over the past year, we have done a lot of work and have improved our products significantly, but they are still not the highest quality on the market. To be honest, we didn't expect how difficult of a task this would be. It turns out that simply talking about it more and devoting resources to improving and polishing products is not enough. We need redoubled effort  and laser focus to catch up to the competition and start setting trends again. Changing the culture of a company of our size and adapting to constantly growing market demands requires a global transformation and affects all processes in the company.<br><br>The focus on quality concerns each and every one of us, since we all contribute to the final product. We want to work with people who support a culture of quality on every level, people for whom the quality of the work they do is not just a requirement of their manager, but a personal guideline in their decision-making. We must make every effort to maintain maximum focus on the quality of our ideas and their implementation, and on the quality of all the work we do.<br><br>For our part, we will pay more attention to people development and giving feedback — we have already begun revising approaches to people management. We will pay close attention to improving other processes, begin to reassemble the culture of our company and, together with the communications team, work to spread this culture at every level.<br><br>We want to make games that we're proud of and enjoy playing ourselves. The moment has come when we're ready to make that leap. This year should be a breakthrough year for the company. Not in terms of revenue, but in terms of our culture and the quality of our products. Success will follow.<br><br>"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 30,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1706280541477569",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/%D0%A8%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F+%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0.jpg",
+    "date": "2024-02-05T15:49:00.000Z",
+    "announcement": {
+      "ru": "Золотой билет на финальную Magic Expedition",
+      "en": ""
+    },
+    "author": {
+      "ru": "Никита Лукин",
+      "en": ""
+    },
+    "title": {
+      "ru": "Все секреты Шоколадной фабрики",
+      "en": ""
+    },
+    "text": {
+      "ru": "Все просто в шоколаде, ведь идет наша новая, самая сладкая Экспедиция, к которой присоединился десерт со вкусом морской соли и потрясающей красоты - Аква Сезон! И это третий релиз от Daily Magic за месяц!<br>Но обо всем по порядку: поясняем за конфеты и чем уникальна наша последняя Экспедиция:\n - Это одно из самых масштабных событий: команда задала невероятную планку качества, которую отметили во всем Playrix! Экспедиция вышла с минимальным количеством багов и патчей.\n - Не только самая качественная, но и самая скоростная в производстве. Например, чтобы сделать разработку арта быстрее, для события была создана специальная AI-модель 'Сладости' для генерации шедевров шоколатье!\n - Работали вместе с командой Community Homescapes, чтобы словить хайпа с фильмом 'Вонка'. \n - Все отмечают наши сеттинги и истории, нарративный компонент - неожиданное перевоплощение персонажей из-за токсина, с помощью которого Доктор Мрак хочет поработить всех сладкоежек... Но мы же знаем, что самая огненная пара не даст этому случиться - Остин и Миссис Брум снова в шикарном дуэте! \n - Геймдизайн в Экспедиции тоже стал еще дружелюбнее - больше бустеров для Match-3, золота и энергии.<br><br> В общем, если вы еще не сыграли в шоколадные шахматы, пора вступить в партию и показать эндшпиль Доктору Мраку и его проделкам. Кстати, мы подсмотрели первые результаты Экспедиции: воронка и динамиты показывают себя отлично!<br>В очередной раз: невероятно шикарный результат команды, и каждый достоин отдельных аплодисментов за вклад и упорную работу. 100 % choco chic!",
+      "en": ""
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 31,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1708008943980829",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/AquaSeason.png",
+    "date": "2024-02-15T15:55:00.000Z",
+    "announcement": {
+      "ru": "Осьминог или коньки?",
+      "en": ""
+    },
+    "author": {
+      "ru": "Влад Близнец",
+      "en": ""
+    },
+    "title": {
+      "ru": "Сезон Океана!",
+      "en": ""
+    },
+    "text": {
+      "ru": "Буль-буль-буль. Кипит суп или кто-то поставил новый аквариум в доме?<br><br>Правильно, всю морковь мы отварили в зимнем Мерже - значит, это с осьминог по имени Ося, новые декоры и яркие мечты об океанском побережье... Оливия и Уильям нашли друг друга в этой любви к дайвингу.<br><br>Это был первый Сезон 3.0 в релизе. В чем его особенности?<br><br>\n - Почти возвращение редизайнов! Декорации и новый контент для дома? Все комьюнити рукоплескает, не меньше.\n - Новая визуальная подача. Кажется, что каждый отметил 'сок' наших сезонов, шикарные решения по иллюстрациям и переработанные окна! Качество!\n - Да, и про иллюстрации... В них стало больше динамики, эффекта левитации, который как батискаф, погружает игроков в атмосферу.\n - **Уже поставили себе в холле бассейн?** <br><br>Мы уже рассказывали, что к оперированию Сезонами можно подходить гибче, больше работать с A/B тестами, усилить связь с метой дома - полный сет декоров можно купить в несколько этапов, n-количество золотых билетов - ох уж это ожидание доставки из ИКЕА.<br><br>Первый выпуск - это всегда очень волнительно и команда успешно перестроилась под разработку новых событий, собрав качество на максимум. Спасибо и подводное сердечко каждому!",
+      "en": ""
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 32,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1708008943980829",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/farm_portal.jpg",
+    "date": "2024-02-22T15:33:00.000Z",
+    "announcement": {
+      "ru": "Тайный клуб сусликов и первые результаты",
+      "en": ""
+    },
+    "author": {
+      "ru": "Илья Зассеев",
+      "en": ""
+    },
+    "title": {
+      "ru": "Merge-2 Ферма!",
+      "en": ""
+    },
+    "text": {
+      "ru": "Все смешалось в домике фермера - мед, ламы, овечки, клевер и уточки, идущие в бесконечность... Этот Мерж-2 для легкой ностальгии, бабушкиного огорода и фанатов песни 'Beep-Beep-I-m-a-Sheep'. Давайте узнаем про него больше - что в событии нового и как оно чувствует себя на проде (спойлер: **ТОП-1 по фанатичной борьбе с кулдаунами**: игроки как мыши, которые плакали, кололись, но ели кактус - все покупают и покупают ускорения генераторов).<br><br> **Что нового?**\n -  Убрали из фотоальбома кнопку 'Играть' - комиксы стали еще больше, чтобы можно было рассмотреть в деталях, а сам альбом стал чище и не потерял в функциональности!\n - Поработали над Core UI: освежили квестовую плашку и инфо - чувствуете, как стало приятнее? Добавили подложки заблокированным клеткам с коробками.\n -Сделали подсказки быстрее - теперь анимации для фишек, которые ты можешь смержить, показываются раньше! <br><br>**Про баланс**<br>В этот раз используется схема **'Ярмарки Рукоделия'**, но с обновленным балансом и линейными квестами - мы долго работали над ними, чтобы они были справедливыми, интересными и разнообразными. Корреляция между сложностью квеста и очками за него стала более осязаема и точна. Больше не будет так, что игрок собирает фишки миллион лет и получает в награду 2-3 очка (хотя кому-то нравятся и такие челленджи).<br><br>**А какие результаты уже есть?**<br><br> \n - Во время проведения Фермы игроками было потрачено практически рекордное количество монет среди всех сегментов по Android - **55 миллиардов**! Обгоняет эти показатели только Весенний Мерж (и то не намного). По тратам монет на игрока Ферма уверенно лидирует среди остальных запусков - 12285 монет на человека на Android и 13393 монеты на IOS за 11 прошедших дней события!\n -  Открыли VIP-иллюстрацию полностью 0,04% игроков - 5183 человек, а все комиксы до VIP открыли 0,55% - 64878 человек. После финиша события посмотрим, кто был самым упорным фермером! <br><br>Вот такие дела на нашей Ферме - берем первые места за шикарный арт, баланс, нарратив - запоминающиеся фишки, прекрасные комиксы с восхитительным юмором. Еще техническая реализация Фермы тоже поднимает уровень качества всего Homescapes! Поздравляем команду с отличным результатом!<br><br>P.S. Тайный клуб сусликов открывается всем, кто собрал всю VIP-иллюстрацию!",
+      "en": ""
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 33,
+    "channel": {
+      "name": "playrix_shop_2_0",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04UX2QQCNB/p1710764772701519",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/shop_2024-03.jpg",
+    "date": "2024-03-18T13:26:00.000Z",
+    "announcement": {
+      "ru": "Коллекции доступны для заказа с 21 марта по 5 апреля.",
+      "en": "Collections are available for order from March 21st to April 5th."
+    },
+    "author": {
+      "ru": "Александра Михальчук",
+      "en": "Александра Михальчук"
+    },
+    "title": {
+      "ru": "Весеннее открытие Playrix Shop",
+      "en": "Playrix Shop Spring Opening"
+    },
+    "text": {
+      "ru": "Главные новости: \n \n - 300 RixCoins к открытию каждому и начисления по всем персональным поводам за период с 10 января по 5 апреля. \n - Большая коллекция одежды от художников Homescapes, Fishdom, Township и Gardenscapes. \n - Последняя фигурка коллекции Legends of Playrix — кот из Homescapes! \n - Голосование за возможность оставить некоторые временные позиции еще на одно открытие.",
+      "en": "Main news: \n \n - 300 RixCoins for the opening to everyone and accruals for all personal occasions from January 10th to April 5th. \n - A large collection of clothing from the artists of Homescapes, Fishdom, Township, and Gardenscapes. \n - The last figurine from the Legends of Playrix collection — the cat from Homescapes! \n - Vote on the possibility of keeping some temporary items for one more opening."
+    },
+    "pinned": false,
+    "validator": {
+      "!studio.id": [10, 20],
+      "!legal_entity.id": [371]
+    }
+  },
+  {
+    "id": 34,
+    "channel": {
+      "name": "omgd-conference",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/docs/T029C19PJ/F06QG57A1S4",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/omgd-teaser-post-900.jpg",
+    "date": "2024-03-19T13:00:00.000Z",
+    "announcement": {
+      "ru": "Первая онлайн-конференция для нарративных дизайнеров и гейм-дизайнеров компании.",
+      "en": "The first online conference for narrative and game designers at Playrix."
+    },
+    "author": {
+      "ru": "Екатерина Шутикова",
+      "en": "Ekaterina Shutikova"
+    },
+    "title": {
+      "ru": "Oh My GD Conference",
+      "en": "Oh My GD Conference"
+    },
+    "text": {
+      "ru": "OH MY GD Conference — первая онлайн-конференция Playrix, посвященная гейм-дизайну. Нарративные и гейм-дизайнеры, продюсеры, лиды и другие специалисты компании поделятся своими знаниями и опытом своих проектов, обсудят актуальные вопросы. \n  \n 📅 Онлайн-конференция пройдет 3 и 4 апреля. Для тех, кто не сможет посмотреть онлайн, сделаем запись. \n  \n 🗣️ Все трансляции будут вестись на английском и русском языках \n  \n 📒 Что в программе: \n - поговорим об архитектуре сложных фич с точки зрения гейм-дизайна, раскроем секреты нарратива и погрузимся в искусство мышления; \n -  узнаем, как проводить эффективный анализ конкурентов в игровой индустрии и превращать полученные данные в практические решения для улучшения своей игры; \n -  рассмотрим, как использовать конфликты в игровом сценарии для создания драмы и эмоциональной напряженности, и закрепим эти знания на практике; \n - пройдемся по ключевым аспектам креативного кластера в нарративе и сможем дать ответ на вопрос «Смерть от холода или топора?»; \n - обсудим методы поиска и поддержания баланса в игровых экономиках и многое другое. \n  \n Добавляйтесь в канал [#omgd-conference](https://playrix.slack.com/archives/C06P0DY8221), чтобы следить за анонсами. Увидимся на OH MY GD Conference!",
+      "en": "OH MY GD is Playrix’s first online conference dedicated to game design. Narrative and game designers, producers, leads, and other specialists in the company will share their knowledge and experience with their projects as well as discuss current issues. \n  \n 📅 The conference will be held online on April 3 and 4. The event will be recorded for those unable to tune in. \n  \n 🗣️ All presentations will be conducted in English and Russian \n  \n 📒 What's on the program: \n -  we'll talk about the architecture of complex features from the perspective of game design, and we'll reveal the secrets of narrative design and dive into the art of thinking \n - we'll learn how to conduct an effective analysis of gaming industry competitors and how to turn the data obtained into practical solutions to improve a given game \n - we'll look at how to use conflict in a game script to create drama and emotional tension, and we'll apply these techniques in practice \n - we'll go through the key aspects of a creative cluster in the narrative and be able to answer the question 'Death by cold or an axe?' \n - we'll discuss methods for finding and maintaining balance in-game economies and much, much more \n  \n Join the channel [#omgd-conference](https://playrix.slack.com/archives/C06P0DY8221) to stay up to date on any announcements. See you there!"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 35,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1712659501625269",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/cover_company_updates.png",
+    "date": "2024-04-10",
+    "announcement": {
+      "ru": "Рассказываем о том, что сейчас представляет собой география Playrix, какие есть новости по офисам и дальнейшие планы.",
+      "en": "In this update we’ll talk about what the geography of Playrix looks like now, office news, and future plans."
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Апдейт по странам и офисам Playrix",
+      "en": "Update on Locations and Offices"
+    },
+    "text": {
+      "ru": "Самой популярной страной для релокаций стала Сербия, и теперь здесь находится самое крупное представительство Playrix в мире :tada: Еще у нас есть 8 офисов в Казахстане, Украине, Армении, Кипре, Ирландии и Грузии. А общее количество стран, откуда работают сотрудники, перевалило за 50.<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/stat-playrix-1.jpg)<br>**Сербия — хаб Playrix**<br>Сербия естественным образом стала «хабом» Playrix, так как сюда релоцировалось больше всего людей. Здесь у нас два офиса — в Нови-Саде и Белграде. Страна удобна для жизни и ведения бизнеса, поэтому мы планируем и дальше развивать ее в этом качестве. Что это значит?\n - Мы ожидаем, что количество сотрудников будет только увеличиваться, так как сюда продолжают релоцироваться люди и мы активно ведем тут найм.\n - Мы планируем использовать офисы в Нови-Саде и Белграде как основные площадки для командировок в компании. Для этого мы увеличиваем площади нашего офиса в Нови-Саде и ищем новый классный офис в Белграде, который по уровню не будет уступать новисадскому.\n - Тут будут чаще проводиться официальные мероприятия Playrix. Например, осенью мы планируем провести общее собрание в честь 20-летия компании, которое будет транслироваться в остальные локации.\n - Мы также видим интерес к Сербии со стороны тех, кто выбирает эту страну для повторной релокации. И поэтому с апреля мы запускаем программу повторной оплачиваемой релокации в Сербию, чтобы поддержать таких сотрудников.<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/stat-playrix-2.jpg)_(данные о количестве сотрудников — по студии Playrix)_<br><br>**Офисы Playrix в других странах**<br>Параллельно с Сербией мы развиваем наши офисы и коворкинги в остальных странах. Для нас важно, чтобы уровень комфорта во всех офисах и коворкингах Playrix был высоким, и мы постепенно улучшаем там условия: где-то ремонтируем и обустраиваем быт, где-то ищем новые, более подходящие помещения.<br> \n\n - Мы недавно переехали в новый коворкинг в Алматы, открыли офис в Армении и ищем большой и просторный офис в Лимасоле.\n - Какую-то часть командировок мы хотим организовывать в Армении и Казахстане. Для этого обустраиваем офисы в Ереване и Астане таким образом, чтобы там тоже можно было принимать целые команды.\n - Мы продолжаем улучшать условия в офисах в Тбилиси и Батуми. В офисах Дублина и Харькова все остается по-прежнему.<br><br>💡_Если вы захотели поработать из офиса в другой стране, напоминаем, что у нас есть [сервис бронирования мест](https://offices-map.playrix.com/offices/)._<br><br>Офисы в новых локациях мы пока открывать не планируем. В Черногории и Португалии, где у компании есть юрлица, все остается по-прежнему. Перечислять остальные страны присутствия Playrix не будем, но знайте, что у вас есть коллеги в Японии, Катаре, Камбодже, Австралии, Бразилии, Новой Зеландии, Чили и Мексике 😉",
+      "en": "Serbia has become the most popular relocation destination and now has the most Playrix representatives in the world 🎉In addition to Serbia, we have 8 more offices in Kazakhstan, Ukraine, Armenia, Cyprus, Ireland, and Georgia. The number of countries from which Playrix employees work now exceeds 50.<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/stat-playrix-1.jpg)<br> **Serbia — Playrix Hub**<br>Serbia naturally became the new Playrix hub, since most people relocated there. We have two offices in Serbia **—** in Novi Sad and in Belgrade. The country is convenient for daily life and doing business, so we plan to further develop our presence and make a big hub there. What does that mean?\n - We expect that the number of employees there will only increase as people continue to relocate to Serbia, and we are actively recruiting there.\n - We plan to use the offices in Novi Sad and Belgrade as the main locations for work trips within the company. To that end, we are increasing the size of ​​our office in Novi Sad and are looking for a cool new office in Belgrade similar to the upgraded Novi Sad office.\n - Official company events will be held in Serbia more often. For example, in the fall we plan to hold a general meeting in honor of the company's 20th anniversary, which will be broadcast to other locations.\n - We're also seeing increased interest in Serbia from employees who have already relocated to other countries. Therefore, starting in April, we’re launching a secondary paid relocation program to Serbia.<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/stat-playrix-2.jpg)_(number of employees — in Playrix studio)_<br><br> **Playrix Offices in Other Countries**<br>In parallel with Serbia, we’re developing all of our offices and coworking spaces in other countries. It’s important for us that the level of comfort in all Playrix offices and coworking spaces is high, and we are gradually improving office conditions. In some locations we’re renovating and equipping spaces with daily necessities, while in others we’re looking for new, more suitable premises.<br> \n\n - We recently moved to a new coworking space in Almaty, opened an office in Armenia, and are looking for a spacious office in Limassol.\n - We want to be able to organize some work trips to Armenia and Kazakhstan as well. To do this, we are adapting our offices in Yerevan and Astana in such a way that we can receive entire teams there.\n - We continue to improve our offices in Tbilisi and Batumi. Everything remains the same in the Dublin and Kharkiv offices.<br><br>_💡If you want to work from an office in another country, we remind you that we have a workspace booking service._(https://offices-map.playrix.com/offices/).<br><br>If you want to work from an office in another country, we remind you that we have a workspace booking service._We do not plan to open offices in new locations yet. In Montenegro and Portugal, where the company has a legal presence, everything remains the same. We won't list every country, but know that you have colleagues in Japan, Qatar, Cambodia, Australia, Brazil, New Zealand, Chile, and Mexico 😉"
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 36,
+    "channel": {
+      "name": "playrix_only",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1712659501625269",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/cover_bonuses.jpg",
+    "date": "2024-04-11",
+    "announcement": {
+      "ru": "Сербия стала самой большой локацией Playrix, и наши сотрудники продолжают сюда релоцироваться. Мы уверены, что в этом есть плюсы как для компании, так и для самих сотрудников, поэтому с апреля запускаем повторную оплачиваемую релокацию в Сербию.",
+      "en": "Serbia has become the location most populated by Playrix, and our employees continue to relocate here. Having teams working together in the same office and able to see each other informally has advantages for both employees and the company, so we're launching an all-expenses-paid relocation program to Serbia since April."
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Повторная релокация в Сербию",
+      "en": "Re-relocation to Serbia"
+    },
+    "text": {
+      "ru": "**Что представляет собой программа повторной релокации**<br>Компания предоставляет возможность оплачиваемой релокации в Сербию сотрудникам, которые уже воспользовались релокационным пакетом до этого. Подробности о программе можно прочитать в [Базе знаний](https://knowledge.playrix.com/pages/viewpage.action?pageId=295379105), а конкретные условия нужно обсудить со своим менеджером. Как только релокация будет согласована, можно запускать задачу на релокацию на Портале сотрудника.<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/relocation-playrix-1.jpg)<br>**Почему Сербия так популярна**<br>\n 1.  Приятный климат, удобный часовой пояс и удобное географическое расположение относительно Европы и Азии.\n 2.  Доступные цены и хорошая инфраструктура.\n 3.  В Сербии есть разные по вайбу города под разный стиль жизни. Белград — столица, крупный современный город, Нови-Сад, второй по величине, — более спокойный и уютный.\n 4.  Процесс релокации в эту страну проще и быстрее относительно многих других. Есть возможность получить ПМЖ через 3 года, после чего можно подаваться на гражданство.\n 5.  И самое главное — тут самое большое комьюнити Playrix и классный большой офис в Нови-Саде (и скоро будет такой же в Белграде). Тут живет примерно 25% сотрудников Playrix — представители всех отделов и продуктов 🎉<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/relocation-playrix-2.jpg)<br>Таким образом, Сербия органично становится основным центром активности Playrix, поэтому мы будем вкладываться в эту локацию и развивать ее. Помимо того, что мы расширяем офисные пространства в Нови-Саде и Белграде и будем проводить тут основные мероприятия, мы будем работать над улучшением условий для сотрудников в стране. Это касается не только процессов легализации и адаптации, но и дальнейшей жизни. Например, недавно мы договорились с банком о выдаче кредитов и ипотеки нашим сотрудникам и наняли внутреннего ассистента-консьержа для помощи с бытовыми вопросами. Мы будем продолжать внедрять подобные инициативы и более плотно работать с госорганами, банками и другими учреждениями.<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/relocation-playrix-3.jpg)<br>_💡 В этом году в Сербии пройдет около 40 командных командировок и страну посетит около 1 000 сотрудников. Поэтому у многих из вас будет возможность познакомиться с ней поближе и рассмотреть для будущей релокации._<br><br>В ближайшее время мы поделимся с вами историями наших коллег в Сербии, а в мае проведем Q&A по релокации в эту страну. По всем вопросам можно писать специалистам Global Mobility Ксении Яровой или Индире Мустафиной, а в канале [#relocation_serbia](https://slack.com/archives/C03HKBZGETE) — общаться с коллегами на эту тему.",
+      "en": "**What is the re-relocation program?**<br>Starting in April, the company provides all-expenses-paid relocation to Serbia for employees who have already made use of the relocation package before. You can find details about the program conditions in [this article](https://knowledge.playrix.com/pages/viewpage.action?pageId=295379105) and discuss specific conditions with your manager. Once your relocation has been approved, you can open a relocation task in the Employee Portal.<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/relocation-playrix-1.jpg)<br>**Why Serbia is so popular**<br>\n 1. A pleasant climate and convenient time zone and location relative to Europe and Asia.\n 2.  Affordable prices and good infrastructure.\n 3.  Serbia has cities with different vibes for different lifestyles — Belgrade, the capital, is a large modern city, whereas Novi Sad, the second largest, is more peaceful and cozy.\n 4.  The relocation process to Serbia is simpler and faster than it is to many other countries. It's possible to obtain permanent residence after 3 years, after which you can apply for citizenship.\n 5.  And, most importantly, it's home to the largest Playrix community in the world and a cool, large office in Novi Sad (with an identical one coming soon to Belgrade). About 25% of Playrix employees live here — representatives of all departments and products 🎉<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/relocation-playrix-2.jpg)<br>As a result, Serbia is organically becoming the main center of Playrix's activities, which is why we will continue to invest in this location and develop it. What does that mean? In addition to expanding office space in Novi Sad and Belgrade and holding major events here, we're working to improve conditions for employees in the country. This applies not only to the processes of legalization and adaptation, but also to life further down the line. For example, we recently reached an agreement with a bank to issue loans and mortgages to our employees and we hired an internal concierge to help with everyday issues. We will continue to implement similar initiatives and work more closely with government agencies, banks, and other institutions.<br>![Shedule](https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/relocation-playrix-3.jpg)<br>_💡 This year, about 40 team trips will take place in Serbia and about 1,000 employees will visit the country. That means many of you will have the opportunity to get to know the country better and consider it for future relocation._<br><br>We'll soon be sharing stories about our colleagues in Serbia, and in May we'll conduct a Q&A on relocation to the country. If you have any questions, feel free to write to our Global Mobility specialists Ksenia Yarova or Indira Mustafina, or communicate with colleagues on this topic in the [#relocation_serbia](https://slack.com/archives/C03HKBZGETE) channel."
+    },
+    "pinned": false,
+    "validator": 1
+  },
+  {
+    "id": 37,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1715692902447639",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/%D0%9F%D0%BE%D0%B4%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0.jpg",
+    "date": "2024-05-14T13:15:58.000Z",
+    "announcement": {
+      "ru": "Мержим Немо и гидро-костюм!",
+      "en": ""
+    },
+    "author": {
+      "ru": "Дмитрий Тозик",
+      "en": ""
+    },
+    "title": {
+      "ru": "Merge-2 под водой!",
+      "en": ""
+    },
+    "text": {
+      "ru": "Бортовой журнал Magic Team,<br><br>Пятница 10.05. 17:01. Замечаю сильные подводные течения, ведущие к релизу. Завтра будет шторм из фишек.<br>Суббота 11.05. 10.05. Запущен новый Merge-2! Активно изучаем флору и фауну - наблюдаем за мигрирующими черепашками и A/В тестами... Выходим в открытый океан!<br><br>Ну а если вы пока не вышли в море, то пора отправиться в путешествие в Homescapes. Наш новый релиз погружает в прямом и переносном смысле - дайвинг, немного вайба Жака-Ива Кусто и маяки, которые светят долгому и приятному мержу фишек...<br><br>Что особенного в этом событии?\n1.  Мы модернизировали схему Школьного Merge-2 (привет любимым банкам с печеньем). Он простой, без заряжаемых генераторов: просто глубокая схема с длинными цепочками и улучшенной энергоемкостью\n2.  Чрезвычайно приятный баланс - у него хорошая динамика и проходимость, отличный шанс собрать все комиксы!\n3.  А сами комиксы - потрясающие. По мотивам истории с крестиком и картой можно собрать получасовое стендап-выступление. Русалочка тоже вышла очень обаятельная!\n4.  A/B тест на отключение монетизации - он большой, с тремя тестовыми группами и довольно сложный - запустили в Merge-2 даже двойную скидку!\n5.  В этой версии поменяли вектор работы над фишками: делаем их менее сложными и детализированными. Придерживаемся принципов развития одной сущности в рамках цепочки, то есть если рыбки - то только рыбки!<br><br>Надеюсь, этот Merge-2 запомнится вам и вдохновит на настоящие исследования глубин, как и нашу команду. Спасибо каждому за талант и вклад в новое событие!💜",
+      "en": ""
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 38,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1718620156520469",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/portal_museum.jpg",
+    "date": "2024-06-17T12:29:00.000Z",
+    "announcement": {
+      "ru": "",
+      "en": ""
+    },
+    "author": {
+      "ru": "Яна Аниканова",
+      "en": ""
+    },
+    "title": {
+      "ru": "На поиски сокровищ!",
+      "en": ""
+    },
+    "text": {
+      "ru": "14 июня мир увидел нашу коллекцию экспонатов - в релизе Merge-2 Музей. На препроде событие и его тема пережили настоящую трансформацию - от классического музея до охоты за сокровищами: с раскопками древних городов, путешествием по джунглям и поиску красивых тотемов с сокровищами ушедших цивилизаций. Вайбы Индианы Джонса, Лары Крофт и Нэйтана Дрейка - все здесь!<br>Наверное, вы уже успели собрать первые комиксы и готовы к открытиям:\n1.  В Музее у нас абсолютно новая схема: она отличается глубиной и длинными цепочками. Три основных генератора откроются в связке с сюжетом, постепенно... Ровно как и сокровища!\n2.  В мир холдаутом запущены Match-3 квесты - смотрим, какие результаты покажет наш смелый эксперимент. Теперь придется попотеть на Match-3 не только для Энергии!\n3.  Отдельного внимания заслуживают фишки: ацтеки, майя и инки должны были сойтись в одной яркой цивилизации (такой же незабываемой) - чувствуете, как не отпускают вайбы древности? Особенно симпатичная - статуя древнего стража, который будет для многих ностальгической отсылкой к Статуе Легиона из 'Героев Меча и Магии 3'<br><br>Поздравляем команду!",
+      "en": ""
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 39,
+    "channel": {
+      "name": "playrix-entertainment",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C0745BL3A73/p1718803997354049",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/stay+on+track.jpg",
+    "date": "2024-06-19",
+    "announcement": {
+      "ru": "Благотворительный спортивный марафон Stay on Track by Playrix возвращается в сентябре!",
+      "en": "Charity sports marathon Stay on Track by Playrix returns this September!"
+    },
+    "author": {
+      "ru": "Алексей Яскевич",
+      "en": ""
+    },
+    "title": {
+      "ru": "Stay on Track",
+      "en": "Stay on Track"
+    },
+    "text": {
+      "ru": "Готовы ли вы к самому захватывающему и обсуждаемому событию года? Пришло время достать с полки кроссовки, подкачать колеса велосипеда или обвести в календаре понедельник, с которого вы точно начнете заниматься спортом.<br><br>Легендарный Stay On Track возвращается в сентябре, он состоится с 30 сентября по 13 октября!<br><br>Stay on Track - это ежегодный спортивный благотворительный онлайн-марафон, где команды со всей компании будут заниматься спортом, превращая свою энергию в реальные деньги для тех, кто в этом нуждается.<br><br>**Как участвовать?**\n1.  Соберите свою команду из 7 человек, придумайте название и зарегистрируйте ее в [таблице](https://docs.google.com/spreadsheets/d/1blyOBSPqkEB6_PMHQKiwhvQiBrh-LjDOoMGls3xaOyc/edit?usp=sharing) до 20 сентября..\n2.  Каждому участнику марафона мы предоставим фирменную футболку проекта. Чтобы ее получить, до 20 сентября заполните [форму](https://docs.google.com/forms/d/e/1FAIpQLScTkQO7uNB8SJsF4YxWpK2UQY-hfDMlbF-KRVp4lVPQljL38A/viewform?usp=sf_link) и расскажите куда доставить.<br><br>Подробные правила и обновленный регламент этого года мы расскажем позже.<br><br>**Почему стоит участвовать?**<br><br>\n1.  **Благотворительность**. Весь ваш спортивный дух и усилия пойдут на поддержку тех, кто в этом нуждается. До старта марафона мы расскажем, какие фонды и инициативы мы поддержим с вами в этом году.\n2.  **Личный челлендж**. Удачный момент бросить себе вызов, поддерживать ежедневную активность и сформировать хорошую привычку.\n3.  **Командная работа**. Радоваться не только за свои успехи, а и успехи коллег для общего дела – отдельное удовольствие.<br><br>Для того, чтобы не пропустить никаких обновлений и новостей марафона, вступайте в канал [#stay_on_track](https://playrix.slack.com/archives/C05G0JNRYDQ) – он останется главным каналом с новостями и анонсами от организаторов.<br><br>Также мы запускаем дополнительный канал, который позволит вам общаться, создавать собственные треды обсуждений [#stay_on_track_random](https://playrix.slack.com/archives/C078PR5M621). Не пропусти Stay On Track 2024!",
+      "en": "Are you ready for the most exciting and talked about event of the year? It's time to dust off those runners and buy that bike or snazzy swim cap you've been dreaming of.<br><br>The legendary Stay On Track marathon returns this September! It takes place from the 30th of September to the 13th of October.<br><br>Stay on Track is an annual online charity sports marathon where teams from across the company actively engage in sports, turning their energy into real money for those who need it.<br><br>How to participate:\n1.  Gather a team of 7 people, come up with a name, and register it in this [spreadsheet](https://docs.google.com/spreadsheets/d/1blyOBSPqkEB6_PMHQKiwhvQiBrh-LjDOoMGls3xaOyc/edit?usp=sharing) by September, 20th.\n2.  We'll provide each marathon participant with a branded event T-shirt. To receive it, fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLScTkQO7uNB8SJsF4YxWpK2UQY-hfDMlbF-KRVp4lVPQljL38A/viewform?usp=sf_link) and tell us where to deliver it. Please don't delay in filling out the form. The projected delivery dates are from August to September if you fill out the form **until September, 20th**.<br><br>We'll announce this year's detailed rules and regulations at a later time.<br><br>**Why is it worth participating?**<br><br>\n1.  For charity! All your sporting spirit and efforts will go towards supporting those who need it. Before the start of the marathon, we'll tell you what funds and initiatives we'll be supporting together this year.\n2.  For the personal challenge! It's the perfect opportunity to challenge yourself, get some exercise in your day, and establish a healthy habit.\n3.  For the teamwork! You'll get to celebrate not only your own successes but also the successes of your colleagues. You'll have the pleasure of working towards a common cause.<br><br>To avoid missing updates and news about the marathon, make sure to join the [#stay_on_track](https://playrix.slack.com/archives/C05G0JNRYDQ) channel. Don't miss Stay On Track 2024!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 18, 6, 13, 5]
+    }
+  },
+  {
+    "id": 40,
+    "channel": {
+      "name": "dm-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1721288375390939",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/merge_2_olympic_llustarion_x2.png",
+    "date": "2024-07-18T11:39:00.000Z",
+    "announcement": {
+      "ru": "Городские Соревнования в релизе",
+      "en": ""
+    },
+    "author": {
+      "ru": "Артем Северин",
+      "en": ""
+    },
+    "title": {
+      "ru": "Мерж быстрее, выше, сильнее!",
+      "en": ""
+    },
+    "text": {
+      "ru": "Быстрее, выше, сильнее!<br>Два дня назад мы запустили наш Merge-2 в отличной тематике - Городские Соревнования, вдохновленные Летними Олимпийскими Играми.<br>Сюжет события прост:<br>Остин с семьей смотрит спортивные соревнования по телевизору. Папа расстраивается, что уже не молод для спорта — как бы ему хотелось ставить новые рекорды и соревноваться с другими! Остин обещает помочь папе и организует свои городские соревнования!<br><br>Событие вышло с Match-3 квестами, которые показали себя хорошо в Merge-2 Археология, увеличив ARPU события на ~10% по сравнению с событием без Match-3 квестов.<br>**Тут интересно!** В этом релизе мы проводим тест, в котором проверяем новую большую фичу<br> - Множители.<br>Что такое Множители? Функционал, позволяющий за 1 тап по генератору потратить 2 или 4 энергии, получив фишку на 1 или на 2 грейда выше, чем при ставке х1.<br><br>В событии мы использовали новую схему и сложный, но динамичный баланс, который позволяет быстро продвигаться по цепочкам и не заставляет игрока буксовать. Мы до последнего момента работали над ним и дизайном A/B теста - приходилось то отключать, то включать монетизацию. Ребята, работавшие над событием очень хорошо постарались и показали себя на самом высоком уровне.<br><br>**И немного грустинки.** Это наш последний Merge-2, который выходит в таком виде. Развитие и новая концепция события еще на ранней стадии обсуждения, но в финале уже знаем точно, что будет очень круто, потому что усилиями команды наработана огромная экспертиза по тому, как может и должен работать Merge-2, что в нем работает хорошо, что плохо.Мы сделали и успешно выпустили 13 Merge-2 событий. Посмотреть и повспоминать о них можно [здесь](https://coda.io/d/HS_dq8qPwxt3IV/600-merge-2_su-JV?searchClick=2ac9ab6c-08ec-4daf-a415-3f60616b9b44_q8qPwxt3IV#_lu9lp). Мы всегда выходили в срок с отличным качеством, не пропуская ни одной версии. И всё это — только благодаря нашей команде!\n1.  Благодаря таланту наших художников, которые раз за разом показывали не только чудеса креатива, но и максимальную выдержку под бесконечной лавиной из фидбэков и правок;\n2.  Благодаря стойкости технической команды, которая 24-7 находилась на посту и мужественно принимала на себя любые удары билда, не оставляя ни одну ХАНУ без внимания!\n3.  Благодаря фантазии геймдизайнеров, которые не боялись смотреть на событие шире, предлагая новые схемы, фичи и подходы;<br><br>Это было чертовски веселое приключение в котором мы заняли весь пьедестал почета. И теперь, присев на стадионный газон и открыв шампанское, мы наконец-то можно выдохнуть, обняться и проводить взглядом улетающего в небеса Олимпийского Мишку<br><br>Спасибо команде за наши Мержи, впереди нас ждут новые вызовы и не менее крутые события!",
+      "en": ""
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [18]
+    }
+  },
+  {
+    "id": 41,
+    "channel": {
+      "name": "playrix-entertainment",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C0745BL3A73/p1722412888205739",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Portal.jpg",
+    "date": "2024-07-31T11:01:00.000Z",
+    "announcement": {
+      "ru": "Этой осенью Playrix исполнится 20 лет, и это отличный повод, чтобы собраться и отпраздновать юбилей всем вместе!",
+      "en": "This fall, Playrix turns 20! This milestone is the perfect occasion for us to come together and celebrate!"
+    },
+    "author": {
+      "ru": "Анна Гордейчук",
+      "en": ""
+    },
+    "title": {
+      "ru": "Оффлайн-ивенты в честь 20-летия Playrix",
+      "en": "Offline Events in Honor of Playrix's 20th Anniversary"
+    },
+    "text": {
+      "ru": "Этой осенью Playrix исполнится 20 лет, и это отличный повод, чтобы собраться и отпраздновать юбилей всем вместе! **Мы готовим вечеринки в трёх странах: Казахстан (Алматы), Сербия (Белград), Украина (ивенты пройдут в нескольких городах).** Приглашены все сотрудники студий Playrix, Playrix RS, Daily Magic, Mariaglorum, Perfect Play, Zagrava, Boolat Play, Home Games и 4Friends. Даже если ты живешь в Мексике или Японии — мы позаботимся о твоей логистике и проживании!<br><br>**Даты ивентов:**\n - 25 октября — Алматы;\n - 1 ноября — Белград;\n - октябрь-ноябрь — Украина (даты уточняются).\n\n **Подробнее о мероприятиях в Белграде и Алмате**<br><br> В Сербии и Казахстане корпоративные ивенты пройдут в пятницу. А значит, мы предложим вам прилететь накануне (в четверг), заселиться в отель и увидеться с командами на ужинах. Про программу пятничного ивента мы расскажем подробнее позже, пока скажем, что в первой части мероприятия нас ждут выступления фаундеров и менеджмента компании, во второй — вечеринка. В субботу мы организуем неформальную программу для желающих, или можно будет просто отдохнуть. Воскресенье – день вылета домой.<br><br>**Подробнее о мероприятиях в Украине**<br><br>При организации ивентов в Украине мы вынуждены учитывать множество ограничений, поэтому сделать один большой ивент для всей Украины — это очень большие риски как для организаторов, так и сотрудников. Ивентов в Украине будет несколько: в Киеве, Харькове, Ровно и Львове.",
+      "en": "This fall, Playrix turns 20! This milestone is the perfect occasion for us to come together and celebrate! **We're preparing parties in three countries: Kazakhstan (Almaty), Serbia (Belgrade), and Ukraine (events will be held in several cities).** All employees of Playrix, Daily Magic, Mariaglorum, Perfect Play, Zagrava, Boolat Play, Home Games, and 4Friends are invited. Even if you live in Mexico or Japan, we'll handle your logistics and accommodation!<br><br>**Event Dates:**\n - October 25 in Almaty\n - November 1 in Belgrade\n - October–November in Ukraine (dates to be confirmed)\n\n **More about events in Belgrade and Almaty**<br><br>Corporate events will be held in Serbia and Kazakhstan on Friday. That means we'll plan for you to fly in the day before (Thursday), check into the hotel, and meet the team for dinner. We'll tell you more about Friday's event program later, but for now, we can say that the first part of the event will feature speeches by the company's founders and management, and the second part will include a party. For Saturday, we will organize an informal program for those interested, or you can simply relax. Sunday will be the day of your departure back home.<br><br>**More about the events in Ukraine**<br><br>When organizing events in Ukraine, we have to consider many restrictions, so making one big event for all of Ukraine is a considerable risk for both the organizers and the staff. There will be several events in Ukraine: in Kyiv, Kharkiv, Rivne, and Lviv."
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 5, 18, 13, 6, 8, 17, 15, 11]
+    }
+  },
+  {
+    "id": 42,
+    "channel": {
+      "name": "company-updates",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04764QN2/p1721732896565859",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/news_new_format.png",
+    "date": "2024-10-21T11:01:00.000Z",
+    "announcement": {
+      "ru": "Мы изменили формат новостей компании: добавили ведущего и больше спикеров. Подробнее в видео!",
+      "en": "We've refreshed the format of our company updates by adding a host and featuring more speakers. Check out the recording!"
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Новости компании в новом формате",
+      "en": "New format company update"
+    },
+    "text": {
+      "ru": "Мы долго обсуждали и решили изменить формат этих новостей — добавить ведущего, больше спикеров и сделать их в более интерактивном формате. Видео выложено в записи на нашем сервисе, посмотреть его можно по [этой ссылке](https://live.playrix.com/record/3/).<br>Надеемся, вам понравится такой формат, потому что мы планируем его развивать и, конечно, работать над качеством 😉<br><br>В этом выпуске:\n -  **Дима и Игорь Бухманы** о стратегии и результатах Playrix.\n - **Апдейты** по проектам Roomscapes, Austin's Odyssey, Too Much To Match.\n - **Интервью** с продюсерами игр в оперировании.\n - **Интервью** с General Managers про релокации, бенефиты, офисы и ивенты.",
+      "en": "It’s been a while since our last company update, but we’re making up for it now 🙌 After many discussions, we've updated the format by adding a host, featuring more speakers, and aiming for a more dynamic feel. The video is now available on our platform, and you can watch it through [this link](https://live.playrix.com/record/3/).<br>We hope you enjoy this new format because we plan to develop it further and, of course, work on improving the quality 😉<br><br> In this episode:\n -  **Dmitri and Igor Bukhman** discuss Playrix's strategy and results.\n - **Updates** on the projects Roomscapes, Austin's Odyssey, and Too Much To Match.\n -  **Interviews** with producers of games in operation.\n -  **Interviews** with General Managers about relocations, benefits, offices, and events."
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 5, 18, 13, 6, 8, 17, 15, 11]
+    }
+  },
+  {
+    "id": 43,
+    "channel": {
+      "name": "company-updates",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04764QN2/p1730441811105339",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/HB_Playrix+(1).png",
+    "date": "2024-11-27",
+    "announcement": {
+      "ru": "Playrix празднует 20-летие! Мы гордимся нашими достижениями и благодарим вас за труд и вдохновение.",
+      "en": "Playrix turns 20! We are proud of our achievements and thank you for your work and inspiration."
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "С днём рождения, Playrix!",
+      "en": "Happy Birthday, Playrix!"
+    },
+    "text": {
+      "ru": "Мы основали Playrix 20 лет назад, и тогда мы и представить не могли, сколько всего нас ждет впереди. Мы гордимся, какой большой и интересный путь мы прошли и какую удивительную компанию создали. Это стало возможным только благодаря вам, нашей невероятной команде!<br><br>Спасибо за вашу преданность делу и усердную работу. Каждый из вас — важная часть успеха Playrix за эти годы!<br><br>C днём рождения всех нас! 🎂",
+      "en": "We started Playrix 20 years ago, and back then, we could never have imagined how much was in store for us. We're proud of the long and interesting path we've taken and the amazing company we've created. And all of it was only possible thanks to you, our incredible team!<br><br>Thank you for your dedication and hard work. Each of you has been an important part of Playrix's success over all these years!<br><br>Happy birthday to all of us! 🎂"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 5, 18, 13, 6, 8, 17, 15, 11]
+    }
+  },
+  {
+    "id": 44,
+    "channel": {
+      "name": "playrix_shop_2_0",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04UX2QQCNB/p1733392989296649",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/Portal-newa.jpg",
+    "date": "2024-12-05T13:03:00.000Z",
+    "announcement": {
+      "ru": "Коллекции доступны для заказа с 19 декабря до 10 января.",
+      "en": "Collections are available for order from December 19th to January, 10th."
+    },
+    "author": {
+      "ru": "Александра Михальчук",
+      "en": "Alexandra Mikhalchuk"
+    },
+    "title": {
+      "ru": "Зимнее открытие Playrix Shop",
+      "en": "Playrix Shop Winter Opening"
+    },
+    "text": {
+      "ru": "Главные новости:<br>300 RixCoins к открытию каждому и начисления по всем персональным поводам за период с 11 сентября по 10 января.<br>Две мини коллекции для дома и дождливой весенней погоды<br>Дополнительные позиции в базовой коллекции<br>Повторная возможность заказать любимые позиции из прошлой коллекции",
+      "en": "Top News:<br>300 RixCoins for everyone in time for the latest opening, as well as RixCoins for all personal occasions from September 11th to January 10th<br>Two mini-collections for your home and rainy spring weather<br>Additional items in the 'Playrix Essentials' collection<br>A second chance to order some of the favorite items from the last collection"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 5, 18, 13, 6, 8, 17, 15, 11]
+    }
+  },
+  {
+    "id": 45,
+    "channel": {
+      "name": "company-updates",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04764QN2/p1732716284377439",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/20th+anniversary+new.png",
+    "date": "2025-01-14T13:03:00.000Z",
+    "announcement": {
+      "ru": "Делимся записями с празднования 20-летия Playrix в Сербии!",
+      "en": "We're sharing highlights from Playrix's 20th anniversary celebration in Serbia!"
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Playrix 20 лет: Запись мероприятия",
+      "en": "20 Years of Playrix: Official Keynote"
+    },
+    "text": {
+      "ru": "В рамках празднования 20-летия компании в Сербии мы провели официальную часть мероприятия, на которой подвели итоги, радовались успехам и много шутили.<br><br>В [первой части](https://live.playrix.com/record/4) вы услышите историю создания компании из первых уст, увидите фотографии 20-летней давности, узнаете, случилась ли сепарация Остина от родителей, кто делает капитальный ремонт, и насколько важно умение переобуваться. Ведущий: Даня Кньязкин.<br><br>Во [второй части](https://live.playrix.com/record/5) вы узнаете, сколько денег на рекламу мы потратили за 20 лет, какая игра запускается быстрее, чем Royal Match, и как мы обучали match-3 бота проходить наши уровни. А еще вас ждет игра в Kahoot и самое неожиданное открытие сезона — стендап от команды Finance!",
+      "en": "As part of Playrix's 20th anniversary celebration in Serbia, we held an official keynote where we talked about the results, celebrated successes and had a lot of laughs.<br><br>In the [first part](https://live.playrix.com/record/4), you'll hear the history of the company's creation first-hand, see photos from 20 years ago, find out whether Austin has finally separated from his parents, who is doing a major makeover, and how important it is to be ready to change course 😀 Host: Daniil Knyazkin.<br><br>In the [second part](https://live.playrix.com/record/5), you will find out how much money we spent on advertising over 20 years, which game loads faster than Royal Match, and how we taught our match-3 bot to pass our levels. You will also have a game of Kahoot and the most unexpected discovery of the season — a stand-up from the Finance team 😮"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 5, 18, 13, 6, 8, 17, 15, 11]
+    }
+  },
+  {
+    "id": 46,
+    "channel": {
+      "name": "playrix-entertainment",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C0745BL3A73/p1744880404333319",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/_Common.png",
+    "date": "2025-04-17",
+    "announcement": {
+      "ru": "🌿 Ивенты Playrix пройдут в 9 локациях, где сотрудников компании больше 50 человек. Формат участия: семейный, то есть с +1 и детьми.",
+      "en": "🌿 Playrix events will take place in 9 locations where there are 50+ employees. Format: with +1 and kids."
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Playrix Fest возвращается в тематике Summer Camp!",
+      "en": "Playrix Fest is back — this time in Summer Camp style!"
+    },
+    "text": {
+      "ru": "**🎒 Помнишь, как было в летнем лагере?**<br>Списки, кто в каком отряде, рюкзак, собранный в последний момент, тайные записки и неловкий танец под медляк на вечерней дискотеке. Забудь про офис и дедлайны – на один день добро пожаловать в лагерь, в котором всё, что мы любили — осталось, а всё, что мешало — исчезло. Нас ждут:<br>– отрядные шутки<br>– вечерняя перекличка (в новом формате 😏),<br>– песни у костра<br>– а вожатые? Будут! Но теперь от них не нужно прятаться, наоборот, — они дадут бокал и спросят, белое или красное?<br>🌿 Ивенты Playrix пройдут в 9 локациях, где сотрудников компании больше 50 человек. Формат участия: семейный, то есть с +1 и детьми.<br>**Смена 1:** 10 мая, Валенсия – для сотрудников, проживающих в Испании.<br>**Смена 2:** 17 мая, Белград – для сотрудников, проживающих в Сербии и Черногории.<br>**Смена 3:** 7 июня, Алматы – для сотрудников, проживающих в Казахстане.<br>**Смена 4:** 7 июня, Тбилиси – для сотрудников, проживающих в Грузии.<br>**Смена 5:** 7 июня, Лимассол – для сотрудников, проживающих на Кипре.<br>**Смена 6:** 14 июня, Дублин – для сотрудников, проживающих в Ирландии.<br>**Смена 7:** 21 июня, Ереван – для сотрудников, проживающих в Армении.<br>**Смена 8:** 21 июня, Львовская область – для сотрудников, проживающих в Украине.<br>**Смена 9:** 28 июня, Варшава – для сотрудников, проживающих в Польше.<br><br>**Памятка по участию:**\n\n1.  Эта серия ивентов для сотрудников студий Playrix, Playrix RS, Daily Magic, Perfect Play, Mariaglorum.<br>\n2.  Приглашения на ивент рассылаются через задачи в Asana проживающим в локации ивента. Проверьте, что в личном кабинете на Портале сотрудника у вас указана актуальная информация.<br>\n3.  Если вы хотите принять участие в ивенте, который проходит не в вашей локации, заранее сообщите об этом организатору, указанному в календаре мероприятий на Портале сотрудника. Важно: логистика до города проведения ивента в таком случае организовывается сотрудником самостоятельно.",
+      "en": "**Remember summer camp?**<br>Team lists, backpacks packed at the last minute, secret notes passed around, and that awkward slow dance at the evening disco...<br>Forget the office and deadlines — for one day, step into a camp where everything we loved is still here, and everything that got in the way is gone.<br>Here’s what’s waiting for us:<br>– camp-style jokes<br>– evening roll call (in a whole new format 😏)<br>– songs by the campfire<br>– and camp counselors? Oh yes! But now you don’t need to hide from them — they’ll hand you a glass and ask, red or white?<br>🌿 Playrix events will take place in 9 locations where there are 50+ employees. Format: with +1 and kids.<br>**Shift 1:** May 10 – Valencia (for employees based in Spain)<br>**Shift 2:** May 17 – Belgrade (for employees based in Serbia and Montenegro)<br>**Shift 3:** June 7 – Almaty (for employees based in Kazakhstan)<br>**Shift 4:** June 7 – Tbilisi (for employees based in Georgia)<br>**Shift 5:** June 7 – Limassol (for employees based in Cyprus)<br>**Shift 6:** June 14 – Dublin (for employees based in Ireland)<br>**Shift 7:** June 21 – Yerevan (for employees based in Armenia)<br>**Shift 8:** June 21 – Lviv region (for employees based in Ukraine)<br>**Shift 9:** June 28 – Warsaw (for employees based in Poland)<br><br>**📝 Participation Reminder:**<br>This event series is for employees of Playrix, Playrix RS, Daily Magic, Perfect Play, and Mariaglorum.<br>Invitations will be sent via Asana tasks to those based in the event location. Please make sure your Employee Portal profile is up to date.<br>If you'd like to join an event that’s not in your location, please inform the event organizer listed in the Event Calendar on the Employee Portal in advance.<br>Important: if you're joining an event outside your location, travel to the event city is self-organized."
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 6, 5, 18, 13, 11, 15]
+    }
+  },
+  {
+    "id": 47,
+    "channel": {
+      "name": "company-blog",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/docs/T029C19PJ/F08PMJWGX5J",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/portal-cover.jpg",
+    "date": "2025-05-13",
+    "announcement": {
+      "ru": "Рады поделиться с вами основными хайлайтами прошедшего месяца в нашем свежем выпуске дайджеста.",
+      "en": "We’re excited to share the key highlights from the past month in our latest edition of the digest."
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Playrix Digest: April’25",
+      "en": "Playrix Digest: April’25"
+    },
+    "text": {
+      "ru": "Рады поделиться с вами основными хайлайтами прошедшего месяца в нашем свежем выпуске дайджеста. Ниже — самое важное, интересное и полезное, что произошло за последние недели. Поехали!<br>[Новость доступна по ссылке](https://playrix.slack.com/archives/CP0H0K6AF/p1747134019538819)",
+      "en": "We’re excited to share the key highlights from the past month in our latest edition of the digest. Below you’ll find the most important, interesting, and useful updates from the past few weeks. Let’s dive in!<br>[The news is available at the link](https://playrix.slack.com/archives/CP0H0K6AF/p1747134019538819)"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 6, 5, 18, 13, 11, 15]
+    }
+  },
+  {
+    "id": 48,
+    "channel": {
+      "name": "playrix_entertainment",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/docs/T029C19PJ/F08TYT8MWR5",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/Portal+_+News+_+1920%D1%851080_new.jpg",
+    "date": "2025-05-29",
+    "announcement": {
+      "ru": "В этом году Playrix исполняется 21 — мы официально становимся совершеннолетними во всех уголках мира и теперь можем шутить над собой по-взрослому.",
+      "en": "This year, Playrix turns 21 — we’re officially of age in every corner of the world, and ready to joke about ourselves like grown-ups."
+    },
+    "author": {
+      "ru": "",
+      "en": ""
+    },
+    "title": {
+      "ru": "Playrix Open Mic: прием заявок",
+      "en": "Playrix Open Mic: Applications now open!"
+    },
+    "text": {
+      "ru": "У каждого из нас точно найдутся забавные истории с работы, которые мы пересказываем друзьям снова и снова. А сколько у нас уже накопилось внутренних мемов, которые поймут только свои! Именно поэтому мы запускаем подготовку к первому в истории **Playrix Stand Up Show.**<br><br>Всё будет по-настоящему: отбор участников, совместная работа над материалом с профессиональными комиками, сцена, съёмки — и, конечно, премьера, которую увидит вся компания.<br>Если у тебя есть опыт юмористических выступлений, это отлично. Если опыта нет — не страшно, мы подготовим и всему научим!<br><br>Чтобы заявиться на участие в **Playrix Open Mic**, [заполни анкету до **20 июня**](https://docs.google.com/forms/d/e/1FAIpQLScas1EX9W8Ewb3x140VdND__ftnLA6F-5JvsqBV1x3aR_eZjA/viewform).<br>Playrix Open MIC ждёт твою историю! 🎤✨",
+      "en": "We’ve all got those funny stories from work — the ones we retell to friends over and over again. And don’t even get us started on the inside jokes only Playrix folks would get! That’s why we’re launching prep for the very first **Playrix Stand-Up Show.**<br><br>Everything will be real: participant selection, working with professional comedians on your material, stage time, filming — and of course, a big premiere for the whole company. If you’ve done comedy before — awesome! If not — don’t worry, we’ll help you prepare and teach you everything you need.<br><br>To take part in **Playrix Open Mic**, [fill out the application form by **June 20**](https://docs.google.com/forms/d/e/1FAIpQLScas1EX9W8Ewb3x140VdND__ftnLA6F-5JvsqBV1x3aR_eZjA/viewform).<br>We’ll select up to 15 participants for the first edition.<br><br>Ready to join? Fill out the form! Know someone who’d crush it on stage? Send them this post!<br>**Playrix Open Mic is waiting for your story! 🎤✨**"
+    },
+    "pinned": false,
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 49,
+    "channel": {
+      "name": "playrix_shop_2_0",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04UX2QQCNB/p1753883696778489",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/Portal+News+800x480.jpg",
+    "date": "2025-07-30",
+    "announcement": {
+      "ru": "Коллекции доступны для заказа с 19 августа до 10 сентября.",
+      "en": "Collections are available for order from August 19th to September 10th."
+    },
+    "author": {
+      "ru": "Александра Михальчук",
+      "en": "Alexandra Mikhaltchuk"
+    },
+    "title": {
+      "ru": "Летнее открытие Playrix Shop",
+      "en": "Playrix Shop Summer Opening"
+    },
+    "text": {
+      "ru": "**Главные новости:**\n\n- 600 RixCoins к открытию каждому — этот щедрый бонус приурочен к 21-летию Playrix!\n- Все начисления по персональным поводам (день рождения, завершение испытательного срока, выслуга лет и т.д.) за период с 1 мая по 30 сентября будут произведены непосредственно перед открытием магазина.\n- Магазин откроется сразу после трансляции музыкального квиза **Playrix Music Show** 19 августа!",
+      "en": "**Top News:**\n\n- 600 RixCoins for everyone in honor of Playrix’s 21st anniversary!\n- All RixCoin bonuses for personal occasions (birthdays, end of probation, work anniversaries, etc.) from May 1st to September 30th will be credited just before the shop opens.\n- The shop will open right after the **Playrix Music Show** August 19th quiz broadcast!"
+    },
+    "pinned": false,
+    "validator": {
+      "studio.id": [1, 6, 5, 18, 13, 11, 15]
+    }
+  }
+]

@@ -1,0 +1,874 @@
+{
+  "hackathon_2023_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      18,
+      13,
+      8,
+      11,
+      15
+    ]
+  },
+  "the_hackathon_results_2023_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      18,
+      13,
+      8,
+      11,
+      15
+    ]
+  },
+  "the_hackathon_s_let_s_play_2023_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      18,
+      13,
+      8,
+      11,
+      15
+    ]
+  },
+  "the_2nd_online_conference_for_the_company_s_artists_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "playrix_shop_opening_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "expedition_in_cyprus_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "expedition_in_armenia_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "astana_expedition_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "tbilisi_expedition_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "expedition_in_poland_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "almaty_expedition_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "dublin_expedition_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "expedition_in_serbia_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "expedition_in_montenegro_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "batumi_expedition_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      441,
+      442,
+      413
+    ]
+  },
+  "contest_for_artists_and_designers_visible": {
+    "!legal_entity.id": [
+      426,
+      371
+    ]
+  },
+  "math_challenge_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      428,
+      442,
+      441
+    ]
+  },
+  "stay_on_track_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "q_a_on_games_visible": {
+    "!studio.id": [
+      10
+    ]
+  },
+  "gardenscapes_turns_7_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      420
+    ],
+    "studio.id": [
+      1
+    ]
+  },
+  "homescapes_turns_6_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      420
+    ],
+    "studio.id": [
+      1
+    ]
+  },
+  "township_turns_10_visible": {
+    "!legal_entity.id": [
+      426,
+      371,
+      420
+    ],
+    "studio.id": [
+      1
+    ]
+  },
+  "playrix_turns_19_visible": 0,
+  "online_quiz_en_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "online_quiz_ru_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "culture_connect_halloween_visible": {
+    "studio.id": [
+      1
+    ]
+  },
+  "playrix_s_musical_birthday_ru_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "gate_19_limassol_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "gate_19_tbilisi_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "gate_19_yerevan_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "gate_19_batumi_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "gate_19_almaty_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "gate_19_belgrade_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "gate_19_budva_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "gate_19_astana_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "gate_19_dublin_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "playrix_s_musicial_birthday_en_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "playrix_s_musicial_birthday_ua_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "chessember_with_playrix_2023_visible": {
+    "!studio.id": [
+      10,
+      20
+    ],
+    "!legal_entity.id": [
+      371
+    ]
+  },
+  "new_year_s_online_stream_visible": {
+    "!studio.id": [
+      10
+    ]
+  },
+  "company_update_visible": {
+    "!studio.id": [
+      10
+    ]
+  },
+  "playrix_hackathon_2024_visible": {
+    "!studio.id": [
+      10,
+      20
+    ],
+    "!legal_entity.id": [
+      371
+    ]
+  },
+  "plrx_fest_kazakhstan_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "plrx_fest_cyprus_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "plrx_fest_armenia_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "plrx_fest_tbilisi_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "plrx_fest_batumi_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "plrx_fest_dublin_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "plrx_fest_serbia_visible": {
+    "studio.id": [
+      1,
+      5,
+      6,
+      13,
+      18
+    ]
+  },
+  "livestream_on_technology_visible": {
+    "!studio.id": [
+      10
+    ]
+  },
+  "kharkiv_spring_fest_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "kyiv_spring_fest_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "the_hackathon_results_2024_visible": {
+    "!studio.id": [
+      10
+    ]
+  },
+  "the_hackathon_let_s_play_visible": {
+    "!studio.id": [
+      10
+    ]
+  },
+  "esport_tournament_the_playrixnational_2024_visible": {
+    "!studio.id": [
+      10
+    ]
+  },
+  "playrix_music_show_ru_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_music_show_en_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "math_challenge_is_coming_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "hello_code_conference_2024_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "art_lab_24_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_novi_sad_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_belgrade_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_astana_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_kyiv_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_limassol_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_tbilisi_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "20th_anniversary_online_stream_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "merry_quizmas_ru_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "merry_quizmas_en_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_shop_winter_opening_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "live_q_a_about_technology_cto_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_quiz_ru_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_quiz_en_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_hackathon_2025_visible": {
+    "!studio.id": [
+      10,
+      20
+    ],
+    "!legal_entity.id": [
+      371
+    ]
+  },
+  "the_playrix_shop_opening_game_visible": {
+    "!studio.id": [
+      10,
+      20
+    ],
+    "!legal_entity.id": [
+      371
+    ]
+  },
+  "playrix_cs2_major_2025_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_warsaw_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_almaty_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_yerevan_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "carescapes_dublin_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_fest_summer_camp_serbia_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "playrix_fest_summer_camp_spain_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "playrix_fest_summer_camp_kazakhsta_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "playrix_fest_summer_camp_georgia_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "playrix_fest_summer_camp_cyprus_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "playrix_fest_summer_camp_ireland_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "playrix_fest_summer_camp_armenia_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "playrix_fest_summer_camp_ukraine_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "playrix_fest_summer_camp_poland_visible": {
+    "studio.id": [
+      1,
+      6,
+      5,
+      18,
+      13,
+      11,
+      15
+    ]
+  },
+  "oh_my_gd_conference_25_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "art_lab_25_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "stay_on_track_2025_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "gardenscapes_bingo_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "sot_lecture_week_visible": {
+    "studio.id": [
+      1
+    ]
+  },
+  "swapscapes_visible": {
+    "studio.id": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      20
+    ]
+  },
+  "live_q_a_with_dima_igor_and_sasha_visible": {
+    "studio.id": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      20
+    ]
+  },
+  "playrix_radio_for_township_s_12th_anniversary_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_turns_21_in_kazakhstan_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_turns_21_in_armenia_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_turns_21_in_ukraine_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_turns_21_in_serbia_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_open_mic_episode_1_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_open_mic_episode_2_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "rixmas_quiz_ru_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "rixmas_quiz_en_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "playrix_photo_contest_visible": {
+    "!studio.id": [
+      10,
+      20,
+      21
+    ]
+  },
+  "fishdom_b_day_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "rixmas_radio_en_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "rixmas_snow_rush_ru_visible": {
+    "!studio.id": [
+      10,
+      20
+    ]
+  },
+  "kudos_day_visible": {
+    "!studio.id": [
+      10
+    ]
+  },
+  "hello_code_conference_2026_visible": {
+    "!studio.id": [
+      10
+    ]
+  }
+}
