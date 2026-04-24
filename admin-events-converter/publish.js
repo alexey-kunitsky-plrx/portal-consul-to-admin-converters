@@ -20,6 +20,15 @@ if (!process.env.STRAPI_URL || !process.env.STRAPI_TOKEN) {
 const baseUrl = process.env.STRAPI_URL.replace(/\/+$/, "");
 const token = process.env.STRAPI_TOKEN;
 
+// --only <substring>: publish only events whose RU or EN name contains the
+// substring (case-insensitive). Existing event-categories are fetched instead
+// of recreated, so safe to re-run after a full publish.
+const onlyIdx = process.argv.indexOf("--only");
+const onlyFilter =
+  onlyIdx !== -1 && process.argv[onlyIdx + 1]
+    ? process.argv[onlyIdx + 1].toLowerCase()
+    : null;
+
 const convertedCategories = JSON.parse(
   fs.readFileSync(path.join(__dirname, "converted-categories.json"), "utf8"),
 );
@@ -49,6 +58,80 @@ async function resolvePayload(body) {
     createdCodes: createdFeatureFlags,
     validatorsByCode,
   });
+}
+
+// Download the remote URL once and upload to Strapi's media library.
+// Returns a file id or null (keeps the relation empty on failure).
+const imageCache = new Map();
+const uploadedImages = new Set();
+
+async function uploadImageFromUrl(url) {
+  if (!url) return null;
+  if (imageCache.has(url)) return imageCache.get(url);
+
+  try {
+    const download = await fetch(url);
+    if (!download.ok) {
+      console.warn(`  ⚠ Failed to download image ${url}: ${download.status}`);
+      imageCache.set(url, null);
+      return null;
+    }
+    const arrayBuffer = await download.arrayBuffer();
+    const contentType =
+      download.headers.get("content-type") || "application/octet-stream";
+    const filename = (url.split("/").pop() || "image").split("?")[0];
+
+    const form = new FormData();
+    form.append("files", new Blob([arrayBuffer], { type: contentType }), filename);
+
+    const upload = await fetch(`${baseUrl}/api/upload`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${token}` },
+      body: form,
+    });
+    if (!upload.ok) {
+      console.warn(
+        `  ⚠ Failed to upload image ${filename}: ${upload.status} - ${await upload.text()}`,
+      );
+      imageCache.set(url, null);
+      return null;
+    }
+    const result = await upload.json();
+    const id = Array.isArray(result) ? result[0]?.id : result.id;
+    if (!id) {
+      console.warn(`  ⚠ Upload returned no id for ${filename}`);
+      imageCache.set(url, null);
+      return null;
+    }
+    imageCache.set(url, id);
+    uploadedImages.add(filename);
+    console.log(`  ✓ Uploaded image: ${filename} (ID: ${id})`);
+    return id;
+  } catch (err) {
+    console.warn(`  ⚠ Failed to upload image ${url}: ${err.message}`);
+    imageCache.set(url, null);
+    return null;
+  }
+}
+
+async function resolveImage(body) {
+  const url = body?.data?.imageUrl;
+  if (url) {
+    const id = await uploadImageFromUrl(url);
+    if (id) body.data.image = id;
+  }
+  if (body?.data) delete body.data.imageUrl;
+}
+
+// Drop date fields that are null — Strapi's date validator rejects "" and null
+// with "Invalid format, expected yyyy-MM-dd".
+function cleanNullDates(body) {
+  if (!body?.data) return;
+  for (const key of ["startDate", "endDate", "startTime"]) {
+    if (body.data[key] === null || body.data[key] === "") {
+      delete body.data[key];
+    }
+  }
 }
 
 async function postEntry(endpoint, body, label = "") {
@@ -96,6 +179,37 @@ async function putEntry(endpoint, documentId, locale, body, label = "") {
   return result;
 }
 
+// Fetch existing event-categories from Strapi (used by --only mode to avoid
+// recreating categories on re-runs).
+async function fetchCategoryMap() {
+  const map = new Map();
+  let page = 1;
+  let pageCount = 1;
+  while (page <= pageCount) {
+    const url = `${baseUrl}/api/event-categories?locale=en&pagination[page]=${page}&pagination[pageSize]=100`;
+    const res = await fetch(url, {
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    if (!res.ok) {
+      throw new Error(
+        `Failed to fetch event-categories: ${res.status} - ${await res.text()}`,
+      );
+    }
+    const data = await res.json();
+    for (const item of data.data || []) {
+      const name = item.attributes?.name ?? item.name;
+      if (name) map.set(name, item.id);
+    }
+    pageCount = data.meta?.pagination?.pageCount ?? 1;
+    page += 1;
+  }
+  console.log(`✓ Loaded ${map.size} event-categories from Strapi`);
+  return map;
+}
+
 // Phase 1: create categories, build name → id map
 async function publishCategories() {
   console.log(
@@ -137,13 +251,28 @@ async function publishCategories() {
 
 // Phase 2: create events
 async function publishEvents(categoryMap) {
-  console.log(`\n📅 Phase 2: Publishing ${convertedEvents.length} events...`);
+  const events = onlyFilter
+    ? convertedEvents.filter((ev) => {
+        const ru = (ev.ru?.data?.name || "").toLowerCase();
+        const en = (ev.en?.data?.name || "").toLowerCase();
+        return ru.includes(onlyFilter) || en.includes(onlyFilter);
+      })
+    : convertedEvents;
+
+  if (onlyFilter) {
+    console.log(
+      `\n🎯 --only "${onlyFilter}": matched ${events.length}/${convertedEvents.length} event(s)`,
+    );
+    for (const ev of events) console.log(`  - ${ev.ru?.data?.name}`);
+  }
+
+  console.log(`\n📅 Phase 2: Publishing ${events.length} events...`);
 
   let ok = 0;
   let fail = 0;
 
-  for (let i = 0; i < convertedEvents.length; i++) {
-    const event = convertedEvents[i];
+  for (let i = 0; i < events.length; i++) {
+    const event = events[i];
     const nameRu = event.ru.data.name;
     const categoryId = categoryMap.get(event.categoryKey);
 
@@ -162,11 +291,15 @@ async function publishEvents(categoryMap) {
       data: { ...event.en.data, category: categoryId },
     };
 
-    console.log(`\n[${i + 1}/${convertedEvents.length}] ${nameRu}`);
+    console.log(`\n[${i + 1}/${events.length}] ${nameRu}`);
 
     try {
       await resolvePayload(ruBody);
       await resolvePayload(enBody);
+      await resolveImage(ruBody);
+      await resolveImage(enBody);
+      cleanNullDates(ruBody);
+      cleanNullDates(enBody);
 
       const ruRes = await postEntry("events", ruBody, nameRu);
       const documentId = ruRes?.data?.documentId;
@@ -192,12 +325,19 @@ async function main() {
 
   flagsCache = await fetchAllFeatureFlags({ baseUrl, token });
 
-  const categoryMap = await publishCategories();
+  const categoryMap = onlyFilter
+    ? await fetchCategoryMap()
+    : await publishCategories();
   await publishEvents(categoryMap);
 
   if (createdFeatureFlags.size > 0) {
     console.log(`\nFeature flags created (${createdFeatureFlags.size}):`);
     for (const code of createdFeatureFlags) console.log(`  + ${code}`);
+  }
+
+  if (uploadedImages.size > 0) {
+    console.log(`\nImages uploaded (${uploadedImages.size}):`);
+    for (const name of uploadedImages) console.log(`  + ${name}`);
   }
 
   console.log("\n✅ Done!");

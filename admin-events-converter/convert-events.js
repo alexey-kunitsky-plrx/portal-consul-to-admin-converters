@@ -96,14 +96,18 @@ function getLocalizedEventData(entry, locale) {
 
   const featureFlag = getFeatureFlagCode(entry);
 
+  // imageUrl is a pass-through field: publish.js downloads the URL, uploads
+  // it to Strapi's media library, and replaces it with `image: <file id>`.
+  const imageUrl = typeof entry.image === "string" ? entry.image : null;
+
   return {
     name: entry.name?.[locale] || `[${locale}] name`,
     announcement: entry.announcement?.[locale] || `[${locale}] announcement`,
     text: entry.text?.[locale] || `[${locale}] text`,
     format: entry.format || "offline",
-    image: null,
-    startDate: startDate || "",
-    endDate: endDate || startDate || "",
+    imageUrl,
+    startDate: startDate || null,
+    endDate: endDate || startDate || null,
     startTime: startTime || null,
     cancelled: entry.cancelled || false,
     featureFlag,

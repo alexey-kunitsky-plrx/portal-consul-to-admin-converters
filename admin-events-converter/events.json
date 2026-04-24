@@ -4238,5 +4238,678 @@
     "validator": {
       "!studio.id": [10, 20]
     }
+  },
+  {
+    "id": 145,
+    "name": {
+      "ru": "PlayrixCON 2026",
+      "en": "PlayrixCON 2026"
+    },
+    "startDate": "2026-10-22",
+    "endDate": "2026-10-25",
+    "cancelled": false,
+    "slackLink": "https://playrix.slack.com/archives/C0AMU1RJK6W",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/playrix-con.png",
+    "announcement": {
+      "ru": "Внутренняя конференция Playrix, которая возвращается после 7-летнего перерыва. В этом году в Турции, Анталья: выступления фаундеров и проектов, командные встречи и насыщенная развлекательная программа.",
+      "en": "PlayrixCON — Playrix's internal conference — is back after a 7-year break. This year we're heading to Antalya, Turkey: founder and project talks, team meetings, and a packed entertainment program."
+    },
+    "text": {
+      "ru": "Одни уже могли забыть, как это бывает, другие слышали о нем только легенды. Тем ценнее такая встреча сейчас: команды из разных стран, отделов и проектов соберутся в одном месте, чтобы увидеться вживую, пообщаться лично и узнать о планах и стратегии компании.<br><br><b>Что такое PlayrixCON?</b><br><b>PlayrixCON</b> — это внутренняя конференция для сотрудников компании. Программа ивента традиционно включает в себя:<br><ol><li>общее собрание с выступлениями фаундеров и проектов</li><li>командные встречи</li><li>насыщенную развлекательную часть с активностями и финальной вечеринкой</li></ol><br><b>Где и когда?</b><br>🗓 22-25 октября 2026<br>📍 Турция, Анталья<br><br><b>Кто приглашается на PlayrixCON?</b><br>Сотрудники студий Playrix, Playrix RS, Mariaglorum, Redbark и Zagrava вне зависимости от страны проживания. Мероприятие пройдет только для сотрудников, без +1 и детей. К участию не приглашаются сотрудники, которые на момент проведения ивента находятся в декретном отпуске или другом длительном отсутствии.<br>Проживание — двухместное, в комфортных номерах. Краткая версия регламента проведения доступна по <a href=\"https://coda.io/d/Non-dev-teams_dIq5rxNe3aq/PlayrixCON-2026_suVkAoqV#_luG9wnPH\">ссылке</a>.<br><br><b>Где следить за новостями?</b><br>Все новости о PlayrixCON будем публиковать в канале <a href=\"https://playrix.slack.com/archives/C0AMU1RJK6W\">#playrixcon-2026</a>.<br>PlayrixCON — большое возвращение спустя семь лет. 🌊",
+      "en": "Some may have already forgotten what it feels like, while others have only heard the legends.<br>That makes this reunion especially meaningful now: teams from different countries, departments, and projects will come together in one place to meet in person, connect face to face, and hear about the company's plans and strategy.<br><br><b>What is PlayrixCON?</b><br>PlayrixCON is an internal conference for company employees. The event program traditionally includes:<br><ul><li>a general session with talks from the founders and project teams</li><li>team meetups</li><li>a packed entertainment program with activities and a final party</li></ul><br><b>Where and when?</b><br>🗓 October 22–25, 2026<br>📍 Antalya, Turkey<br><br><b>Who is invited to PlayrixCON?</b><br>Employees of Playrix, Playrix RS, Mariaglorum, Redbark, and Zagrava studios. The event is for employees only, with no plus-ones or children. Employees who are on maternity/parental leave or another extended leave at the time of the event will not be invited to participate.<br>Accommodation will be in comfortable double-occupancy rooms.<br>For now, here is the short version of the policy: <a href=\"https://coda.io/d/_dIq5rxNe3aq/PlayrixCon-2026_suVkAoqV#_lu3rR-pQ\">link</a>.<br><br><b>Where to follow the updates?</b><br>All further PlayrixCON updates will be posted in the <a href=\"https://playrix.slack.com/archives/C0AMU1RJK6W\">#playrixcon-2026</a> channel.<br>PlayrixCON is making its big return after seven years. 🌊"
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [6, 10, 20],
+      "!legal_entity.id": [371]
+    }
+  },
+  {
+    "id": 146,
+    "name": {
+      "ru": "Carescapes Алматы",
+      "en": "Carescapes Almaty"
+    },
+    "startDate": "2026-04-18",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSfJCxFTfmnezfzJ0iExblgxxfsj9IP7oWTr4ZVE0uPwLqtVCg/viewform?usp=dialog",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/almaty.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция в Центральном ботаническом саду — одном из самых зелёных и любимых мест города. Вместе сделаем его ещё лучше: высадим дубовую аллею и создадим эко-дорожку из переработанного дерева.",
+      "en": "An offline event at the Central Botanical Garden — one of the greenest and most beloved places in the city. Together, we'll make it even better: planting an oak alley and creating an eco-path from recycled wood."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 147,
+    "name": {
+      "ru": "Carescapes Тбилиси",
+      "en": "Carescapes Tbilisi"
+    },
+    "startDate": "2026-04-18",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSdt8T3YVcaMCUDmb7KHG7uRKBKMqwoyrNtNU6HsK-VXiH8pYA/viewform?usp=dialog",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/tbilisi.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция в формате командного эко-квеста: объединимся в команды, чтобы собрать и отсортировать мусор на территории, требующей очистки.",
+      "en": "An offline event in the format of a team eco quest: we'll work in teams to collect and sort waste in an area that needs cleaning."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 148,
+    "name": {
+      "ru": "Carescapes Ереван",
+      "en": "Carescapes Yerevan"
+    },
+    "startDate": "2026-04-25",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSeZZWEAexwPEpsrPPWZfSRrIaVdb6maELZaPVZNRQYcLHga9Q/viewform?usp=dialog",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/yerevan.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция по созданию домиков для насекомых: вместе соберём конструкции, которые затем установят в разных районах Еревана, чтобы привлечь опылителей в городскую среду.",
+      "en": "An offline event focused on building insect houses: together, we'll create structures that will later be installed across different districts of Yerevan to attract pollinators to the urban environment."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 149,
+    "name": {
+      "ru": "Carescapes Нови-Сад",
+      "en": "Carescapes Novi Sad"
+    },
+    "startDate": "2026-04-25",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSfCUxAEAR_IXszzVDEjcM92PW_xcm4DR1HF1sOSko8H-xzIRQ/viewform?usp=dialog",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/novi_sad.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция в заповеднике — вместе приведём в порядок берега реки, установим кормушки и поддержим местную экосистему.",
+      "en": "An offline event in a nature reserve — together, we'll clean up the riverbanks, install feeders, and support the local ecosystem."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 150,
+    "name": {
+      "ru": "Carescapes Киев",
+      "en": "Carescapes Kyiv"
+    },
+    "startDate": "2026-04-25",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLScmKEaZKC5nOoTKUE5uS_sG49WRkLG5mvRumEgNEtv02m8OGQ/viewform?usp=dialog",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/kyiv.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция на территории Национального центра радиационной медицины — продолжим проект Stay on Track прошлого года: после создания спортивно-игровой площадки для детей займёмся озеленением пространства и сделаем его более уютным и живым.",
+      "en": "An offline event at the National Center of Radiation Medicine — we will continue last year's Stay on Track project: following the creation of an outdoor sports and play area for children, we will focus on landscaping the space to make it greener, more welcoming, and lively."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 151,
+    "name": {
+      "ru": "Carescapes Ровно",
+      "en": "Carescapes Rivne"
+    },
+    "startDate": "2026-04-25",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSf2HwNb_YlCQCu6V6CWGg1ZFxM4v0lP6O5iOnZ0twqpnf6IPw/viewform?usp=dialog",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/rivne.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция в Городском дворце детей и молодёжи — приведём в порядок территорию и поможем с ремонтом помещений, чтобы сделать пространство более комфортным и приятным для занятий.",
+      "en": "An offline event at the City Palace of Children and Youth — we'll tidy up the grounds and help with minor repairs to make the space more comfortable and welcoming for activities."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 152,
+    "name": {
+      "ru": "Carescapes Лимасол",
+      "en": "Carescapes Limassol"
+    },
+    "startDate": "2026-05-09",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSdfwDbLiniq9sdutWFqziuxE3bYn5e4LzjNwZnQa4ZyimRziQ/viewform?usp=dialog",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/limassol.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция в окрестностях деревни Суни — высадим деревья на территории, пострадавшей от пожара в прошлом году, используя технологию WaterBox, которая помогает им лучше приживаться в засушливом климате Кипра.",
+      "en": "An offline event in the area around Souni village — we'll plant trees in a territory affected by last year's wildfire, using Waterbox technology to help them better adapt and survive in Cyprus's dry climate."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 153,
+    "name": {
+      "ru": "Carescapes Белград",
+      "en": "Carescapes Belgrade"
+    },
+    "startDate": "2026-05-09",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSfKMPlzgfdZgMN8zgTkY1_khCfqUPaq9t1ThUap6H4iHhbasg/viewform?usp=dialog",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/belgrade.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция в приюте для лошадей Staro Brdo — отправимся помочь животным, оказавшимся в беде. Приведём в порядок территорию, разберём старые конструкции и поможем сделать пространство более комфортным. И, конечно, покормим лошадей и других обитателей приюта.",
+      "en": "An offline event at the Staro Brdo — we'll set out to help animals in need. We'll tidy up the grounds, dismantle old structures, and help make the space more comfortable. And of course, we'll treat the horses and other residents of the shelter to some goodies."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 154,
+    "name": {
+      "ru": "Carescapes Астана",
+      "en": "Carescapes Astana"
+    },
+    "startDate": "2026-05-23",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/astana.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция в приюте Balto — продолжаем помогать центру, с которым работаем уже третий год подряд. В этот раз окажем помощь в создании карантинной зоны для животных — важной части инфраструктуры приюта.",
+      "en": "An offline event at the Balto shelter — we continue supporting a center we've been working with for the third year in a row. This time, we'll help create a quarantine area for animals — an essential part of the shelter's infrastructure."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 155,
+    "name": {
+      "ru": "Carescapes Дублин",
+      "en": "Carescapes Dublin"
+    },
+    "startDate": "2026-05-30",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/dublin.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Оффлайн-акция в GLAS Gardens — проведём волонтёрский день и поможем с благоустройством пространства общественных садов.",
+      "en": "An offline event at GLAS Gardens — we'll host a volunteer day and help improve the community garden space."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 156,
+    "name": {
+      "ru": "Carescapes Варшава",
+      "en": "Carescapes Warsaw"
+    },
+    "startDate": null,
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/warsaw.png",
+    "announcement": {
+      "ru": "Серия благотворительных оффлайн-акций в городах Playrix",
+      "en": "A series of charity events held across Playrix cities"
+    },
+    "text": {
+      "ru": "Мы сейчас прорабатываем формат акции — скоро поделимся деталями.",
+      "en": "We're currently working on the event format — we'll share more details soon."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Благотворительное",
+        "en": "Charity"
+      },
+      "color": "#4CAF50"
+    },
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 157,
+    "name": {
+      "ru": "Playrix Fest: Reset Camp. Испания",
+      "en": "Playrix Fest: Reset Camp. Spain"
+    },
+    "startDate": "2026-05-23",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/portal-reset-sp.png",
+    "announcement": {
+      "ru": "Playrix Fest'26 возвращается — и в этом году в формате Reset Camp.",
+      "en": "Playrix Fest'26 is back — and this year, it's all about Reset Camp."
+    },
+    "text": {
+      "ru": "Семейный ретрит в санаторной эстетике: природа, движение, хобби и новый опыт. Пространство, где можно восстановиться, зарядиться и вернуться к жизни в обновленной версии себя.<br>Формат мероприятия — с возможностью взять с собой +1 и детей.<br><br>Несколько простых правил для тех, кто не хочет пропустить ивент:<br>1. Приглашения рассылаются через задачи в Asana тем, кто живёт в локации проведения. Проверь, что в личном кабинете на Портале сотрудника указана актуальная локация.<br>2. Если ты планируешь принять участие в ивенте, но проживаешь в другой локации, заранее сообщи об этом Кате Шутиковой. Важно: количество мест на ивентах ограничено, логистика до города проведения организовывается сотрудником самостоятельно.",
+      "en": "A family retreat with a wellness-inspired vibe: nature, movement, hobbies, and new experiences. A space to reset, recharge, and return to everyday life as a refreshed version of yourself.<br>Event format — with the option to bring a +1 and children.<br><br>A few simple rules for those who don't want to miss the event:<br>1. Invitations will be sent via Asana tasks to employees who live in the event locations. Please make sure your current location is up to date in your Employee Portal profile.<br>2. If you're planning to attend but live in a different location, please inform Ekaterina Shutikova in advance. Important: spots are limited, and travel to the event city must be arranged independently."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [10, 15, 20]
+    }
+  },
+  {
+    "id": 158,
+    "name": {
+      "ru": "Playrix Fest: Wild Camp. Казахстан",
+      "en": "Playrix Fest: Wild Camp. Kazakhstan"
+    },
+    "startDate": "2026-05-30",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/portal-wild-kz.png",
+    "announcement": {
+      "ru": "Playrix Fest'26 возвращается — и в этом году в формате Wild Camp.",
+      "en": "Playrix Fest'26 is back — and this year, it's going Wild Camp."
+    },
+    "text": {
+      "ru": "Семейный пикник по мотивам приключенческой игры: джунгли, испытания, командные миссии, неожиданные повороты — дети и взрослые оказываются внутри большой игры, где у каждого своя роль, а исход знает только игра.<br>Формат мероприятия — семейный праздник с +1 и детьми.<br><br>Несколько простых правил для тех, кто не хочет пропустить ивент:<br>1. Приглашения рассылаются через задачи в Asana тем, кто живёт в локации проведения. Проверь, что в личном кабинете на Портале сотрудника указана актуальная локация.<br>2. Если ты планируешь принять участие в ивенте, но проживаешь в другой локации, заранее сообщи об этом Ксюше Лопатиной. Важно: количество мест на ивентах ограничено, логистика до города проведения организовывается сотрудником самостоятельно.",
+      "en": "A family picnic inspired by an adventure game: jungles, challenges, team missions, and unexpected twists — both kids and adults become part of a big game where everyone has a role, and only the game knows the outcome.<br>Event format — a family-friendly celebration with a +1 and children.<br><br>A few simple rules for those who don't want to miss the event:<br>1. Invitations will be sent via Asana tasks to employees who live in the event locations. Please make sure your current location is up to date in your Employee Portal profile.<br>2. If you're planning to attend but live in a different location, please inform Kseniya Lopatina in advance. Important: spots are limited, and travel to the event city must be arranged independently."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [10, 15, 20]
+    }
+  },
+  {
+    "id": 159,
+    "name": {
+      "ru": "Playrix Fest: Wild Camp. Сербия",
+      "en": "Playrix Fest: Wild Camp. Serbia"
+    },
+    "startDate": "2026-06-06",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/portal-wild-rs.png",
+    "announcement": {
+      "ru": "Playrix Fest'26 возвращается — и в этом году в формате Wild Camp.",
+      "en": "Playrix Fest'26 is back — and this year, it's going Wild Camp."
+    },
+    "text": {
+      "ru": "Семейный пикник по мотивам приключенческой игры: джунгли, испытания, командные миссии, неожиданные повороты — дети и взрослые оказываются внутри большой игры, где у каждого своя роль, а исход знает только игра.<br>Формат мероприятия — семейный праздник с +1 и детьми.<br><br>Несколько простых правил для тех, кто не хочет пропустить ивент:<br>1. Приглашения рассылаются через задачи в Asana тем, кто живёт в локации проведения. Проверь, что в личном кабинете на Портале сотрудника указана актуальная локация.<br>2. Если ты планируешь принять участие в ивенте, но проживаешь в другой локации, заранее сообщи об этом Лёше Яскевичу. Важно: количество мест на ивентах ограничено, логистика до города проведения организовывается сотрудником самостоятельно.",
+      "en": "A family picnic inspired by an adventure game: jungles, challenges, team missions, and unexpected twists — both kids and adults become part of a big game where everyone has a role, and only the game knows the outcome.<br>Event format — a family-friendly celebration with a +1 and children.<br><br>A few simple rules for those who don't want to miss the event:<br>1. Invitations will be sent via Asana tasks to employees who live in the event locations. Please make sure your current location is up to date in your Employee Portal profile.<br>2. If you're planning to attend but live in a different location, please inform Alexey Yaskevich in advance. Important: spots are limited, and travel to the event city must be arranged independently."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [10, 15, 20]
+    }
+  },
+  {
+    "id": 160,
+    "name": {
+      "ru": "Playrix Fest: Reset Camp. Грузия",
+      "en": "Playrix Fest: Reset Camp. Georgia"
+    },
+    "startDate": "2026-06-13",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/portal-reset-gr.png",
+    "announcement": {
+      "ru": "Playrix Fest'26 возвращается — и в этом году в формате Reset Camp.",
+      "en": "Playrix Fest'26 is back — and this year, it's all about Reset Camp."
+    },
+    "text": {
+      "ru": "Семейный ретрит в санаторной эстетике: природа, движение, хобби и новый опыт. Пространство, где можно восстановиться, зарядиться и вернуться к жизни в обновленной версии себя.<br>Формат мероприятия — с возможностью взять с собой +1 и детей.<br><br>Несколько простых правил для тех, кто не хочет пропустить ивент:<br>1. Приглашения рассылаются через задачи в Asana тем, кто живёт в локации проведения. Проверь, что в личном кабинете на Портале сотрудника указана актуальная локация.<br>2. Если ты планируешь принять участие в ивенте, но проживаешь в другой локации, заранее сообщи об этом Лёше Яскевичу. Важно: количество мест на ивентах ограничено, логистика до города проведения организовывается сотрудником самостоятельно.",
+      "en": "A family retreat with a wellness-inspired vibe: nature, movement, hobbies, and new experiences. A space to reset, recharge, and return to everyday life as a refreshed version of yourself.<br>Event format — with the option to bring a +1 and children.<br><br>A few simple rules for those who don't want to miss the event:<br>1. Invitations will be sent via Asana tasks to employees who live in the event locations. Please make sure your current location is up to date in your Employee Portal profile.<br>2. If you're planning to attend but live in a different location, please inform Alexey Yaskevich in advance. Important: spots are limited, and travel to the event city must be arranged independently."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [10, 15, 20]
+    }
+  },
+  {
+    "id": 161,
+    "name": {
+      "ru": "Playrix Fest: Wild Camp. Польша",
+      "en": "Playrix Fest: Wild Camp. Poland"
+    },
+    "startDate": "2026-06-20",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/portal-wild-pl.png",
+    "announcement": {
+      "ru": "Playrix Fest'26 возвращается — и в этом году в формате Wild Camp.",
+      "en": "Playrix Fest'26 is back — and this year, it's going Wild Camp."
+    },
+    "text": {
+      "ru": "Семейный пикник по мотивам приключенческой игры: джунгли, испытания, командные миссии, неожиданные повороты — дети и взрослые оказываются внутри большой игры, где у каждого своя роль, а исход знает только игра.<br>Формат мероприятия — семейный праздник с +1 и детьми.<br><br>Несколько простых правил для тех, кто не хочет пропустить ивент:<br>1. Приглашения рассылаются через задачи в Asana тем, кто живёт в локации проведения. Проверь, что в личном кабинете на Портале сотрудника указана актуальная локация.<br>2. Если ты планируешь принять участие в ивенте, но проживаешь в другой локации, заранее сообщи об этом Кате Шутиковой. Важно: количество мест на ивентах ограничено, логистика до города проведения организовывается сотрудником самостоятельно.",
+      "en": "A family picnic inspired by an adventure game: jungles, challenges, team missions, and unexpected twists — both kids and adults become part of a big game where everyone has a role, and only the game knows the outcome.<br>Event format — a family-friendly celebration with a +1 and children.<br><br>A few simple rules for those who don't want to miss the event:<br>1. Invitations will be sent via Asana tasks to employees who live in the event locations. Please make sure your current location is up to date in your Employee Portal profile.<br>2. If you're planning to attend but live in a different location, please inform Ekaterina Shutikova in advance. Important: spots are limited, and travel to the event city must be arranged independently."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [10, 15, 20]
+    }
+  },
+  {
+    "id": 162,
+    "name": {
+      "ru": "Playrix Fest: Reset Camp. Армения",
+      "en": "Playrix Fest: Reset Camp. Armenia"
+    },
+    "startDate": "2026-06-20",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/portal-reset-ar.png",
+    "announcement": {
+      "ru": "Playrix Fest'26 возвращается — и в этом году в формате Reset Camp.",
+      "en": "Playrix Fest'26 is back — and this year, it's all about Reset Camp."
+    },
+    "text": {
+      "ru": "Семейный ретрит в санаторной эстетике: природа, движение, хобби и новый опыт. Пространство, где можно восстановиться, зарядиться и вернуться к жизни в обновленной версии себя.<br>Формат мероприятия — с возможностью взять с собой +1 и детей.<br><br>Несколько простых правил для тех, кто не хочет пропустить ивент:<br>1. Приглашения рассылаются через задачи в Asana тем, кто живёт в локации проведения. Проверь, что в личном кабинете на Портале сотрудника указана актуальная локация.<br>2. Если ты планируешь принять участие в ивенте, но проживаешь в другой локации, заранее сообщи об этом Лёше Яскевичу. Важно: количество мест на ивентах ограничено, логистика до города проведения организовывается сотрудником самостоятельно.",
+      "en": "A family retreat with a wellness-inspired vibe: nature, movement, hobbies, and new experiences. A space to reset, recharge, and return to everyday life as a refreshed version of yourself.<br>Event format — with the option to bring a +1 and children.<br><br>A few simple rules for those who don't want to miss the event:<br>1. Invitations will be sent via Asana tasks to employees who live in the event locations. Please make sure your current location is up to date in your Employee Portal profile.<br>2. If you're planning to attend but live in a different location, please inform Alexey Yaskevich in advance. Important: spots are limited, and travel to the event city must be arranged independently."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [10, 15, 20]
+    }
+  },
+  {
+    "id": 163,
+    "name": {
+      "ru": "Playrix Fest: Reset Camp. Украина",
+      "en": "Playrix Fest: Reset Camp. Ukraine"
+    },
+    "startDate": "2026-06-20",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/portal-reset-ua.png",
+    "announcement": {
+      "ru": "Playrix Fest'26 возвращается — и в этом году в формате Reset Camp.",
+      "en": "Playrix Fest'26 is back — and this year, it's all about Reset Camp."
+    },
+    "text": {
+      "ru": "Семейный ретрит в санаторной эстетике: природа, движение, хобби и новый опыт. Пространство, где можно восстановиться, зарядиться и вернуться к жизни в обновленной версии себя.<br>Формат мероприятия — с возможностью взять с собой +1 и детей.<br><br>Несколько простых правил для тех, кто не хочет пропустить ивент:<br>1. Приглашения рассылаются через задачи в Asana тем, кто живёт в локации проведения. Проверь, что в личном кабинете на Портале сотрудника указана актуальная локация.<br>2. Если ты планируешь принять участие в ивенте, но проживаешь в другой локации, заранее сообщи об этом Дарине Гребеник. Важно: количество мест на ивентах ограничено, логистика до города проведения организовывается сотрудником самостоятельно.",
+      "en": "A family retreat with a wellness-inspired vibe: nature, movement, hobbies, and new experiences. A space to reset, recharge, and return to everyday life as a refreshed version of yourself.<br>Event format — with the option to bring a +1 and children.<br><br>A few simple rules for those who don't want to miss the event:<br>1. Invitations will be sent via Asana tasks to employees who live in the event locations. Please make sure your current location is up to date in your Employee Portal profile.<br>2. If you're planning to attend but live in a different location, please inform Daryna Grebenyk in advance. Important: spots are limited, and travel to the event city must be arranged independently."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [10, 15, 20]
+    }
+  },
+  {
+    "id": 164,
+    "name": {
+      "ru": "Playrix Fest: Reset Camp. Ирландия",
+      "en": "Playrix Fest: Reset Camp. Ireland"
+    },
+    "startDate": "2026-06-20",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/portal-reset-irl.png",
+    "announcement": {
+      "ru": "Playrix Fest'26 возвращается — и в этом году в формате Reset Camp.",
+      "en": "Playrix Fest'26 is back — and this year, it's all about Reset Camp."
+    },
+    "text": {
+      "ru": "Семейный ретрит в санаторной эстетике: природа, движение, хобби и новый опыт. Пространство, где можно восстановиться, зарядиться и вернуться к жизни в обновленной версии себя.<br>Формат мероприятия — с возможностью взять с собой +1 и детей.<br><br>Несколько простых правил для тех, кто не хочет пропустить ивент:<br>1. Приглашения рассылаются через задачи в Asana тем, кто живёт в локации проведения. Проверь, что в личном кабинете на Портале сотрудника указана актуальная локация.<br>2. Если ты планируешь принять участие в ивенте, но проживаешь в другой локации, заранее сообщи об этом Ксюше Лопатиной. Важно: количество мест на ивентах ограничено, логистика до города проведения организовывается сотрудником самостоятельно.",
+      "en": "A family retreat with a wellness-inspired vibe: nature, movement, hobbies, and new experiences. A space to reset, recharge, and return to everyday life as a refreshed version of yourself.<br>Event format — with the option to bring a +1 and children.<br><br>A few simple rules for those who don't want to miss the event:<br>1. Invitations will be sent via Asana tasks to employees who live in the event locations. Please make sure your current location is up to date in your Employee Portal profile.<br>2. If you're planning to attend but live in a different location, please inform Kseniya Lopatina in advance. Important: spots are limited, and travel to the event city must be arranged independently."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [10, 15, 20]
+    }
+  },
+  {
+    "id": 165,
+    "name": {
+      "ru": "Playrix Fest: Reset Camp. Кипр",
+      "en": "Playrix Fest: Reset Camp. Cyprus"
+    },
+    "startDate": "2026-06-27",
+    "endDate": null,
+    "cancelled": false,
+    "slackLink": "",
+    "registrationFormLink": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/portal-reset-cp.png",
+    "announcement": {
+      "ru": "Playrix Fest'26 возвращается — и в этом году в формате Reset Camp.",
+      "en": "Playrix Fest'26 is back — and this year, it's all about Reset Camp."
+    },
+    "text": {
+      "ru": "Семейный ретрит в санаторной эстетике: природа, движение, хобби и новый опыт. Пространство, где можно восстановиться, зарядиться и вернуться к жизни в обновленной версии себя.<br>Формат мероприятия — с возможностью взять с собой +1 и детей.<br><br>Несколько простых правил для тех, кто не хочет пропустить ивент:<br>1. Приглашения рассылаются через задачи в Asana тем, кто живёт в локации проведения. Проверь, что в личном кабинете на Портале сотрудника указана актуальная локация.<br>2. Если ты планируешь принять участие в ивенте, но проживаешь в другой локации, заранее сообщи об этом Кате Шутиковой. Важно: количество мест на ивентах ограничено, логистика до города проведения организовывается сотрудником самостоятельно.",
+      "en": "A family retreat with a wellness-inspired vibe: nature, movement, hobbies, and new experiences. A space to reset, recharge, and return to everyday life as a refreshed version of yourself.<br>Event format — with the option to bring a +1 and children.<br><br>A few simple rules for those who don't want to miss the event:<br>1. Invitations will be sent via Asana tasks to employees who live in the event locations. Please make sure your current location is up to date in your Employee Portal profile.<br>2. If you're planning to attend but live in a different location, please inform Ekaterina Shutikova in advance. Important: spots are limited, and travel to the event city must be arranged independently."
+    },
+    "format": "offline",
+    "category": {
+      "name": {
+        "ru": "Развлекательное",
+        "en": "Entertaining"
+      },
+      "color": "#DB72E4"
+    },
+    "validator": {
+      "!studio.id": [10, 15, 20]
+    }
   }
 ]
