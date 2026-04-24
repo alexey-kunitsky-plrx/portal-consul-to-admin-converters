@@ -124,6 +124,71 @@ function resolveChannel(body) {
   }
 }
 
+// Download the remote URL once and upload to Strapi's media library.
+// Returns a file id or null (keeps the relation empty on failure).
+const imageCache = new Map(); // url → id
+const uploadedImages = new Set();
+
+async function uploadImageFromUrl(url) {
+  if (!url) return null;
+  if (imageCache.has(url)) return imageCache.get(url);
+
+  try {
+    const download = await fetch(url);
+    if (!download.ok) {
+      console.warn(
+        `  ⚠ Failed to download image ${url}: ${download.status}`,
+      );
+      imageCache.set(url, null);
+      return null;
+    }
+    const arrayBuffer = await download.arrayBuffer();
+    const contentType =
+      download.headers.get("content-type") || "application/octet-stream";
+    const filename = (url.split("/").pop() || "image").split("?")[0];
+
+    const form = new FormData();
+    form.append("files", new Blob([arrayBuffer], { type: contentType }), filename);
+
+    const upload = await fetch(`${baseUrl}/api/upload`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${token}` },
+      body: form,
+    });
+    if (!upload.ok) {
+      console.warn(
+        `  ⚠ Failed to upload image ${filename}: ${upload.status} - ${await upload.text()}`,
+      );
+      imageCache.set(url, null);
+      return null;
+    }
+    const result = await upload.json();
+    const id = Array.isArray(result) ? result[0]?.id : result.id;
+    if (!id) {
+      console.warn(`  ⚠ Upload returned no id for ${filename}`);
+      imageCache.set(url, null);
+      return null;
+    }
+    imageCache.set(url, id);
+    uploadedImages.add(filename);
+    console.log(`  ✓ Uploaded image: ${filename} (ID: ${id})`);
+    return id;
+  } catch (err) {
+    console.warn(`  ⚠ Failed to upload image ${url}: ${err.message}`);
+    imageCache.set(url, null);
+    return null;
+  }
+}
+
+async function resolveImage(body) {
+  const url = body?.data?.imageUrl;
+  if (url) {
+    const id = await uploadImageFromUrl(url);
+    if (id) body.data.image = id;
+  }
+  if (body?.data) delete body.data.imageUrl;
+}
+
 // Function to POST a single news entry
 async function publishNewsEntry(entry, title = "") {
   try {
@@ -202,6 +267,8 @@ async function publishAllNews() {
       await resolvePayload(entry.en);
       resolveChannel(entry.ru);
       resolveChannel(entry.en);
+      await resolveImage(entry.ru);
+      await resolveImage(entry.en);
 
       // Step 1: Post RU variant
       console.log(`  📤 Posting RU variant...`);
@@ -249,6 +316,11 @@ async function publishAllNews() {
   if (createdSlackChannels.size > 0) {
     console.log(`\nSlack channels created (${createdSlackChannels.size}):`);
     for (const name of createdSlackChannels) console.log(`  + ${name}`);
+  }
+
+  if (uploadedImages.size > 0) {
+    console.log(`\nImages uploaded (${uploadedImages.size}):`);
+    for (const name of uploadedImages) console.log(`  + ${name}`);
   }
 }
 

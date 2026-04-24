@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node admin-news-converter/convert-news.js)",
+      "Bash(node --check admin-news-converter/publish.js)"
+    ]
+  }
+}

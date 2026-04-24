@@ -46,14 +46,16 @@ function getChannel(entry) {
   return { name, color: entry.channel?.color || null };
 }
 
-// Helper function to extract localized content
-function getLocalizedContent(entry, locale, featureFlag, channel) {
+// Helper function to extract localized content.
+// `imageUrl` is a pass-through field: publish.js downloads the URL, uploads
+// it to Strapi's media library, and replaces it with `image: <file id>`.
+function getLocalizedContent(entry, locale, featureFlag, channel, imageUrl) {
   return {
     title: entry.title?.[locale] || `[${locale}] title`,
     link: entry.link || "",
     channel,
-    photoLink: entry.photoLink || null,
-    image: 1,
+    photoLink: entry.photoLink || entry.photos || null,
+    imageUrl,
     date: formatDate(entry.date),
     announcement: entry.announcement?.[locale] || `[${locale}] announcement`,
     author: entry.author?.[locale] || `[${locale}] author`,
@@ -70,9 +72,14 @@ function getLocalizedContent(entry, locale, featureFlag, channel) {
 const convertedNews = newsData.map((entry) => {
   const featureFlag = getFeatureFlagCode(entry);
   const channel = getChannel(entry);
+  const imageUrl = typeof entry.image === "string" ? entry.image : null;
   const converted = {
-    ru: { data: getLocalizedContent(entry, "ru", featureFlag, channel) },
-    en: { data: getLocalizedContent(entry, "en", featureFlag, channel) },
+    ru: {
+      data: getLocalizedContent(entry, "ru", featureFlag, channel, imageUrl),
+    },
+    en: {
+      data: getLocalizedContent(entry, "en", featureFlag, channel, imageUrl),
+    },
   };
   if (entry.validator !== 1 && entry.validator !== undefined) {
     converted.validator = entry.validator;

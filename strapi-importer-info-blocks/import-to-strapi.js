@@ -721,4 +721,4 @@ if (require.main === module) {
     importToStrapi();
 }
 
-module.exports = { importToStrapi, createFeatureFlags, blocksToMarkdown };
+module.exports = { importToStrapi, blocksToMarkdown };
