@@ -1,5 +1,9 @@
 import "dotenv/config";
 import fs from "fs";
+import {
+  fetchAllFeatureFlags,
+  resolveFeatureFlagsDeep,
+} from "../shared/feature-flags.js";
 
 // Colors for terminal output
 const colors = {
@@ -29,8 +33,21 @@ if (!process.env.STRAPI_URL || !process.env.STRAPI_TOKEN) {
   process.exit(1);
 }
 
-const API_BASE_URL = `${process.env.STRAPI_URL.replace(/\/+$/, "")}/api`;
+const baseUrl = process.env.STRAPI_URL.replace(/\/+$/, "");
+const API_BASE_URL = `${baseUrl}/api`;
 const token = process.env.STRAPI_TOKEN;
+
+let flagsCache;
+const missingFeatureFlags = new Set();
+async function resolvePayload(body) {
+  await resolveFeatureFlagsDeep(body, {
+    baseUrl,
+    token,
+    cache: flagsCache,
+    missingCodes: missingFeatureFlags,
+    autoCreate: false,
+  });
+}
 
 // Read converted data
 const convertedData = JSON.parse(
@@ -79,6 +96,8 @@ async function apiRequest(method, url, data = null) {
 // Main publish function
 async function publish() {
   log.info("Starting publish process...\n");
+
+  flagsCache = await fetchAllFeatureFlags({ baseUrl, token });
 
   const categoryMap = new Map(); // Maps category key to { ruDocumentId, enDocumentId }
 
@@ -217,6 +236,8 @@ async function publish() {
             ruItem.description_inform_block;
         }
 
+        await resolvePayload(ruServiceData);
+
         log.item(`Creating service: ${ruItem.name} (ru)`);
         const ruServiceResponse = await apiRequest(
           "POST",
@@ -254,6 +275,8 @@ async function publish() {
           enServiceData.description_inform_block =
             enItem.description_inform_block;
         }
+
+        await resolvePayload(enServiceData);
 
         log.item(`Creating service: ${enItem.name} (en)`);
         const enServiceResponse = await apiRequest(
@@ -325,6 +348,12 @@ async function publish() {
       createdItems / 2
     } items × 2 locales)`
   );
+  if (missingFeatureFlags.size > 0) {
+    log.warning(
+      `Feature flags not found in Strapi (${missingFeatureFlags.size}) — create them manually and re-run, or the relation will stay empty:`,
+    );
+    for (const code of missingFeatureFlags) log.item(code);
+  }
   log.info("\n✅ Publish process completed successfully!");
 }
 

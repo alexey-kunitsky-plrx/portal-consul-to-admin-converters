@@ -18,7 +18,6 @@ const INFO_BLOCKS_ENDPOINT = '/api/info-blocks';
 const BLOCK_CODES_ENDPOINT = '/api/info-block-codes';
 const FEATURE_FLAGS_ENDPOINT = '/api/feature-flags';
 const INPUT_FILE = './data.json';
-const OUTPUT_FEATURE_FLAGS = './featureFlags.json';
 
 
 // Mappings from document
@@ -242,41 +241,6 @@ function blocksToMarkdown(blocks, lang = 'ru') {
     });
 
     return markdown.trim();
-}
-
-// Helper function to create feature flags object
-function createFeatureFlags(data) {
-    const featureFlags = {};
-
-    // Process all sections
-    ['alert', 'field', 'hint', 'info'].forEach(section => {
-        if (data[section]) {
-            Object.entries(data[section]).forEach(([key, items]) => {
-                if (Array.isArray(items)) {
-                    items.forEach((item) => {
-                        // Skip if validator is 1 (universal)
-                        if (item.validator === undefined || item.validator === 1) {
-                            return;
-                        }
-
-                        // Generate feature flag code (without versioning)
-                        const featureFlagCode = generateFeatureFlag(key, item.validator);
-
-                        if (featureFlagCode) {
-                            // Store the actual validator value
-                            if (item.validator === 0) {
-                                featureFlags[featureFlagCode] = 0;
-                            } else if (typeof item.validator === 'object') {
-                                featureFlags[featureFlagCode] = item.validator;
-                            }
-                        }
-                    });
-                }
-            });
-        }
-    });
-
-    return featureFlags;
 }
 
 // Translate section names to Russian for description
@@ -653,16 +617,6 @@ async function importToStrapi() {
         // Read input JSON file
         const rawData = fs.readFileSync(INPUT_FILE, 'utf8');
         const data = JSON.parse(rawData);
-
-        // Generate feature flags file
-        const featureFlags = createFeatureFlags(data);
-        fs.writeFileSync(
-            OUTPUT_FEATURE_FLAGS,
-            JSON.stringify(featureFlags, null, 2),
-            'utf8'
-        );
-        console.log(`✓ Feature flags saved to ${OUTPUT_FEATURE_FLAGS}`);
-        console.log('');
 
         // Load all existing feature flags so we can attach them as relations by code.
         // Missing ones will be created on-demand in getOrCreateFeatureFlagId.

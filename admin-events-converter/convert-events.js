@@ -82,20 +82,19 @@ for (const [nameEn, { nameRu, color }] of canonicalCategories) {
   });
 }
 
-// --- Phase 2: Convert events + collect feature flags ---
+// --- Phase 2: Convert events ---
 
-const featureFlags = {};
+function getFeatureFlagCode(entry) {
+  if (entry.validator === 1) return null;
+  const slug = slugify(entry.name?.en || entry.name?.ru || `event_${entry.id}`);
+  return `${slug}_visible`;
+}
 
 function getLocalizedEventData(entry, locale) {
   const { date: startDate, time: startTime } = parseDate(entry.startDate);
   const { date: endDate } = parseDate(entry.endDate);
 
-  let featureFlag = null;
-  if (entry.validator !== 1) {
-    const slug = slugify(entry.name?.en || entry.name?.ru || `event_${entry.id}`);
-    featureFlag = `${slug}_visible`;
-    featureFlags[featureFlag] = entry.validator;
-  }
+  const featureFlag = getFeatureFlagCode(entry);
 
   return {
     name: entry.name?.[locale] || `[${locale}] name`,
@@ -121,11 +120,19 @@ function getCategoryKey(entry) {
   return raw || "Entertaining";
 }
 
-const convertedEvents = eventsData.map((entry) => ({
-  categoryKey: getCategoryKey(entry),
-  ru: { data: getLocalizedEventData(entry, "ru") },
-  en: { data: getLocalizedEventData(entry, "en") },
-}));
+const convertedEvents = eventsData.map((entry) => {
+  // Keep validator alongside the event so publish.js can build conditions
+  // for any missing feature flag without a separate list file.
+  const converted = {
+    categoryKey: getCategoryKey(entry),
+    ru: { data: getLocalizedEventData(entry, "ru") },
+    en: { data: getLocalizedEventData(entry, "en") },
+  };
+  if (entry.validator !== 1 && entry.validator !== undefined) {
+    converted.validator = entry.validator;
+  }
+  return converted;
+});
 
 // --- Write output files ---
 
@@ -141,13 +148,6 @@ fs.writeFileSync(
   "utf8"
 );
 
-fs.writeFileSync(
-  path.join(__dirname, "feature-flags.json"),
-  JSON.stringify(featureFlags, null, 2),
-  "utf8"
-);
-
 console.log(`Categories: ${convertedCategories.length}`);
 console.log(`Events:     ${convertedEvents.length}`);
-console.log(`Feature flags: ${Object.keys(featureFlags).length}`);
 console.log("Conversion completed!");

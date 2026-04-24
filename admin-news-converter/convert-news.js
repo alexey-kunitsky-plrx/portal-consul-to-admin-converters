@@ -5,6 +5,20 @@ import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+function slugify(str) {
+  return str
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_|_$/g, "");
+}
+
+function getFeatureFlagCode(entry) {
+  if (entry.validator === 1) return null;
+  const slug =
+    slugify(entry.title?.en || entry.title?.ru || "") || `news_${entry.id}`;
+  return `${slug}_visible`;
+}
+
 // Format date to YYYY-MM-DD format
 function formatDate(dateString) {
   if (!dateString) return "";
@@ -24,28 +38,20 @@ const newsData = JSON.parse(
   fs.readFileSync(path.join(__dirname, "stage-news.json"), "utf8")
 );
 
-const channelIdByChannelName = {
-  "company-updates": 4,
-  "dm-news": 5,
-  "new-test-channel": 6,
-  playrix_only: 3,
-  project_news: 2,
-};
-
-const getChannelId = (channelName) => {
-  if (!channelName) return 3;
-  return channelIdByChannelName[channelName] || 3;
-};
+// Pass the channel through as { name, color } and let publish.js resolve it
+// to a real Strapi id (creating the slack-channel entity if missing).
+function getChannel(entry) {
+  const name = entry.channel?.name;
+  if (!name) return null;
+  return { name, color: entry.channel?.color || null };
+}
 
 // Helper function to extract localized content
-function getLocalizedContent(entry, locale) {
-  const randomChannel = Math.floor(Math.random() * 2) + 1;
-  const randomImage = Math.floor(Math.random() * 2) + 1;
-
+function getLocalizedContent(entry, locale, featureFlag, channel) {
   return {
     title: entry.title?.[locale] || `[${locale}] title`,
     link: entry.link || "",
-    channel: getChannelId(entry.channel?.name),
+    channel,
     photoLink: entry.photoLink || null,
     image: 1,
     date: formatDate(entry.date),
@@ -53,21 +59,25 @@ function getLocalizedContent(entry, locale) {
     author: entry.author?.[locale] || `[${locale}] author`,
     text: entry.text?.[locale] || `[${locale}] text`,
     pinned: entry.pinned || false,
-    featureFlag: null,
+    featureFlag,
     locale: locale,
   };
 }
 
-// Convert each news entry with both ru and en localizations
+// Convert each news entry with both ru and en localizations.
+// Keep validator alongside the record so publish.js can build conditions
+// for any missing feature flag without a separate list file.
 const convertedNews = newsData.map((entry) => {
-  return {
-    ru: {
-      data: getLocalizedContent(entry, "ru"),
-    },
-    en: {
-      data: getLocalizedContent(entry, "en"),
-    },
+  const featureFlag = getFeatureFlagCode(entry);
+  const channel = getChannel(entry);
+  const converted = {
+    ru: { data: getLocalizedContent(entry, "ru", featureFlag, channel) },
+    en: { data: getLocalizedContent(entry, "en", featureFlag, channel) },
   };
+  if (entry.validator !== 1 && entry.validator !== undefined) {
+    converted.validator = entry.validator;
+  }
+  return converted;
 });
 
 // Write the converted data to converted-news.json

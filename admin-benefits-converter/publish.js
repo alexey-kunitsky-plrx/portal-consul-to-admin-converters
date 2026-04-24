@@ -1,5 +1,9 @@
 import "dotenv/config";
 import fs from "fs";
+import {
+  fetchAllFeatureFlags,
+  resolveFeatureFlagsDeep,
+} from "../shared/feature-flags.js";
 
 // Colors for terminal output
 const colors = {
@@ -29,8 +33,21 @@ if (!process.env.STRAPI_URL || !process.env.STRAPI_TOKEN) {
   process.exit(1);
 }
 
-const API_BASE_URL = `${process.env.STRAPI_URL.replace(/\/+$/, "")}/api`;
+const baseUrl = process.env.STRAPI_URL.replace(/\/+$/, "");
+const API_BASE_URL = `${baseUrl}/api`;
 const token = process.env.STRAPI_TOKEN;
+
+let flagsCache;
+const missingFeatureFlags = new Set();
+async function resolvePayload(body) {
+  await resolveFeatureFlagsDeep(body, {
+    baseUrl,
+    token,
+    cache: flagsCache,
+    missingCodes: missingFeatureFlags,
+    autoCreate: false,
+  });
+}
 
 // Read converted data
 const convertedData = JSON.parse(
@@ -80,6 +97,8 @@ async function apiRequest(method, url, data = null) {
 async function publish() {
   log.info("Starting publish process...\n");
 
+  flagsCache = await fetchAllFeatureFlags({ baseUrl, token });
+
   const categoryMap = new Map(); // Maps category key to { ruDocumentId, enDocumentId }
 
   // Step 1: Create categories
@@ -127,6 +146,8 @@ async function publish() {
         delete ruCategoryData.actions;
       }
 
+      await resolvePayload(ruCategoryData);
+
       const ruResponse = await apiRequest(
         "POST",
         `${API_BASE_URL}/benefit-categories`,
@@ -163,6 +184,8 @@ async function publish() {
       if (enCategoryData.actions === null) {
         delete enCategoryData.actions;
       }
+
+      await resolvePayload(enCategoryData);
 
       const enResponse = await apiRequest(
         "PUT",
@@ -248,6 +271,8 @@ async function publish() {
         if (ruBenefitData.links === null) delete ruBenefitData.links;
         if (ruBenefitData.actions === null) delete ruBenefitData.actions;
 
+        await resolvePayload(ruBenefitData);
+
         log.item(`Creating benefit: ${ruItem.name} (ru)`);
         const ruBenefitResponse = await apiRequest(
           "POST",
@@ -279,6 +304,8 @@ async function publish() {
           delete enBenefitData.featureFlag;
         if (enBenefitData.links === null) delete enBenefitData.links;
         if (enBenefitData.actions === null) delete enBenefitData.actions;
+
+        await resolvePayload(enBenefitData);
 
         log.item(`Creating benefit: ${enItem.name} (en)`);
         const enBenefitResponse = await apiRequest(
@@ -348,6 +375,12 @@ async function publish() {
   log.success(
     `Benefits created: ${createdItems} (${createdItems / 2} items × 2 locales)`
   );
+  if (missingFeatureFlags.size > 0) {
+    log.warning(
+      `Feature flags not found in Strapi (${missingFeatureFlags.size}) — create them manually and re-run, or the relation will stay empty:`,
+    );
+    for (const code of missingFeatureFlags) log.item(code);
+  }
   log.info("\n✅ Publish process completed successfully!");
 }
 

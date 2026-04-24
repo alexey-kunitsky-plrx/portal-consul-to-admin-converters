@@ -465,6 +465,18 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        18,
+        13,
+        8,
+        11,
+        15
+      ]
     }
   },
   {
@@ -504,6 +516,18 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        18,
+        13,
+        8,
+        11,
+        15
+      ]
     }
   },
   {
@@ -543,6 +567,18 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        18,
+        13,
+        8,
+        11,
+        15
+      ]
     }
   },
   {
@@ -582,6 +618,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -660,6 +705,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -699,6 +753,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -738,6 +801,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -777,6 +849,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -816,6 +897,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -855,6 +945,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -894,6 +993,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -933,6 +1041,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -972,6 +1089,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -1011,6 +1137,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -1089,6 +1224,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        441,
+        442,
+        413
+      ]
     }
   },
   {
@@ -1128,6 +1272,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371
+      ]
     }
   },
   {
@@ -1167,6 +1317,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        428,
+        442,
+        441
+      ]
     }
   },
   {
@@ -1206,6 +1365,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ],
+      "!legal_entity.id": [
+        371
+      ]
     }
   },
   {
@@ -1284,7 +1452,8 @@
         "registrationFormLink": null,
         "locale": "en"
       }
-    }
+    },
+    "validator": 0
   },
   {
     "categoryKey": "Entertaining",
@@ -1323,6 +1492,16 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        420
+      ],
+      "studio.id": [
+        1
+      ]
     }
   },
   {
@@ -1362,6 +1541,16 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        420
+      ],
+      "studio.id": [
+        1
+      ]
     }
   },
   {
@@ -1401,6 +1590,16 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!legal_entity.id": [
+        426,
+        371,
+        420
+      ],
+      "studio.id": [
+        1
+      ]
     }
   },
   {
@@ -1440,7 +1639,8 @@
         "registrationFormLink": null,
         "locale": "en"
       }
-    }
+    },
+    "validator": 0
   },
   {
     "categoryKey": "Entertaining",
@@ -1479,6 +1679,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -1518,6 +1723,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -1596,6 +1806,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1
+      ]
     }
   },
   {
@@ -1635,6 +1850,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -1674,6 +1898,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -1713,6 +1946,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -1752,6 +1994,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -1791,6 +2042,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -1830,6 +2090,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -1869,6 +2138,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -1908,6 +2186,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -1947,6 +2234,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -1986,6 +2282,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2025,6 +2330,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2064,6 +2378,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2103,6 +2426,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ],
+      "!legal_entity.id": [
+        371
+      ]
     }
   },
   {
@@ -2142,6 +2474,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -2181,6 +2518,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -2220,6 +2563,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -2259,6 +2608,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -2298,6 +2652,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -2337,6 +2696,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ],
+      "!legal_entity.id": [
+        371
+      ]
     }
   },
   {
@@ -2415,6 +2783,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2454,6 +2831,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2493,6 +2879,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2532,6 +2927,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2571,6 +2975,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2610,6 +3023,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2649,6 +3071,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        5,
+        6,
+        13,
+        18
+      ]
     }
   },
   {
@@ -2688,6 +3119,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -2727,6 +3163,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -2766,6 +3213,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -2805,6 +3263,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -2844,6 +3307,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -2883,6 +3351,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -2961,6 +3434,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3000,6 +3479,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3039,6 +3524,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3078,6 +3569,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3117,6 +3614,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3156,6 +3659,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3195,6 +3704,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3234,6 +3749,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3273,6 +3794,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3312,6 +3839,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3351,6 +3884,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3390,6 +3929,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3429,6 +3974,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3468,6 +4019,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3507,6 +4064,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3546,6 +4109,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3585,6 +4154,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3624,6 +4199,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3663,6 +4244,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3702,6 +4289,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ],
+      "!legal_entity.id": [
+        371
+      ]
     }
   },
   {
@@ -3741,6 +4337,15 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ],
+      "!legal_entity.id": [
+        371
+      ]
     }
   },
   {
@@ -3780,6 +4385,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3819,6 +4430,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3858,6 +4475,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3897,6 +4520,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3936,6 +4565,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -3975,6 +4610,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4014,6 +4655,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4053,6 +4700,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4092,6 +4745,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4131,6 +4790,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4170,6 +4835,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4209,6 +4880,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -4248,6 +4930,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -4287,6 +4980,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -4326,6 +5030,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -4365,6 +5080,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -4404,6 +5130,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -4443,6 +5180,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -4482,6 +5230,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -4521,6 +5280,17 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        6,
+        5,
+        18,
+        13,
+        11,
+        15
+      ]
     }
   },
   {
@@ -4560,6 +5330,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4599,6 +5375,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4638,6 +5420,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4677,6 +5465,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4716,6 +5510,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4755,6 +5555,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4794,6 +5600,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1
+      ]
     }
   },
   {
@@ -4833,6 +5644,26 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        20
+      ]
     }
   },
   {
@@ -4872,6 +5703,26 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        20
+      ]
     }
   },
   {
@@ -4911,6 +5762,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4950,6 +5807,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -4989,6 +5852,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5028,6 +5897,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5067,6 +5942,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5106,6 +5987,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5145,6 +6032,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5184,6 +6077,12 @@
         "registrationFormLink": "https://docs.google.com/spreadsheets/d/1sNstjrFAy3TUS_vi58Ry6UOcEFgbzJAz/edit?usp=sharing&ouid=103775864567592741997&rtpof=true&sd=true",
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5223,6 +6122,12 @@
         "registrationFormLink": "https://docs.google.com/spreadsheets/d/1MyBUD3wbgltiv4G_03ijtogtb5xoQT8p/edit?usp=sharing&ouid=103775864567592741997&rtpof=true&sd=true",
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5262,6 +6167,13 @@
         "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSedYchS8uA2na-AJL_n3sIwuK4wceuwF-doW-OxCswaZOuRLg/viewform?usp=dialog ",
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20,
+        21
+      ]
     }
   },
   {
@@ -5301,6 +6213,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5340,6 +6258,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5379,6 +6303,12 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5418,6 +6348,11 @@
         "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSdzeZGfUCB4kmTeZQ9W64iDPZsWw-WEIdDP8DY6shadlyqUXA/viewform?usp=dialog",
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -5457,6 +6392,11 @@
         "registrationFormLink": null,
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10
+      ]
     }
   },
   {
@@ -5496,6 +6436,12 @@
         "registrationFormLink": "https://docs.google.com/spreadsheets/d/1nc0YjIC-Wa8XKQGUvMXvmE-oRkHjMivO/edit?gid=1734840340#gid=1734840340",
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   },
   {
@@ -5535,6 +6481,12 @@
         "registrationFormLink": "https://docs.google.com/spreadsheets/d/1949TqGI-VBCYxAtAkFwy7Hl6xEX1Oynp/edit?gid=1810682568#gid=1810682568",
         "locale": "en"
       }
+    },
+    "validator": {
+      "!studio.id": [
+        10,
+        20
+      ]
     }
   }
 ]

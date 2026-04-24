@@ -2,6 +2,10 @@ import "dotenv/config";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  fetchAllFeatureFlags,
+  resolveFeatureFlagsDeep,
+} from "../shared/feature-flags.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -23,6 +27,29 @@ const convertedCategories = JSON.parse(
 const convertedEvents = JSON.parse(
   fs.readFileSync(path.join(__dirname, "converted-events.json"), "utf8"),
 );
+
+// Build { code → validator } in memory from the converted records themselves.
+// No external list file — Strapi is the source of truth for feature flags;
+// we only read validators to populate `conditions` of flags we have to create.
+const validatorsByCode = {};
+for (const event of convertedEvents) {
+  const code = event.ru?.data?.featureFlag;
+  if (code && event.validator !== undefined) {
+    validatorsByCode[code] = event.validator;
+  }
+}
+
+let flagsCache;
+const createdFeatureFlags = new Set();
+async function resolvePayload(body) {
+  await resolveFeatureFlagsDeep(body, {
+    baseUrl,
+    token,
+    cache: flagsCache,
+    createdCodes: createdFeatureFlags,
+    validatorsByCode,
+  });
+}
 
 async function postEntry(endpoint, body, label = "") {
   const response = await fetch(`${baseUrl}/api/${endpoint}`, {
@@ -138,6 +165,9 @@ async function publishEvents(categoryMap) {
     console.log(`\n[${i + 1}/${convertedEvents.length}] ${nameRu}`);
 
     try {
+      await resolvePayload(ruBody);
+      await resolvePayload(enBody);
+
       const ruRes = await postEntry("events", ruBody, nameRu);
       const documentId = ruRes?.data?.documentId;
       if (!documentId) {
@@ -158,11 +188,17 @@ async function publishEvents(categoryMap) {
 }
 
 async function main() {
-  console.log(`Environment: ${isProd ? "PROD" : "STAGE"}`);
   console.log(`Base URL: ${baseUrl}`);
+
+  flagsCache = await fetchAllFeatureFlags({ baseUrl, token });
 
   const categoryMap = await publishCategories();
   await publishEvents(categoryMap);
+
+  if (createdFeatureFlags.size > 0) {
+    console.log(`\nFeature flags created (${createdFeatureFlags.size}):`);
+    for (const code of createdFeatureFlags) console.log(`  + ${code}`);
+  }
 
   console.log("\n✅ Done!");
 }

@@ -4,7 +4,10 @@
       "data": {
         "title": "Playrix выходит из России и Беларуси",
         "link": "https://playrix.slack.com/files/T029C19PJ/F044YALD0ET?origin_team=T029C19PJ",
-        "channel": 4,
+        "channel": {
+          "name": "company-updates",
+          "color": "#DB72E4"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-10-06",
@@ -20,7 +23,10 @@
       "data": {
         "title": "Playrix Is Leaving Russia and Belarus",
         "link": "https://playrix.slack.com/files/T029C19PJ/F044YALD0ET?origin_team=T029C19PJ",
-        "channel": 4,
+        "channel": {
+          "name": "company-updates",
+          "color": "#DB72E4"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-10-06",
@@ -38,7 +44,10 @@
       "data": {
         "title": "Бонусы компании в 2023 году",
         "link": "https://playrix.slack.com/archives/C029C19PS/p1671632834899339",
-        "channel": 3,
+        "channel": {
+          "name": "playrix_only",
+          "color": "#5172FC"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-12-21",
@@ -46,7 +55,7 @@
         "author": "Ярослава Яровая",
         "text": "Всем привет! В следующем году сетка бенефитов Playrix остается практически без изменений. Мы также добавили новый бонус \n \n Что изменилось? \n - Компенсация фитнеса. Мы поднимаем лимиты с 5 000 руб до 70 $/мес для СНГ и с 60 EUR до 90$/мес для остальных стран. \n - Библиотеки. Мы продлеваем сотрудничество с Альпина на весь следующий год. МИФ будет доступен только до 26 марта, после чего отключен. \n - NEW. Мы вводим компенсацию изучения локального языка для сотрудников, проживающих в Сербии, Черногории, Кипре, Ирландии и Португалии. Подробнее о бонусе можно прочитать в [статье](https://knowledge.playrix.com/pages/viewpage.action?pageId=217465558). \n \n Для сотрудников в России и Беларуси все бонусы будут действовать до того момента, пока компания не прекратит свою деятельность в этих странах.",
         "pinned": false,
-        "featureFlag": null,
+        "featureFlag": "benefits_package_2023_visible",
         "locale": "ru"
       }
     },
@@ -54,7 +63,10 @@
       "data": {
         "title": "Benefits Package 2023",
         "link": "https://playrix.slack.com/archives/C029C19PS/p1671632834899339",
-        "channel": 3,
+        "channel": {
+          "name": "playrix_only",
+          "color": "#5172FC"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-12-21",
@@ -62,9 +74,14 @@
         "author": "Ярослава Яровая",
         "text": "Hi all! Next year’s Playrix benefit package will remain practically the same. But we have added a new bonus! \n \n What will change? \n - Fitness Reimbursements. We are raising the limits from 5,000 rubles to $70 per month for the CIS and from €60 to $90 per month for other countries. \n - Digital Libraries. We are extending cooperation with Alpina for the whole of next year. MYTH will only be available until March 26, after which it will be disabled. \n - NEW Bonus. We will begin to reimburse local language learning classes for employees residing in Serbia, Montenegro, Cyprus, Ireland, and Portugal. You can read more about the bonus in the [article](https://knowledge.playrix.com/pages/viewpage.action?pageId=217465558) \n \n All bonuses will be available to employees in Russia and Belarus until the company completely ceases operations in these countries.",
         "pinned": false,
-        "featureFlag": null,
+        "featureFlag": "benefits_package_2023_visible",
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1
+      ]
     }
   },
   {
@@ -72,7 +89,10 @@
       "data": {
         "title": "Акция в честь праздников",
         "link": "https://playrix.slack.com/archives/C04764QN2/p1671711045809529",
-        "channel": 4,
+        "channel": {
+          "name": "company-updates",
+          "color": "#DB72E4"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-12-22",
@@ -88,7 +108,10 @@
       "data": {
         "title": "Playrix’s Holiday Contribution",
         "link": "https://playrix.slack.com/archives/C04764QN2/p1671711045809529",
-        "channel": 4,
+        "channel": {
+          "name": "company-updates",
+          "color": "#DB72E4"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-12-22",
@@ -106,7 +129,10 @@
       "data": {
         "title": "Google Play's Best of 2022",
         "link": "https://playrix.slack.com/archives/CP0H0K6AF/p1669890285811379",
-        "channel": 2,
+        "channel": {
+          "name": "project_news",
+          "color": "#1E9E1A"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-12-01",
@@ -122,7 +148,10 @@
       "data": {
         "title": "Google Play's Best of 2022",
         "link": "https://playrix.slack.com/archives/CP0H0K6AF/p1669890285811379",
-        "channel": 2,
+        "channel": {
+          "name": "project_news",
+          "color": "#1E9E1A"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-12-01",
@@ -140,7 +169,10 @@
       "data": {
         "title": "Релиз Fishdom Solitaire",
         "link": "https://playrix.slack.com/archives/CP0H0K6AF/p1668518935659589",
-        "channel": 2,
+        "channel": {
+          "name": "project_news",
+          "color": "#1E9E1A"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-11-15",
@@ -156,7 +188,10 @@
       "data": {
         "title": "Fishdom Solitaire Is Ready to Play",
         "link": "https://playrix.slack.com/archives/CP0H0K6AF/p1668518935659589",
-        "channel": 2,
+        "channel": {
+          "name": "project_news",
+          "color": "#1E9E1A"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-11-15",
@@ -174,7 +209,10 @@
       "data": {
         "title": "Как изменится рабочий календарь Playrix",
         "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
-        "channel": 3,
+        "channel": {
+          "name": "playrix_only",
+          "color": "#5172FC"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-11-21",
@@ -182,7 +220,7 @@
         "author": "Ксения Шорохова",
         "text": "Компания перестанет использовать российский и белорусский производственные календари с 1 апреля 2023 года. До этого времени сотрудники могут работать по этим календарям, даже если уже релоцировались. \n \n Какой [график](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996). мы будем использовать с апреля 2023: Какой график мы будем использовать с апреля 2023: \n - по умолчанию сотрудники будут работать по производственному календарю страны постоянного проживания. Если человек работает в стране, где нет юрлица Playrix, можно также выбрать календарь Ирландии. \n - по согласованию с менеджером можно работать по календарю, который использует большинство человек в команде. Эта возможность не распространяется на календари РФ и РБ.",
         "pinned": false,
-        "featureFlag": null,
+        "featureFlag": "changes_in_playrix_work_calendar_visible",
         "locale": "ru"
       }
     },
@@ -190,7 +228,10 @@
       "data": {
         "title": "Changes in Playrix Work Calendar",
         "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
-        "channel": 3,
+        "channel": {
+          "name": "playrix_only",
+          "color": "#5172FC"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2022-11-21",
@@ -198,9 +239,14 @@
         "author": "Ksenia Shorokhova",
         "text": "The company will stop using the Russian and Belarusian business calendars starting April 1, 2023. Until then, all employees can work by those calendars, even after relocation. \n \n What will our [schedule](https://knowledge.playrix.com/pages/viewpage.action?pageId=37553996) look like starting April 2023? \n - by default employees will work according to business calendars of the country of their permanent residence. If a person works from a country without Playrix presence, they can use the Irish calendar as well. \n - with the manager’s approval it’s possible to choose a calendar which is more used by the team with the exception of Russian and Belarusian calendars.",
         "pinned": false,
-        "featureFlag": null,
+        "featureFlag": "changes_in_playrix_work_calendar_visible",
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        1
+      ]
     }
   },
   {
@@ -208,7 +254,10 @@
       "data": {
         "title": "Рукодельный Мерж - хобби-приключение",
         "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
-        "channel": 5,
+        "channel": {
+          "name": "dm-news",
+          "color": "#1E9E1A"
+        },
         "photoLink": "https://drive.google.com/drive/folders/1xlPxrSZcLisgvTvrX3FXC6DZ-OtGGqoi",
         "image": 1,
         "date": "2023-07-16",
@@ -224,7 +273,10 @@
       "data": {
         "title": "Changes in Playrix Work Calendar",
         "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
-        "channel": 5,
+        "channel": {
+          "name": "dm-news",
+          "color": "#1E9E1A"
+        },
         "photoLink": "https://drive.google.com/drive/folders/1xlPxrSZcLisgvTvrX3FXC6DZ-OtGGqoi",
         "image": 1,
         "date": "2023-07-16",
@@ -242,7 +294,10 @@
       "data": {
         "title": "Тест для нового канала",
         "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
-        "channel": 6,
+        "channel": {
+          "name": "new-test-channel",
+          "color": "#1E9E1A"
+        },
         "photoLink": "https://drive.google.com/drive/folders/1xlPxrSZcLisgvTvrX3FXC6DZ-OtGGqoi",
         "image": 1,
         "date": "2023-07-16",
@@ -258,7 +313,10 @@
       "data": {
         "title": "New channel test",
         "link": "https://playrix.slack.com/archives/C029C19PS/p1669037051097989",
-        "channel": 6,
+        "channel": {
+          "name": "new-test-channel",
+          "color": "#1E9E1A"
+        },
         "photoLink": "https://drive.google.com/drive/folders/1xlPxrSZcLisgvTvrX3FXC6DZ-OtGGqoi",
         "image": 1,
         "date": "2023-07-16",
@@ -276,7 +334,10 @@
       "data": {
         "title": "Страшно волшебный Мерж!",
         "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1696580095996999",
-        "channel": 5,
+        "channel": {
+          "name": "dm-news",
+          "color": "#5172FC"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2023-10-09",
@@ -284,7 +345,7 @@
         "author": "Борис Шадловский",
         "text": "Magic Team открывает двери загадочной вечеринки - пора наряжаться в вампиров, зомби-принцесс и прочую нечисть. Какие страшные сюрпризы ждут нас в этот раз? \n\n1. Главный хит этого Хэллоуина - долгожданные ВИП-награды! С этого дня наших супер-платящих игроков будет ждать еще больше жутко-шикарного контента. \n 2. Вместо старых фото игроков встретят полноценные комиксы! А это значит - больше экшена, веселья и динамики! More passion, more footwork! \n\n 3. Куча новых анимаций подоспели на вечеринку! Теперь двигаются не только генераторы, но и почти половина фишек на поле. А их визуал покорит всех фанатов Хеллоуина. \n\n 4. А какой цвет поля? Вы видели этот глубокий оттенок Ma-a-a-a-gic? Мы впервые перекрасили поле и добавили атмосферу праздника в UI. \n\n 5. Не забыли и про ребаланс Весеннего Мержа вместе с добавлением емкости к ВИП-наградам. На спиритическом сеансе духи нашептали, что это даст \"so much money энд найс проходимость!\" \n\n 6. И последнее (но не по важности) - обновили интерфейс и наконец перенесли кнопку альбома внутрь Мержа! А для собирателей и коллекционеров на поле появился багаж, в котором скапливаются все полученные и купленные фишки. \n\n А теперь добавим в хэллоуинский пунш побольше благодарностей: \n - Команда геймдизайна и нарратива получает волшебную сову за захватывающий сюжет и логичную логику! \n - Художникам летит большой творческий thanks за волшебные комиксы и иллюстрации. \n - Преклоняемся перед технической командой за безупречное воплощение идей в коде и движке. \n - Каждому, кто просматривал и комментировал билды - мерси за неравнодушие и честный фидбэк. \n - И для самой отважной QA-команды - огромное спасибо за внимательные, кропотливые проверки и околдовывающее качество! \n\n Ждем ваших побед в праздничном событии!",
         "pinned": false,
-        "featureFlag": null,
+        "featureFlag": "news_9_visible",
         "locale": "ru"
       }
     },
@@ -292,7 +353,10 @@
       "data": {
         "title": "Страшно волшебный Мерж!",
         "link": "https://playrix.slack.com/archives/G01GS3MMG01/p1696580095996999",
-        "channel": 5,
+        "channel": {
+          "name": "dm-news",
+          "color": "#5172FC"
+        },
         "photoLink": null,
         "image": 1,
         "date": "2023-10-09",
@@ -300,9 +364,14 @@
         "author": "Борис Шадловский",
         "text": "Magic Team открывает двери загадочной вечеринки - пора наряжаться в вампиров, зомби-принцесс и прочую нечисть. Какие страшные сюрпризы ждут нас в этот раз? \n\n1. Главный хит этого Хэллоуина - долгожданные ВИП-награды! С этого дня наших супер-платящих игроков будет ждать еще больше жутко-шикарного контента. \n\n 2. Вместо старых фото игроков встретят полноценные комиксы! А это значит - больше экшена, веселья и динамики! More passion, more footwork! \n\n 3. Куча новых анимаций подоспели на вечеринку! Теперь двигаются не только генераторы, но и почти половина фишек на поле. А их визуал покорит всех фанатов Хеллоуина. \n\n 4. А какой цвет поля? Вы видели этот глубокий оттенок Ma-a-a-a-gic? Мы впервые перекрасили поле и добавили атмосферу праздника в UI. \n\n 5. Не забыли и про ребаланс Весеннего Мержа вместе с добавлением емкости к ВИП-наградам. На спиритическом сеансе духи нашептали, что это даст \"so much money энд найс проходимость!\" \n\n 6. И последнее (но не по важности) - обновили интерфейс и наконец перенесли кнопку альбома внутрь Мержа! А для собирателей и коллекционеров на поле появился багаж, в котором скапливаются все полученные и купленные фишки. \n\n А теперь добавим в хэллоуинский пунш побольше благодарностей: \n - Команда геймдизайна и нарратива получает волшебную сову за захватывающий сюжет и логичную логику! \n - Художникам летит большой творческий thanks за волшебные комиксы и иллюстрации. \n - Преклоняемся перед технической командой за безупречное воплощение идей в коде и движке. \n - Каждому, кто просматривал и комментировал билды - мерси за неравнодушие и честный фидбэк. \n - И для самой отважной QA-команды - огромное спасибо за внимательные, кропотливые проверки и околдовывающее качество! \n\n Ждем ваших побед в праздничном событии!",
         "pinned": false,
-        "featureFlag": null,
+        "featureFlag": "news_9_visible",
         "locale": "en"
       }
+    },
+    "validator": {
+      "studio.id": [
+        18
+      ]
     }
   }
 ]
