@@ -41,7 +41,7 @@
       {
         "id": "license_or_access_to_service",
         "taskId": "access_request",
-        "showFeat": "service__access_request_freshservice",
+        "showFeat": "disabled",
         "name": {
           "ru": "Получить лицензию на ПО или доступ к сервису",
           "en": "Software license or service access request"
@@ -70,7 +70,7 @@
       {
         "id": "access_to_service",
         "taskId": "access_request",
-        "showFeat": "service__access_request_freshservice",
+        "showFeat": "disabled",
         "name": {
           "ru": "Получить доступ к ресурсу",
           "en": "Resource access"
@@ -144,7 +144,7 @@
       {
         "id": "repository_issue",
         "taskId": "repository_issue",
-        "showFeat": "service__repository_issue_freshservice",
+        "showFeat": "disabled",
         "name": {
           "ru": "Решить проблему с git/Python/скриптами в репозитории",
           "en": "Solve a problem with git/Python/scripts in the repository"
@@ -190,7 +190,7 @@
       {
         "id": "get_help_or_solve_a_problem",
         "taskId": "incident",
-        "showFeat": "service__incident_freshservice",
+        "showFeat": "disabled",
         "name": {
           "ru": "Получить консультацию или решить проблему",
           "en": "Get a consultation or solve a problem"
@@ -261,7 +261,7 @@
       {
         "id": "get_new_hardware",
         "taskId": "purchase_request",
-        "showFeat": "service__purchase_request_freshservice",
+        "showFeat": "disabled",
         "name": {
           "ru": "Получить новое оборудование",
           "en": "Get new equipment"
@@ -319,7 +319,7 @@
       {
         "id": "replace_or_upgrade_hardware",
         "taskId": "it_support_request",
-        "showFeat": "service__it_support_request_freshservice",
+        "showFeat": "disabled",
         "name": {
           "ru": "Заменить или модернизировать текущее оборудование",
           "en": "Replace or upgrade current equipment"
@@ -377,7 +377,7 @@
       {
         "id": "equipment_repair",
         "taskId": "repair",
-        "showFeat": "service__repair_freshservice",
+        "showFeat": "disabled",
         "name": {
           "ru": "Отремонтировать оборудование",
           "en": "Equipment repairt"
@@ -435,7 +435,7 @@
       {
         "id": "solve_hardware_problem",
         "taskId": "it_support_request",
-        "showFeat": "service__it_support_request_freshservice",
+        "showFeat": "disabled",
         "name": {
           "ru": "Решить проблему с оборудованием",
           "en": "Solve a problem with equipment"
@@ -463,7 +463,7 @@
       },
       {
         "id": "get_consultation",
-        "taskId": "equipment_incident",
+        "taskId": "incident",
         "showFeat": "service__incident",
         "name": {
           "ru": "Получить консультацию",
@@ -492,8 +492,8 @@
       },
       {
         "id": "get_consultation",
-        "taskId": "equipment_incident",
-        "showFeat": "service__incident_freshservice",
+        "taskId": "incident",
+        "showFeat": "disabled",
         "name": {
           "ru": "Получить консультацию",
           "en": "Consultation"
@@ -534,7 +534,7 @@
     "items": [
       {
         "id": "software_installation_and_configuration",
-        "taskId": "software_configuration_it_support_request",
+        "taskId": "it_support_request",
         "showFeat": "service__it_support_request",
         "name": {
           "ru": "Установить и настроить ПО",
@@ -563,8 +563,8 @@
       },
       {
         "id": "software_installation_and_configuration",
-        "taskId": "software_configuration_it_support_request",
-        "showFeat": "service__it_support_request_freshservice",
+        "taskId": "it_support_request",
+        "showFeat": "disabled",
         "name": {
           "ru": "Установить и настроить ПО",
           "en": "Software installation and configuration "
@@ -592,7 +592,7 @@
       },
       {
         "id": "internet_access",
-        "taskId": "internet_access",
+        "taskId": "it_support_request",
         "showFeat": "service__it_support_request",
         "name": {
           "ru": "Решить проблему с доступом в интернет",
@@ -621,8 +621,8 @@
       },
       {
         "id": "internet_access",
-        "taskId": "internet_access",
-        "showFeat": "service__it_support_request_freshservice",
+        "taskId": "it_support_request",
+        "showFeat": "disabled",
         "name": {
           "ru": "Решить проблему с доступом в интернет",
           "en": "Solve a problem with Internet access"
@@ -650,7 +650,7 @@
       },
       {
         "id": null,
-        "taskId": "office_wifi_connection",
+        "taskId": null,
         "name": {
           "ru": "Подключиться к Wi-Fi в офисе",
           "en": "Connect to the office WiFi"
@@ -660,7 +660,7 @@
           "en": "If you need to generate or reissue a certificate to connect to the office WiFi"
         },
         "button": {
-          "type": "network_access",
+          "type": "network-access",
           "text": {
             "ru": "Подключиться",
             "en": "Connect"
@@ -669,7 +669,7 @@
       },
       {
         "id": null,
-        "taskId": "vpn_access",
+        "taskId": null,
         "name": {
           "ru": "Получить доступ к VPN",
           "en": "Get VPN access"
@@ -679,12 +679,12 @@
           "en": "If you need to connect to the corporate VPN for remote access to internal company resources through the encrypted connection"
         },
         "button": {
-          "type": "network_access"
+          "type": "network-access"
         }
       },
       {
         "id": "software_configuration_consultation",
-        "taskId": "software_configuration_incident",
+        "taskId": "incident",
         "showFeat": "service__incident",
         "name": {
           "ru": "Получить консультацию",
@@ -713,8 +713,8 @@
       },
       {
         "id": "software_configuration_consultation",
-        "taskId": "software_configuration_incident",
-        "showFeat": "service__incident_freshservice",
+        "taskId": "incident",
+        "showFeat": "disabled",
         "name": {
           "ru": "Получить консультацию",
           "en": "Consultation"
@@ -934,7 +934,7 @@
       {
         "id": "workplace_change",
         "taskId": "workplace_change",
-        "showFeat": "service__сhange_of_workplace",
+        "showFeat": "service__change_of_workplace",
         "name": {
           "ru": "Сменить рабочее место в офисе",
           "en": "Change of workplace in the office"
@@ -1278,6 +1278,34 @@
           "type": "service",
           "param": "q_a_organization"
         }
+      },
+      {
+        "id": "public_speaking",
+        "showFeat": "service__public_speaking",
+        "name": {
+          "ru": "Публичное выступление",
+          "en": "Public Speaking"
+        },
+        "description": {
+          "ru": "Согласовать публичное выступление",
+          "en": "Get approval for a public speaking engagement"
+        },
+        "examples": {
+          "ru": [
+            "Согласовать выступление на конференции или митапе",
+            "Получить одобрение на участие во внешнем мероприятии",
+            "Заявить тему доклада от имени компании"
+          ],
+          "en": [
+            "Coordinate a presentation at a conference or meetup",
+            "Get approval for participation in an external event",
+            "Submit a talk topic on behalf of the company"
+          ]
+        },
+        "button": {
+          "type": "service",
+          "url": "https://form.asana.com/?k=BLJew3X8h1UJxbmWcUtFAQ&d=656176460444"
+        }
       }
     ]
   },
@@ -1295,7 +1323,7 @@
       {
         "id": "1C_db_access",
         "taskId": "one_c_db_access",
-        "showFeat": "service__1C_db_access",
+        "showFeat": "service__1c_db_access",
         "name": {
           "ru": "1C: Доступ сотрудника к базе (первичный)",
           "en": "1C: Employee access to base (primary)"
@@ -1322,7 +1350,7 @@
       {
         "id": "1C_incident",
         "taskId": "one_c_incident",
-        "showFeat": "service__1C_incident",
+        "showFeat": "service__1c_incident",
         "name": {
           "ru": "1C: Инцидент",
           "en": "1C: Incident"
@@ -1353,7 +1381,7 @@
       {
         "id": "1C_improvement_task",
         "taskId": "one_c_improvement_task",
-        "showFeat": "service__1C_improvement_task",
+        "showFeat": "service__1c_improvement_task",
         "name": {
           "ru": "1C: Задача на доработку / настройку",
           "en": "1C: Task for revision / tuning"
@@ -1382,7 +1410,7 @@
       {
         "id": "1C_access_external_contractor",
         "taskId": "one_c_external_user_access",
-        "showFeat": "service__1C_access_external_contractor",
+        "showFeat": "service__1c_access_external_contractor",
         "name": {
           "ru": "1C: Доступ внешнего подрядчика к базе (первичный)",
           "en": "1C: Access for an external contractor (primary)"
@@ -1409,7 +1437,7 @@
       {
         "id": "1C_consultation",
         "taskId": "one_c_consultation",
-        "showFeat": "service__1C_consultation",
+        "showFeat": "service__1c_consultation",
         "name": {
           "ru": "1C: Консультация",
           "en": "1C: Consultation"
@@ -1440,7 +1468,7 @@
       {
         "id": "1C_changing_permission",
         "taskId": "one_c_database_access_change",
-        "showFeat": "service__1C_changing_permission",
+        "showFeat": "service__1c_changing_permission",
         "name": {
           "ru": "1C: Изменение прав в базе",
           "en": "1C: Changing permissions in the base"
@@ -1469,7 +1497,7 @@
       {
         "id": "1C_opening_period",
         "taskId": "one_c_open_period",
-        "showFeat": "service__1C_opening_period",
+        "showFeat": "service__1c_opening_period",
         "name": {
           "ru": "1C: Открытие периода в базе",
           "en": "1C: Opening period in the base"
@@ -1682,7 +1710,7 @@
       {
         "id": "other",
         "taskId": "other",
-        "showFeat": "service__other_freshservice",
+        "showFeat": "disabled",
         "name": {
           "ru": "Обратная связь о других сервисах и процессах Playrix",
           "en": "Feedback on other Playrix services and processes"
@@ -1792,7 +1820,7 @@
           "en": ""
         },
         "button": {
-          "type": "link|password|network_access|compensation|service|absence",
+          "type": "link|password|network-access|compensation|service|absence",
           "param": "",
           "url": ""
         }

@@ -16,20 +16,64 @@ function isDualLanguageObject(obj) {
   return keys.length === 2 && keys.includes("ru") && keys.includes("en");
 }
 
+// Validators harvested from object-shaped feat/strongFeat. Mirrors what
+// admin-events-converter does: convert.js synthesizes a stable code per
+// validator, publish.js reads this map and creates the flag with proper
+// conditions via shared/feature-flags.js#buildConditionsFromValidator.
+const validatorsByCode = {};
+
+function stableStringify(value) {
+  if (value === null || typeof value !== "object") return JSON.stringify(value);
+  if (Array.isArray(value))
+    return "[" + value.map(stableStringify).join(",") + "]";
+  return (
+    "{" +
+    Object.keys(value)
+      .sort()
+      .map((k) => JSON.stringify(k) + ":" + stableStringify(value[k]))
+      .join(",") +
+    "}"
+  );
+}
+
+function hashValidator(validator) {
+  const s = stableStringify(validator);
+  let h = 5381;
+  for (let i = 0; i < s.length; i++) {
+    h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
+  }
+  return h.toString(16).padStart(8, "0");
+}
+
+function slugifyContext(s) {
+  return (s || "")
+    .toString()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "")
+    .slice(0, 60);
+}
+
+function registerValidator(context, validator) {
+  const slug = slugifyContext(context) || "feat";
+  const hash = hashValidator(validator);
+  const code = `compensation__${slug}_${hash}`;
+  validatorsByCode[code] = validator;
+  return code;
+}
+
 /**
- * Converts feat/strongFeat to featureFlag, logs if object
+ * Converts feat/strongFeat to featureFlag. Strings pass through;
+ * object validators get a synthetic code and their conditions are
+ * stashed in validatorsByCode for publish.js to materialize.
  */
 function convertFeatureFlag(obj, context = "") {
   const result = { ...obj };
 
   if (result.feat !== undefined) {
     if (typeof result.feat === "object" && result.feat !== null) {
-      console.warn(
-        `⚠️  Warning: feat is an object (needs manual fix): ${JSON.stringify(
-          result.feat
-        )} at ${context}`
-      );
-      delete result.feat; // Remove object feat, can't convert
+      result.featureFlag = registerValidator(context, result.feat);
+      delete result.feat;
     } else if (typeof result.feat === "string") {
       result.featureFlag = result.feat;
       delete result.feat;
@@ -38,12 +82,8 @@ function convertFeatureFlag(obj, context = "") {
 
   if (result.strongFeat !== undefined) {
     if (typeof result.strongFeat === "object" && result.strongFeat !== null) {
-      console.warn(
-        `⚠️  Warning: strongFeat is an object (needs manual fix): ${JSON.stringify(
-          result.strongFeat
-        )} at ${context}`
-      );
-      delete result.strongFeat; // Remove object strongFeat, can't convert
+      result.featureFlag = registerValidator(context, result.strongFeat);
+      delete result.strongFeat;
     } else if (typeof result.strongFeat === "string") {
       // If featureFlag already exists, prefer strongFeat (it's "stronger")
       result.featureFlag = result.strongFeat;
@@ -138,13 +178,30 @@ function processButtons(buttons) {
         ...(processed.enText && { enText: processed.enText }),
         ...(hasOverridedText && { hasOverridedText: true }),
       });
+    } else if (Array.isArray(processed.param) && processed.param.length > 0) {
+      // Multi-param button (e.g. vacation with several subtypes): Strapi's
+      // benefits.button.param is a string, so explode into one action per
+      // param item, carrying its own featureFlag.
+      for (const paramItem of processed.param) {
+        const featureFlag = paramItem.featureFlag || processed.featureFlag;
+        actions.push({
+          __component: "benefits.button",
+          type: processed.type,
+          ...(processed.url && { url: processed.url }),
+          ...(paramItem.name && { param: paramItem.name }),
+          ...(featureFlag && { featureFlag }),
+          ...(processed.ruText && { ruText: processed.ruText }),
+          ...(processed.enText && { enText: processed.enText }),
+          ...(hasOverridedText && { hasOverridedText: true }),
+        });
+      }
     } else {
-      // Other button types go to actions array
+      // Single-param or no-param action
       const action = {
         __component: "benefits.button",
         type: processed.type,
         ...(processed.url && { url: processed.url }),
-        ...(processed.param && { param: processed.param }),
+        ...(typeof processed.param === "string" && { param: processed.param }),
         ...(processed.featureFlag && { featureFlag: processed.featureFlag }),
         ...(processed.ruText && { ruText: processed.ruText }),
         ...(processed.enText && { enText: processed.enText }),
@@ -391,6 +448,10 @@ function convertData(inputData) {
 function main() {
   const inputFile = path.join(__dirname, "compensation-data.json");
   const outputFile = path.join(__dirname, "compensation-data-converted.json");
+  const validatorsFile = path.join(
+    __dirname,
+    "feature-flag-validators.json"
+  );
 
   console.log("Reading input file...");
   const inputData = JSON.parse(fs.readFileSync(inputFile, "utf8"));
@@ -405,7 +466,17 @@ function main() {
     flag: "w", // Explicitly set write flag to overwrite
   });
 
+  fs.writeFileSync(
+    validatorsFile,
+    JSON.stringify(validatorsByCode, null, 2),
+    { encoding: "utf8", flag: "w" }
+  );
+
+  const validatorCount = Object.keys(validatorsByCode).length;
   console.log(`✅ Conversion complete! Output written to ${outputFile}`);
+  console.log(
+    `   Harvested ${validatorCount} object-shaped validator(s) → ${validatorsFile}`
+  );
 }
 
 main();

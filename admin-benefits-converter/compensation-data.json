@@ -11,9 +11,10 @@
     "items": [
       {
         "name": {
-          "ru": "ДМС для сотрудников",
-          "en": "VHI for employees"
+          "ru": "Компенсация ДМС",
+          "en": "VHI reimbursement"
         },
+        "feat": "compensation__med_insurance",
         "description": {
           "ru": "Подача заявки возможна для себя, партнера и детей",
           "en": "Request submission is possible for yourself, a partner, and children"
@@ -21,12 +22,93 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=99357218"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Employee-Health-Insurance-for-employees-and-partners_sutNC#_luR0-",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suTd-",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/maximt-playrix-com_d0F87UuQoKP/_suA6Wuqe",
+            "strongFeat": "compensation__redbark_other_non_gph"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_su8FAZjt",
+            "strongFeat": "compensation__redbark_other_gph"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_sulwW#_luIGr",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_su8FAZjt",
+            "strongFeat": "compensation__fluyt_other_gph"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_su7Z7LA1",
+            "strongFeat": "compensation__fluyt_other_non_gph"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/Home-Games-Home-Games_suvjZ#_luU0W",
+            "strongFeat": "compensation__homegames"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/4Friends-4Friends_suKcm#_lulWs",
+            "strongFeat": "compensation__4friends"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_suxpF#_lu7K1",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suXmbyX8",
+            "strongFeat": "compensation__bay_redbark"
           },
           {
             "type": "compensation",
             "param": "med_insurance",
-            "feat": "compensation__med_insurance"
+            "strongFeat": "compensation__med_insurance_request_button"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=y0aipjLxA1ax7BlYxHQABg&d=656176460444",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=y0aipjLxA1ax7BlYxHQABg&d=656176460444",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=y0aipjLxA1ax7BlYxHQABg&d=656176460444",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=y0aipjLxA1ax7BlYxHQABg&d=656176460444",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=ZE_LPhq7Q4uu_PCvztithA&d=656176460444",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=y0aipjLxA1ax7BlYxHQABg&d=656176460444",
+            "strongFeat": "compensation__bay_redbark"
           }
         ]
       },
@@ -39,12 +121,28 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=212539543"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Travel-Insurance-for-Relocation_su7UkJj3#_luNnVdof",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suR3p#_luTls",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suR3p#_luTls",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_su2Q0dhV#_luWJqyhV",
+            "strongFeat": "compensation__fluyt_other"
           },
           {
             "type": "compensation",
             "param": "travel_insurance",
-            "feat": "compensation__travel_insurance"
+            "strongFeat": "compensation__travel_insurance"
           }
         ]
       },
@@ -57,34 +155,89 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=212539543"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Travel-Insurance-for-Relocation_su7UkJj3#_luNnVdof",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suR3p#_luTls",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suR3p#_luTls",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_su2Q0dhV#_luWJqyhV",
+            "strongFeat": "compensation__fluyt_other"
           },
           {
             "type": "compensation",
             "param": "travel_insurance_spouse",
-            "feat": "compensation__travel_insurance_spouse"
+            "strongFeat": "compensation__travel_insurance_spouse"
           }
         ]
       },
       {
         "feat": "compensation__travel_insurance_child",
         "name": {
-          "ru": "Медицинское обслуживание детей релокантов (полис ВЗР)",
-          "en": "Medical service for children of relocated employees (travel insurance policy)"
+          "ru": "Медицинское обслуживание детей релокантов",
+          "en": "Medical care for children of relocators"
         },
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=212539543"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Travel-Insurance-for-Relocation_su7UkJj3#_luNnVdof",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suR3p#_luTls",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suR3p#_luTls",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_su2Q0dhV#_luWJqyhV",
+            "strongFeat": "compensation__fluyt_other"
           },
           {
             "type": "compensation",
             "param": "travel_insurance_child",
-            "feat": "compensation__travel_insurance_child"
+            "strongFeat": "compensation__travel_insurance_child"
           }
         ]
       },
       {
+        "feat": "compensation__telemedicine",
+        "name": {
+          "ru": "Телемедицина",
+          "en": "Telemedicine"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Telemedicine_suy2HSTB"
+          },
+          {
+            "type": "compensation",
+            "url": "/customer_service/bonus_question?gid=1209215030406595",
+            "strongFeat": "compensation__telemedicine",
+            "name": {
+              "ru": "Подключить",
+              "en": "Enroll"
+            }
+          }
+        ]
+      },
+      {
+        "feat": "compensation__individual_psychologist",
         "name": {
           "ru": "Компенсация сессий индивидуального психолога",
           "en": "Compensation for individual psychologist sessions"
@@ -111,22 +264,92 @@
           "params": {
             "items": [
               {
-                "name": "Ясно",
+                "name": "Ясно (базовый грейд)",
                 "url": "https://yasno.live/",
-                "value": "CORP-PLRX-UA7HK9B8",
-                "feat": "compensation__psychologist_except_fluyt"
+                "value": "CORP-PLR-WRLDWD4NEW",
+                "feat": {
+                  "legal_entity.id": [
+                    393, 414, 419, 423, 425, 437, 439, 440, 444, 447, 448, 545,
+                    546, 479
+                  ]
+                }
+              },
+              {
+                "name": "Ясно (повышенный грейд)",
+                "url": "https://yasno.live/",
+                "value": "CORP-PLR-WRLD22UP",
+                "feat": {
+                  "legal_entity.id": [
+                    393, 414, 419, 423, 425, 437, 439, 440, 444, 447, 448, 545,
+                    546, 479
+                  ]
+                }
+              },
+              {
+                "name": "Ясно (базовый грейд)",
+                "url": "https://yasno.live/",
+                "value": "CORP-PLRX-RS1ZNEW",
+                "feat": {
+                  "legal_entity.id": [424]
+                }
+              },
+              {
+                "name": "Ясно (повышенный грейд)",
+                "url": "https://yasno.live/",
+                "value": "CORP-PLRX-RS4GRDUP",
+                "feat": {
+                  "legal_entity.id": [424]
+                }
+              },
+              {
+                "name": "Ясно (базовый грейд)",
+                "url": "https://yasno.live/",
+                "value": "CORP-PLRX-CYPRUS24",
+                "feat": {
+                  "legal_entity.id": [443, 434],
+                  "!studio.id": [10]
+                }
+              },
+              {
+                "name": "Ясно (повышенный грейд)",
+                "url": "https://yasno.live/",
+                "value": "CORP-PLRX-CPRS38UP",
+                "feat": {
+                  "legal_entity.id": [443, 434],
+                  "!studio.id": [10]
+                }
+              },
+              {
+                "name": "Ясно (базовый грейд)",
+                "url": "https://yasno.live/",
+                "value": "CORP-PLRXKZ-BASE25",
+                "feat": {
+                  "legal_entity.id": [435]
+                }
+              },
+              {
+                "name": "Ясно (повышенный грейд)",
+                "url": "https://yasno.live/",
+                "value": "CORP-PLRXKZ-UP25",
+                "feat": {
+                  "legal_entity.id": [435]
+                }
               },
               {
                 "name": "Pleso",
                 "url": "https://pleso.me/",
-                "value": "Playrix",
-                "feat": "compensation__psychologist_except_fluyt"
+                "value": "4FriendsGames",
+                "feat": {
+                  "legal_entity.id": [412]
+                }
               },
               {
-                "name": "Ясно",
-                "url": "https://yasno.live/",
-                "value": "CORP-FLUYT-STUD991",
-                "feat": "compensation__psychologist_fluyt"
+                "name": "Pleso",
+                "url": "https://pleso.me/",
+                "value": "playrix",
+                "feat": {
+                  "legal_entity.id": [414]
+                }
               }
             ]
           }
@@ -134,23 +357,48 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=149411613",
-            "strongFeat": "compensation__redbark_fluyt_invert"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Psychological-Consultations_sugIK#_luT9G",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_invert"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226335934",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRgK4hP#_lu9b6cu_",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRgK4hP#_lu9b6cu_",
             "strongFeat": "compensation__redbark_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226335941",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suCyyTo9#_luiY7HJk",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRgK4hP#_lu9b6cu_",
             "strongFeat": "compensation__fluyt_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339011",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suCyyTo9#_luiY7HJk",
             "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_sucFH#_luHGM",
+            "strongFeat": "compensation__homegames"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_surqV#_lubeD",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_suuVb#_luSxM",
+            "strongFeat": "compensation__4friends"
           },
           {
             "type": "compensation",
@@ -165,27 +413,49 @@
           {
             "type": "compensation",
             "url": "https://form.asana.com/?k=pjiHFl1ZZRvOQQ60Kh7DTQ&d=656176460444",
-            "strongFeat": "compensation__fluyt_redbark"
-          }
-        ]
-      },
-      {
-        "name": {
-          "ru": "Телемедицина",
-          "en": "Telemedicine"
-        },
-        "buttons": [
-          {
-            "type": "link",
-            "url": "https://coda.io/d/_dAkoB_RTnXe/Telemedicine_suPMJoUR#_luaSWLnw"
+            "strongFeat": "compensation__bay_redbark"
           },
           {
             "type": "compensation",
-            "url": "/customer_service/bonus_question?gid=1209215030406595",
-            "strongFeat": "compensation__telemedicine",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScmObDz1Y4O_BknWgFxBIjgUXHcSpTakJL8xov0PjZLsdJG-w/viewform?usp=preview",
+            "strongFeat": "compensation__redbark_other_non_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScebHMXZgdkoL3K-Jf4DU6SRsj-Qv3S8f4teDQdY85Phtnxhg/viewform?usp=preview",
+            "strongFeat": "compensation__redbark_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=pjiHFl1ZZRvOQQ60Kh7DTQ&d=656176460444",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSfTHWduyCzbWgVj213h6OCBg7TqKbp_MwRmO4T-Q_JexkoXcg/viewform?usp=preview",
+            "strongFeat": "compensation__fluyt_other_non_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScOacf14KNYfQFzZAOGO_2m9cQISTAMNtoRmoWaTpE_-bQ-wQ/viewform?usp=preview",
+            "strongFeat": "compensation__fluyt_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=pjiHFl1ZZRvOQQ60Kh7DTQ&d=656176460444",
+            "strongFeat": "compensation__fluyt_other",
             "name": {
-              "ru": "Подключить",
-              "en": "Enroll"
+              "ru": "Запросить консультацию",
+              "en": "Request a consultation"
+            }
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=pjiHFl1ZZRvOQQ60Kh7DTQ&d=656176460444",
+            "strongFeat": "compensation__redbark_other",
+            "name": {
+              "ru": "Запросить консультацию",
+              "en": "Request a consultation"
             }
           }
         ]
@@ -203,6 +473,7 @@
     },
     "items": [
       {
+        "feat": "service__loan",
         "name": {
           "ru": "Беспроцентный кредит",
           "en": "Interest-free loan"
@@ -210,12 +481,53 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=36473529"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Interest-Free-Loan_subHp#_lu_S_",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_su9Y2#_luVlX",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suE1l",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Interest-Free-Loan_suLRMbHp#_luLEJ_S_",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Interest-Free-Loan_suLRMbHp#_luLEJ_S_",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Interest-Free-Loan_suLRMbHp#_luLEJ_S_",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suIJM#_luwi_",
+            "strongFeat": "compensation__homegames"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_suqKu#_luSxf",
+            "strongFeat": "compensation__4friends"
           },
           {
             "type": "service",
             "param": "loan",
-            "feat": "service__loan"
+            "strongFeat": "compensation__zagrava_invert"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=TVCexRJMmYGHoMpzUVwiSw&d=656176460444",
+            "strongFeat": "compensation__zagrava"
           }
         ]
       },
@@ -227,33 +539,56 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=149411606",
-            "strongFeat": "compensation__redbark_fluyt_invert"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/100-100-Salary-During-Vacation_sutVi#_luK9d",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336163",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suksmlVT",
             "strongFeat": "compensation__redbark_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336163",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suksmlVT",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/100_suReae7J#_lu4RSY6A",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suksmlVT",
             "strongFeat": "compensation__fluyt_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339025",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/100_suReae7J#_lu4RSY6A",
             "strongFeat": "compensation__fluyt_other"
           },
           {
-            "type": "vacation",
-            "param": "vacation",
-            "strongFeat": "absence__hit_games_invert"
+            "type": "link",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/Home-Games-Home-Games_suxA4#_luzXr",
+            "strongFeat": "compensation__homegames"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/100-100_suvvH#_lu4C0",
+            "strongFeat": "compensation__4friends"
           },
           {
             "type": "vacation",
-            "param": "vacation_with_salary_payment_ua",
-            "strongFeat": "absence__hit_games"
+            "param": [
+              {
+                "name": "vacation",
+                "feat": "absence__vacation"
+              },
+              {
+                "name": "vacation_with_salary_payment_ua",
+                "feat": "absence__extra_vacation_with_salary_payment_ua"
+              }
+            ]
           }
         ]
       },
@@ -265,23 +600,43 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=99357477",
-            "strongFeat": "compensation__redbark_fluyt_invert"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/100-100-Salary-During-Sick-Leave_suYbW#_lu5hy",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336167",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suhk9Zdo",
             "strongFeat": "compensation__redbark_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336167",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suhk9Zdo",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/100_suITRmkF#_luc1QzH-",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suhk9Zdo",
             "strongFeat": "compensation__fluyt_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339029",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/100_suITRmkF",
             "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/Home-Games_suHl4wQ2#_lu72fKWe",
+            "strongFeat": "compensation__homegames"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/100-100_suvvH#_lug-q",
+            "strongFeat": "compensation__4friends"
           },
           {
             "type": "absence",
@@ -297,12 +652,78 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=99357501"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Financial-Aid-in-Case-of-Deceased-Family-Member_suMD9#_lupsN",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_su8bu#_luwUs",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_su8bu#_luwUs",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suqQQHuj#_luPBAKO-",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_su8bu#_luwUs",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suqQQHuj#_luPBAKO-",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_su-eb#_luKGs",
+            "strongFeat": "compensation__homegames"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su1lU#_lu1Jr",
+            "strongFeat": "compensation__4friends"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_suBfU#_lukFr",
+            "strongFeat": "compensation__zagrava"
           },
           {
             "type": "service",
             "param": "financial_aid",
-            "feat": "service__financial_aid"
+            "strongFeat": "service__financial_aid"
+          },
+          {
+            "type": "service",
+            "url": "https://form.asana.com/?k=SfBb4x-VAmhWqkWunISsKw&d=656176460444",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "service",
+            "url": "https://form.asana.com/?k=LjP0ac684VkBBtYcEPBshw&d=656176460444",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "service",
+            "url": "https://form.asana.com/?k=LjP0ac684VkBBtYcEPBshw&d=656176460444",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "service",
+            "url": "https://form.asana.com/?k=LjP0ac684VkBBtYcEPBshw&d=656176460444",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "service",
+            "url": "https://form.asana.com/?k=LjP0ac684VkBBtYcEPBshw&d=656176460444",
+            "strongFeat": "compensation__fluyt_other"
           }
         ]
       },
@@ -315,33 +736,75 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=164627129",
-            "strongFeat": "compensation__redbark_fluyt_invert"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Extra-Days-Off-for-Family-Purposes_sujIr#_ludo7",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336187",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suzUtfRT",
             "strongFeat": "compensation__redbark_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226336187",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suzUtfRT",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suf7W7jT#_luLK4CiU",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suzUtfRT",
             "strongFeat": "compensation__fluyt_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339033",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suf7W7jT",
             "strongFeat": "compensation__fluyt_other"
           },
           {
-            "type": "vacation",
-            "param": "vacation",
-            "feat": "absence__vacation"
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su7uS#_lu2KO",
+            "strongFeat": "compensation__4friends"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_suddg#_lulN7",
+            "strongFeat": "compensation__zagrava"
           },
           {
             "type": "vacation",
-            "param": "vacation_with_salary_payment_ua",
-            "feat": "absence__extra_vacation_with_salary_payment_ua"
+            "param": [
+              {
+                "name": "vacation",
+                "feat": "absence__vacation"
+              },
+              {
+                "name": "vacation_with_salary_payment_ua",
+                "feat": "absence__extra_vacation_with_salary_payment_ua"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "feat": "compensation__legal_advice",
+        "name": {
+          "ru": "Юридическая консультация",
+          "en": "Legal advice"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_suh56#_luO-4",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "service",
+            "url": "https://form.asana.com/?k=1v_npHAprms1P2dvlfxCoQ&d=656176460444",
+            "strongFeat": "compensation__zagrava"
           }
         ]
       }
@@ -353,8 +816,8 @@
       "en": "Training and development"
     },
     "description": {
-      "ru": "Мы поддерживаем стремление наших сотрудников к развитию и предлагаем разнообразные возможности для обучения. Вы можете воспользоваться софинансированием образовательных программ и участия в конференциях, изучением английского и локальных языков, а также ресурсами для всестороннего личного развития.",
-      "en": "We support our employees' desire for growth and offer a variety of learning opportunities. You can take advantage of co-financing for educational programs and conference participation, learning English and local languages as well as resources for comprehensive personal development."
+      "ru": "Здесь вы можете подать заявку на поддержку обучения и развития: компенсацию образовательных программ, участие в конференциях, изучение иностранных языков и другие форматы развития, доступные для сотрудников.",
+      "en": "Here you can submit a request for learning and development support: reimbursement for educational programs, participation in conferences, foreign language learning, and other development formats available to employees."
     },
     "items": [
       {
@@ -365,12 +828,129 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=149411604"
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_suvZJ#_lu8Jv",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_su3Lq#_lu0yK",
+            "strongFeat": "compensation__4friends"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suOZ2#_luHYZ",
+            "strongFeat": "compensation__homegames"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Co-Financing-of-Training-and-Participation-in-Conferences_suYsy#_luD1q",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_su-Bk",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_su-Bk",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suF4II5n",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_su-Bk",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suF4II5n",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=21Bpa6UyPUCVnka9q5RVPg&d=656176460444",
+            "strongFeat": "compensation__zagrava"
           },
           {
             "type": "compensation",
             "param": "course_request",
-            "feat": "compensation__course_request"
+            "strongFeat": "compensation__course_request"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Электронная библиотека",
+          "en": "Electronic Library"
+        },
+        "feat": "compensation__electronic_library",
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suwYKMuG#_lu4ZzcNO",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suwYKMuG#_lu4ZzcNO",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suwYKMuG#_lu4ZzcNO",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suFRGjtQ#_lukIdwSa",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suFRGjtQ#_lukIdwSa",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_su05a#_luith",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=xjYkh82N6yIShF_CH04SHQ&d=656176460444",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=xjYkh82N6yIShF_CH04SHQ&d=656176460444",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=xjYkh82N6yIShF_CH04SHQ&d=656176460444",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=xjYkh82N6yIShF_CH04SHQ&d=656176460444",
+            "name": { "ru": "Запросить подключение", "en": "Request access" },
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=xjYkh82N6yIShF_CH04SHQ&d=656176460444",
+            "name": { "ru": "Запросить подключение", "en": "Request access" },
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=LpuL4O09vsKKOLAdp6fcGA&d=656176460444",
+            "strongFeat": "compensation__zagrava"
           }
         ]
       },
@@ -384,7 +964,7 @@
           {
             "type": "link",
             "url": "https://coda.io/d/_dAkoB_RTnXe/Subscriptions-to-learning-platforms-and-electronic-libraries_suQYK#_luAqr",
-            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_boolat_bay_invert"
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
           },
           {
             "type": "link",
@@ -400,11 +980,6 @@
             "type": "link",
             "url": "https://coda.io/d/_dvhi2lYsLIq/_summw#_luFmp",
             "strongFeat": "compensation__zagrava"
-          },
-          {
-            "type": "link",
-            "url": "https://coda.io/d/Boolat-Play-Home_dFrg9k_E9c0/_suypc#_luMga",
-            "strongFeat": "compensation__boolat"
           },
           {
             "type": "link",
@@ -433,38 +1008,8 @@
           },
           {
             "type": "compensation",
-            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
-            "strongFeat": "compensation__zagrava"
-          },
-          {
-            "type": "compensation",
-            "url": "https://form.asana.com/?k=TFxsKMuBE6_QOUbU27jBcQ&d=656176460444",
-            "strongFeat": "compensation__boolat"
-          },
-          {
-            "type": "compensation",
-            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
-            "strongFeat": "compensation__redbark_other_gph"
-          },
-          {
-            "type": "compensation",
-            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
-            "strongFeat": "compensation__redbark_other_non_gph"
-          },
-          {
-            "type": "compensation",
-            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
-            "strongFeat": "compensation__fluyt_other_gph"
-          },
-          {
-            "type": "compensation",
-            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
-            "strongFeat": "compensation__fluyt_other_non_gph"
-          },
-          {
-            "type": "compensation",
             "param": "learning_platforms",
-            "strongFeat": "compensation__zagrava_boolat_fluyt_redbark_invert"
+            "strongFeat": "compensation__redbark_fluyt_zagrava_invert"
           },
           {
             "type": "compensation",
@@ -473,50 +1018,161 @@
           },
           {
             "type": "compensation",
-            "param": "learning_platforms",
-            "strongFeat": "compensation__zagrava_boolat_invert"
+            "url": "https://form.asana.com/?k=9eSbD9XwLAhfNpLNOKxfOQ&d=656176460444",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScebHMXZgdkoL3K-Jf4DU6SRsj-Qv3S8f4teDQdY85Phtnxhg/viewform?usp=preview",
+            "strongFeat": "compensation__redbark_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScmObDz1Y4O_BknWgFxBIjgUXHcSpTakJL8xov0PjZLsdJG-w/viewform?usp=preview",
+            "strongFeat": "compensation__redbark_other_non_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScOacf14KNYfQFzZAOGO_2m9cQISTAMNtoRmoWaTpE_-bQ-wQ/viewform?usp=preview",
+            "strongFeat": "compensation__fluyt_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSfTHWduyCzbWgVj213h6OCBg7TqKbp_MwRmO4T-Q_JexkoXcg/viewform?usp=preview",
+            "strongFeat": "compensation__fluyt_other_non_gph"
           }
+
         ]
       },
       {
+        "feat": "compensation__lang_learning_full",
         "name": {
-          "ru": "Изучение локальных языков",
-          "en": "Learning local language"
+          "ru": "Изучение иностранного языка",
+          "en": "Learning foreign language"
         },
         "description": {
-          "ru": "Подача заявки возможна для себя и релоцировавшихся членов семьи",
-          "en": "The request can be submitted for yourself and relocated family members"
+          "ru": "Доступно изучение одного языка на выбор: английский или локальный язык",
+          "en": "Available to study one language of your choice: English or the local language"
         },
         "buttons": [
           {
             "type": "link",
-            "url": "https://coda.io/d/_dAkoB_RTnXe/Reimbursement-of-expenses-for-local-language-learning-classes_suj-MgRd#_luhzSZjW"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Foreign-Language-Learning_sucBoxIf#_lug-GjOw"
+          },
+          {
+            "type": "compensation",
+            "param": "corporate_eng_lang_lessons",
+            "strongFeat": "compensation__corporate_eng_lang_lessons",
+            "name": {
+              "ru": "Английский язык",
+              "en": "English language"
+            }
           },
           {
             "type": "compensation",
             "param": "local_lang_lessons",
-            "feat": "compensation__local_lang_lessons"
-          },
-          {
-            "type": "compensation",
-            "url": "https://form.asana.com/?k=LhB-rEfQ5tDjDKyG12oKiQ&d=656176460444",
-            "strongFeat": "compensation__playrix_rs",
+            "strongFeat": "compensation__local_lang_lessons",
             "name": {
-              "ru": "Подключение \nк корпоративному контракту",
-              "en": "Connection \nto a corporate contract"
+              "ru": "Локальный язык",
+              "en": "Local language"
             }
           }
         ]
       },
       {
+        "feat": "compensation__lang_learning_eng",
         "name": {
           "ru": "Изучение английского языка",
-          "en": "English study"
+          "en": "Learning English"
         },
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=146358023"
+            "url": "https://coda.io/d/_dAkoB_RTnXe/English-language-courses_suSyowUX#_lujK5L0Q",
+            "strongFeat": "compensation__lang_learning_eng_main_knowledge_base"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/Skyeng_sur8W_uR#_lutl_y8R",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_sur8W_uR",
+            "strongFeat": "compensation__fluyt_other_gph"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_sur8W_uR",
+            "strongFeat": "compensation__fluyt_other_non_gph"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_sujXekJZ",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_sujXekJZ#_lujwS1wQ",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_sujXekJZ",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "compensation",
+            "param": "corporate_eng_lang_lessons",
+            "strongFeat": "compensation__corporate_eng_lang_lessons",
+            "name": {
+              "ru": "Английский язык",
+              "en": "English language"
+            }
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=qW1_OXG7iopH7skaKcraBw&d=656176460444",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=qW1_OXG7iopH7skaKcraBw&d=656176460444",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=8lC3SgJcg4VBp8Ke96Ir4A&d=656176460444",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=8lC3SgJcg4VBp8Ke96Ir4A&d=656176460444",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=8lC3SgJcg4VBp8Ke96Ir4A&d=656176460444",
+            "strongFeat": "compensation__fluyt_redbark"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Корпоративная библиотека",
+          "en": "Corporate library"
+        },
+        "feat": "compensation__corporate_library",
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_su05a#_luith",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=LpuL4O09vsKKOLAdp6fcGA&d=656176460444",
+            "strongFeat": "compensation__zagrava"
           }
         ]
       }
@@ -534,7 +1190,33 @@
     "buttons": [
       {
         "type": "link",
-        "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=149412343"
+        "url": "https://coda.io/d/Administrative-Department_dIq5rxNe3aq/Hot-meals_suZ_suXk#_luk5BsU-",
+        "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_invert"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_surGVEok#_lukUJdb-",
+        "strongFeat": "compensation__redbark_redbark"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_surGVEok#_lukUJdb-",
+        "strongFeat": "compensation__fluyt_redbark"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_suWO9#_lu-MY",
+        "strongFeat": "compensation__4friends"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_su9Ml#_lugta",
+        "strongFeat": "compensation__homegames"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/_dvhi2lYsLIq/_sumGE#_lujrl",
+        "strongFeat": "compensation__zagrava"
       }
     ]
   },
@@ -556,28 +1238,78 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=163846568",
-            "strongFeat": "compensation__redbark_fluyt_invert"
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_suM7O#_luiFa",
+            "strongFeat": "compensation__zagrava"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337104",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_sukwh#_lu5Ah",
+            "strongFeat": "compensation__4friends"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_suNIf#_lu5-z",
+            "strongFeat": "compensation__homegames"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Coworking-compensation_sujUH#_lu2JO",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_sujed53_",
             "strongFeat": "compensation__redbark_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337104",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_sujed53_",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suEffU_N",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_sujed53_",
             "strongFeat": "compensation__fluyt_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339063",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suEffU_N",
             "strongFeat": "compensation__fluyt_other"
           },
           {
             "type": "compensation",
             "param": "coworking",
-            "feat": "compensation__coworking"
+            "strongFeat": "compensation__coworking"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=NJ-8uTGpz7SDSvvW21Zz1w&d=656176460444",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScOacf14KNYfQFzZAOGO_2m9cQISTAMNtoRmoWaTpE_-bQ-wQ/viewform",
+            "strongFeat": "compensation__fluyt_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSfTHWduyCzbWgVj213h6OCBg7TqKbp_MwRmO4T-Q_JexkoXcg/viewform",
+            "strongFeat": "compensation__fluyt_other_non_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScebHMXZgdkoL3K-Jf4DU6SRsj-Qv3S8f4teDQdY85Phtnxhg/viewform",
+            "strongFeat": "compensation__redbark_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScmObDz1Y4O_BknWgFxBIjgUXHcSpTakJL8xov0PjZLsdJG-w/viewform",
+            "strongFeat": "compensation__redbark_other_non_gph"
           }
         ]
       },
@@ -587,34 +1319,84 @@
           "en": "Compensation of workplace expenses for remote employees"
         },
         "description": {
-          "ru": "Компенсацией можно воспользоваться раз в три года, при условии нахождения в одной локации",
-          "en": "The reimbursement can be used once every three years, provided the employee stays in the same location"
+          "ru": "Компенсацией можно воспользоваться раз в пять лет, при условии нахождения в одной локации",
+          "en": "The reimbursement can be used once every five years, provided the employee stays in the same location"
         },
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=208958846",
-            "strongFeat": "compensation__redbark_fluyt_invert"
+            "url": "https://coda.io/d/Home-Games_dPElb_WPvk1/_sugao#_luadE",
+            "strongFeat": "compensation__homegames"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337108",
+            "url": "https://coda.io/d/_dAkoB_RTnXe/Furniture-Compensation_sunL-#_lu72z",
+            "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suZNv#_luQ69",
             "strongFeat": "compensation__redbark_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337108",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suZNv#_luQ69",
+            "strongFeat": "compensation__bay_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suwDsxjL",
+            "strongFeat": "compensation__redbark_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suZNv#_luQ69",
             "strongFeat": "compensation__fluyt_redbark"
           },
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339066",
+            "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suwDsxjL",
             "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dvhi2lYsLIq/_suSwu#_lu984",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "link",
+            "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_sukwh#_lu5Ah",
+            "strongFeat": "compensation__4frieds_other"
           },
           {
             "type": "compensation",
             "param": "furniture",
-            "feat": "compensation__furniture"
+            "strongFeat": "compensation__furniture"
+          },
+          {
+            "type": "compensation",
+            "url": "https://form.asana.com/?k=iQF-KxpzBmlpQP4UUSe7YQ&d=656176460444",
+            "strongFeat": "compensation__zagrava"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScOacf14KNYfQFzZAOGO_2m9cQISTAMNtoRmoWaTpE_-bQ-wQ/viewform",
+            "strongFeat": "compensation__fluyt_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSfTHWduyCzbWgVj213h6OCBg7TqKbp_MwRmO4T-Q_JexkoXcg/viewform",
+            "strongFeat": "compensation__fluyt_other_non_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScebHMXZgdkoL3K-Jf4DU6SRsj-Qv3S8f4teDQdY85Phtnxhg/viewform",
+            "strongFeat": "compensation__redbark_other_gph"
+          },
+          {
+            "type": "compensation",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScmObDz1Y4O_BknWgFxBIjgUXHcSpTakJL8xov0PjZLsdJG-w/viewform",
+            "strongFeat": "compensation__redbark_other_non_gph"
           }
         ]
       }
@@ -623,7 +1405,7 @@
   },
   "equipment-for-work": {
     "name": {
-      "ru": "Техника для работы",
+      "ru": "Техника для работ��",
       "en": "Equipment for work"
     },
     "description": {
@@ -633,13 +1415,65 @@
     "items": [
       {
         "name": {
-          "ru": "Предоставление техники и ПО",
-          "en": "Equipment and software for work"
+          "ru": "Предоставление техники",
+          "en": "Equipment for work"
         },
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=164628097"
+            "url": "https://coda.io/d/_dFxxRowsP-Z/Standard-Equipment-by-Job-Positions_suaK68Lp",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=166921372",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=166921372",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339079",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "service",
+            "param": "get_new_hardware"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ru": "Предоставление доступов и лицензий к сервисам и ПО",
+          "en": "Software license or service access"
+        },
+        "buttons": [
+          {
+            "type": "link",
+            "url": "https://coda.io/d/_dFxxRowsP-Z/Equipment-Software-Provision_suzcIe88",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=166921372",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=166921372",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339082",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "service",
+            "param": "license_or_access_to_service"
           }
         ]
       },
@@ -651,7 +1485,27 @@
         "buttons": [
           {
             "type": "link",
-            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=164628084"
+            "url": "https://coda.io/d/_dFxxRowsP-Z/Reimbursement-for-IT-Equipment-Services_suthDMna",
+            "strongFeat": "compensation__redbark_fluyt_invert"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337482",
+            "strongFeat": "compensation__redbark_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226337482",
+            "strongFeat": "compensation__fluyt_redbark"
+          },
+          {
+            "type": "link",
+            "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=226339085",
+            "strongFeat": "compensation__fluyt_other"
+          },
+          {
+            "type": "service",
+            "param": "get_new_hardware"
           }
         ]
       }
@@ -663,8 +1517,8 @@
       "en": "Relocation"
     },
     "description": {
-      "ru": "Мы понимаем, что переезд в другой город или страну может быть сложным и затратным процессом. Чтобы поддержать вас на этом этапе, мы предлагаем компенсацию на визовые расходы, транспорт, временное проживание, а также покрываем затраты \u2028на транспортировку вашего багажа и домашних животных. Мы хотим, чтобы вы могли сосредоточиться на новых возможностях, не беспокоясь о логистике и финансах.",
-      "en": "We understand that moving to a new city or country can be a challenging and costly process. To support you during this stage, we offer reimbursement for visa expenses, transportation, temporary accommodation, as well as covering the costs of transporting your luggage and pets. We want you to be able to focus on new opportunities without worrying about logistics and finances."
+      "ru": "Мы понимаем, что переезд в другой город или страну может быть сложным и затратным процессом. Чтобы поддержать вас на этом этапе, мы предлагаем компенсацию на визовые расходы, транспорт, временное проживание, а также транспортировку вашего багажа. Мы хотим, чтобы вы могли сосредоточиться на новых возможностях, не беспокоясь о логистике и финансах.",
+      "en": "We understand that relocating to another city or country can be a complex and costly process. To support you during this transition, we offer reimbursement for visa expenses, transportation, temporary accommodation, as well as the shipment of your belongings. We want you to be able to focus on new opportunities without worrying about logistics and finances."
     },
     "items": [
       {
@@ -686,6 +1540,7 @@
         ]
       },
       {
+        "feat": "compensation__baggage",
         "name": {
           "ru": "Компенсация транспортировки багажа",
           "en": "Transportation of baggage reimbursement"
@@ -703,23 +1558,7 @@
         ]
       },
       {
-        "name": {
-          "ru": "Компенсация транспортировки домашних животных",
-          "en": "Transportation of pets reimbursement"
-        },
-        "buttons": [
-          {
-            "type": "link",
-            "url": "https://coda.io/d/_dAkoB_RTnXe/Limits-for-Relocation-Package_suJTvSf_#_lu02gTeA"
-          },
-          {
-            "type": "compensation",
-            "param": "pet_transportation",
-            "feat": "compensation__pet_transportation"
-          }
-        ]
-      },
-      {
+        "feat": "compensation__hotel_transfer",
         "name": {
           "ru": "Компенсация отеля при длительной пересадке",
           "en": "Hotel reimbursement for long layover"
@@ -737,6 +1576,7 @@
         ]
       },
       {
+        "feat": "compensation__temporary_accommodation",
         "name": {
           "ru": "Компенсация временного проживания",
           "en": "Temporary accommodation reimbursement"
@@ -754,6 +1594,7 @@
         ]
       },
       {
+        "feat": "compensation__visa_expenses",
         "name": {
           "ru": "Компенсация визовых расходов",
           "en": "Visa expenses reimbursement"
@@ -771,6 +1612,7 @@
         ]
       },
       {
+        "feat": "compensation__residence_permit_extension",
         "name": {
           "ru": "Компенсация продления ВНЖ",
           "en": "Residence permit renewal reimbursement"
@@ -822,6 +1664,7 @@
         ]
       },
       {
+        "feat": "compensation__additional_expenses",
         "name": {
           "ru": "Компенсация дополнительных расходов",
           "en": "Additional expenses reimbursement"
@@ -857,11 +1700,6 @@
       },
       {
         "type": "link",
-        "url": "https://coda.io/d/Boolat-Play-Home_dFrg9k_E9c0/_suLPS#_luEgd",
-        "strongFeat": "compensation__boolat"
-      },
-      {
-        "type": "link",
         "url": "https://coda.io/d/4Friends_de-o9aJ91vA/_suN1J#_luwbQ",
         "strongFeat": "compensation__4friends"
       },
@@ -873,16 +1711,11 @@
       {
         "type": "link",
         "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRsi#_luLbV",
-        "strongFeat": "compensation__redbark_redbark"
-      },
-      {
-        "type": "link",
-        "url": "https://coda.io/d/RedBark_dP8HvTraBQP/_suRsi#_luLbV",
         "strongFeat": "compensation__bay_redbark"
       },
       {
         "type": "link",
-        "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suEieHw3#_luDnONkI",
+        "url": "https://coda.io/d/RedBark-Fluyt-Home_d0F87UuQoKP/_suEieHw3#_luWB0TJd",
         "strongFeat": "compensation__redbark_other"
       },
       {
@@ -892,18 +1725,18 @@
       },
       {
         "type": "link",
-        "url": "https://coda.io/d/Fluyt-Home_d0F87UuQoKP/_suEieHw3#_luDnONkI",
+        "url": "https://coda.io/d/RedBark-Fluyt-Home_d0F87UuQoKP/_suEieHw3#_luWB0TJd",
         "strongFeat": "compensation__fluyt_other"
       },
       {
         "type": "link",
         "url": "https://coda.io/d/_dAkoB_RTnXe/Sports-Fitness_suEcNBgO#_lurvEHdN",
-        "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_boolat_bay_invert"
+        "strongFeat": "compensation__redbark_fluyt_homegames_4friends_zagrava_bay_invert"
       },
       {
         "type": "compensation",
-        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdnkOy05IwzAJ4IXpRqD5bvdgJI_h5T-Y51tonWkN6nBmHE_w/viewform",
-        "strongFeat": "compensation__redbark_redbark"
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScebHMXZgdkoL3K-Jf4DU6SRsj-Qv3S8f4teDQdY85Phtnxhg/viewform",
+        "strongFeat": "compensation__redbark_other_gph"
       },
       {
         "type": "compensation",
@@ -912,13 +1745,18 @@
       },
       {
         "type": "compensation",
-        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdnkOy05IwzAJ4IXpRqD5bvdgJI_h5T-Y51tonWkN6nBmHE_w/viewform",
-        "strongFeat": "compensation__redbark_other"
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScmObDz1Y4O_BknWgFxBIjgUXHcSpTakJL8xov0PjZLsdJG-w/viewform",
+        "strongFeat": "compensation__redbark_other_non_gph"
       },
       {
         "type": "compensation",
         "url": "https://docs.google.com/forms/d/e/1FAIpQLSd_PiPXI7dBdwjbIRPX76vD4slg1E-7fHI2grVNVjlGu2PATg/viewform",
         "strongFeat": "compensation__fluyt_redbark"
+      },
+      {
+        "type": "compensation",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfTHWduyCzbWgVj213h6OCBg7TqKbp_MwRmO4T-Q_JexkoXcg/viewform",
+        "strongFeat": "compensation__fluyt_other_non_gph"
       },
       {
         "type": "compensation",
@@ -932,21 +1770,25 @@
       },
       {
         "type": "compensation",
-        "url": "https://form.asana.com/?k=UmKGkRvRw3Lnu03qemHrqw&d=656176460444",
-        "strongFeat": "compensation__boolat"
-      },
-      {
-        "type": "compensation",
         "param": "sport",
-        "strongFeat": "compensation__redbark_fluyt_zagrava_boolat_invert"
+        "strongFeat": "compensation__redbark_fluyt_zagrava_invert"
       },
       {
         "type": "compensation",
-        "url": "https://form.asana.com/?k=xtmg-31zU8_qJ9GL2vngaQ&d=656176460444",
+        "url": "https://form.asana.com/?k=yRA6WcvV8fWB6kE0pPbd_g&d=656176460444",
         "strongFeat": "compensation__playrix_rs",
         "name": {
-          "ru": "Подключение к корпоративному контракту",
-          "en": "Connection to a corporate contract"
+          "ru": "Подключение к FitPass",
+          "en": "FitPass program enrollment"
+        }
+      },
+      {
+        "type": "compensation",
+        "url": "https://form.asana.com/?k=fkqKT604tgSffDouHB_bsQ&d=656176460444",
+        "strongFeat": "compensation__zagrava",
+        "name": {
+          "ru": "Занятия с тренером в спортивном зале офиса",
+          "en": "Training sessions with a coach in the office gym"
         }
       }
     ]
@@ -963,10 +1805,17 @@
     "buttons": [
       {
         "type": "link",
-        "url": "https://knowledge.playrix.com/pages/viewpage.action?pageId=163846996"
+        "url": "https://coda.io/d/_dAkoB_RTnXe/Partner-Discounts_sun9d#_luFCe",
+        "strongFeat": "compensation__zagrava_invert"
+      },
+      {
+        "type": "link",
+        "url": "https://coda.io/d/_dvhi2lYsLIq/_suF76#_ludhO",
+        "strongFeat": "compensation__zagrava"
       }
     ]
   },
+
   "default": {
     "name": {
       "ru": "",

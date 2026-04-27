@@ -36,6 +36,7 @@ if (!process.env.STRAPI_URL || !process.env.STRAPI_TOKEN) {
 const baseUrl = process.env.STRAPI_URL.replace(/\/+$/, "");
 const API_BASE_URL = `${baseUrl}/api`;
 const token = process.env.STRAPI_TOKEN;
+const UPDATE_EXISTING = process.env.UPDATE_EXISTING === "true";
 
 let flagsCache;
 const missingFeatureFlags = new Set();
@@ -93,6 +94,21 @@ async function apiRequest(method, url, data = null) {
   }
 }
 
+// Find an existing entity by a given filter; returns the first match or null
+async function findExisting(collection, filterField, filterValue, locale) {
+  const params = new URLSearchParams();
+  params.set(`filters[${filterField}][$eq]`, filterValue);
+  if (locale) params.set("locale", locale);
+  const url = `${API_BASE_URL}/${collection}?${params.toString()}`;
+  const response = await fetch(url, {
+    method: "GET",
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!response.ok) return null;
+  const result = await response.json();
+  return result.data && result.data.length > 0 ? result.data[0] : null;
+}
+
 // Main publish function
 async function publish() {
   log.info("Starting publish process...\n");
@@ -100,6 +116,24 @@ async function publish() {
   flagsCache = await fetchAllFeatureFlags({ baseUrl, token });
 
   const categoryMap = new Map(); // Maps category key to { ruDocumentId, enDocumentId }
+  const stats = {
+    categoriesCreated: 0,
+    categoriesSkipped: 0,
+    categoriesUpdated: 0,
+    servicesCreated: 0,
+    servicesSkipped: 0,
+    servicesUpdated: 0,
+  };
+  const skippedCategories = [];
+  const createdCategories = [];
+  const updatedCategories = [];
+  const skippedServices = [];
+  const createdServices = [];
+  const updatedServices = [];
+
+  if (UPDATE_EXISTING) {
+    log.info("UPDATE_EXISTING=true — existing entities will be updated (PUT) instead of skipped");
+  }
 
   // Step 1: Create categories
   log.category("📁 Creating Categories");
@@ -111,6 +145,64 @@ async function publish() {
     }
 
     try {
+      // Check if category already exists by section_code (not localized)
+      const existing = await findExisting(
+        "customer-service-categories",
+        "section_code",
+        categoryKey
+      );
+
+      if (existing) {
+        const existingDocumentId = existing.documentId || existing.id;
+        categoryMap.set(categoryKey, {
+          ruDocumentId: existingDocumentId,
+          enDocumentId: existingDocumentId,
+        });
+
+        if (UPDATE_EXISTING) {
+          log.info(
+            `Category ${categoryKey} already exists (documentId: ${existingDocumentId}) — updating`
+          );
+
+          const ruCategoryData = {
+            section_code: categoryKey,
+            name: category.ru.name,
+            description: category.ru.description,
+            locale: category.ru.locale,
+          };
+          await apiRequest(
+            "PUT",
+            `${API_BASE_URL}/customer-service-categories/${existingDocumentId}?locale=ru`,
+            ruCategoryData
+          );
+          log.success(`Updated category ${categoryKey} (ru)`);
+
+          const enCategoryData = {
+            section_code: categoryKey,
+            name: category.en.name,
+            description: category.en.description,
+            locale: category.en.locale,
+          };
+          await apiRequest(
+            "PUT",
+            `${API_BASE_URL}/customer-service-categories/${existingDocumentId}?locale=en`,
+            enCategoryData
+          );
+          log.success(`Updated category ${categoryKey} (en)`);
+
+          stats.categoriesUpdated++;
+          updatedCategories.push(categoryKey);
+          continue;
+        }
+
+        log.warning(
+          `Category ${categoryKey} already exists (documentId: ${existingDocumentId}) — skipping creation`
+        );
+        stats.categoriesSkipped++;
+        skippedCategories.push(categoryKey);
+        continue;
+      }
+
       // Create RU category
       log.info(`Creating category: ${categoryKey} (ru)`);
       const ruCategoryData = {
@@ -155,10 +247,12 @@ async function publish() {
         ruDocumentId: ruDocumentId,
         enDocumentId: enDocumentId,
       });
+      stats.categoriesCreated++;
+      createdCategories.push(categoryKey);
 
       log.info(`Category ${categoryKey} completed\n`);
     } catch (error) {
-      log.error(`Failed to publish category ${categoryKey}`);
+      log.error(`Failed to publish category ${categoryKey}: ${error.message}`);
       // Continue with next category instead of failing completely
     }
   }
@@ -211,6 +305,96 @@ async function publish() {
       }
 
       try {
+        // Check if service already exists by serviceId (not localized)
+        if (ruItem.serviceId) {
+          const existing = await findExisting(
+            "customer-services",
+            "serviceId",
+            ruItem.serviceId
+          );
+          if (existing) {
+            const existingDocumentId = existing.documentId || existing.id;
+            const serviceLabel = ruItem.name || enItem.name;
+
+            if (UPDATE_EXISTING) {
+              log.item(
+                `Updating service: ${serviceLabel} (serviceId: ${ruItem.serviceId}, documentId: ${existingDocumentId})`
+              );
+
+              const ruUpdateData = {
+                category: categoryIds.ruDocumentId,
+                serviceId: ruItem.serviceId || null,
+                taskId: ruItem.taskId || null,
+                featureFlag: ruItem.featureFlag || null,
+                name: ruItem.name,
+                examples: ruItem.examples,
+                description: ruItem.description,
+                buttons: processButtons(ruItem.buttons),
+                locale: ruItem.locale,
+              };
+              if (ruUpdateData.serviceId === null) delete ruUpdateData.serviceId;
+              if (ruUpdateData.taskId === null) delete ruUpdateData.taskId;
+              if (ruUpdateData.featureFlag === null) delete ruUpdateData.featureFlag;
+              if (ruItem.description_inform_block) {
+                ruUpdateData.description_inform_block = ruItem.description_inform_block;
+              }
+              await resolvePayload(ruUpdateData);
+
+              await apiRequest(
+                "PUT",
+                `${API_BASE_URL}/customer-services/${existingDocumentId}?locale=ru`,
+                ruUpdateData
+              );
+              log.success(`  Updated service (ru): ${serviceLabel}`);
+
+              const enUpdateData = {
+                category: categoryIds.enDocumentId,
+                serviceId: enItem.serviceId || null,
+                taskId: enItem.taskId || null,
+                featureFlag: enItem.featureFlag || null,
+                name: enItem.name,
+                examples: enItem.examples,
+                description: enItem.description,
+                buttons: processButtons(enItem.buttons),
+                locale: enItem.locale,
+              };
+              if (enUpdateData.serviceId === null) delete enUpdateData.serviceId;
+              if (enUpdateData.taskId === null) delete enUpdateData.taskId;
+              if (enUpdateData.featureFlag === null) delete enUpdateData.featureFlag;
+              if (enItem.description_inform_block) {
+                enUpdateData.description_inform_block = enItem.description_inform_block;
+              }
+              await resolvePayload(enUpdateData);
+
+              await apiRequest(
+                "PUT",
+                `${API_BASE_URL}/customer-services/${existingDocumentId}?locale=en`,
+                enUpdateData
+              );
+              log.success(`  Updated service (en): ${enItem.name}`);
+
+              stats.servicesUpdated++;
+              updatedServices.push({
+                name: serviceLabel,
+                serviceId: ruItem.serviceId,
+                category: categoryKey,
+              });
+              continue;
+            }
+
+            log.warning(
+              `  Service "${serviceLabel}" (serviceId: ${ruItem.serviceId}) already exists (documentId: ${existingDocumentId}) — skipping`
+            );
+            stats.servicesSkipped++;
+            skippedServices.push({
+              name: serviceLabel,
+              serviceId: ruItem.serviceId,
+              category: categoryKey,
+            });
+            continue;
+          }
+        }
+
         // Create RU customer service
         const ruServiceData = {
           category: categoryIds.ruDocumentId,
@@ -292,6 +476,12 @@ async function publish() {
         );
 
         createdItems += 2; // Count both ru and en
+        stats.servicesCreated++;
+        createdServices.push({
+          name: ruItem.name || enItem.name,
+          serviceId: ruItem.serviceId || "(no serviceId)",
+          category: categoryKey,
+        });
       } catch (error) {
         const serviceName = ruItem.name || enItem.name || `item ${i + 1}`;
         log.error(`Failed to publish service ${serviceName}`);
@@ -342,12 +532,35 @@ async function publish() {
 
   // Summary
   log.category("📊 Summary");
-  log.success(`Categories created: ${categoryMap.size}`);
-  log.success(
-    `Customer services created: ${createdItems} (${
-      createdItems / 2
-    } items × 2 locales)`
-  );
+
+  log.category(`Categories: ${stats.categoriesCreated} created, ${stats.categoriesUpdated} updated, ${stats.categoriesSkipped} skipped (already exist)`);
+  if (createdCategories.length > 0) {
+    log.success(`Created categories (${createdCategories.length}):`);
+    for (const key of createdCategories) log.item(key);
+  }
+  if (updatedCategories.length > 0) {
+    log.success(`Updated categories (${updatedCategories.length}):`);
+    for (const key of updatedCategories) log.item(key);
+  }
+  if (skippedCategories.length > 0) {
+    log.warning(`Skipped categories — already exist (${skippedCategories.length}):`);
+    for (const key of skippedCategories) log.item(key);
+  }
+
+  log.category(`Services: ${stats.servicesCreated} created, ${stats.servicesUpdated} updated, ${stats.servicesSkipped} skipped (already exist)`);
+  if (createdServices.length > 0) {
+    log.success(`Created services (${createdServices.length}):`);
+    for (const s of createdServices) log.item(`[${s.category}] ${s.name} (serviceId: ${s.serviceId})`);
+  }
+  if (updatedServices.length > 0) {
+    log.success(`Updated services (${updatedServices.length}):`);
+    for (const s of updatedServices) log.item(`[${s.category}] ${s.name} (serviceId: ${s.serviceId})`);
+  }
+  if (skippedServices.length > 0) {
+    log.warning(`Skipped services — already exist (${skippedServices.length}):`);
+    for (const s of skippedServices) log.item(`[${s.category}] ${s.name} (serviceId: ${s.serviceId})`);
+  }
+
   if (missingFeatureFlags.size > 0) {
     log.warning(
       `Feature flags not found in Strapi (${missingFeatureFlags.size}) — create them manually and re-run, or the relation will stay empty:`,

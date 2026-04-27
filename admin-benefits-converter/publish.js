@@ -1,9 +1,15 @@
 import "dotenv/config";
 import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 import {
   fetchAllFeatureFlags,
+  getOrCreateFeatureFlagId,
   resolveFeatureFlagsDeep,
 } from "../shared/feature-flags.js";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Colors for terminal output
 const colors = {
@@ -39,6 +45,7 @@ const token = process.env.STRAPI_TOKEN;
 
 let flagsCache;
 const missingFeatureFlags = new Set();
+const createdFeatureFlags = new Set();
 async function resolvePayload(body) {
   await resolveFeatureFlagsDeep(body, {
     baseUrl,
@@ -51,8 +58,112 @@ async function resolvePayload(body) {
 
 // Read converted data
 const convertedData = JSON.parse(
-  fs.readFileSync("compensation-data-converted.json", "utf8")
+  fs.readFileSync(
+    path.join(__dirname, "compensation-data-converted.json"),
+    "utf8"
+  )
 );
+
+// Validators harvested by convert.js for object-shaped feat/strongFeat.
+// Each entry maps a synthetic feature-flag code to its raw validator object;
+// we pre-create these flags with proper conditions before publishing benefits.
+const validatorsFile = path.join(__dirname, "feature-flag-validators.json");
+const validatorsByCode = fs.existsSync(validatorsFile)
+  ? JSON.parse(fs.readFileSync(validatorsFile, "utf8"))
+  : {};
+
+async function preCreateFlagsFromValidators() {
+  const entries = Object.entries(validatorsByCode);
+  if (entries.length === 0) return;
+
+  log.category(
+    `🚩 Pre-creating ${entries.length} feature flag(s) from converted validators`
+  );
+  for (const [code, validator] of entries) {
+    if (flagsCache.has(code)) {
+      log.info(`Feature flag "${code}" already exists, skipping`);
+      continue;
+    }
+    await getOrCreateFeatureFlagId(
+      { code, title: code, validator },
+      {
+        baseUrl,
+        token,
+        cache: flagsCache,
+        createdCodes: createdFeatureFlags,
+      }
+    );
+  }
+}
+
+// Fetch existing benefit-categories keyed by section_code → documentId.
+// In Strapi v5, the same documentId represents an entity across all locales,
+// so we only need the RU pull to dedupe.
+async function fetchCategoryMap() {
+  const map = new Map();
+  let page = 1;
+  let pageCount = 1;
+  while (page <= pageCount) {
+    const url = `${API_BASE_URL}/benefit-categories?locale=ru&fields[0]=section_code&pagination[page]=${page}&pagination[pageSize]=100`;
+    const res = await fetch(url, {
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    if (!res.ok) {
+      throw new Error(
+        `Failed to fetch benefit-categories: ${res.status} - ${await res.text()}`
+      );
+    }
+    const data = await res.json();
+    for (const item of data.data || []) {
+      const sc = item.section_code ?? item.attributes?.section_code;
+      const docId = item.documentId ?? item.attributes?.documentId;
+      if (sc && docId) map.set(sc, docId);
+    }
+    pageCount = data.meta?.pagination?.pageCount ?? 1;
+    page += 1;
+  }
+  return map;
+}
+
+// Fetch existing benefits keyed by `${categoryDocumentId}::${name}` so we can
+// dedupe within a category. Strapi's name field is the natural label here.
+async function fetchBenefitMap() {
+  const map = new Map();
+  let page = 1;
+  let pageCount = 1;
+  while (page <= pageCount) {
+    const url = `${API_BASE_URL}/benefits?locale=ru&populate=category&pagination[page]=${page}&pagination[pageSize]=100`;
+    const res = await fetch(url, {
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    if (!res.ok) {
+      throw new Error(
+        `Failed to fetch benefits: ${res.status} - ${await res.text()}`
+      );
+    }
+    const data = await res.json();
+    for (const item of data.data || []) {
+      const name = item.name ?? item.attributes?.name;
+      const catDocId =
+        item.category?.documentId ??
+        item.attributes?.category?.data?.documentId ??
+        item.attributes?.category?.documentId;
+      const docId = item.documentId ?? item.attributes?.documentId;
+      if (name && catDocId && docId) {
+        map.set(`${catDocId}::${name}`, docId);
+      }
+    }
+    pageCount = data.meta?.pagination?.pageCount ?? 1;
+    page += 1;
+  }
+  return map;
+}
 
 // Helper function to make API requests
 async function apiRequest(method, url, data = null) {
@@ -98,8 +209,20 @@ async function publish() {
   log.info("Starting publish process...\n");
 
   flagsCache = await fetchAllFeatureFlags({ baseUrl, token });
+  await preCreateFlagsFromValidators();
+
+  log.info("Loading existing categories and benefits from Strapi...");
+  const existingCategories = await fetchCategoryMap();
+  const existingBenefits = await fetchBenefitMap();
+  log.info(
+    `Found ${existingCategories.size} existing categories, ${existingBenefits.size} existing benefits`
+  );
 
   const categoryMap = new Map(); // Maps category key to { ruDocumentId, enDocumentId }
+  let createdCategories = 0;
+  let skippedCategories = 0;
+  let createdBenefits = 0;
+  let skippedBenefits = 0;
 
   // Step 1: Create categories
   log.category("📁 Creating Benefit Categories");
@@ -116,6 +239,19 @@ async function publish() {
     const enCategory = enCategories[categoryKey];
     if (!enCategory) {
       log.warning(`No EN variant found for category ${categoryKey}, skipping`);
+      continue;
+    }
+
+    const existingDocId = existingCategories.get(ruCategory.section_code);
+    if (existingDocId) {
+      log.warning(
+        `Category ${categoryKey} already exists (documentId: ${existingDocId}), skipping create`
+      );
+      categoryMap.set(categoryKey, {
+        ruDocumentId: existingDocId,
+        enDocumentId: existingDocId,
+      });
+      skippedCategories++;
       continue;
     }
 
@@ -202,6 +338,7 @@ async function publish() {
         ruDocumentId: ruDocumentId,
         enDocumentId: enDocumentId,
       });
+      createdCategories++;
 
       log.info(`Category ${categoryKey} completed\n`);
     } catch (error) {
@@ -215,7 +352,6 @@ async function publish() {
   log.category("📦 Creating Benefits");
 
   let totalItems = 0;
-  let createdItems = 0;
 
   for (const [categoryKey, ruCategory] of Object.entries(ruCategories)) {
     if (categoryKey === "default") {
@@ -248,6 +384,15 @@ async function publish() {
         log.warning(
           `No EN variant found for item ${i} in category ${categoryKey}`
         );
+        continue;
+      }
+
+      const benefitKey = `${categoryIds.ruDocumentId}::${ruItem.name}`;
+      if (existingBenefits.has(benefitKey)) {
+        log.warning(
+          `Benefit "${ruItem.name}" already exists in ${categoryKey}, skipping`
+        );
+        skippedBenefits++;
         continue;
       }
 
@@ -320,7 +465,7 @@ async function publish() {
           `  Created benefit (en) with documentId: ${enBenefitDocumentId}`
         );
 
-        createdItems += 2; // Count both ru and en
+        createdBenefits++;
       } catch (error) {
         const itemName = ruItem.name || enItem.name || `item ${i + 1}`;
         log.error(`Failed to publish benefit ${itemName}`);
@@ -371,10 +516,18 @@ async function publish() {
 
   // Summary
   log.category("📊 Summary");
-  log.success(`Categories created: ${categoryMap.size}`);
   log.success(
-    `Benefits created: ${createdItems} (${createdItems / 2} items × 2 locales)`
+    `Categories: ${createdCategories} created, ${skippedCategories} skipped (already existed)`
   );
+  log.success(
+    `Benefits:   ${createdBenefits} created, ${skippedBenefits} skipped (already existed) — out of ${totalItems} items in source`
+  );
+  if (createdFeatureFlags.size > 0) {
+    log.success(
+      `Feature flags created from validators (${createdFeatureFlags.size}):`
+    );
+    for (const code of createdFeatureFlags) log.item(code);
+  }
   if (missingFeatureFlags.size > 0) {
     log.warning(
       `Feature flags not found in Strapi (${missingFeatureFlags.size}) — create them manually and re-run, or the relation will stay empty:`,

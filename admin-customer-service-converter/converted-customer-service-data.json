@@ -23,14 +23,14 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/217",
-              "featureFlag": "service__access_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
         {
           "serviceId": "access_to_service",
           "taskId": "access_request",
-          "featureFlag": "service__access_request_freshservice",
+          "featureFlag": "disabled",
           "name": "Получить доступ к ресурсу",
           "description": "Нужно получить доступ к отдельным проектам, папкам, документам или таблицам",
           "examples": "Получить доступ к таблице в Google Sheets\nПолучить доступ к проекту в Asana\nПолучить доступ к папкам на Google Drive",
@@ -74,7 +74,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/218",
-              "featureFlag": "service__repository_issue_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -96,7 +96,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/219",
-              "featureFlag": "service__incident_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         }
@@ -125,14 +125,14 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/217",
-              "featureFlag": "service__access_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
         {
           "serviceId": "access_to_service",
           "taskId": "access_request",
-          "featureFlag": "service__access_request_freshservice",
+          "featureFlag": "disabled",
           "name": "Resource access",
           "description": "If you need access to specific projects, folders, documents, or spreadsheets",
           "examples": "Get access to a Google Sheet spreadsheet\nGet access to a project in Asana\nGet access to Google Drive folders",
@@ -176,7 +176,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/218",
-              "featureFlag": "service__repository_issue_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -198,7 +198,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/219",
-              "featureFlag": "service__incident_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         }
@@ -229,7 +229,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/220",
-              "featureFlag": "service__purchase_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -251,7 +251,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/222",
-              "featureFlag": "service__it_support_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -273,7 +273,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/223",
-              "featureFlag": "service__repair_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -295,7 +295,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/224",
-              "featureFlag": "service__it_support_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -317,7 +317,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/225",
-              "featureFlag": "service__incident_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         }
@@ -346,7 +346,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/220",
-              "featureFlag": "service__purchase_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -368,7 +368,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/222",
-              "featureFlag": "service__it_support_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -390,7 +390,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/223",
-              "featureFlag": "service__repair_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -412,7 +412,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/224",
-              "featureFlag": "service__it_support_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -434,7 +434,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/225",
-              "featureFlag": "service__incident_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         }
@@ -465,7 +465,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/219",
-              "featureFlag": "service__it_support_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -487,7 +487,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/225",
-              "featureFlag": "service__it_support_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -501,7 +501,9 @@
             {
               "__component": "customer-service.button",
               "type": "network_access",
-              "text": "Подключиться"
+              "hasOverridedText": true,
+              "ruText": "Подключиться",
+              "enText": "Connect"
             }
           ]
         },
@@ -536,7 +538,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/219",
-              "featureFlag": "service__incident_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         }
@@ -565,7 +567,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/219",
-              "featureFlag": "service__it_support_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -587,7 +589,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/225",
-              "featureFlag": "service__it_support_request_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -601,7 +603,9 @@
             {
               "__component": "customer-service.button",
               "type": "network_access",
-              "text": "Connect"
+              "hasOverridedText": true,
+              "ruText": "Подключиться",
+              "enText": "Connect"
             }
           ]
         },
@@ -636,7 +640,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/219",
-              "featureFlag": "service__incident_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         }
@@ -828,7 +832,7 @@
         {
           "serviceId": "workplace_change",
           "taskId": "workplace_change",
-          "featureFlag": "service__сhange_of_workplace",
+          "featureFlag": "service__change_of_workplace",
           "name": "Сменить рабочее место в офисе",
           "description": "Сменить расположение текущего рабочего места в офисе по любым причинам.",
           "examples": "Из-за условий освещенности\nИз-за шума из окна\nИз-за близости к кондиционеру",
@@ -883,7 +887,7 @@
         {
           "serviceId": "workplace_change",
           "taskId": "workplace_change",
-          "featureFlag": "service__сhange_of_workplace",
+          "featureFlag": "service__change_of_workplace",
           "name": "Change of workplace in the office",
           "description": "If you want to change desks in your office for any reason.",
           "examples": "Because of lighting conditions\nBecause of noise from the window\nBecause I'm sitting too close to the AC",
@@ -1290,7 +1294,7 @@
         {
           "serviceId": "1C_db_access",
           "taskId": "one_c_db_access",
-          "featureFlag": "service__1C_db_access",
+          "featureFlag": "service__1c_db_access",
           "name": "1C: Доступ сотрудника к базе (первичный)",
           "description": "Получить доступ к базе 1С для работы",
           "examples": "Нет прав на вход в базу 1С УХ Консолидация, ранее не было\nИзменение прав внутри базы 1С (отчёт, справочник, документ)",
@@ -1306,7 +1310,7 @@
         {
           "serviceId": "1C_incident",
           "taskId": "one_c_incident",
-          "featureFlag": "service__1C_incident",
+          "featureFlag": "service__1c_incident",
           "name": "1C: Инцидент",
           "description": "Устранить проблему блокирующую работу с 1С",
           "examples": "Не запускается 1С ярлык (ранее работало)\nНе открывается база 1С ЗУП РФ Плейрикс (ранее работало)\nНе создаётся документ Приказ на приём (ошибка)\nНе открывается справочник Физические лица (ошибка)",
@@ -1322,7 +1326,7 @@
         {
           "serviceId": "1C_improvement_task",
           "taskId": "one_c_improvement_task",
-          "featureFlag": "service__1C_improvement_task",
+          "featureFlag": "service__1c_improvement_task",
           "name": "1C: Задача на доработку / настройку",
           "description": "Запросить доработку 1С в случае если она желательна, но не блокирует текущую работу",
           "examples": "Сформировать новый отчёт по анализу расходов\nДобавить дополнительные данные в уже готовый отчёт по анализу расходов\nДобавить функцию (доп.расчёт), параметр (галочку) для автоматизации процесса или части процесса работы с 1С",
@@ -1338,7 +1342,7 @@
         {
           "serviceId": "1C_access_external_contractor",
           "taskId": "one_c_external_user_access",
-          "featureFlag": "service__1C_access_external_contractor",
+          "featureFlag": "service__1c_access_external_contractor",
           "name": "1C: Доступ внешнего подрядчика к базе (первичный)",
           "description": "Организовать доступ к 1С для внешнего подрядчика или аудитора",
           "examples": "Доступ в базу 1С БП РФ Плейрикс для аудитора\nДоступ в базу 1С УХ Консолидация для подрядчика",
@@ -1354,7 +1358,7 @@
         {
           "serviceId": "1C_consultation",
           "taskId": "one_c_consultation",
-          "featureFlag": "service__1C_consultation",
+          "featureFlag": "service__1c_consultation",
           "name": "1C: Консультация",
           "description": "Получить консультацию по работе программы 1с (в т.ч. по новому функционалу)",
           "examples": "Пытаюсь настроить работу рассылки расчётных листков, но есть сомнения, что что-то делаю не так (подсказать, как нужно)\nНужна консультация по учету уплаты НДФЛ в ЗУП РФ\nКак отразить возврат займа сотрудником в BAS\nКак объединить несколько заявок на оплату в одно платежное поручение",
@@ -1370,7 +1374,7 @@
         {
           "serviceId": "1C_changing_permission",
           "taskId": "one_c_database_access_change",
-          "featureFlag": "service__1C_changing_permission",
+          "featureFlag": "service__1c_changing_permission",
           "name": "1C: Изменение прав в базе",
           "description": "Уже есть доступ в базе, но нужно скорректировать (добавить/удалить)",
           "examples": "Выдать доступ к новым отчётам\nПоменять роль в базе с «Инициатора» на «Бухгалтер»\nДобавить доступ к новой организации в той же базе",
@@ -1386,7 +1390,7 @@
         {
           "serviceId": "1C_opening_period",
           "taskId": "one_c_open_period",
-          "featureFlag": "service__1C_opening_period",
+          "featureFlag": "service__1c_opening_period",
           "name": "1C: Открытие периода в базе",
           "description": "Запрос на временное снятие «запрета на изменение данных» в периоде в определённой(указать) базе",
           "examples": "Необходимо внести правки в БУ в Локальной базе в закрытом периоде\nНеобходимо перепровести документы в базе УХ Консолидации в закрытом на изменение периоде",
@@ -1409,7 +1413,7 @@
         {
           "serviceId": "1C_db_access",
           "taskId": "one_c_db_access",
-          "featureFlag": "service__1C_db_access",
+          "featureFlag": "service__1c_db_access",
           "name": "1C: Employee access to base (primary)",
           "description": "If you need access to the 1C database",
           "examples": "I have no rights to enter Consolidation (never had them)\nI need to change the rights within the 1C base (report, catalog, document)",
@@ -1425,7 +1429,7 @@
         {
           "serviceId": "1C_incident",
           "taskId": "one_c_incident",
-          "featureFlag": "service__1C_incident",
+          "featureFlag": "service__1c_incident",
           "name": "1C: Incident",
           "description": "If you need to get rid of a blocking task",
           "examples": "I can't launch the 1C shortcut (it used to work before)\nI can't open Russia: HRM (it used to work before)\nI can't create a Hiring order document (there's an error)\nI can't open the Individuals catalog (there's an error)",
@@ -1441,7 +1445,7 @@
         {
           "serviceId": "1C_improvement_task",
           "taskId": "one_c_improvement_task",
-          "featureFlag": "service__1C_improvement_task",
+          "featureFlag": "service__1c_improvement_task",
           "name": "1C: Task for revision / tuning",
           "description": "If you want to request a task for revision, and it's not blocking current work",
           "examples": "Form a new Expense analysis report\nAdd more data to the Expense analysis report\nAdd function (extra payment), parameter (a tick) to automate the process or part of the process of working with 1C",
@@ -1457,7 +1461,7 @@
         {
           "serviceId": "1C_access_external_contractor",
           "taskId": "one_c_external_user_access",
-          "featureFlag": "service__1C_access_external_contractor",
+          "featureFlag": "service__1c_access_external_contractor",
           "name": "1C: Access for an external contractor (primary)",
           "description": "If access is needed for an external contractor or an auditor",
           "examples": "Access to Russia: Local Accounting 1C base for an auditor\nAccess to Consolidation for a contractor",
@@ -1473,7 +1477,7 @@
         {
           "serviceId": "1C_consultation",
           "taskId": "one_c_consultation",
-          "featureFlag": "service__1C_consultation",
+          "featureFlag": "service__1c_consultation",
           "name": "1C: Consultation",
           "description": "Get advice on the operation of the 1С program (including new functionality)",
           "examples": "I'm trying to set up the distribution of pay slips, but there are doubts that I'm doing something wrong (tell me how to do it)\nNeed advice on accounting for personal income tax in ЗУП РФ\nHow to show the return of a loan by an employee in BAS\nHow to combine several payment requests into one payment order",
@@ -1489,7 +1493,7 @@
         {
           "serviceId": "1C_changing_permission",
           "taskId": "one_c_database_access_change",
-          "featureFlag": "service__1C_changing_permission",
+          "featureFlag": "service__1c_changing_permission",
           "name": "1C: Changing permissions in the base",
           "description": "Already have access to the database, but need to be adjusted (add/remove)",
           "examples": "Provide access to new reports\nChange the role in the database from «Initiator» to «Accountant»\nAdd access to a new organization in the same database",
@@ -1505,7 +1509,7 @@
         {
           "serviceId": "1C_opening_period",
           "taskId": "one_c_open_period",
-          "featureFlag": "service__1C_opening_period",
+          "featureFlag": "service__1c_opening_period",
           "name": "1C: Opening period in the base",
           "description": "Request for the temporary removal of the «prohibition to change data» in the period in a certain (specify) base",
           "examples": "Need to make changes to БУ in the Local database in the closed period\nIt is necessary to repost the documents in the УХ Консолидации database in the period closed for changes",
@@ -1737,7 +1741,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/219",
-              "featureFlag": "service__other_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -1753,7 +1757,9 @@
               "__component": "customer-service.button",
               "type": "link",
               "url": "https://form.asana.com/?k=zWOQzSIJul5_SR3Vl6lnIw&d=656176460444",
-              "text": "Создать заявку"
+              "hasOverridedText": true,
+              "ruText": "Создать заявку",
+              "enText": "Submit an application"
             }
           ]
         },
@@ -1769,7 +1775,9 @@
               "__component": "customer-service.button",
               "type": "link",
               "url": "https://form.asana.com/?k=kyX8OKBqXEgF79VxtlAghQ&d=656176460444",
-              "text": "Создать заявку"
+              "hasOverridedText": true,
+              "ruText": "Создать заявку",
+              "enText": "Submit an application"
             }
           ]
         }
@@ -1846,7 +1854,7 @@
               "__component": "customer-service.button",
               "type": "service",
               "url": "https://help.playrix.com/support/catalog/items/219",
-              "featureFlag": "service__other_freshservice"
+              "featureFlag": "disabled"
             }
           ]
         },
@@ -1862,7 +1870,9 @@
               "__component": "customer-service.button",
               "type": "link",
               "url": "https://form.asana.com/?k=zWOQzSIJul5_SR3Vl6lnIw&d=656176460444",
-              "text": "Submit an application"
+              "hasOverridedText": true,
+              "ruText": "Создать заявку",
+              "enText": "Submit an application"
             }
           ]
         },
@@ -1878,7 +1888,9 @@
               "__component": "customer-service.button",
               "type": "link",
               "url": "https://form.asana.com/?k=kyX8OKBqXEgF79VxtlAghQ&d=656176460444",
-              "text": "Submit an application"
+              "hasOverridedText": true,
+              "ruText": "Создать заявку",
+              "enText": "Submit an application"
             }
           ]
         }

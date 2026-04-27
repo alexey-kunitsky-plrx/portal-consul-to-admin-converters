@@ -30,7 +30,7 @@
   {
     "id": 2,
     "channel": {
-      "name": "playrix_only",
+      "name": "company-news",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/archives/C029C19PS/p1671632834899339",
@@ -144,7 +144,7 @@
   {
     "id": 7,
     "channel": {
-      "name": "playrix_only",
+      "name": "company-news",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/files/T029C19PJ/F04BDQ05N3Z?origin_team=T029C19PJ",
@@ -226,7 +226,7 @@
   {
     "id": 10,
     "channel": {
-      "name": "playrix_only",
+      "name": "company-news",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/archives/C029C19PS/p1679577131375539",
@@ -281,7 +281,7 @@
   {
     "id": 12,
     "channel": {
-      "name": "playrix_only",
+      "name": "company-news",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/archives/C029C19PS/p1683111753680679",
@@ -372,7 +372,7 @@
     "id": 15,
     "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/cover_company_updates_2.jpg",
     "channel": {
-      "name": "playrix_only",
+      "name": "company-news",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/archives/C029C19PS/p1688138200524089",
@@ -633,7 +633,7 @@
   {
     "id": 24,
     "channel": {
-      "name": "playrix_only",
+      "name": "company-news",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/archives/C029C19PS/p1698135459634059",
@@ -723,7 +723,7 @@
   {
     "id": 27,
     "channel": {
-      "name": "playrix_only",
+      "name": "company-news",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/docs/T029C19PJ/F06A5PJ16SE",
@@ -963,7 +963,7 @@
   {
     "id": 35,
     "channel": {
-      "name": "playrix_only",
+      "name": "company-news",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/archives/C029C19PS/p1712659501625269",
@@ -991,7 +991,7 @@
   {
     "id": 36,
     "channel": {
-      "name": "playrix_only",
+      "name": "company-news",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/archives/C029C19PS/p1712659501625269",
@@ -1349,7 +1349,7 @@
   {
     "id": 48,
     "channel": {
-      "name": "playrix_entertainment",
+      "name": "company-entertainment",
       "color": "#5172FC"
     },
     "link": "https://playrix.slack.com/docs/T029C19PJ/F08TYT8MWR5",
@@ -1404,6 +1404,218 @@
     "pinned": false,
     "validator": {
       "studio.id": [1, 6, 5, 18, 13, 11, 15]
+    }
+  },
+  {
+    "id": 50,
+    "channel": {
+      "name": "company-entertainment",
+      "color": "#DB72E4"
+    },
+    "link": "https://playrix.slack.com/archives/C0745BL3A73/p1764934321095959",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/Portal+800x480.jpg",
+    "date": "2025-12-05",
+    "announcement": {
+      "ru": "Хо-хо-хо! Присоединяйся к каналу #rixmas2026 и погрузись в декабрь, полный тепла, сюрпризов и рикс-магии! 🎄✨",
+      "en": "Ho-ho-ho! Rixmas 2026 is just around the corner — join #rixmas2026 and dive into a December full of warmth, surprises, and a touch of Rix-magic! 🎄✨"
+    },
+    "author": {
+      "ru": "Диана Любавская",
+      "en": "Diana Lyubavskaya"
+    },
+    "title": {
+      "ru": "Rixmas 2026",
+      "en": "Rixmas 2026"
+    },
+    "text": {
+      "ru": "Rixmas 2026 — Время волшебства и праздничного настроения! 🎄✨\n\nХо-хо-хо! Новый год уже на пороге, и Rixmas 2026 готов подарить тебе незабываемые впечатления.\n\nПрисоединяйся к каналу [#rixmas2026](https://playrix.slack.com/archives/C0A1SPZST1S), где тебя ждёт атмосфера праздника, веселья и рикс-магии:\n- **Праздничная игра на портале Rix Rush** — с 19 по 24 декабря. Собирай максимум рикс-подарков и получи шанс стать победителем!\n- **Онлайн-радио** — 19 декабря с 14:00 до 18:00 GMT. Наслаждайся любимыми треками и передавай поздравления коллегам в прямом эфире!\n- **Новогодний Квиз** — квиз на английском языке состоится 22 декабря в 15:00 GMT, квиз на русском языке — 23 декабря в 15:00 GMT. Соревнуйся с другими командами, докажи, что лучше других знаешь всё про Новый год и выигрывай рикскоины!\n\nПусть декабрь будет наполнен теплом, радостью, сюрпризами и новогодним волшебством. ☃️✨",
+      "en": "Ho-ho-ho! The New Year is right around the corner, and Rixmas 2026 is here to bring you all the festive joy. 🎄✨\n\nJoin the [#rixmas2026](https://playrix.slack.com/archives/C0A1SPZST1S) channel and dive into the world of holiday vibes, fun, and pure Rix-magic:\n- **Rix Rush Holiday Game** — December 19–24. Collect as many Rix-gifts as you can and get a chance to become the winner!\n- **Online Radio** — December 19, 14:00–18:00 GMT. Enjoy your favorite tracks and send live greetings to your colleagues on air!\n- **New Year Quiz** — English quiz: December 22 at 15:00 GMT. Russian quiz: December 23 at 15:00 GMT. Compete with other teams, prove your New Year knowledge, and win rixcoins!\n\nLet your December be filled with warmth, joy, surprises, and a bit of holiday magic. ☃️✨"
+    },
+    "pinned": false,
+    "validator": {
+      "!studio.id": [10, 20]
+    }
+  },
+  {
+    "id": 51,
+    "channel": {
+      "name": "playrix_shop_2_0",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04UX2QQCNB/p1764756071738399",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/events/Portal+News+800x480.png",
+    "date": "2025-12-10",
+    "announcement": {
+      "ru": "Коллекции доступны для заказа с 18 декабря по 16 января.",
+      "en": "Collections are available for order from December 18th to January 16th."
+    },
+    "author": {
+      "ru": "Александра Михальчук",
+      "en": "Alexandra Mikhaltchuk"
+    },
+    "title": {
+      "ru": "Зимнее открытие Playrix Shop",
+      "en": "Playrix Shop Winter Opening"
+    },
+    "text": {
+      "ru": "**Главные новости:**\n- Каждому сотруднику будет начислено 300 RixCoins!\n- Все начисления по персональным поводам (день рождения, завершение испытательного срока, выслуга лет и т.д.) за период с 1 октября 2025 по 31 января 2026 года будут произведены непосредственно перед открытием магазина.\n- Магазин откроется сразу после праздничной трансляции в честь Дня Рождения Fishdom 18 декабря!\n- Фотоконкурс мерча Playrix Merch Edition уже идет — подключайся до 18 декабря включительно и успей заработать дополнительные RixCoins!",
+      "en": "**Top News:**\n- 300 RixCoins for every employee!\n- All RixCoin bonuses for personal occasions (birthdays, end of probation, work anniversaries, etc.) for the period from October 1, 2025 to January 31, 2026 will be credited just before the shop opens.\n- The shop will open right after the Fishdom Birthday live stream on December 18th!\n- The Playrix Merch Edition photo contest is already running — join by December 18th and earn extra RixCoins!"
+    },
+    "pinned": false,
+    "validator": {
+      "!studio.id": [10, 20, 21]
+    }
+  },
+  {
+    "id": 52,
+    "channel": {
+      "name": "company-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1768215352666449",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/benefits.png",
+    "date": "2026-01-12T10:55:00.000Z",
+    "announcement": {
+      "ru": "Делимся с вами информацией по бенефитному пакету на этот год.",
+      "en": "We would like to share with you information about the benefits package for this year."
+    },
+    "author": {
+      "ru": "Ирина Зайцева",
+      "en": "Irina Zaitseva"
+    },
+    "title": {
+      "ru": "Обновление бенефитов 2026",
+      "en": "Benefits Package 2026"
+    },
+    "text": {
+      "ru": "По результатам рыночных бенчмарков наш пакет бенефитов находится выше среднего уровня рынка и входит в число лучших предложений.\n\n## Что изменится в пакете бенефитов в 2026 году?\n\n**[Компенсация ДМС](https://coda.io/d/_dAkoB_RTnXe/Compensation-for-VHI-for-an-employee-partner-and-children_suAhu3Ui#_luARKPeL)**\n\n- Переходим с квартальных выплат на **ежемесячные** (касается только компенсаций ДМС) - делаем бенефит проще и удобнее.\n- **Обновляем лимит** компенсации ДМС для стран с высокой стоимостью жизни (было $2,000 > **$2,200** net в год).\n\n**[Корпоративный ДМС](https://coda.io/d/_dAkoB_RTnXe/Corporate-Health-Insurance-Program_suZ-5mGP#_luwpPsxn)**\n\n- Мы продолжаем развивать программы корпоративного ДМС, опираясь на ваш фидбек и учитывая возможности локальных рынков. ДМС остаётся доступным для сотрудников - формат бенефита также сохраняется. При пересмотре условий мы учитываем медицинскую инфляцию, чтобы **сохранить текущий уровень покрытия** и, где возможно, сделать его лучше.\n\n**[Телемедицина](https://coda.io/d/_dAkoB_RTnXe/Telemedicine_suy2HSTB?docIds=AkoB_RTnXe&search=%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0#_lu_PtQ2Y)**\n\n- Благодаря вашему фидбеку нам удалось согласовать с контрагентом следующие **улучшения:**\n  - добавлена ветеринарная помощь для домашних животных;\n  - назначен отдельный дежурный врач, работающий только с нашими сотрудниками;\n  - появилась возможность подключать нужных специалистов и решать вопросы индивидуально через поддержку Dariger.\n- В феврале мы проведем повторный опрос по этому бенефиту. Пожалуйста, активно пользуйтесь сервисом и делитесь обратной связью - именно на ее основе мы будем принимать решение о дальнейшем формате бенефита.\n\n**[Компенсация спорта](https://coda.io/d/_dAkoB_RTnXe/Sports-Fitness_suEcNBgO#_luZEq1bQ)**\n\n- **Увеличиваем лимиты** с учетом роста цен и среднего чека в умеренных (было $110 > стало **$120** net в месяц) и доступных локациях (было $90 > стало **$110** net в месяц).\n- Упрощаем процесс подачи заявки на компенсацию спорта при онлайн занятиях.\n\n**Обучение английскому и локальным языкам**\n\nАнглийский и локальный язык теперь являются связанными бенефитами: можно **выбрать только один язык для изучения.**\n\n**[Английский язык:](https://coda.io/d/_dAkoB_RTnXe/English-and-Russian-language-courses_suSyowUX#_luzG4Lwy)**\n\n- Переходим на **полное финансирование** изучения английского языка - чтобы начать обучение сотруднику теперь не требуется покупать уроки самостоятельно для начисления корпоративных уроков.\n- Действующие форматы предоставления: [SkyEng](https://coda.io/d/_dAkoB_RTnXe/SkyEng_su3p5DWV) и [SpeakWell](https://coda.io/d/_dAkoB_RTnXe/SpeakWell_suionQFa)\n\n**[Локальный язык:](https://coda.io/d/_dAkoB_RTnXe/Local-language-learning_sucBoxIf#_lueKjg09)**\n\n- Бенефит направлен на поддержку сотрудников, планирующих долгосрочное пребывание и легализацию в странах официального присутствия компании. В связи с этим с текущего года доступ к обучению локальному языку сохраняется только для **стран,** где у компании есть **юридические лица** и внутренняя поддержка по легализации (Сербия, Кипр, Грузия, Португалия, Армения, Казахстан, Ирландия, Черногория).\n\n**[Психологическая помощь](https://coda.io/d/_dAkoB_RTnXe/Psychological-Consultations_suRwEgIK#_luGu-8ov)**\n\n- Переводим компенсацию сессий с личными психологами из пилота в **постоянный бенефит** и вводим единый лимит для всех стран — **$120 в месяц**.\n\n**[Личное развитие](https://coda.io/d/_dAkoB_RTnXe/Personal-Growth_sud22QYK#_luxj1r2n)**\n\n- Убираем ограничение по выплатам в квартал и вводим **единый лимит** для всех стран **$250 в год.**\n- Онлайн-формат не привязан к стоимости жизни в конкретной стране. Единый лимит - это сбалансированное среднее значение.\n\n**[Компенсация покупки мебели](https://coda.io/d/_dAkoB_RTnXe/Furniture-Compensation_su5unnL-#_luknzGF7)**\n\n- С 1 февраля меняем правило компенсации мебели: воспользоваться ей можно будет один раз в **5 лет**.\n- Весь январь принимаем заявки по старым правилам.\n\n## Сохраняют актуальность в 2026 году:\n\n- Компенсация коворкинга\n- Софинансирование обучения\n- Дополнительный отпуск по семейным целям\n- Декретные выплаты\n- Материальная помощь в случае смерти близкого родственника\n\nТакже мы пересмотрели подход к компенсациям для стран без юридического лица - **[страны](https://docs.google.com/spreadsheets/d/18Sr68IaH3Z3k5WLMsAfVximf2JQzQ4iYooPFglKPAXs/edit?gid=0#gid=0)**, которые ранее не участвовали в ранжировании, были в него добавлены.\n\n📌 Напоминаем: актуальная информация по бенефитам всегда доступна в [Базе знаний](https://coda.io/d/_dAkoB_RTnXe/Benefits-Reimbursements_suU_tvIN#_lu2uDDeP), а задать вопрос можно в [соответствующем разделе](https://me.playrix.com/customer_service/bonus_question) на Портале сотрудника.",
+      "en": "Based on market benchmarks, our benefits package is above the market average and ranks among the best offers.\n\n## What will change in the benefits package in 2026?\n\n**[Health Insurance Reimbursement](https://coda.io/d/_dAkoB_RTnXe/Compensation-for-VHI-for-an-employee-partner-and-children_suAhu3Ui#_luuSNfOr)**\n\n- We are moving from quarterly to **monthly payments** (applies only to Health Insurance reimbursements), making the benefit simpler and more convenient.\n- We are **increasing the Health Insurance reimbursement limit** for countries with a high cost of living (from $2,000 to $2,200 net per year).\n\n**[Corporate Health Insurance](https://coda.io/d/_dAkoB_RTnXe/Corporate-Health-Insurance-Program_suZ-5mGP#_luaSLO6n)**\n\n- We continue to develop our corporate health insurance programs, taking into account your feedback and the specifics of local markets. Corporate Health Insurance remains available to employees, and the benefit format stays the same. When revising the terms, we factor in medical inflation **to maintain the current level of coverage** and, where possible, improve it.\n\n**[Sports Reimbursement](https://coda.io/d/_dAkoB_RTnXe/Sports-Fitness_suEcNBgO#_lu8xjKva)**\n\n- We are **increasing limits** in line with price growth and average spending in moderate-cost locations (from $110 to $120 net per month) and affordable locations (from $90 to $110 net per month).\n- We are simplifying the application process for sports reimbursement for online classes.\n\n**English and Local Language Learning**\n\nEnglish and the local language are now linked benefits: **you can choose only one language to study.**\n\n**[English:](https://coda.io/d/_dAkoB_RTnXe/English-and-Russian-language-courses_suSyowUX#_luTzsvFm)**\n\n- We are moving to **full coverage** of English learning costs. To start learning, employees no longer need to purchase lessons themselves to qualify for corporate lessons.\n- Current available formats: [SkyEng](https://coda.io/d/_dAkoB_RTnXe/SkyEng_su3p5DWV#_lu5_TqRE) and [SpeakWell](https://coda.io/d/_dAkoB_RTnXe/SpeakWell_suionQFa#_lu6aZfgf).\n\n**[Local language:](https://coda.io/d/_dAkoB_RTnXe/Local-language-learning_sucBoxIf#_lueKjg09)**\n\n- This benefit is aimed at supporting employees planning long-term residence and legalization in countries where the company has an official presence. Therefore, starting this year, access to local language learning is available only in countries where the company has legal entities and provides internal legalization support (Serbia, Cyprus, Georgia, Portugal, Armenia, Kazakhstan, Ireland, Montenegro).\n\n**[Psychological Support](https://coda.io/d/_dAkoB_RTnXe/Psychological-Consultations_suRwEgIK#_luIllT9G)**\n\n- We are moving reimbursement for sessions with personal psychologists from a pilot to a **permanent benefit** and introducing a unified limit for all countries — **$120 per month.**\n\n**[Personal Development](https://coda.io/d/_dAkoB_RTnXe/Personal-Growth_sud22QYK#_luTi3Aqr)**\n\n- We are removing the quarterly payout cap and introducing a **unified limit** for all countries of **$250 per year.**\n- The online format is not tied to the cost of living in a specific country. A single limit represents a balanced average value.\n\n**[Furniture Reimbursement](https://coda.io/d/_dAkoB_RTnXe/Furniture-Compensation_su5unnL-#_luTaD72z)**\n\n- Starting February 1, we are changing the furniture reimbursement rule: it can be used once **every 5 years.**\n- Throughout January, we will continue accepting applications under the old rules.\n\n## Benefits that remain unchanged in 2026:\n\n- Coworking reimbursement\n- Co-financing of education\n- Additional leave for family reasons\n- Parental benefits\n- Financial assistance in the event of the death of a close relative\n\nWe have also revised our approach to reimbursements for countries without a legal entity — **[countries](https://docs.google.com/spreadsheets/d/18Sr68IaH3Z3k5WLMsAfVximf2JQzQ4iYooPFglKPAXs/edit?gid=1418935768#gid=1418935768)** that were previously not included in the ranking have now been added.\n\n📌 **Reminder:** Up-to-date information on benefits is always available in the [Knowledge Base](https://coda.io/d/_dAkoB_RTnXe/Benefits-Reimbursements_suU_tvIN#_luLhimhn), and you can ask questions in the relevant section of [the Employee Portal](https://me.playrix.com/customer_service/bonus_question)."
+    },
+    "pinned": false,
+    "validator": {
+      "!legal_entity.id": [371, 426, 428, 433]
+    }
+  },
+  {
+    "id": 53,
+    "channel": {
+      "name": "company-updates",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04764QN2/p1771250030017569",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/company_updates.jpg",
+    "date": "2026-02-16T16:53:00.000Z",
+    "announcement": {
+      "ru": "Игорь Бухман подводит итоги прошедшего года и рассказывает о стратегии компании на 2026 год.",
+      "en": "Igor Bukhman summarizes the past year and shares the company's strategy for 2026."
+    },
+    "author": {
+      "ru": "Игорь Бухман",
+      "en": "Igor Bukhman"
+    },
+    "title": {
+      "ru": "Результаты компании и дальнейшая стратегия",
+      "en": "Company Performance and Future Strategy"
+    },
+    "text": {
+      "ru": "## Итоги 2025 года\n\n2025 год стал для нас еще одним годом, в котором мы сохранили масштаб бизнеса и лидерские позиции. Финансовые результаты остались на уровне прошлого года: оборот компании составил **$2,64 млрд**.\n\nЭто означает, что уже шесть лет мы находимся примерно на одном и том же уровне. Мы остаёмся одной из крупнейших и самых прибыльных компаний в индустрии. При этом мы всегда стремились к росту, и эта цель никуда не делась.\n\nВажно учитывать контекст. Рынок мобильных игр не растёт и уже несколько лет находится примерно на одном уровне. Рост возможен в основном за счет доли конкурентов. Для лидеров рынка даже сохранение своей позиции – сложная задача.\n\nЕсть компании, которым удалось существенно вырасти в последние годы: Century Games, Dream Games, Scopely. Но этот рост означает, что другие компании теряют позиции. Многие студии, с которыми мы сравнивали себя несколько лет назад, сегодня показывают более слабые результаты. Средним компаниям еще сложнее.\n\nНа этом фоне нам удается сохранять лидерские позиции. Это непросто и, прежде чем двигаться дальше, мне бы хотелось это отметить. Я считаю, что это серьезное достижение.\n\n## Стратегия\n\nВ период с 2012 по 2017 годы мы запустили четыре успешные игры подряд: Township, Fishdom, Gardenscapes и Homescapes. Все они стали большими хитами, а компания – одним из безусловных лидеров рынка.\n\nПеред нами встал вопрос: что делать дальше и как продолжить этот головокружительный рост. В тот момент начало казаться, что у нас есть особое понимание рынка, и что большинство новых проектов будут успешными. Сегодня это выглядит наивно, но тогда это было неочевидно.\n\nМы выбрали путь большого количества самостоятельных команд, которым дали ресурсы и нашу маркетинговую экспертизу. В какой-то момент у нас было более 20 новых игр в разработке. Мы считали, что часть из них станет хитами, а остальные будут умеренно успешными.\n\nОднако разработка заняла слишком много времени, рынок стал гораздо более конкурентным, а новые игры выходили поздно и часто выглядели вторично. В таких условиях они уже не могли эффективно конкурировать.\n\nГлавный вывод простой: решение делать много игр было стратегической ошибкой. Мы не получили нужного результата и одновременно потеряли фокус на развитии четырех ключевых хитов.\n\nВажно признать и другое. Пять лет назад наши позиции были сильнее. Мы сохранили финансовые показатели, но не использовали в полной мере тот импульс, который у нас был.\n\nДва года назад мы это осознали и начали менять компанию. Нужно было признать, что продукты отстали по качеству и что мы оказались в роли догоняющих.\n\n## Трансформация компании\n\nВ начале 2024 года началась масштабная трансформация компании.\n\nМы полностью сфокусировались на четырёх текущих играх – Township, Fishdom, Gardenscapes и Homescapes. Мы считаем, что каждую из них можно значительно улучшить и вывести на уровень лучших продуктов на рынке.\n\n2024 год был годом качества.\nМы перестроили процессы и начали возвращать культуру качества. За два года мы существенно подняли уровень наших игр.\n\n2025 год был годом скорости.\nМы начали выпускать события в топовом качестве, но стало очевидно, что делаем это слишком медленно. Мы отставали не только по качеству, но и по объему контента.\n\nЧтобы догнать рынок, нам нужно было научиться делать быстрее, не снижая планку качества. В 2025 году мы существенно нарастили объёмы производства. Мы все еще отстаем по количеству событий, но к концу года наша скорость стала выше, чем у большинства конкурентов.\n\nВ 2026 году мы должны выйти из роли догоняющих и снова заняться инновациями.\n\nОтдельно хочется сказать о команде. Трансформация последних двух лет стала возможной благодаря людям, которые берут на себя ответственность, быстро учатся и работают на высоком уровне. В этом году мы продолжим усиливать фокус на сильных и универсальных специалистах – тех, кто видит продукт целиком, работает на стыке функций и способен делать много без потери качества. Именно такие команды позволяют нам ускоряться и создавать продукты уровня лучших в индустрии.\n\n**2026 год: довести продукты до топового уровня.**\n\nВ 2026 году наши продукты должны выйти на уровень лучших игр на рынке. Это означает:\n\n- качественные уровни и механики матч-3;\n- большой и регулярно обновляемый набор событий;\n- продуманную экономику и систему офферов;\n- продвинутую и управляемую LiveOps-систему.\n\nМы рассчитывали завершить эту трансформацию к концу 2025 года, но такие изменения всегда занимают больше времени. Тем не менее за два года мы сильно продвинулись и с точки зрения продуктов, и с точки зрения команды.\n\nВ 2026 году мы окончательно доведем качество до топового уровня, переработаем старые решения и догоним конкурентов по набору событий и фичей. Мы также начнем снова запускать события, которые будут отличать нас от конкурентов.\n\nОбъём работы большой, но понятный. Мы продолжаем ускоряться, и при текущей динамике справимся с этой задачей.\n\n## LiveOps – ключевой вызов 2026 года\n\nНедостаточно иметь качественную игру и большое количество событий. Важно также уметь правильно этим управлять: выстраивать расписание, настраивать баланс, управлять экономикой и соединять всё это в единую систему.\n\nИсторически это была наша слабая сторона. Мы больше полагались на интуитивный дизайн. Аналитика была, но без централизованной экспертизы.\n\nСейчас мы строим эту экспертизу практически с нуля. Уже сделано много, но мы все еще в начале сложного пути. По нашей оценке, вывести LiveOps на уровень лучших компаний на рынке – это самый серьезный и рискованный вызов 2026 года.\n\n**В заключение.**\n\nМы хотим расти. И считаем, что это возможно.\n\nДля этого нам не нужно большое количество продуктов. Четыре игры – это уже огромная ответственность и большой потенциал. Каждая из них требует максимального фокуса.\n\nВ последние годы были моменты, когда казалось, что рынок не растет и от нас мало что зависит. Это демотивирует. Сейчас я вижу это иначе. От нас зависит очень многое. Мы можем сделать наши продукты значительно лучше и успешнее.\n\nБудет ли этот год переломным, зависит от нас.",
+      "en": "## 2025 Results\n\n2025 was another year in which we maintained the scale of our business and our leadership position. Financial results remained at the level of the previous year: company revenue reached $2.64 billion.\n\nThis means that for six years now we have been operating at roughly the same level. We remain one of the largest and most profitable companies in the industry. At the same time, we have always aimed for growth, and that goal has not changed.\n\nIt is important to consider the broader context. The mobile games market has not been growing and has remained relatively flat for several years. Growth is mainly possible by taking market share from competitors. For market leaders, even maintaining their position is a significant challenge.\n\nSome companies have achieved substantial growth in recent years: Century Games, Dream Games, and Scopely. But their growth means others are losing ground. Many studios we compared ourselves to a few years ago are now showing weaker results. For mid-sized companies, the situation is even more difficult.\n\nAgainst this backdrop, we have managed to maintain our leadership position. This is not easy, and before moving forward, I want to acknowledge that. I believe this is a serious achievement.\n\n## Strategy\n\nBetween 2012 and 2017, we launched four successful games in a row: Township, Fishdom, Gardenscapes, and Homescapes. All of them became major hits, and the company became one of the undisputed leaders in the market.\n\nWe then faced the question: what next, and how do we continue this rapid growth? At the time, it started to feel like we had a unique understanding of the market and that most new projects would succeed. Looking back, that seems naive—but at the time, it was not obvious.\n\nWe chose a path of building many independent teams, providing them with resources and our marketing expertise. At one point, we had more than 20 new games in development. We believed some of them would become hits, while others would be moderately successful.\n\nHowever, development took too long, the market became much more competitive, and new games were released too late and often felt derivative. Under these conditions, they could no longer compete effectively.\n\nThe main conclusion is simple: the decision to develop many games was a strategic mistake. We did not achieve the desired results and, at the same time, lost focus on developing our four core hits.\n\nIt is also important to acknowledge something else. Five years ago, our position was stronger. We maintained our financial performance, but we did not fully capitalize on the momentum we had.\n\nTwo years ago, we recognized this and began changing the company. We had to admit that our products had fallen behind in quality and that we had become followers rather than leaders.\n\n## Company Transformation\n\nAt the beginning of 2024, we launched a large-scale transformation of the company.\n\nWe fully focused on our four current games—Township, Fishdom, Gardenscapes, and Homescapes. We believe each of them can be significantly improved and brought to the level of the best products on the market.\n\n2024 was the year of quality.\nWe rebuilt our processes and began restoring a culture of quality. Over two years, we have significantly raised the level of our games.\n\n2025 was the year of speed.\nWe started delivering top-quality events, but it became clear that we were moving too slowly. We were behind not only in quality, but also in content volume.\n\nTo catch up with the market, we needed to learn how to move faster without lowering the quality bar. In 2025, we significantly increased our production capacity. We are still behind in the number of events, but by the end of the year our speed exceeded that of most competitors.\n\nIn 2026, we must move out of the follower position and return to innovation.\n\nWe also want to highlight our team. The transformation of the past two years became possible thanks to people who take ownership, learn quickly, and consistently work at a high level. This year, we will continue to strengthen our focus on strong and versatile professionals—those who see the product holistically, operate across functions, and can deliver a high volume of work without compromising quality. These are the teams that allow us to accelerate and build products at the level of the best in the industry.\n\n## 2026: Bringing Our Products to a Top-Tier Level\n\nIn 2026, our products must reach the level of the best games on the market. This means:\n\n- high-quality match-3 levels and mechanics;\n- a large and regularly updated set of events;\n- a well-designed economy and offer system;\n- an advanced and manageable LiveOps system.\n\nWe initially expected to complete this transformation by the end of 2025, but such changes always take longer than planned. Nevertheless, over the past two years we have made significant progress both in terms of product and team.\n\nIn 2026, we will finalize the move to top-tier quality, rework outdated solutions, and catch up with competitors in terms of events and features. We will also resume launching events that clearly differentiate us from competitors.\n\nThe scope of work is substantial, but clear. We continue to accelerate, and at the current pace we will accomplish this task.\n\n## LiveOps — The Key Challenge of 2026\n\nHaving a high-quality game and a large number of events is not enough. It is equally important to manage them properly: building schedules, balancing systems, managing the economy, and integrating everything into a cohesive framework.\n\nHistorically, this has been our weak point. We relied more on intuitive design. Analytics existed, but without centralized expertise.\n\nWe are now building this expertise almost from scratch. A lot has already been done, but we are still at the beginning of a challenging journey. In our assessment, bringing LiveOps to the level of the best companies in the market is the most serious and risky challenge of 2026.\n\n## In Conclusion\n\nWe want to grow. And we believe it is possible.\n\nWe do not need a large number of products to achieve this. Four games already represent enormous responsibility and significant potential. Each of them requires maximum focus.\n\nIn recent years, there were moments when it felt like the market was not growing and little depended on us. That is demotivating. I see it differently now. A great deal depends on us. We can make our products significantly better and more successful.\n\nWhether this year becomes a turning point depends on us."
+    },
+    "pinned": false,
+    "validator": {
+      "!legal_entity.id": [371, 426, 428, 433]
+    }
+  },
+  {
+    "id": 54,
+    "channel": {
+      "name": "fluyt",
+      "color": "#5172FC"
+    },
+    "link": "",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/playrix-con.png",
+    "date": "2026-03-20T00:00:00.000Z",
+    "announcement": {
+      "ru": "Спустя семь лет отсутствия, PlayrixCON состоится! 🎉",
+      "en": "After seven years away, PlayrixCON is finally happening! 🎉"
+    },
+    "author": {
+      "ru": "Даниил Князькин",
+      "en": "Daniil Knyazkin"
+    },
+    "title": {
+      "ru": "PlayrixCON возвращается в 2026 году!",
+      "en": "PlayrixCON is back in 2026!"
+    },
+    "text": {
+      "ru": "Спустя семь лет отсутствия, PlayrixCON состоится! Одни уже могли забыть, как это бывает, другие слышали о нем только легенды.\nТем ценнее такая встреча сейчас — команды увидятся вживую, чтобы пообщаться, развиртуализироваться и узнать о планах и стратегии.\nПрограмма ивента традиционно включает в себя:\n- общее собрание, где будут рассказаны текущие результаты и планы\n- командные встречи\n- насыщенную развлекательную часть с активностями и финальной вечеринкой\n\n## Где и когда?\n\n**🗓 22-25 октября 2026**\n**📍 Турция, Анталья**\nНа конференцию приглашаются только участники студий, без +1 и детей. Участие не смогут принять те, кто находится в статусе длительного отсутствия или декретного отпуска.\nПроживание — двухместное, в комфортных номерах.\n\n**В мае в Asana** вам придут отдельные задачи с регистрационной формой участника.\nСкоро у нас будет готов регламент мероприятия, которым мы поделимся в этом канале. Следите за новостями!\n\n*PlayrixCON — большое возвращение спустя семь лет.*",
+      "en": "Some of you may have forgotten what it feels like, while others have only heard the legends.\nThat makes this reunion even more special now — teams will get to meet in person, connect offline, and learn more about the company's plans and strategy.\n\nAs always, the event program will include:\n- a general session covering current results and future plans\n- team meetings\n- a packed entertainment program with activities and a final party\n\n## When and where?\n\n**🗓 October 22–25, 2026**\n**📍 Antalya, Turkey**\nThe conference is open to studio employees only, with no +1s or children. Those who are currently on long-term leave or parental leave will not be able to attend.\nAccommodation will be in comfortable double rooms.\n\n*PlayrixCON is making its big return after seven years. 🌊*"
+    },
+    "pinned": false,
+    "validator": {
+      "legal_entity.id": [371]
+    }
+  },
+  {
+    "id": 55,
+    "channel": {
+      "name": "company-news",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C029C19PS/p1774006597018949",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/playrix-con.png",
+    "date": "2026-03-20T00:00:00.000Z",
+    "announcement": {
+      "ru": "После семилетнего перерыва PlayrixCON наконец возвращается! 🎉",
+      "en": "After a seven-year break, PlayrixCON is finally coming back! 🎉"
+    },
+    "author": {
+      "ru": "Анна Гордейчук",
+      "en": "Anna Gordeychuk"
+    },
+    "title": {
+      "ru": "PlayrixCON возвращается в 2026 году!",
+      "en": "PlayrixCON is back in 2026!"
+    },
+    "text": {
+      "ru": "Одни уже могли забыть, как это бывает, другие слышали о нем только легенды. Тем ценнее такая встреча сейчас: команды из разных стран, отделов и проектов соберутся в одном месте, чтобы увидеться вживую, пообщаться лично и узнать о планах и стратегии компании.\n\n## Что такое PlayrixCON?\n**PlayrixCON** — это внутренняя конференция для сотрудников компании. Программа ивента традиционно включает в себя:\n- общее собрание с выступлениями фаундеров и проектов\n- командные встречи\n- насыщенную развлекательную часть с активностями и финальной вечеринкой\n\n## Где и когда?\n🗓 22-25 октября 2026\n📍 Турция, Анталья\n\n## Кто приглашается на PlayrixCON?\nСотрудники студий Playrix, Playrix RS, Mariaglorum, Redbark и Zagrava вне зависимости от страны проживания. Мероприятие пройдет только для сотрудников, без +1 и детей. К участию не приглашаются сотрудники, которые на момент проведения ивента находятся в декретном отпуске или другом длительном отсутствии.\nПроживание — двухместное, в комфортных номерах. Краткая версия регламента проведения доступна по [ссылке](https://coda.io/d/Non-dev-teams_dIq5rxNe3aq/PlayrixCON-2026_suVkAoqV#_luG9wnPH).\n\n## Где следить за новостями?\nВсе новости о PlayrixCON будем публиковать в канале [#playrixcon-2026](https://playrix.slack.com/archives/C0AMU1RJK6W).\nPlayrixCON — большое возвращение спустя семь лет. 🌊",
+      "en": "Some may have already forgotten what it feels like, while others have only heard the legends.\nThat makes this reunion especially meaningful now: teams from different countries, departments, and projects will come together in one place to meet in person, connect face to face, and hear about the company's plans and strategy.\n\n## What is PlayrixCON?\nPlayrixCON is an internal conference for company employees. The event program traditionally includes:\n- a general session with talks from the founders and project teams\n- team meetups\n- a packed entertainment program with activities and a final party\n\n## Where and when?\n🗓 October 22–25, 2026\n📍 Antalya, Turkey\n\n## Who is invited to PlayrixCON?\nEmployees of Playrix, Playrix RS, Mariaglorum, Redbark, and Zagrava studios. The event is for employees only, with no plus-ones or children. Employees who are on maternity/parental leave or another extended leave at the time of the event will not be invited to participate.\nAccommodation will be in comfortable double-occupancy rooms.\nFor now, here is the short version of the policy: [link](https://coda.io/d/_dIq5rxNe3aq/PlayrixCon-2026_suVkAoqV#_lu3rR-pQ).\n\n## Where to follow the updates?\nAll further PlayrixCON updates will be posted in the [#playrixcon-2026](https://playrix.slack.com/archives/C0AMU1RJK6W) channel.\nPlayrixCON is making its big return after seven years. 🌊"
+    },
+    "pinned": false,
+    "validator": {
+      "!studio.id": [10, 20],
+      "!legal_entity.id": [371]
+    }
+  },
+  {
+    "id": 56,
+    "channel": {
+      "name": "playrix_shop_2_0",
+      "color": "#5172FC"
+    },
+    "link": "https://playrix.slack.com/archives/C04UX2QQCNB/p1773913271394239",
+    "image": "https://playrix-atf01-itwa-prod-portal-images.s3.eu-central-1.amazonaws.com/News/shop-spring-2026.png",
+    "date": "2026-03-19T00:00:00.000Z",
+    "announcement": {
+      "ru": "Коллекции доступны для заказа с 8 по 23 апреля.",
+      "en": "Collections are available for order from April 8 to April 23."
+    },
+    "author": {
+      "ru": "Александра Михальчук",
+      "en": "Aleksandra Mikhalchuk"
+    },
+    "title": {
+      "ru": "Весеннее открытие Playrix Shop 2026",
+      "en": "Playrix Shop 2026 Spring Opening"
+    },
+    "text": {
+      "ru": "**Главные новости:**\n- Каждому сотруднику будет начислено 300 RixCoins!\n- Все начисления по персональным поводам (день рождения, завершение испытательного срока, выслуга лет и т.д.) начисляются непосредственно в дату повода.\n- Магазин откроется сразу после трансляции Playrix Quiz **8 апреля**!",
+      "en": "**Top News:**\n- 300 RixCoins for every employee!\n- All RixCoin bonuses for personal occasions (birthdays, end of probation, work anniversaries, etc.) will be credited on the exact date of the occasion.\n- The shop will open right after **the Playrix Quiz live stream on April 8th**!"
+    },
+    "pinned": false,
+    "validator": {
+      "!studio.id": [10, 20],
+      "!legal_entity.id": [371]
     }
   }
 ]

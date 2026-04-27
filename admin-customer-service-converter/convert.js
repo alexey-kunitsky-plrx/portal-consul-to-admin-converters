@@ -47,29 +47,35 @@ for (const [categoryKey, category] of Object.entries(sourceData)) {
       return "";
     };
 
-    const convertButtons = (buttonOrButtons, locale) => {
+    const convertButtons = (buttonOrButtons) => {
       if (!buttonOrButtons) return [];
       const buttons = Array.isArray(buttonOrButtons)
         ? buttonOrButtons
         : [buttonOrButtons];
-      // Add __component to each button and process text field
       return buttons.map((button) => {
         const processedButton = {
           __component: "customer-service.button",
           ...button,
         };
 
-        // Handle text field - if it's an object with ru/en, extract the correct locale
-        if (processedButton.text && typeof processedButton.text === "object") {
-          if (locale === "ru" && processedButton.text.ru) {
-            processedButton.text = processedButton.text.ru;
-          } else if (locale === "en" && processedButton.text.en) {
-            processedButton.text = processedButton.text.en;
-          } else {
-            // Fallback: use the first available value
-            processedButton.text =
-              processedButton.text.ru || processedButton.text.en || "";
+        // Strapi schema uses ruText/enText + hasOverridedText instead of text
+        if (processedButton.text !== undefined) {
+          const original = processedButton.text;
+          delete processedButton.text;
+
+          let ruText = "";
+          let enText = "";
+          if (original && typeof original === "object") {
+            ruText = original.ru || "";
+            enText = original.en || "";
+          } else if (typeof original === "string") {
+            ruText = original;
+            enText = original;
           }
+
+          processedButton.hasOverridedText = true;
+          processedButton.ruText = ruText;
+          processedButton.enText = enText;
         }
 
         // Convert button type: "network-access" -> "network_access"
